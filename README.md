@@ -43,25 +43,12 @@ Everything you need to get started with integration can be found in the [reposit
 
 ### Installation
 
-**Step 1.** Add local maven repository to the project level `build.gradle` file.
-```gradle
-allprojects {
-    repositories {
-        ...
-        maven {
-            // Copy "library" folder to your own location from SDK package
-            url "$rootDir/library" 
-        }
-    }
-}
-```
-
-**Step 2.** Add the SDK dependency to the application level `build.gradle` file.
+Add the SDK dependency to the application level `build.gradle` file.
 ```gradle
 // build.gradle (Module)
 dependencies {
     ...
-    implementation('com.confirmit.mobilesurveysdk:mobilesurveysdk:3.0.0-alpha.0@aar') { transitive = true }
+    implementation('com.confirmit.mobilesdk:mobilesdk:3.0.0-alpha.0')
 }
 ```
 
@@ -110,8 +97,7 @@ platform :ios, '10.0'
 # Your target
 target 'MyApp' do
   # ... others pods
-  # Copy "library" folder to your own location from SDK package
-  pod 'MobileSurveySdk', :path => './library'
+  pod 'MobileSdk', '3.0.0-alpha.0'
 end
 ```
 
@@ -120,11 +106,13 @@ end
 
 #### 2. Manual Method
 
-If the Framework folder doesn't already exist, right-click on your project in the project navigator (top-most entry), and select “New Group”. Name the new group `Frameworks`.
+**Step 1.** Clone Github repository.
 
-Drag and drop it from Finder into the Frameworks folder. Make sure that the destination is just under the Frameworks folder before dropping.
+**Step 2.** If the Framework folder doesn't already exist, right-click on your project in the project navigator (top-most entry), and select “New Group”. Name the new group `Frameworks`.
 
-Then, make sure the following options are selected for adding files:
+**Step 3.** Drag and drop it from Finder into the Frameworks folder. Make sure that the destination is just under the Frameworks folder before dropping.
+
+**Step 4.** Then, make sure the following options are selected for adding files:
 * Both “Copy items if needed” and “Create groups” should be checked and selected. 
 * Click Finish.
 
