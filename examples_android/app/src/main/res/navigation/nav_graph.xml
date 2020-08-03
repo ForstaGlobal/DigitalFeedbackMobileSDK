@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/triggerListFragment">
+
+    <action
+        android:id="@+id/actionRootToSurveyList"
+        app:destination="@id/surveyListFragment"
+        app:enterAnim="@anim/transition_fade_in"
+        app:exitAnim="@anim/transition_fade_out"
+        app:popUpTo="@id/surveyListFragment"
+        app:popUpToInclusive="true" />
+    <action
+        android:id="@+id/actionRootToSettings"
+        app:destination="@id/settingsFragment"
+        app:enterAnim="@anim/transition_fade_in"
+        app:exitAnim="@anim/transition_fade_out" />
+    <action
+        android:id="@+id/actionRootToTriggerList"
+        app:destination="@id/triggerListFragment"
+        app:enterAnim="@anim/transition_fade_in"
+        app:exitAnim="@anim/transition_fade_out" />
+
+    <fragment
+        android:id="@+id/surveyListFragment"
+        android:name="com.confirmit.testsdkapp.fragments.SurveyListFragment"
+        android:label="Surveys"
+        tools:layout="@layout/fragment_survey_list">
+        <argument
+            android:name="newSurveySurveyId"
+            android:defaultValue=" "
+            app:argType="string" />
+        <argument
+            android:name="newSurveyServerId"
+            android:defaultValue=" "
+            app:argType="string" />
+        <argument
+            android:name="newTriggerClientId"
+            android:defaultValue=" "
+            app:argType="string" />
+        <argument
+            android:name="newTriggerClientSecret"
+            android:defaultValue=" "
+            app:argType="string" />
+        <action
+            android:id="@+id/actionSurveyListToOverview"
+            app:destination="@id/overviewFragment"
+            app:enterAnim="@anim/transition_fade_in"
+            app:exitAnim="@anim/transition_fade_out" />
+        <action
+            android:id="@+id/actionSurveyListToAddSurvey"
+            app:destination="@id/addSurveyFragment"
+            app:enterAnim="@anim/transition_fade_in"
+            app:exitAnim="@anim/transition_fade_out" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/triggerListFragment"
+        android:name="com.confirmit.testsdkapp.fragments.TriggerListFragment"
+        android:label="Digital Feedback Programs"
+        tools:layout="@layout/fragment_trigger_list">
+        <argument
+            android:name="newTriggerServerId"
+            android:defaultValue=" "
+            app:argType="string" />
+        <argument
+            android:name="newTriggerProgramKey"
+            android:defaultValue=" "
+            app:argType="string" />
+        <argument
+            android:name="newTriggerClientId"
+            android:defaultValue=" "
+            app:argType="string" />
+        <argument
+            android:name="newTriggerClientSecret"
+            android:defaultValue=" "
+            app:argType="string" />
+        <action
+            android:id="@+id/actionTriggerListToAddProgram"
+            app:destination="@id/addProgramFragment"
+            app:enterAnim="@anim/transition_fade_in"
+            app:exitAnim="@anim/transition_fade_out" />
+        <action
+            android:id="@+id/actionTriggerListToOverview"
+            app:destination="@id/triggerOverviewFragment"
+            app:enterAnim="@anim/transition_fade_in"
+            app:exitAnim="@anim/transition_fade_out" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addProgramFragment"
+        android:name="com.confirmit.testsdkapp.fragments.AddProgramFragment"
+        android:label="Download Program"
+        tools:layout="@layout/fragment_add_program" />
+
+    <fragment
+        android:id="@+id/addSurveyFragment"
+        android:name="com.confirmit.testsdkapp.fragments.AddSurveyFragment"
+        android:label="Download Survey"
+        tools:layout="@layout/fragment_add_survey" />
+
+    <fragment
+        android:id="@+id/overviewFragment"
+        android:name="com.confirmit.testsdkapp.fragments.OverviewFragment"
+        android:label="Overview"
+        tools:layout="@layout/fragment_survey_overview">
+        <argument
+            android:name="surveyId"
+            app:argType="string" />
+        <argument
+            android:name="serverId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/triggerOverviewFragment"
+        android:name="com.confirmit.testsdkapp.fragments.TriggerOverviewFragment"
+        android:label="Program"
+        tools:layout="@layout/fragment_trigger_overview">
+        <argument
+            android:name="programModel"
+            app:argType="com.confirmit.testsdkapp.viewmodels.models.ProgramModel" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.confirmit.testsdkapp.fragments.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>

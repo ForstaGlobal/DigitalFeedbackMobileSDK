@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TriggerSDK Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/TriggerSDK" class="dashAnchor"></a>
+    <a title="TriggerSDK Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">MobileSdk Docs</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">MobileSdk Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        TriggerSDK Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/ConfirmitSDK.html">ConfirmitSDK</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConfirmitSDK/Setup.html">– Setup</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConfirmitServer.html">ConfirmitServer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DefaultQuestion.html">DefaultQuestion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/InfoQuestion.html">InfoQuestion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MultiQuestion.html">MultiQuestion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NotSupportedQuestion.html">NotSupportedQuestion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NumericQuestion.html">NumericQuestion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Program.html">Program</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/QuestionAnswer.html">QuestionAnswer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/QuestionText.html">QuestionText</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Server.html">Server</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SingleQuestion.html">SingleQuestion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Survey.html">Survey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SurveyFrame.html">SurveyFrame</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SurveyFrameActionResult.html">SurveyFrameActionResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SurveyFrameConfig.html">SurveyFrameConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SurveyLanguage.html">SurveyLanguage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SurveyPage.html">SurveyPage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SurveySDK.html">SurveySDK</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SurveyWebViewController.html">SurveyWebViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TextQuestion.html">TextQuestion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TriggerInfo.html">TriggerInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TriggerSDK.html">TriggerSDK</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/MultiAppearance.html">MultiAppearance</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/NumericAppearance.html">NumericAppearance</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/OpenTextAppearance.html">OpenTextAppearance</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/QuestionType.html">QuestionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SingleAppearance.html">SingleAppearance</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ValidationError.html">ValidationError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/AccessTokenProvider.html">AccessTokenProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ConfirmitModule.html">ConfirmitModule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ProgramCallback.html">ProgramCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Question.html">Question</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SurveyFrameDelegate.html">SurveyFrameDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SurveyWebViewControllerDelegate.html">SurveyWebViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/UniqueIdProvider.html">UniqueIdProvider</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:9MobileSdk23ScenarioCounterResponseV">ScenarioCounterResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:9MobileSdk16ScenarioResponseV">ScenarioResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ValidationQuestionError.html">ValidationQuestionError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:9MobileSdk4JSONa">JSON</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:9MobileSdk24SurveyDownloadCompletiona">SurveyDownloadCompletion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:9MobileSdk23TriggerDownloadCompletea">TriggerDownloadComplete</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>TriggerSDK</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TriggerSDK</span></code></pre>
+
+                </div>
+              </div>
+            
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9MobileSdk10TriggerSDKC8testModeSbvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/testMode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9MobileSdk10TriggerSDKC8testModeSbvpZ">testMode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">testMode</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9MobileSdk10TriggerSDKC11setCallback8serverId10programKey8callbackySS_SSAA07ProgramF0_ptFZ"></a>
+                    <a name="//apple_ref/swift/Method/setCallback(serverId:programKey:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9MobileSdk10TriggerSDKC11setCallback8serverId10programKey8callbackySS_SSAA07ProgramF0_ptFZ">setCallback(serverId:<wbr>programKey:<wbr>callback:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setCallback</span><span class="p">(</span><span class="nv">serverId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">programKey</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">callback</span><span class="p">:</span> <span class="kt"><a href="../Protocols/ProgramCallback.html">ProgramCallback</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9MobileSdk10TriggerSDKC14removeCallback8serverId10programKeyySS_SStFZ"></a>
+                    <a name="//apple_ref/swift/Method/removeCallback(serverId:programKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9MobileSdk10TriggerSDKC14removeCallback8serverId10programKeyySS_SStFZ">removeCallback(serverId:<wbr>programKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">removeCallback</span><span class="p">(</span><span class="nv">serverId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">programKey</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9MobileSdk10TriggerSDKC8download8serverId10programKey10completionySS_SSySb_s5Error_pSgtctFZ"></a>
+                    <a name="//apple_ref/swift/Method/download(serverId:programKey:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9MobileSdk10TriggerSDKC8download8serverId10programKey10completionySS_SSySb_s5Error_pSgtctFZ">download(serverId:<wbr>programKey:<wbr>completion:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">download</span><span class="p">(</span><span class="nv">serverId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">programKey</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:9MobileSdk23TriggerDownloadCompletea">TriggerDownloadComplete</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9MobileSdk10TriggerSDKC16downloadCounters8serverId10programKey10completionySS_SSySb_s5Error_pSgtctFZ"></a>
+                    <a name="//apple_ref/swift/Method/downloadCounters(serverId:programKey:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9MobileSdk10TriggerSDKC16downloadCounters8serverId10programKey10completionySS_SSySb_s5Error_pSgtctFZ">downloadCounters(serverId:<wbr>programKey:<wbr>completion:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">downloadCounters</span><span class="p">(</span><span class="nv">serverId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">programKey</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:9MobileSdk23TriggerDownloadCompletea">TriggerDownloadComplete</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9MobileSdk10TriggerSDKC11notifyEvent8serverId10programKey5event4dataySS_S2SSDyS2SSgGtFZ"></a>
+                    <a name="//apple_ref/swift/Method/notifyEvent(serverId:programKey:event:data:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9MobileSdk10TriggerSDKC11notifyEvent8serverId10programKey5event4dataySS_S2SSDyS2SSgGtFZ">notifyEvent(serverId:<wbr>programKey:<wbr>event:<wbr>data:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">notifyEvent</span><span class="p">(</span><span class="nv">serverId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">programKey</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">event</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">data</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">String</span><span class="p">?]</span> <span class="o">=</span> <span class="p">[:])</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9MobileSdk10TriggerSDKC11notifyEvent5event4dataySS_SDyS2SSgGtFZ"></a>
+                    <a name="//apple_ref/swift/Method/notifyEvent(event:data:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9MobileSdk10TriggerSDKC11notifyEvent5event4dataySS_SDyS2SSgGtFZ">notifyEvent(event:<wbr>data:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">notifyEvent</span><span class="p">(</span><span class="nv">event</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">data</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">String</span><span class="p">?]</span> <span class="o">=</span> <span class="p">[:])</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9MobileSdk10TriggerSDKC19notifyAppForeground4dataySDyS2SSgG_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/notifyAppForeground(data:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9MobileSdk10TriggerSDKC19notifyAppForeground4dataySDyS2SSgG_tFZ">notifyAppForeground(data:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">notifyAppForeground</span><span class="p">(</span><span class="nv">data</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">String</span><span class="p">?]</span> <span class="o">=</span> <span class="p">[:])</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9MobileSdk10TriggerSDKC17notifyAppFeedback4dataySDyS2SSgG_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/notifyAppFeedback(data:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9MobileSdk10TriggerSDKC17notifyAppFeedback4dataySDyS2SSgG_tFZ">notifyAppFeedback(data:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">notifyAppFeedback</span><span class="p">(</span><span class="nv">data</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">String</span><span class="p">?]</span> <span class="o">=</span> <span class="p">[:])</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9MobileSdk10TriggerSDKC11getPrograms8serverIdSayAA7ProgramCGSS_tKFZ"></a>
+                    <a name="//apple_ref/swift/Method/getPrograms(serverId:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9MobileSdk10TriggerSDKC11getPrograms8serverIdSayAA7ProgramCGSS_tKFZ">getPrograms(serverId:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getPrograms</span><span class="p">(</span><span class="nv">serverId</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt"><a href="../Classes/Program.html">Program</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9MobileSdk10TriggerSDKC13deleteProgram8serverId10programKey0E10CustomDataySS_SSSbtKFZ"></a>
+                    <a name="//apple_ref/swift/Method/deleteProgram(serverId:programKey:deleteCustomData:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9MobileSdk10TriggerSDKC13deleteProgram8serverId10programKey0E10CustomDataySS_SSSbtKFZ">deleteProgram(serverId:<wbr>programKey:<wbr>deleteCustomData:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">deleteProgram</span><span class="p">(</span><span class="nv">serverId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">programKey</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">deleteCustomData</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9MobileSdk10TriggerSDKC9deleteAll0E10CustomDataySb_tKFZ"></a>
+                    <a name="//apple_ref/swift/Method/deleteAll(deleteCustomData:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9MobileSdk10TriggerSDKC9deleteAll0E10CustomDataySb_tKFZ">deleteAll(deleteCustomData:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">deleteAll</span><span class="p">(</span><span class="nv">deleteCustomData</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9MobileSdk10TriggerSDKC18getProgramVariable8serverId10programKey3keySSSgSS_S2StKFZ"></a>
+                    <a name="//apple_ref/swift/Method/getProgramVariable(serverId:programKey:key:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9MobileSdk10TriggerSDKC18getProgramVariable8serverId10programKey3keySSSgSS_S2StKFZ">getProgramVariable(serverId:<wbr>programKey:<wbr>key:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getProgramVariable</span><span class="p">(</span><span class="nv">serverId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">programKey</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">key</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9MobileSdk10TriggerSDKC18setProgramVariable8serverId10programKey3key5valueySS_S3SSgtKFZ"></a>
+                    <a name="//apple_ref/swift/Method/setProgramVariable(serverId:programKey:key:value:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9MobileSdk10TriggerSDKC18setProgramVariable8serverId10programKey3key5valueySS_S3SSgtKFZ">setProgramVariable(serverId:<wbr>programKey:<wbr>key:<wbr>value:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setProgramVariable</span><span class="p">(</span><span class="nv">serverId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">programKey</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">key</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="https://www.confirmit.com" target="_blank" rel="external">Confirmit</a>. All rights reserved. (Last updated: 2020-08-03)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

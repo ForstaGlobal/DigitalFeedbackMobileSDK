@@ -1,0 +1,11 @@
+framework module MobileSdk {
+  umbrella header "MobileSdk-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module MobileSdk.Swift {
+    header "MobileSdk-Swift.h"
+    requires objc
+}

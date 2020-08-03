@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DefaultLayoutSectionHeaderView" customModule="MobileSurveySdk_Example" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="467" height="110"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QFC-Ve-HUW">
+                    <rect key="frame" x="0.0" y="0.0" width="467" height="110"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="78H-J4-raL">
+                    <rect key="frame" x="48" y="54.5" width="371" height="1"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="02J-Cd-qoV"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="78H-J4-raL" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="8eL-fA-dXc"/>
+                <constraint firstItem="78H-J4-raL" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="48" id="9zd-Cq-VFM"/>
+                <constraint firstItem="QFC-Ve-HUW" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="HeT-4Q-308"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="QFC-Ve-HUW" secondAttribute="bottom" id="N1e-jz-XaI"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="QFC-Ve-HUW" secondAttribute="trailing" id="cX8-kn-kvG"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="78H-J4-raL" secondAttribute="trailing" constant="48" id="kuo-3O-RzF"/>
+                <constraint firstItem="QFC-Ve-HUW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="qEf-Di-Hq9"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="viewBackground" destination="QFC-Ve-HUW" id="dqa-j8-NCL"/>
+                <outlet property="viewDash" destination="78H-J4-raL" id="quy-h0-uve"/>
+            </connections>
+            <point key="canvasLocation" x="79.5" y="249"/>
+        </view>
+    </objects>
+</document>

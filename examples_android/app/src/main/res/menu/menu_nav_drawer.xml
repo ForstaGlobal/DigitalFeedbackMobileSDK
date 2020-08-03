@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuTriggerList"
+            android:icon="@drawable/ic_assignment_late"
+            android:title="Digital Feedback Programs" />
+        <item
+            android:id="@+id/menuSurveyList"
+            android:icon="@drawable/ic_assignment_black"
+            android:title="Surveys" />
+        <item
+            android:id="@+id/menuSettings"
+            android:icon="@drawable/ic_settings_black"
+            android:title="Settings" />
+    </group>
+</menu>

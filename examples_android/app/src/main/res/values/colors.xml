@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Splash Screen -->
+    <color name="splash_background">#FF8A65</color>
+
+    <color name="navBar">#34393f</color>
+    <color name="background">#e1e4e9</color>
+    <color name="backgroundWhite">#ffffff</color>
+    <color name="colorPrimary">#0288d1</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="font">#DE000000</color>
+    <color name="backdrop">#0000008A</color>
+    <color name="separator">#EEEEEE</color>
+    <color name="clear">#00000000</color>
+    <color name="grey">#E0E0E0</color>
+    <color name="error">#c51162</color>
+    <color name="border">#E0E0E0</color>
+    <color name="icon">#696969</color>
+    <color name="dialogBackdrop">#AA191919</color>
+
+    <!--Default Survey-->
+    <color name="defaultSurveyNavBar">@color/white</color>
+    <color name="defaultSurveyWhite">@color/white</color>
+    <color name="defaultSurveyFont">#de000000</color>
+    <color name="defaultSurveyButton">#009688</color>
+    <color name="defaultSurveyError">#F44336</color>
+
+    <!--Simple Survey-->
+    <color name="simpleSurveyButton">#0288D1</color>
+    <color name="simpleSurveyFont">#DE000000</color>
+    <color name="simpleSurveyWhite">@color/white</color>
+    <color name="simpleSurveyError">#F44336</color>
+
+    <!--Simple Feedback Survey-->
+    <color name="simpleFbSurveyFont">@color/white</color>
+    <color name="simpleFbSurveyButton">@color/white</color>
+    <color name="simpleFbBackgroundFrom">#FFD1C4E9</color>
+    <color name="simpleFbBackgroundTo">#FF673AB7</color>
+</resources>

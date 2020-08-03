@@ -1,0 +1,60 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>SurveyDb - mobilesdk</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">mobilesdk</a>&nbsp;/&nbsp;<a href="../index.html">com.confirmit.mobilesdk.database.domain</a>&nbsp;/&nbsp;<a href="./index.html">SurveyDb</a><br/>
+<br/>
+<h1>SurveyDb</h1>
+<code><span class="keyword">interface </span><span class="identifier">SurveyDb</span></code>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="cleanup-survey.html">cleanupSurvey</a></h4>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">cleanupSurvey</span><span class="symbol">(</span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.SurveyDb$cleanupSurvey(kotlin.String, kotlin.String)/serverId">serverId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.SurveyDb$cleanupSurvey(kotlin.String, kotlin.String)/surveyId">surveyId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="create-or-update.html">createOrUpdate</a></h4>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">createOrUpdate</span><span class="symbol">(</span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.SurveyDb$createOrUpdate(kotlin.String, kotlin.String, kotlin.Int, com.confirmit.mobilesdk.surveyengine.packages.ConfigsInfo, kotlin.Boolean)/serverId">serverId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.SurveyDb$createOrUpdate(kotlin.String, kotlin.String, kotlin.Int, com.confirmit.mobilesdk.surveyengine.packages.ConfigsInfo, kotlin.Boolean)/surveyId">surveyId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.SurveyDb$createOrUpdate(kotlin.String, kotlin.String, kotlin.Int, com.confirmit.mobilesdk.surveyengine.packages.ConfigsInfo, kotlin.Boolean)/packageVersion">packageVersion</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">, </span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.SurveyDb$createOrUpdate(kotlin.String, kotlin.String, kotlin.Int, com.confirmit.mobilesdk.surveyengine.packages.ConfigsInfo, kotlin.Boolean)/configs">configs</span><span class="symbol">:</span>&nbsp;<a href="../../com.confirmit.mobilesdk.surveyengine.packages/-configs-info/index.html"><span class="identifier">ConfigsInfo</span></a><span class="symbol">, </span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.SurveyDb$createOrUpdate(kotlin.String, kotlin.String, kotlin.Int, com.confirmit.mobilesdk.surveyengine.packages.ConfigsInfo, kotlin.Boolean)/deleted">deleted</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="delete-survey.html">deleteSurvey</a></h4>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">deleteSurvey</span><span class="symbol">(</span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.SurveyDb$deleteSurvey(kotlin.String, kotlin.String)/serverId">serverId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.SurveyDb$deleteSurvey(kotlin.String, kotlin.String)/surveyId">surveyId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="get-deleted-survey-list.html">getDeletedSurveyList</a></h4>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">getDeletedSurveyList</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="../../com.confirmit.mobilesdk.database.externals/-survey/index.html"><span class="identifier">Survey</span></a><span class="symbol">&gt;</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="get-survey.html">getSurvey</a></h4>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">getSurvey</span><span class="symbol">(</span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.SurveyDb$getSurvey(kotlin.String, kotlin.String)/serverId">serverId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.SurveyDb$getSurvey(kotlin.String, kotlin.String)/surveyId">surveyId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="../../com.confirmit.mobilesdk.database.externals/-survey/index.html"><span class="identifier">Survey</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="get-survey-list.html">getSurveyList</a></h4>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">getSurveyList</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="../../com.confirmit.mobilesdk.database.externals/-survey/index.html"><span class="identifier">Survey</span></a><span class="symbol">&gt;</span></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

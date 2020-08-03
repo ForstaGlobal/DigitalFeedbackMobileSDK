@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddSurveyController" customModule="MobileSurveySdk_Example" customModuleProvider="target">
+            <connections>
+                <outlet property="btnCommit" destination="9I3-JR-rps" id="hOr-5b-Dfv"/>
+                <outlet property="btnHostSelect" destination="UST-Eo-PtW" id="YO0-YB-tYt"/>
+                <outlet property="containerMain" destination="Wh9-Lx-Zam" id="2aq-5G-gg6"/>
+                <outlet property="navBar" destination="YZ0-Ol-tGk" id="8LW-Jp-97o"/>
+                <outlet property="statusBar" destination="ABw-Te-aT9" id="Ygr-lk-gkJ"/>
+                <outlet property="txtSurveyId" destination="Z2f-ea-2sV" id="cib-HJ-N96"/>
+                <outlet property="view" destination="b3H-ZB-08M" id="j3w-Kd-lDp"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="b3H-ZB-08M">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ABw-Te-aT9">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="0.0"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YZ0-Ol-tGk">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                    <items>
+                        <navigationItem title="Download Program" id="slE-bx-zJn">
+                            <barButtonItem key="leftBarButtonItem" image="outline_clear_black_24pt" style="done" id="B3s-nt-WqH">
+                                <connections>
+                                    <action selector="onCloseClicked:" destination="-1" id="LJe-UX-hkc"/>
+                                </connections>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                </navigationBar>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wh9-Lx-Zam">
+                    <rect key="frame" x="16" y="60" width="343" height="237"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="eg) MsHIrd" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Z2f-ea-2sV">
+                            <rect key="frame" x="16" y="125" width="311" height="36"/>
+                            <accessibility key="accessibilityConfiguration" identifier="txtProgramKey"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="36" id="Scw-Iw-dVs"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Program Key" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aTh-5c-zCm" userLabel="Program Key">
+                            <rect key="frame" x="16" y="96.5" width="311" height="20.5"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UST-Eo-PtW">
+                            <rect key="frame" x="16" y="44.5" width="311" height="36"/>
+                            <accessibility key="accessibilityConfiguration" identifier="btnServerHost"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="36" id="IvC-E5-XEB"/>
+                            </constraints>
+                            <inset key="contentEdgeInsets" minX="16" minY="0.0" maxX="16" maxY="0.0"/>
+                            <state key="normal" title="Testlab"/>
+                            <connections>
+                                <action selector="onHostSelectClicked:" destination="-1" eventType="touchUpInside" id="6r6-cP-WUf"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9I3-JR-rps">
+                            <rect key="frame" x="16" y="185" width="113" height="36"/>
+                            <accessibility key="accessibilityConfiguration" identifier="btnDownload"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="36" id="7WZ-Dy-YcL"/>
+                            </constraints>
+                            <inset key="contentEdgeInsets" minX="16" minY="0.0" maxX="16" maxY="0.0"/>
+                            <state key="normal" title="Download">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="onAddClicked:" destination="-1" eventType="touchUpInside" id="jE5-bs-2uM"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Host" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a3C-3j-hpd">
+                            <rect key="frame" x="16" y="16" width="311" height="20.5"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Z2f-ea-2sV" firstAttribute="leading" secondItem="Wh9-Lx-Zam" secondAttribute="leading" constant="16" id="6zU-Ww-8I8"/>
+                        <constraint firstAttribute="trailing" secondItem="UST-Eo-PtW" secondAttribute="trailing" constant="16" id="DJd-zi-Tvt"/>
+                        <constraint firstAttribute="trailing" secondItem="a3C-3j-hpd" secondAttribute="trailing" constant="16" id="DZM-KL-CpC"/>
+                        <constraint firstItem="UST-Eo-PtW" firstAttribute="leading" secondItem="Wh9-Lx-Zam" secondAttribute="leading" constant="16" id="E8M-8V-Bmf"/>
+                        <constraint firstItem="a3C-3j-hpd" firstAttribute="leading" secondItem="Wh9-Lx-Zam" secondAttribute="leading" constant="16" id="FKL-bj-1Zq"/>
+                        <constraint firstItem="aTh-5c-zCm" firstAttribute="leading" secondItem="Wh9-Lx-Zam" secondAttribute="leading" constant="16" id="O49-WR-zw7"/>
+                        <constraint firstItem="a3C-3j-hpd" firstAttribute="top" secondItem="Wh9-Lx-Zam" secondAttribute="top" constant="16" id="Ve3-bQ-sor"/>
+                        <constraint firstAttribute="bottom" secondItem="9I3-JR-rps" secondAttribute="bottom" constant="16" id="axS-xt-F3s"/>
+                        <constraint firstAttribute="trailing" secondItem="aTh-5c-zCm" secondAttribute="trailing" constant="16" id="eOV-8O-lFm"/>
+                        <constraint firstItem="9I3-JR-rps" firstAttribute="top" secondItem="Z2f-ea-2sV" secondAttribute="bottom" constant="24" id="mlJ-Lq-ln0"/>
+                        <constraint firstItem="aTh-5c-zCm" firstAttribute="top" secondItem="UST-Eo-PtW" secondAttribute="bottom" constant="16" id="oE5-NK-rDW"/>
+                        <constraint firstAttribute="trailing" secondItem="Z2f-ea-2sV" secondAttribute="trailing" constant="16" id="qiq-zi-2yJ"/>
+                        <constraint firstItem="UST-Eo-PtW" firstAttribute="top" secondItem="a3C-3j-hpd" secondAttribute="bottom" constant="8" id="r1D-4w-elL"/>
+                        <constraint firstItem="9I3-JR-rps" firstAttribute="leading" secondItem="Wh9-Lx-Zam" secondAttribute="leading" constant="16" id="yme-i8-gev"/>
+                        <constraint firstItem="Z2f-ea-2sV" firstAttribute="top" secondItem="aTh-5c-zCm" secondAttribute="bottom" constant="8" id="zzy-HF-1Rg"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="H5f-lY-MQO" firstAttribute="trailing" secondItem="YZ0-Ol-tGk" secondAttribute="trailing" id="6ZF-SV-5Vt"/>
+                <constraint firstItem="Wh9-Lx-Zam" firstAttribute="top" secondItem="YZ0-Ol-tGk" secondAttribute="bottom" constant="16" id="AjZ-ga-yM8"/>
+                <constraint firstItem="H5f-lY-MQO" firstAttribute="trailing" secondItem="Wh9-Lx-Zam" secondAttribute="trailing" constant="16" id="C0U-Ey-Fhr"/>
+                <constraint firstItem="YZ0-Ol-tGk" firstAttribute="leading" secondItem="H5f-lY-MQO" secondAttribute="leading" id="ImP-em-A12"/>
+                <constraint firstAttribute="trailing" secondItem="ABw-Te-aT9" secondAttribute="trailing" id="PHe-2N-1MC"/>
+                <constraint firstItem="H5f-lY-MQO" firstAttribute="top" secondItem="ABw-Te-aT9" secondAttribute="bottom" id="PJC-0F-cen"/>
+                <constraint firstItem="ABw-Te-aT9" firstAttribute="leading" secondItem="b3H-ZB-08M" secondAttribute="leading" id="Qdk-de-dSx"/>
+                <constraint firstItem="ABw-Te-aT9" firstAttribute="top" secondItem="b3H-ZB-08M" secondAttribute="top" id="Tab-qA-LUV"/>
+                <constraint firstItem="YZ0-Ol-tGk" firstAttribute="top" secondItem="H5f-lY-MQO" secondAttribute="top" id="YJ6-Ho-LCP"/>
+                <constraint firstItem="Wh9-Lx-Zam" firstAttribute="leading" secondItem="H5f-lY-MQO" secondAttribute="leading" constant="16" id="YJl-K1-lrx"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="H5f-lY-MQO"/>
+            <point key="canvasLocation" x="34.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="outline_clear_black_24pt" width="24" height="24"/>
+    </resources>
+</document>

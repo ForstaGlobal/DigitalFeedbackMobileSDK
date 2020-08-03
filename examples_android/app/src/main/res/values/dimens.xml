@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="corner_radius">4dp</dimen>
+    <dimen name="simple_card_corner_radius">20dp</dimen>
+    <dimen name="simple_card_validation_corner_radius">10dp</dimen>
+    <dimen name="container_padding">4dp</dimen>
+    <dimen name="container_stroke_width">2dp</dimen>
+</resources>

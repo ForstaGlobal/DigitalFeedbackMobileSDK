@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/simpleSurveyButton" />
+    <corners
+        android:topLeftRadius="@dimen/simple_card_corner_radius"
+        android:topRightRadius="@dimen/simple_card_corner_radius" />
+</shape>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DefaultLayoutController" customModule="MobileSurveySdk_Example" customModuleProvider="target">
+            <connections>
+                <outlet property="btnBack" destination="8rI-8d-9rh" id="gzN-YQ-IR2"/>
+                <outlet property="btnNext" destination="iUE-cP-hEj" id="yvq-ha-Pfo"/>
+                <outlet property="btnOk" destination="q4e-Je-aRR" id="aGv-2f-LNI"/>
+                <outlet property="containerSystem" destination="pgh-LA-Ami" id="A5C-c2-SP1"/>
+                <outlet property="imgSystem" destination="Tfu-xf-mXV" id="ga8-49-UYv"/>
+                <outlet property="lblSystem" destination="HBC-zO-saK" id="nCT-wL-z8f"/>
+                <outlet property="navBar" destination="PFG-Cl-Knd" id="dwh-5E-n0K"/>
+                <outlet property="statusBar" destination="VUn-RD-dee" id="Qoi-DD-w4w"/>
+                <outlet property="tblSurvey" destination="dkf-hC-ALg" id="qeU-0e-9qH"/>
+                <outlet property="titleSystem" destination="hFm-yH-bnY" id="e34-qJ-aNT"/>
+                <outlet property="view" destination="iN0-l3-epB" id="5XI-Hh-X7s"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VUn-RD-dee">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="0.0"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <viewLayoutGuide key="safeArea" id="cZ1-pm-UWs"/>
+                </view>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PFG-Cl-Knd">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                    <items>
+                        <navigationItem title="Survey Title" id="YCy-wu-7zi">
+                            <barButtonItem key="leftBarButtonItem" image="outline_clear_black_24pt" style="plain" id="dH3-1O-Bak">
+                                <connections>
+                                    <action selector="onCloseClicked:" destination="-1" id="g8A-d0-ekX"/>
+                                </connections>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                </navigationBar>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="dkf-hC-ALg">
+                    <rect key="frame" x="0.0" y="44" width="375" height="555"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8rI-8d-9rh">
+                    <rect key="frame" x="16" y="615" width="66" height="36"/>
+                    <accessibility key="accessibilityConfiguration" identifier="btnBack"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="wk7-pe-Aem"/>
+                    </constraints>
+                    <inset key="contentEdgeInsets" minX="16" minY="0.0" maxX="16" maxY="0.0"/>
+                    <state key="normal" title="Back"/>
+                    <connections>
+                        <action selector="onBackClicked:" destination="-1" eventType="touchUpInside" id="3PC-Zf-oUw"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iUE-cP-hEj">
+                    <rect key="frame" x="295" y="615" width="64" height="36"/>
+                    <accessibility key="accessibilityConfiguration" identifier="btnNext"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="SVy-R2-Mgv"/>
+                    </constraints>
+                    <inset key="contentEdgeInsets" minX="16" minY="0.0" maxX="16" maxY="0.0"/>
+                    <state key="normal" title="Next"/>
+                    <connections>
+                        <action selector="onNextClicked:" destination="-1" eventType="touchUpInside" id="iFz-G0-tEL"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q4e-Je-aRR">
+                    <rect key="frame" x="151" y="624" width="73" height="18"/>
+                    <accessibility key="accessibilityConfiguration" identifier="btnOk"/>
+                    <inset key="contentEdgeInsets" minX="16" minY="0.0" maxX="16" maxY="0.0"/>
+                    <state key="normal" title="Finish"/>
+                    <connections>
+                        <action selector="onOkClicked:" destination="-1" eventType="touchUpInside" id="gdC-8M-FLC"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pgh-LA-Ami">
+                    <rect key="frame" x="67.5" y="213.5" width="240" height="240"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Tfu-xf-mXV">
+                            <rect key="frame" x="88" y="88" width="64" height="64"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="64" id="Dyj-Nx-Mm6"/>
+                                <constraint firstAttribute="height" constant="64" id="L9I-oT-7nd"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sorry, can't proceed survey anymore. Please contact us!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HBC-zO-saK">
+                            <rect key="frame" x="8" y="164" width="224" height="41"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hFm-yH-bnY">
+                            <rect key="frame" x="99" y="55" width="42" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="HBC-zO-saK" secondAttribute="trailing" constant="8" id="21a-fA-Dkf"/>
+                        <constraint firstItem="HBC-zO-saK" firstAttribute="centerX" secondItem="pgh-LA-Ami" secondAttribute="centerX" id="50q-BJ-CEl"/>
+                        <constraint firstItem="HBC-zO-saK" firstAttribute="top" secondItem="Tfu-xf-mXV" secondAttribute="bottom" constant="12" id="Aol-Qj-2Ks"/>
+                        <constraint firstAttribute="height" constant="240" id="Bo2-bV-4PP"/>
+                        <constraint firstAttribute="width" constant="240" id="EMs-bE-5Ay"/>
+                        <constraint firstItem="Tfu-xf-mXV" firstAttribute="centerY" secondItem="pgh-LA-Ami" secondAttribute="centerY" id="Mym-mK-Ml5"/>
+                        <constraint firstItem="hFm-yH-bnY" firstAttribute="centerX" secondItem="pgh-LA-Ami" secondAttribute="centerX" id="hjI-tM-gjX"/>
+                        <constraint firstItem="Tfu-xf-mXV" firstAttribute="top" secondItem="hFm-yH-bnY" secondAttribute="bottom" constant="12" id="j1e-C9-RYJ"/>
+                        <constraint firstItem="HBC-zO-saK" firstAttribute="leading" secondItem="pgh-LA-Ami" secondAttribute="leading" constant="8" id="jDZ-2b-DIa"/>
+                        <constraint firstItem="Tfu-xf-mXV" firstAttribute="centerX" secondItem="pgh-LA-Ami" secondAttribute="centerX" id="xfU-eX-5ce"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="dkf-hC-ALg" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="0wN-aR-cH0"/>
+                <constraint firstItem="q4e-Je-aRR" firstAttribute="centerY" secondItem="8rI-8d-9rh" secondAttribute="centerY" id="1TV-e5-h9A"/>
+                <constraint firstItem="PFG-Cl-Knd" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="2V2-rg-TkD"/>
+                <constraint firstItem="PFG-Cl-Knd" firstAttribute="top" secondItem="VUn-RD-dee" secondAttribute="bottom" id="5EK-3G-E4I"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="dkf-hC-ALg" secondAttribute="trailing" id="944-vf-A8Z"/>
+                <constraint firstItem="8rI-8d-9rh" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="BQ6-Pl-mbt"/>
+                <constraint firstItem="q4e-Je-aRR" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="K4a-65-s1i"/>
+                <constraint firstItem="PFG-Cl-Knd" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="KW3-Hs-C39"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="iUE-cP-hEj" secondAttribute="trailing" constant="16" id="LDd-K8-ZeO"/>
+                <constraint firstItem="VUn-RD-dee" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="Qk4-yD-spw"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="8rI-8d-9rh" secondAttribute="bottom" constant="16" id="aFR-4W-uiS" customClass="KeyboardLayoutConstraint" customModule="MobileSurveySdk_Example" customModuleProvider="target"/>
+                <constraint firstItem="VUn-RD-dee" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="b5o-yJ-NQM"/>
+                <constraint firstItem="pgh-LA-Ami" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="dar-bb-lDc"/>
+                <constraint firstItem="iUE-cP-hEj" firstAttribute="centerY" secondItem="8rI-8d-9rh" secondAttribute="centerY" id="hoN-i2-rJ3"/>
+                <constraint firstItem="VUn-RD-dee" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="jvS-5H-70r"/>
+                <constraint firstItem="VUn-RD-dee" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="top" id="lrG-la-XiM"/>
+                <constraint firstItem="8rI-8d-9rh" firstAttribute="top" secondItem="dkf-hC-ALg" secondAttribute="bottom" constant="16" id="sCT-tR-gTX"/>
+                <constraint firstItem="dkf-hC-ALg" firstAttribute="top" secondItem="PFG-Cl-Knd" secondAttribute="bottom" id="wX6-7Y-QQa"/>
+                <constraint firstItem="pgh-LA-Ami" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="xcm-sJ-j0P"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="34.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="outline_clear_black_24pt" width="24" height="24"/>
+    </resources>
+</document>

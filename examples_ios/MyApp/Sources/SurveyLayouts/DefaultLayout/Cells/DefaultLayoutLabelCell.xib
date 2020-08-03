@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DefaultLayoutLabelCell" customModule="MobileSurveySdk_Example" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="424" height="155"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9hz-bz-AYL">
+                    <rect key="frame" x="24" y="8" width="376" height="139"/>
+                    <attributedString key="attributedText">
+                        <fragment content="Label">
+                            <attributes>
+                                <font key="NSFont" metaFont="system" size="17"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="9hz-bz-AYL" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="8" id="2Jr-ej-t3W"/>
+                <constraint firstItem="9hz-bz-AYL" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="24" id="8Qh-0U-oVs"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="9hz-bz-AYL" secondAttribute="bottom" constant="8" id="Yzu-fR-NnV"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="9hz-bz-AYL" secondAttribute="trailing" constant="24" id="iLy-Dt-tRU"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="cstrLeftMargin" destination="8Qh-0U-oVs" id="8rF-Ub-lr6"/>
+                <outlet property="lblText" destination="9hz-bz-AYL" id="Kbc-Mc-elu"/>
+            </connections>
+            <point key="canvasLocation" x="-101" y="137.5"/>
+        </view>
+    </objects>
+</document>

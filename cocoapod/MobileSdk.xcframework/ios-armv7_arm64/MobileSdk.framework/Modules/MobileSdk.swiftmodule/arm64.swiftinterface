@@ -1,0 +1,414 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.1 (swift-5.1-RELEASE)
+// swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MobileSdk
+import Foundation
+import GRDB
+import JavaScriptCore
+@_exported import MobileSdk
+import SSZipArchive
+import Security
+import Swift
+import SystemConfiguration
+import UIKit
+import WebKit
+import os.log
+import os
+public protocol AccessTokenProvider {
+  func getAccessToken() -> Swift.String
+}
+public protocol ConfirmitModule {
+  func initialize(setup: MobileSdk.ConfirmitSDK.Setup)
+}
+public class ConfirmitSDK {
+  public static func setAccessTokenProvider(provider: MobileSdk.AccessTokenProvider?)
+  public static func enableLog(enable: Swift.Bool, oslog: Swift.Bool = true)
+  public class Setup {
+    public init()
+    public func rootPath(path: Foundation.URL?) -> MobileSdk.ConfirmitSDK.Setup
+    public func configure()
+    @objc deinit
+  }
+  @objc deinit
+}
+public class ConfirmitServer {
+  public static var us: MobileSdk.Server! {
+    get
+    }
+  public static var uk: MobileSdk.Server! {
+    get
+    }
+  public static var australia: MobileSdk.Server! {
+    get
+    }
+  public static var nordic: MobileSdk.Server! {
+    get
+    }
+  public static var testlab: MobileSdk.Server! {
+    get
+    }
+  public static var canada: MobileSdk.Server! {
+    get
+    }
+  public static var germany: MobileSdk.Server! {
+    get
+    }
+  public static func configureUS(clientId: Swift.String, clientSecret: Swift.String) throws
+  public static func configureUK(clientId: Swift.String, clientSecret: Swift.String) throws
+  public static func configureAustralia(clientId: Swift.String, clientSecret: Swift.String) throws
+  public static func configureNordic(clientId: Swift.String, clientSecret: Swift.String) throws
+  public static func configureTestlab(clientId: Swift.String, clientSecret: Swift.String) throws
+  public static func configureCanada(clientId: Swift.String, clientSecret: Swift.String) throws
+  public static func configureGermany(clientId: Swift.String, clientSecret: Swift.String) throws
+  public static func configure(name: Swift.String, host: Swift.String, clientId: Swift.String, clientSecret: Swift.String) throws -> MobileSdk.Server
+  public static func getServer(serverId: Swift.String) throws -> MobileSdk.Server?
+  public static func getServers() throws -> [MobileSdk.Server]
+  @objc deinit
+}
+public class DefaultQuestion : MobileSdk.Question {
+  final public let id: Swift.String
+  final public let nodeType: MobileSdk.QuestionType
+  final public let title: MobileSdk.QuestionText
+  final public let text: MobileSdk.QuestionText
+  final public let instruction: MobileSdk.QuestionText
+  public var errors: [MobileSdk.ValidationQuestionError] {
+    get
+    }
+  public func validate() throws -> [MobileSdk.ValidationQuestionError]
+  @objc deinit
+}
+public class InfoQuestion : MobileSdk.Question {
+  final public let nodeType: MobileSdk.QuestionType
+  final public let id: Swift.String
+  final public let title: MobileSdk.QuestionText
+  final public let text: MobileSdk.QuestionText
+  final public let instruction: MobileSdk.QuestionText
+  @objc deinit
+}
+public typealias JSON = [Swift.String : Any]
+public class MultiQuestion : MobileSdk.DefaultQuestion {
+  public var answers: [MobileSdk.QuestionAnswer] {
+    get
+    }
+  public var appearance: MobileSdk.MultiAppearance {
+    get
+    }
+  public func set(answer: MobileSdk.QuestionAnswer, select: Swift.Bool)
+  public func get(answer: MobileSdk.QuestionAnswer) -> Swift.Bool
+  override public func validate() throws -> [MobileSdk.ValidationQuestionError]
+  @objc deinit
+}
+public class NotSupportedQuestion : MobileSdk.Question {
+  final public let nodeType: MobileSdk.QuestionType
+  final public let id: Swift.String
+  @objc deinit
+}
+public class NumericQuestion : MobileSdk.DefaultQuestion {
+  public var appearance: MobileSdk.NumericAppearance {
+    get
+    }
+  public func setValue(value: Swift.Double?)
+  public func setValue(value: Swift.Int?)
+  public func getValue() -> Swift.Double?
+  public func getValue() -> Swift.Int?
+  public func getValue() -> Swift.String?
+  override public func validate() throws -> [MobileSdk.ValidationQuestionError]
+  @objc deinit
+}
+public class Program {
+  final public let serverId: Swift.String
+  final public let programKey: Swift.String
+  final public let started: Swift.Bool
+  final public let publishedVersion: Swift.Int64
+  public init(serverId: Swift.String, programKey: Swift.String, publishedVersion: Swift.Int64, started: Swift.Bool)
+  @objc deinit
+}
+public class TriggerInfo {
+  public var serverId: Swift.String
+  public var programKey: Swift.String
+  @objc deinit
+}
+public protocol ProgramCallback {
+  func onSurveyDownloadCompleted(triggerInfo: MobileSdk.TriggerInfo, surveyId: Swift.String, error: Swift.Error?)
+  func onSurveyStart(config: MobileSdk.SurveyFrameConfig)
+  func onScenarioStart(triggerInfo: MobileSdk.TriggerInfo, error: Swift.Error?)
+  func onScenarioError(triggerInfo: MobileSdk.TriggerInfo, error: Swift.Error)
+  func onAppFeedback(triggerInfo: MobileSdk.TriggerInfo, data: [Swift.String : Swift.String?])
+  func onWebSurveyStart(surveyWebView: MobileSdk.SurveyWebViewController)
+}
+public struct ScenarioResponse : Swift.Decodable {
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct ScenarioCounterResponse : Swift.Decodable {
+  public init(from decoder: Swift.Decoder) throws
+}
+public protocol Question : AnyObject {
+  var id: Swift.String { get }
+  var nodeType: MobileSdk.QuestionType { get }
+}
+public class QuestionAnswer {
+  final public let code: Swift.String
+  final public let text: MobileSdk.QuestionText
+  final public let isHeader: Swift.Bool
+  public var answers: [MobileSdk.QuestionAnswer] {
+    get
+    }
+  @objc deinit
+}
+public class QuestionText {
+  public var isEmpty: Swift.Bool {
+    get
+  }
+  final public let rawText: Swift.String
+  final public let hasStyle: Swift.Bool
+  public init(rawText: Swift.String, hasStyle: Swift.Bool = true)
+  public func get() -> Swift.String
+  public func getAttributed() -> Foundation.NSAttributedString
+  public func getAttributed(size: CoreGraphics.CGFloat, color: Swift.String) -> Foundation.NSAttributedString
+  @objc deinit
+}
+public class Server {
+  final public let serverId: Swift.String
+  final public let name: Swift.String
+  final public let host: Swift.String
+  @objc deinit
+}
+public class SingleQuestion : MobileSdk.DefaultQuestion {
+  public var answers: [MobileSdk.QuestionAnswer] {
+    get
+    }
+  public var appearance: MobileSdk.SingleAppearance {
+    get
+    }
+  public func select(answer: MobileSdk.QuestionAnswer)
+  public func selected() -> MobileSdk.QuestionAnswer?
+  override public func validate() throws -> [MobileSdk.ValidationQuestionError]
+  @objc deinit
+}
+public class Survey {
+  final public let serverId: Swift.String
+  final public let surveyId: Swift.String
+  final public let name: Swift.String
+  final public let description: Swift.String
+  final public let companyId: Swift.Int
+  final public let packageVersion: Swift.Int
+  final public let languages: [MobileSdk.SurveyLanguage]
+  public func getDefaultLanguage() throws -> MobileSdk.SurveyLanguage
+  @objc deinit
+}
+public protocol SurveyFrameDelegate : AnyObject {
+  func onSurveyPageReady(page: MobileSdk.SurveyPage)
+  func onSurveyErrored(page: MobileSdk.SurveyPage, values: [Swift.String : Swift.String?], error: Swift.Error)
+  func onSurveyFinished(page: MobileSdk.SurveyPage, values: [Swift.String : Swift.String?])
+  func onSurveyQuit(values: [Swift.String : Swift.String?])
+}
+public class SurveyFrameConfig {
+  public var languageId: Swift.Int?
+  public var respondentValues: [Swift.String : Swift.String]
+  public var customData: [Swift.String : Swift.String?]
+  final public let serverId: Swift.String
+  final public let surveyId: Swift.String
+  public var programKey: Swift.String?
+  public var scenarioId: Swift.Int64?
+  public init(serverId: Swift.String, surveyId: Swift.String)
+  @objc deinit
+}
+public class SurveyFrameActionResult {
+  final public let success: Swift.Bool
+  final public let message: Swift.String
+  public init(success: Swift.Bool, message: Swift.String)
+  @objc deinit
+}
+public class SurveyFrame {
+  weak public var delegate: MobileSdk.SurveyFrameDelegate?
+  public var page: MobileSdk.SurveyPage? {
+    get
+    }
+  public init()
+  final public func load(config: MobileSdk.SurveyFrameConfig) throws
+  final public func start() -> MobileSdk.SurveyFrameActionResult
+  final public func next() -> MobileSdk.SurveyFrameActionResult
+  final public func back() -> MobileSdk.SurveyFrameActionResult
+  final public func quit(upload: Swift.Bool) -> MobileSdk.SurveyFrameActionResult
+  @objc deinit
+}
+public class SurveyLanguage : Swift.Encodable, Swift.Decodable {
+  final public let id: Swift.Int
+  final public let code: Swift.String
+  final public let name: Swift.String
+  final public let nativeName: Swift.String
+  final public let isDefault: Swift.Bool
+  required public init(from decoder: Swift.Decoder) throws
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public class SurveyPage {
+  public var questions: [MobileSdk.Question] {
+    get
+    }
+  public var title: MobileSdk.QuestionText {
+    get
+    }
+  public var text: MobileSdk.QuestionText? {
+    get
+    }
+  public var forwardText: Swift.String {
+    get
+    }
+  public var backwardText: Swift.String {
+    get
+    }
+  public var okText: Swift.String {
+    get
+    }
+  public var showForward: Swift.Bool {
+    get
+  }
+  public var showBackward: Swift.Bool {
+    get
+  }
+  public var showOk: Swift.Bool {
+    get
+  }
+  @objc deinit
+}
+public typealias SurveyDownloadCompletion = (Swift.Bool, Swift.Error?) -> Swift.Void
+public protocol UniqueIdProvider {
+  func getUniqueId() -> Swift.String
+}
+public class SurveySDK {
+  public static func setUniqueIdProvider(provider: MobileSdk.UniqueIdProvider?)
+  public static func getSurvey(serverId: Swift.String, surveyId: Swift.String) throws -> MobileSdk.Survey?
+  public static func deleteSurvey(serverId: Swift.String, surveyId: Swift.String) throws
+  public static func getSurveyList() throws -> [MobileSdk.Survey]
+  public static func downloadSurvey(serverId: Swift.String, surveyId: Swift.String, completion: @escaping MobileSdk.SurveyDownloadCompletion)
+  @objc deinit
+}
+@objc public class SurveyWebViewController : UIKit.UIViewController {
+  public var delegate: MobileSdk.SurveyWebViewControllerDelegate?
+  @objc dynamic public init()
+  @objc override dynamic public func viewDidLoad()
+  @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  public func setupWebView(serverId: Swift.String, projectId: Swift.String, customData: [Swift.String : Swift.String?])
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @objc deinit
+}
+extension SurveyWebViewController : WebKit.WKNavigationDelegate {
+  @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+}
+extension SurveyWebViewController : WebKit.WKScriptMessageHandler {
+  @objc dynamic public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+}
+public protocol SurveyWebViewControllerDelegate {
+  func onWebViewSurveyError(serverId: Swift.String, projectId: Swift.String, error: Swift.Error)
+  func onWebViewSurveyFinished(serverId: Swift.String, projectId: Swift.String)
+  func onWebViewSurveyQuit(serverId: Swift.String, projectId: Swift.String)
+}
+public class TextQuestion : MobileSdk.DefaultQuestion {
+  public var appearance: MobileSdk.OpenTextAppearance {
+    get
+    }
+  public func setValue(value: Swift.String?)
+  public func getValue() -> Swift.String?
+  override public func validate() throws -> [MobileSdk.ValidationQuestionError]
+  @objc deinit
+}
+public typealias TriggerDownloadComplete = (Swift.Bool, Swift.Error?) -> Swift.Void
+public class TriggerSDK {
+  public static var testMode: Swift.Bool
+  public static func setCallback(serverId: Swift.String, programKey: Swift.String, callback: MobileSdk.ProgramCallback)
+  public static func removeCallback(serverId: Swift.String, programKey: Swift.String)
+  public static func download(serverId: Swift.String, programKey: Swift.String, completion: @escaping MobileSdk.TriggerDownloadComplete)
+  public static func downloadCounters(serverId: Swift.String, programKey: Swift.String, completion: @escaping MobileSdk.TriggerDownloadComplete)
+  public static func notifyEvent(serverId: Swift.String, programKey: Swift.String, event: Swift.String, data: [Swift.String : Swift.String?] = [:])
+  public static func notifyEvent(event: Swift.String, data: [Swift.String : Swift.String?] = [:])
+  public static func notifyAppForeground(data: [Swift.String : Swift.String?] = [:])
+  public static func notifyAppFeedback(data: [Swift.String : Swift.String?] = [:])
+  public static func getPrograms(serverId: Swift.String) throws -> [MobileSdk.Program]
+  public static func deleteProgram(serverId: Swift.String, programKey: Swift.String, deleteCustomData: Swift.Bool) throws
+  public static func deleteAll(deleteCustomData: Swift.Bool) throws
+  public static func getProgramVariable(serverId: Swift.String, programKey: Swift.String, key: Swift.String) throws -> Swift.String?
+  public static func setProgramVariable(serverId: Swift.String, programKey: Swift.String, key: Swift.String, value: Swift.String?) throws
+  @objc deinit
+}
+public enum ValidationError {
+  case required
+  case size(length: Swift.Int)
+  case xssSafe
+  case number
+  case range
+  case multiSelected
+}
+public struct ValidationQuestionError {
+  public let code: MobileSdk.ValidationError
+  public var message: Swift.String
+}
+public enum QuestionType {
+  case single
+  case multi
+  case text
+  case numeric
+  case info
+  case notSupported
+  public static func == (a: MobileSdk.QuestionType, b: MobileSdk.QuestionType) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+public enum SingleAppearance : Swift.Int, Swift.Decodable {
+  case radioButtons
+  case answerButtons
+  case dropDown
+  case slider
+  case horizontalRatingScale
+  case starRating
+  case gridBars
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum MultiAppearance : Swift.Int, Swift.Decodable {
+  case checkBoxes
+  case answerButtons
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum OpenTextAppearance : Swift.Int, Swift.Decodable {
+  case textField
+  case paragraph
+  case essay
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum NumericAppearance : Swift.Int, Swift.Decodable {
+  case numericField
+  case numericSlider
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension MobileSdk.QuestionType : Swift.Equatable {}
+extension MobileSdk.QuestionType : Swift.Hashable {}
+extension MobileSdk.SingleAppearance : Swift.Equatable {}
+extension MobileSdk.SingleAppearance : Swift.Hashable {}
+extension MobileSdk.SingleAppearance : Swift.RawRepresentable {}
+extension MobileSdk.MultiAppearance : Swift.Equatable {}
+extension MobileSdk.MultiAppearance : Swift.Hashable {}
+extension MobileSdk.MultiAppearance : Swift.RawRepresentable {}
+extension MobileSdk.OpenTextAppearance : Swift.Equatable {}
+extension MobileSdk.OpenTextAppearance : Swift.Hashable {}
+extension MobileSdk.OpenTextAppearance : Swift.RawRepresentable {}
+extension MobileSdk.NumericAppearance : Swift.Equatable {}
+extension MobileSdk.NumericAppearance : Swift.Hashable {}
+extension MobileSdk.NumericAppearance : Swift.RawRepresentable {}

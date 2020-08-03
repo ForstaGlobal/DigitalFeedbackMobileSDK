@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="layouts">
+        <item>Default</item>
+        <item>Default (Java)</item>
+        <item>Card</item>
+        <item>Simple Feedback</item>
+    </array>
+</resources>
