@@ -1,5 +1,5 @@
 import Foundation
-import MobileSdk
+import ConfirmitMobileSDK
 
 class SurveyModel {
     private(set) var survey: Survey

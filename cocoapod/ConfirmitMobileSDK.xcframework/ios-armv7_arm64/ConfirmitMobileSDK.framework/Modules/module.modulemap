@@ -1,0 +1,11 @@
+framework module ConfirmitMobileSDK {
+  umbrella header "ConfirmitMobileSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ConfirmitMobileSDK.Swift {
+    header "ConfirmitMobileSDK-Swift.h"
+    requires objc
+}

@@ -1,5 +1,5 @@
 import Foundation
-import MobileSdk
+import ConfirmitMobileSDK
 
 class ProgramModel {
     private(set) var program: Program

@@ -1,5 +1,5 @@
 import Foundation
-import MobileSdk
+import ConfirmitMobileSDK
 
 struct ProgramTriggerResult {
     var success: Bool

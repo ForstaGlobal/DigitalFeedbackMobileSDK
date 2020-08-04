@@ -1,5 +1,5 @@
 import Foundation
-import MobileSdk
+import ConfirmitMobileSDK
 
 class DefaultLayoutIconLabel: DefaultLayoutItem {
     let value: QuestionText

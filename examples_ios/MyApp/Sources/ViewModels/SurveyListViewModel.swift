@@ -1,5 +1,5 @@
 import Foundation
-import MobileSdk
+import ConfirmitMobileSDK
 
 typealias TableDataProcessCompletion = (_ hasUpdate: Bool) -> Void
 

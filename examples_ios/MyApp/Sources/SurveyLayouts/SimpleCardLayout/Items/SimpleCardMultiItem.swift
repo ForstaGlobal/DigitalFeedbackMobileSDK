@@ -1,5 +1,5 @@
 import Foundation
-import MobileSdk
+import ConfirmitMobileSDK
 import UIKit
 
 class SimpleCardMultiItem: SimpleCardItem {

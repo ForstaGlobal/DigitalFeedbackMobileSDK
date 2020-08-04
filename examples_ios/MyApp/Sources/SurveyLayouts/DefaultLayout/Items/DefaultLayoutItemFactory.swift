@@ -1,5 +1,5 @@
 import Foundation
-import MobileSdk
+import ConfirmitMobileSDK
 
 enum DefaultLayoutItemFactory {
     private static func buildCommon(question: DefaultQuestion) -> [DefaultLayoutItem] {

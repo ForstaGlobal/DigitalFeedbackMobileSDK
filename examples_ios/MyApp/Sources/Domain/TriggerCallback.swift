@@ -1,5 +1,5 @@
 import Foundation
-import MobileSdk
+import ConfirmitMobileSDK
 
 class TriggerCallback: ProgramCallback {
     func onSurveyDownloadCompleted(triggerInfo: TriggerInfo, surveyId: String, error: Error?) {

@@ -1,5 +1,5 @@
 import Foundation
-import MobileSdk
+import ConfirmitMobileSDK
 
 class TriggerManager {
     func getPrograms() -> [Program] {

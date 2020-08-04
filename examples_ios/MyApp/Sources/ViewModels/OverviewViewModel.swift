@@ -1,5 +1,5 @@
 import Foundation
-import MobileSdk
+import ConfirmitMobileSDK
 
 class OverviewViewModel {
     private(set) var survey: SurveyModel!

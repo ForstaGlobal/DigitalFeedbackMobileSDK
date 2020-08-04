@@ -1,5 +1,5 @@
 import Foundation
-import MobileSdk
+import ConfirmitMobileSDK
 
 class TriggerOverviewViewModel {
     private(set) var program: ProgramModel!

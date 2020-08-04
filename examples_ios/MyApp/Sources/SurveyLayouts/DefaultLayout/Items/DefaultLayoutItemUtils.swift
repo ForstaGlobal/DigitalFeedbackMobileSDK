@@ -1,5 +1,5 @@
 import Foundation
-import MobileSdk
+import ConfirmitMobileSDK
 
 enum DefaultLayoutItemUtils {
     static func getSingleAnswerIndexList(section: Int, question: SingleQuestion, excludeCode: String) -> [IndexPath] {

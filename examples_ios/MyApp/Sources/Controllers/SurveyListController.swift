@@ -1,4 +1,4 @@
-import MobileSdk
+import ConfirmitMobileSDK
 import UIKit
 
 class SurveyListController: UIViewController {
