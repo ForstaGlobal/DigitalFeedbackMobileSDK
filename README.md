@@ -12,7 +12,7 @@ The Confirmit Digital Feedback Mobile SDK provides seamless in-app feedback for 
 
 ## Documentation
 
-Everything you need to get started with integration can be found in the [repository wiki](github.com/Confirmit/DigitalFeedbackMobileSDK/wiki).
+Everything you need to get started with integration can be found in the [repository wiki](https://github.com/Confirmit/DigitalFeedbackMobileSDK.wiki/wiki).
 
 <br/>
 
