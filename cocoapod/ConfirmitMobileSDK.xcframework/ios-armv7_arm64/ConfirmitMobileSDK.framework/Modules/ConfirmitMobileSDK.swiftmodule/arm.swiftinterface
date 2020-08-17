@@ -283,9 +283,16 @@ public class SurveySDK {
   public static func downloadSurvey(serverId: Swift.String, surveyId: Swift.String, completion: @escaping ConfirmitMobileSDK.SurveyDownloadCompletion)
   @objc deinit
 }
+public class SurveyWebViewUrl {
+  final public let url: Swift.String
+  final public let token: Swift.String
+  @objc deinit
+}
+public typealias SurveyWebViewUrlCompletion = (ConfirmitMobileSDK.SurveyWebViewUrl?, Swift.Error?) -> Swift.Void
 @objc public class SurveyWebViewController : UIKit.UIViewController {
   public var delegate: ConfirmitMobileSDK.SurveyWebViewControllerDelegate?
   @objc dynamic public init()
+  public func getSurveyUrl(completion: @escaping ConfirmitMobileSDK.SurveyWebViewUrlCompletion)
   @objc override dynamic public func viewDidLoad()
   @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)

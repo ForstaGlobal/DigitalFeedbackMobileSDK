@@ -66,5 +66,5 @@ dependencies {
     implementation "androidx.navigation:navigation-ui-ktx:$androidx_navigation_version"
 
     // MobileSurveySDK
-    implementation "com.confirmit.mobilesdk:mobilesdk:3.0.0"
+    implementation "com.confirmit.mobilesdk:mobilesdk:3.1.0"
 }

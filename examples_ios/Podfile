@@ -2,5 +2,5 @@ use_frameworks!
 platform :ios, '10.0'
 
 target 'MyApp' do
-  pod 'ConfirmitMobileSDK', '3.0.0'
+  pod 'ConfirmitMobileSDK', '3.1.0'
 end
