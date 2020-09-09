@@ -7,6 +7,7 @@ import com.confirmit.mobilesdk.trigger.TriggerInfo
 import com.confirmit.mobilesdk.ui.SurveyFrameConfig
 import com.confirmit.mobilesdk.web.SurveyWebViewFragment
 import com.confirmit.testsdkapp.MainApplication
+import com.confirmit.testsdkapp.R
 import com.confirmit.testsdkapp.activities.MainActivity
 import com.confirmit.testsdkapp.utils.Utils
 import com.confirmit.testsdkapp.viewmodels.models.SurveyModel
@@ -63,6 +64,7 @@ class TriggerCallback : ProgramCallback {
             (it as MainActivity).fetcherListener?.endIdle()
             it.runOnUiThread {
                 surveyWebView.setCallback(WebViewCallback())
+                surveyWebView.dialogAnimations = R.style.dialog_slide
                 surveyWebView.show(it.supportFragmentManager, "SurveyWebViewFragment")
             }
         }

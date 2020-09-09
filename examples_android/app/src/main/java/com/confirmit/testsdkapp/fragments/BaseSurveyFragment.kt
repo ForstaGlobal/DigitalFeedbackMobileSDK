@@ -65,6 +65,6 @@ abstract class BaseSurveyFragment : BaseDialogFragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        dialog?.window?.attributes?.windowAnimations = R.style.dialog_animation
+        dialog?.window?.attributes?.windowAnimations = R.style.dialog_fade
     }
 }

@@ -8,7 +8,7 @@
 <a href="../../index.html">mobilesdk</a>&nbsp;/&nbsp;<a href="../index.html">com.confirmit.mobilesdk.web</a>&nbsp;/&nbsp;<a href="./index.html">SurveyWebViewFragment</a><br/>
 <br/>
 <h1>SurveyWebViewFragment</h1>
-<code><span class="keyword">class </span><span class="identifier">SurveyWebViewFragment</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">DialogFragment</span><span class="symbol">, </span><span class="identifier">OnWebViewListener</span><span class="symbol">, </span><a href="https://developer.android.com/reference/android/view/View/OnClickListener.html"><span class="identifier">OnClickListener</span></a><span class="symbol">, </span><span class="identifier">OnChromeClientListener</span></code>
+<code><span class="keyword">class </span><span class="identifier">SurveyWebViewFragment</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="../-base-web-view-fragment/index.html"><span class="identifier">BaseWebViewFragment</span></a><span class="symbol">, </span><span class="identifier">OnChromeClientListener</span></code>
 <h3>Constructors</h3>
 <table>
 <tbody>
@@ -18,6 +18,18 @@
 </td>
 <td>
 <code><span class="identifier">SurveyWebViewFragment</span><span class="symbol">(</span><span class="symbol">)</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="custom-data.html">customData</a></h4>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">customData</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-map/index.html"><span class="identifier">MutableMap</span></a><span class="symbol">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">,</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span><span class="symbol">&gt;</span></code></td>
 </tr>
 </tbody>
 </table>
@@ -47,20 +59,6 @@
 </tr>
 <tr>
 <td>
-<h4><a href="on-configuration-changed.html">onConfigurationChanged</a></h4>
-</td>
-<td>
-<code><span class="keyword">fun </span><span class="identifier">onConfigurationChanged</span><span class="symbol">(</span><span class="identifier" id="com.confirmit.mobilesdk.web.SurveyWebViewFragment$onConfigurationChanged(android.content.res.Configuration)/newConfig">newConfig</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/res/Configuration.html"><span class="identifier">Configuration</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
-</tr>
-<tr>
-<td>
-<h4><a href="on-create-dialog.html">onCreateDialog</a></h4>
-</td>
-<td>
-<code><span class="keyword">fun </span><span class="identifier">onCreateDialog</span><span class="symbol">(</span><span class="identifier" id="com.confirmit.mobilesdk.web.SurveyWebViewFragment$onCreateDialog(android.os.Bundle)/savedInstanceState">savedInstanceState</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/os/Bundle.html"><span class="identifier">Bundle</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/app/Dialog.html"><span class="identifier">Dialog</span></a></code></td>
-</tr>
-<tr>
-<td>
 <h4><a href="on-create-view.html">onCreateView</a></h4>
 </td>
 <td>
@@ -82,31 +80,10 @@
 </tr>
 <tr>
 <td>
-<h4><a href="on-load-resource.html">onLoadResource</a></h4>
-</td>
-<td>
-<code><span class="keyword">fun </span><span class="identifier">onLoadResource</span><span class="symbol">(</span><span class="identifier" id="com.confirmit.mobilesdk.web.SurveyWebViewFragment$onLoadResource(kotlin.String)/url">url</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
-</tr>
-<tr>
-<td>
-<h4><a href="on-page-finished.html">onPageFinished</a></h4>
-</td>
-<td>
-<code><span class="keyword">fun </span><span class="identifier">onPageFinished</span><span class="symbol">(</span><span class="identifier" id="com.confirmit.mobilesdk.web.SurveyWebViewFragment$onPageFinished(kotlin.String)/url">url</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
-</tr>
-<tr>
-<td>
 <h4><a href="on-progress-changed.html">onProgressChanged</a></h4>
 </td>
 <td>
 <code><span class="keyword">fun </span><span class="identifier">onProgressChanged</span><span class="symbol">(</span><span class="identifier" id="com.confirmit.mobilesdk.web.SurveyWebViewFragment$onProgressChanged(android.webkit.WebView, kotlin.Int)/view">view</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/webkit/WebView.html"><span class="identifier">WebView</span></a><span class="symbol">?</span><span class="symbol">, </span><span class="identifier" id="com.confirmit.mobilesdk.web.SurveyWebViewFragment$onProgressChanged(android.webkit.WebView, kotlin.Int)/newProgress">newProgress</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
-</tr>
-<tr>
-<td>
-<h4><a href="on-resume.html">onResume</a></h4>
-</td>
-<td>
-<code><span class="keyword">fun </span><span class="identifier">onResume</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
 </tr>
 <tr>
 <td>

@@ -76,6 +76,17 @@ public class DefaultQuestion : ConfirmitMobileSDK.Question {
   public func validate() throws -> [ConfirmitMobileSDK.ValidationQuestionError]
   @objc deinit
 }
+@objc public class ExternalWebViewController : UIKit.UIViewController {
+  @objc dynamic public init()
+  @objc override dynamic public func viewDidLoad()
+  @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @objc deinit
+}
+extension ExternalWebViewController : WebKit.WKNavigationDelegate {
+  @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+}
 public class InfoQuestion : ConfirmitMobileSDK.Question {
   final public let nodeType: ConfirmitMobileSDK.QuestionType
   final public let id: Swift.String
@@ -291,6 +302,9 @@ public class SurveyWebViewUrl {
 public typealias SurveyWebViewUrlCompletion = (ConfirmitMobileSDK.SurveyWebViewUrl?, Swift.Error?) -> Swift.Void
 @objc public class SurveyWebViewController : UIKit.UIViewController {
   public var delegate: ConfirmitMobileSDK.SurveyWebViewControllerDelegate?
+  public var customData: [Swift.String : Swift.String?] {
+    get
+  }
   @objc dynamic public init()
   public func getSurveyUrl(completion: @escaping ConfirmitMobileSDK.SurveyWebViewUrlCompletion)
   @objc override dynamic public func viewDidLoad()
@@ -302,6 +316,7 @@ public typealias SurveyWebViewUrlCompletion = (ConfirmitMobileSDK.SurveyWebViewU
 }
 extension SurveyWebViewController : WebKit.WKNavigationDelegate {
   @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+  @objc dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
 }
 extension SurveyWebViewController : WebKit.WKScriptMessageHandler {
   @objc dynamic public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)

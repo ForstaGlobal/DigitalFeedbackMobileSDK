@@ -80,7 +80,7 @@ public class DefaultSurveyFragment extends BaseDialogFragment implements View.On
     @Override
     public void onActivityCreated(@androidx.annotation.Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        getDialog().getWindow().getAttributes().windowAnimations = R.style.dialog_animation;
+        getDialog().getWindow().getAttributes().windowAnimations = R.style.dialog_fade;
     }
 
     @Override

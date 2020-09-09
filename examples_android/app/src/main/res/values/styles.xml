@@ -6,8 +6,7 @@
         <item name="colorAccent">@color/colorPrimary</item>
     </style>
 
-    <style name="AppTheme" parent="AppThemeShared">
-    </style>
+    <style name="AppTheme" parent="AppThemeShared"></style>
 
     <style name="AppTheme.Splash">
         <item name="android:windowFullscreen">true</item>
@@ -29,8 +28,13 @@
         <item name="android:scaleType">centerInside</item>
     </style>
 
-    <style name="dialog_animation">
+    <style name="dialog_fade">
         <item name="android:windowEnterAnimation">@anim/dialog_fade_in</item>
         <item name="android:windowExitAnimation">@anim/transition_fade_out</item>
+    </style>
+
+    <style name="dialog_slide">
+        <item name="android:windowEnterAnimation">@anim/dialog_slide_up</item>
+        <item name="android:windowExitAnimation">@anim/dialog_slide_down</item>
     </style>
 </resources>
