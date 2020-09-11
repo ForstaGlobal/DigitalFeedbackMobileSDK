@@ -297,6 +297,7 @@ public class SurveySDK {
 public class SurveyWebViewUrl {
   final public let url: Swift.String
   final public let token: Swift.String
+  final public let urlRequest: Foundation.URLRequest?
   @objc deinit
 }
 public typealias SurveyWebViewUrlCompletion = (ConfirmitMobileSDK.SurveyWebViewUrl?, Swift.Error?) -> Swift.Void

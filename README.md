@@ -48,7 +48,7 @@ Add the SDK dependency to the application level `build.gradle` file.
 // build.gradle (Module)
 dependencies {
     ...
-    implementation 'com.confirmit.mobilesdk:mobilesdk:3.1.1'
+    implementation 'com.confirmit.mobilesdk:mobilesdk:3.1.2'
 }
 ```
 
@@ -97,7 +97,7 @@ platform :ios, '10.0'
 # Your target
 target 'MyApp' do
   # ... others pods
-  pod 'ConfirmitMobileSDK', '3.1.1'
+  pod 'ConfirmitMobileSDK', '3.1.2'
 end
 ```
 
