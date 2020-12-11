@@ -210,7 +210,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 SWIFT_CLASS("_TtC18ConfirmitMobileSDK25ExternalWebViewController")
 @interface ExternalWebViewController : UIViewController
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)_ SWIFT_UNAVAILABLE;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;
@@ -221,7 +221,7 @@ SWIFT_CLASS("_TtC18ConfirmitMobileSDK25ExternalWebViewController")
 @class WKNavigation;
 
 @interface ExternalWebViewController (SWIFT_EXTENSION(ConfirmitMobileSDK)) <WKNavigationDelegate>
-- (void)webView:(WKWebView * _Nonnull)webView didFinishNavigation:(WKNavigation * _Null_unspecified)navigation;
+- (void)webView:(WKWebView * _Nonnull)_ didFinishNavigation:(WKNavigation * _Null_unspecified)_;
 @end
 
 
@@ -232,7 +232,7 @@ SWIFT_CLASS("_TtC18ConfirmitMobileSDK25ExternalWebViewController")
 SWIFT_CLASS("_TtC18ConfirmitMobileSDK23SurveyWebViewController")
 @interface SurveyWebViewController : UIViewController
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)_ SWIFT_UNAVAILABLE;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;
@@ -243,14 +243,14 @@ SWIFT_CLASS("_TtC18ConfirmitMobileSDK23SurveyWebViewController")
 @class WKScriptMessage;
 
 @interface SurveyWebViewController (SWIFT_EXTENSION(ConfirmitMobileSDK)) <WKScriptMessageHandler>
-- (void)userContentController:(WKUserContentController * _Nonnull)userContentController didReceiveScriptMessage:(WKScriptMessage * _Nonnull)message;
+- (void)userContentController:(WKUserContentController * _Nonnull)_ didReceiveScriptMessage:(WKScriptMessage * _Nonnull)message;
 @end
 
 @class WKNavigationAction;
 
 @interface SurveyWebViewController (SWIFT_EXTENSION(ConfirmitMobileSDK)) <WKNavigationDelegate>
-- (void)webView:(WKWebView * _Nonnull)webView didFinishNavigation:(WKNavigation * _Null_unspecified)navigation;
-- (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
+- (void)webView:(WKWebView * _Nonnull)_ didFinishNavigation:(WKNavigation * _Null_unspecified)_;
+- (void)webView:(WKWebView * _Nonnull)_ decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
 @end
 
 
@@ -473,7 +473,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 SWIFT_CLASS("_TtC18ConfirmitMobileSDK25ExternalWebViewController")
 @interface ExternalWebViewController : UIViewController
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)_ SWIFT_UNAVAILABLE;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;
@@ -484,7 +484,7 @@ SWIFT_CLASS("_TtC18ConfirmitMobileSDK25ExternalWebViewController")
 @class WKNavigation;
 
 @interface ExternalWebViewController (SWIFT_EXTENSION(ConfirmitMobileSDK)) <WKNavigationDelegate>
-- (void)webView:(WKWebView * _Nonnull)webView didFinishNavigation:(WKNavigation * _Null_unspecified)navigation;
+- (void)webView:(WKWebView * _Nonnull)_ didFinishNavigation:(WKNavigation * _Null_unspecified)_;
 @end
 
 
@@ -495,7 +495,7 @@ SWIFT_CLASS("_TtC18ConfirmitMobileSDK25ExternalWebViewController")
 SWIFT_CLASS("_TtC18ConfirmitMobileSDK23SurveyWebViewController")
 @interface SurveyWebViewController : UIViewController
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)_ SWIFT_UNAVAILABLE;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;
@@ -506,14 +506,14 @@ SWIFT_CLASS("_TtC18ConfirmitMobileSDK23SurveyWebViewController")
 @class WKScriptMessage;
 
 @interface SurveyWebViewController (SWIFT_EXTENSION(ConfirmitMobileSDK)) <WKScriptMessageHandler>
-- (void)userContentController:(WKUserContentController * _Nonnull)userContentController didReceiveScriptMessage:(WKScriptMessage * _Nonnull)message;
+- (void)userContentController:(WKUserContentController * _Nonnull)_ didReceiveScriptMessage:(WKScriptMessage * _Nonnull)message;
 @end
 
 @class WKNavigationAction;
 
 @interface SurveyWebViewController (SWIFT_EXTENSION(ConfirmitMobileSDK)) <WKNavigationDelegate>
-- (void)webView:(WKWebView * _Nonnull)webView didFinishNavigation:(WKNavigation * _Null_unspecified)navigation;
-- (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
+- (void)webView:(WKWebView * _Nonnull)_ didFinishNavigation:(WKNavigation * _Null_unspecified)_;
+- (void)webView:(WKWebView * _Nonnull)_ decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
 @end
 
 

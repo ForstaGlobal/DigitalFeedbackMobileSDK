@@ -4,6 +4,7 @@ com.confirmit.mobilesdk.database
 com.confirmit.mobilesdk.database.domain
 com.confirmit.mobilesdk.database.externals
 com.confirmit.mobilesdk.database.providers.room
+com.confirmit.mobilesdk.exts
 com.confirmit.mobilesdk.surveyengine
 com.confirmit.mobilesdk.surveyengine.packages
 com.confirmit.mobilesdk.sync

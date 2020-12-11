@@ -2,6 +2,10 @@ import ConfirmitMobileSDK
 import Foundation
 
 class TriggerCallback: ProgramCallback {
+  func onScenarioLoad(triggerInfo: TriggerInfo, error: Error?) {
+    // TODO:
+  }
+
   func onSurveyDownloadCompleted(triggerInfo: TriggerInfo, surveyId: String, error: Error?) {
     if let error = error {
       let alert = UIAlertController(title: "Survey \(surveyId) Downloaded Failed", message: error.localizedDescription, preferredStyle: .alert)
@@ -53,12 +57,12 @@ class TriggerCallback: ProgramCallback {
     do {
       let survey = try SurveyModel(serverId: config.serverId, surveyId: config.surveyId)
       let appDelegate = UIApplication.shared.delegate as! AppDelegate
-      let tabController = appDelegate.window!.rootViewController as! UITabBarController
-      let tabs = tabController.viewControllers
-      let navigationController = tabs![1] as! UINavigationController
-      let controller = navigationController.topViewController as! SurveyListController
+      let navigationController = appDelegate.window!.rootViewController as! UINavigationController
+      let controller = navigationController.topViewController
       DispatchQueue.main.async {
-        SurveyManager().launchSurvey(controller: controller, layoutDelegate: controller, survey: survey, surveyFrameConfig: config)
+        if let controller = controller {
+          SurveyManager().launchSurvey(controller: controller, survey: survey, surveyFrameConfig: config)
+        }
       }
     } catch {}
   }
@@ -66,7 +70,7 @@ class TriggerCallback: ProgramCallback {
   func onWebSurveyStart(surveyWebView: SurveyWebViewController) {
     surveyWebView.getSurveyUrl { url, _ in
       if let url = url {
-        // Your Survey URL = Use this for custom webview
+        // NOTE: Your Survey URL = Use this for custom webview
         print("\(url.url) // \(url.token)")
       }
     }

@@ -1,4 +1,4 @@
-import MobileSurveySdk
+import ConfirmitMobileSDK
 import UIKit
 
 @UIApplicationMain
@@ -29,6 +29,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 class AppUniqueDeviceIdProvider: UniqueIdProvider {
     func getUniqueId() -> String {
-        return AppConfigs.uniqueId
+        return "<My Unique ID>"
     }
 }

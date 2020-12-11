@@ -3,8 +3,8 @@
 // swift-module-flags: -target x86_64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ConfirmitMobileSDK
 @_exported import ConfirmitMobileSDK
 import Foundation
-import GRDB
 import JavaScriptCore
+import SQLite3
 import SSZipArchive
 import Security
 import Swift
@@ -19,7 +19,7 @@ public protocol AccessTokenProvider {
 public protocol ConfirmitModule {
   func initialize(setup: ConfirmitMobileSDK.ConfirmitSDK.Setup)
 }
-public class ConfirmitSDK {
+public enum ConfirmitSDK {
   public static func setAccessTokenProvider(provider: ConfirmitMobileSDK.AccessTokenProvider?)
   public static func enableLog(enable: Swift.Bool, oslog: Swift.Bool = true)
   public class Setup {
@@ -28,9 +28,8 @@ public class ConfirmitSDK {
     public func configure()
     @objc deinit
   }
-  @objc deinit
 }
-public class ConfirmitServer {
+public enum ConfirmitServer {
   public static var us: ConfirmitMobileSDK.Server! {
     get
     }
@@ -62,7 +61,6 @@ public class ConfirmitServer {
   public static func configure(name: Swift.String, host: Swift.String, clientId: Swift.String, clientSecret: Swift.String) throws -> ConfirmitMobileSDK.Server
   public static func getServer(serverId: Swift.String) throws -> ConfirmitMobileSDK.Server?
   public static func getServers() throws -> [ConfirmitMobileSDK.Server]
-  @objc deinit
 }
 public class DefaultQuestion : ConfirmitMobileSDK.Question {
   final public let id: Swift.String
@@ -85,7 +83,7 @@ public class DefaultQuestion : ConfirmitMobileSDK.Question {
   @objc deinit
 }
 extension ExternalWebViewController : WebKit.WKNavigationDelegate {
-  @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+  @objc dynamic public func webView(_: WebKit.WKWebView, didFinish _: WebKit.WKNavigation!)
 }
 public class InfoQuestion : ConfirmitMobileSDK.Question {
   final public let nodeType: ConfirmitMobileSDK.QuestionType
@@ -141,7 +139,7 @@ public class TriggerInfo {
 public protocol ProgramCallback {
   func onSurveyDownloadCompleted(triggerInfo: ConfirmitMobileSDK.TriggerInfo, surveyId: Swift.String, error: Swift.Error?)
   func onSurveyStart(config: ConfirmitMobileSDK.SurveyFrameConfig)
-  func onScenarioStart(triggerInfo: ConfirmitMobileSDK.TriggerInfo, error: Swift.Error?)
+  func onScenarioLoad(triggerInfo: ConfirmitMobileSDK.TriggerInfo, error: Swift.Error?)
   func onScenarioError(triggerInfo: ConfirmitMobileSDK.TriggerInfo, error: Swift.Error)
   func onAppFeedback(triggerInfo: ConfirmitMobileSDK.TriggerInfo, data: [Swift.String : Swift.String?])
   func onWebSurveyStart(surveyWebView: ConfirmitMobileSDK.SurveyWebViewController)
@@ -286,13 +284,16 @@ public typealias SurveyDownloadCompletion = (Swift.Bool, Swift.Error?) -> Swift.
 public protocol UniqueIdProvider {
   func getUniqueId() -> Swift.String
 }
-public class SurveySDK {
+public protocol SurveyScriptBridge {
+  func consoleLog(text: Swift.String)
+}
+public enum SurveySDK {
   public static func setUniqueIdProvider(provider: ConfirmitMobileSDK.UniqueIdProvider?)
+  public static func setScriptBridge(bridge: ConfirmitMobileSDK.SurveyScriptBridge?)
   public static func getSurvey(serverId: Swift.String, surveyId: Swift.String) throws -> ConfirmitMobileSDK.Survey?
   public static func deleteSurvey(serverId: Swift.String, surveyId: Swift.String) throws
   public static func getSurveyList() throws -> [ConfirmitMobileSDK.Survey]
   public static func downloadSurvey(serverId: Swift.String, surveyId: Swift.String, completion: @escaping ConfirmitMobileSDK.SurveyDownloadCompletion)
-  @objc deinit
 }
 public class SurveyWebViewUrl {
   final public let url: Swift.String
@@ -316,11 +317,11 @@ public typealias SurveyWebViewUrlCompletion = (ConfirmitMobileSDK.SurveyWebViewU
   @objc deinit
 }
 extension SurveyWebViewController : WebKit.WKNavigationDelegate {
-  @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
-  @objc dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
+  @objc dynamic public func webView(_: WebKit.WKWebView, didFinish _: WebKit.WKNavigation!)
+  @objc dynamic public func webView(_: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
 }
 extension SurveyWebViewController : WebKit.WKScriptMessageHandler {
-  @objc dynamic public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+  @objc dynamic public func userContentController(_: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
 }
 public protocol SurveyWebViewControllerDelegate {
   func onWebViewSurveyError(serverId: Swift.String, projectId: Swift.String, error: Swift.Error)
@@ -337,8 +338,12 @@ public class TextQuestion : ConfirmitMobileSDK.DefaultQuestion {
   @objc deinit
 }
 public typealias TriggerDownloadComplete = (Swift.Bool, Swift.Error?) -> Swift.Void
-public class TriggerSDK {
+public protocol ProgramScriptBridge {
+  func consoleLog(text: Swift.String)
+}
+public enum TriggerSDK {
   public static var testMode: Swift.Bool
+  public static func setScriptBridge(bridge: ConfirmitMobileSDK.ProgramScriptBridge?)
   public static func setCallback(serverId: Swift.String, programKey: Swift.String, callback: ConfirmitMobileSDK.ProgramCallback)
   public static func removeCallback(serverId: Swift.String, programKey: Swift.String)
   public static func download(serverId: Swift.String, programKey: Swift.String, completion: @escaping ConfirmitMobileSDK.TriggerDownloadComplete)
@@ -348,11 +353,12 @@ public class TriggerSDK {
   public static func notifyAppForeground(data: [Swift.String : Swift.String?] = [:])
   public static func notifyAppFeedback(data: [Swift.String : Swift.String?] = [:])
   public static func getPrograms(serverId: Swift.String) throws -> [ConfirmitMobileSDK.Program]
+  public static func getProgram(serverId: Swift.String, programKey: Swift.String) throws -> ConfirmitMobileSDK.Program?
+  public static func getActiveScenarioCount(serverId: Swift.String, programKey: Swift.String) throws -> Swift.Int
   public static func deleteProgram(serverId: Swift.String, programKey: Swift.String, deleteCustomData: Swift.Bool) throws
   public static func deleteAll(deleteCustomData: Swift.Bool) throws
   public static func getProgramVariable(serverId: Swift.String, programKey: Swift.String, key: Swift.String) throws -> Swift.String?
   public static func setProgramVariable(serverId: Swift.String, programKey: Swift.String, key: Swift.String, value: Swift.String?) throws
-  @objc deinit
 }
 public enum ValidationError {
   case required

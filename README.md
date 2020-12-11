@@ -20,23 +20,17 @@ Everything you need to get started with integration can be found in the [reposit
 
 ### Prerequisites
 
-* Android API Level 19 or higher (Android 4.4 and above)
+* Android API Level 21 or higher (Android 5.0 and above)
 * [AndroidX](https://developer.android.com/jetpack/androidx/) enabled
-    * To enable AndroidX for your project, please add following to your `gradle.properties` file
-
-        ```
-        android.useAndroidX = true
-        android.enableJetifier = true
-        ```
     * More information about setup and migration for AndroidX can be found [here](https://developer.android.com/jetpack/androidx/)
 * Dependencies
     
     > These dependencies will be automatically downloaded by Gradle sync
     
     * AndroidX
-        * [Room](https://developer.android.com/jetpack/androidx/releases/room) (2.1.0)
-        * [Appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat) (1.1.0)
-        * [WebKit](https://developer.android.com/jetpack/androidx/releases/webkit) (1.2.0)
+        * [Room](https://developer.android.com/jetpack/androidx/releases/room) (2.2.5)
+        * [Appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat) (1.2.0)
+        * [WebKit](https://developer.android.com/jetpack/androidx/releases/webkit) (1.3.0)
     * [Gson](https://github.com/google/gson) (2.8.5)
     * [Mozilla Rhino](https://github.com/mozilla/rhino) (1.7.12)
 
@@ -48,16 +42,18 @@ Add the SDK dependency to the application level `build.gradle` file.
 // build.gradle (Module)
 dependencies {
     ...
-    implementation 'com.confirmit.mobilesdk:mobilesdk:3.1.2'
+    implementation 'com.confirmit.mobilesdk:mobilesdk:3.2.0'
 }
 ```
 
 Once you make these two changes, simply refresh / sync your gradle dependencies.
 
 
-### Proguard
+### R8 / ProGuard
 
-To enable Proguard for your app, include these rules to the Proguard file.
+If you are using R8, the shrinking and obfuscation rules will be included automatically.
+
+ProGuard users must manually add following rules.
 
 ```gradle
 # Rhino
@@ -80,14 +76,13 @@ To enable Proguard for your app, include these rules to the Proguard file.
     > These dependencies will be installed during CocoaPods install. If your project doesn't use CocoaPods, please install dependencies manually
     
     * [SSZipArchive](https://github.com/ZipArchive/ZipArchive) (2.2.2)
-    * [GRDB.swift](https://github.com/groue/GRDB.swift) (4.3.0)
 
 
 ### Installation
 
 #### 1. Using CocoaPods
 
-> Requires CocoaPods 1.9.1 or higher
+> Requires CocoaPods 1.10.0 or higher
 
 **Step 1.** Add local pod path to the `Podfile`.
 ```ruby
@@ -97,7 +92,7 @@ platform :ios, '10.0'
 # Your target
 target 'MyApp' do
   # ... others pods
-  pod 'ConfirmitMobileSDK', '3.1.2'
+  pod 'ConfirmitMobileSDK', '3.2.0'
 end
 ```
 
