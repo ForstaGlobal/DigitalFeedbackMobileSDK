@@ -1,102 +1,353 @@
-<HTML>
-<HEAD>
-<meta charset="UTF-8">
-<title>RespondentDb - mobilesdk</title>
-<link rel="stylesheet" href="../../../style.css">
-</HEAD>
-<BODY>
-<a href="../../index.html">mobilesdk</a>&nbsp;/&nbsp;<a href="../index.html">com.confirmit.mobilesdk.database.domain</a>&nbsp;/&nbsp;<a href="./index.html">RespondentDb</a><br/>
-<br/>
-<h1>RespondentDb</h1>
-<code><span class="keyword">interface </span><span class="identifier">RespondentDb</span></code>
-<h3>Functions</h3>
-<table>
-<tbody>
-<tr>
-<td>
-<h4><a href="cleanup-respondent.html">cleanupRespondent</a></h4>
-</td>
-<td>
-<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">cleanupRespondent</span><span class="symbol">(</span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$cleanupRespondent(kotlin.String, kotlin.String, kotlin.String)/serverId">serverId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$cleanupRespondent(kotlin.String, kotlin.String, kotlin.String)/surveyId">surveyId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$cleanupRespondent(kotlin.String, kotlin.String, kotlin.String)/guid">guid</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
-</tr>
-<tr>
-<td>
-<h4><a href="create-or-update.html">createOrUpdate</a></h4>
-</td>
-<td>
-<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">createOrUpdate</span><span class="symbol">(</span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$createOrUpdate(kotlin.String, kotlin.String, kotlin.String, kotlin.String)/serverId">serverId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$createOrUpdate(kotlin.String, kotlin.String, kotlin.String, kotlin.String)/surveyId">surveyId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$createOrUpdate(kotlin.String, kotlin.String, kotlin.String, kotlin.String)/guid">guid</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$createOrUpdate(kotlin.String, kotlin.String, kotlin.String, kotlin.String)/sid">sid</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
-</tr>
-<tr>
-<td>
-<h4><a href="delete-respondent.html">deleteRespondent</a></h4>
-</td>
-<td>
-<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">deleteRespondent</span><span class="symbol">(</span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$deleteRespondent(kotlin.String, kotlin.String, kotlin.String)/serverId">serverId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$deleteRespondent(kotlin.String, kotlin.String, kotlin.String)/surveyId">surveyId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$deleteRespondent(kotlin.String, kotlin.String, kotlin.String)/guid">guid</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
-</tr>
-<tr>
-<td>
-<h4><a href="get-deleted-respondents.html">getDeletedRespondents</a></h4>
-</td>
-<td>
-<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">getDeletedRespondents</span><span class="symbol">(</span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$getDeletedRespondents(kotlin.String, kotlin.String)/serverId">serverId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$getDeletedRespondents(kotlin.String, kotlin.String)/surveyId">surveyId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="../../com.confirmit.mobilesdk.database.externals/-survey-respondent/index.html"><span class="identifier">SurveyRespondent</span></a><span class="symbol">&gt;</span></code></td>
-</tr>
-<tr>
-<td>
-<h4><a href="get-pending-respondents.html">getPendingRespondents</a></h4>
-</td>
-<td>
-<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">getPendingRespondents</span><span class="symbol">(</span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$getPendingRespondents(kotlin.String, kotlin.String)/serverId">serverId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$getPendingRespondents(kotlin.String, kotlin.String)/surveyId">surveyId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="../../com.confirmit.mobilesdk.database.externals/-survey-respondent/index.html"><span class="identifier">SurveyRespondent</span></a><span class="symbol">&gt;</span></code></td>
-</tr>
-<tr>
-<td>
-<h4><a href="get-respondent.html">getRespondent</a></h4>
-</td>
-<td>
-<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">getRespondent</span><span class="symbol">(</span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$getRespondent(kotlin.String, kotlin.String, kotlin.String)/serverId">serverId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$getRespondent(kotlin.String, kotlin.String, kotlin.String)/surveyId">surveyId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$getRespondent(kotlin.String, kotlin.String, kotlin.String)/guid">guid</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="../../com.confirmit.mobilesdk.database.externals/-survey-respondent/index.html"><span class="identifier">SurveyRespondent</span></a><span class="symbol">?</span></code></td>
-</tr>
-<tr>
-<td>
-<h4><a href="reset-in-progress-to-upload.html">resetInProgressToUpload</a></h4>
-</td>
-<td>
-<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">resetInProgressToUpload</span><span class="symbol">(</span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$resetInProgressToUpload(kotlin.String, kotlin.String)/serverId">serverId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$resetInProgressToUpload(kotlin.String, kotlin.String)/surveyId">surveyId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
-</tr>
-<tr>
-<td>
-<h4><a href="set-update-error.html">setUpdateError</a></h4>
-</td>
-<td>
-<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">setUpdateError</span><span class="symbol">(</span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$setUpdateError(kotlin.String, kotlin.String, kotlin.String)/serverId">serverId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$setUpdateError(kotlin.String, kotlin.String, kotlin.String)/surveyId">surveyId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$setUpdateError(kotlin.String, kotlin.String, kotlin.String)/guid">guid</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
-</tr>
-<tr>
-<td>
-<h4><a href="set-update-pending.html">setUpdatePending</a></h4>
-</td>
-<td>
-<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">setUpdatePending</span><span class="symbol">(</span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$setUpdatePending(kotlin.String, kotlin.String, kotlin.String)/serverId">serverId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$setUpdatePending(kotlin.String, kotlin.String, kotlin.String)/surveyId">surveyId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$setUpdatePending(kotlin.String, kotlin.String, kotlin.String)/guid">guid</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
-</tr>
-<tr>
-<td>
-<h4><a href="set-update-progress.html">setUpdateProgress</a></h4>
-</td>
-<td>
-<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">setUpdateProgress</span><span class="symbol">(</span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$setUpdateProgress(kotlin.String, kotlin.String, kotlin.String)/serverId">serverId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$setUpdateProgress(kotlin.String, kotlin.String, kotlin.String)/surveyId">surveyId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$setUpdateProgress(kotlin.String, kotlin.String, kotlin.String)/guid">guid</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
-</tr>
-<tr>
-<td>
-<h4><a href="set-update-success.html">setUpdateSuccess</a></h4>
-</td>
-<td>
-<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">setUpdateSuccess</span><span class="symbol">(</span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$setUpdateSuccess(kotlin.String, kotlin.String, kotlin.String)/serverId">serverId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$setUpdateSuccess(kotlin.String, kotlin.String, kotlin.String)/surveyId">surveyId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$setUpdateSuccess(kotlin.String, kotlin.String, kotlin.String)/guid">guid</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
-</tr>
-<tr>
-<td>
-<h4><a href="update-status.html">updateStatus</a></h4>
-</td>
-<td>
-<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">updateStatus</span><span class="symbol">(</span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$updateStatus(kotlin.String, kotlin.String, kotlin.String, com.confirmit.mobilesdk.surveyengine.RespondentStatus)/serverId">serverId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$updateStatus(kotlin.String, kotlin.String, kotlin.String, com.confirmit.mobilesdk.surveyengine.RespondentStatus)/surveyId">surveyId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$updateStatus(kotlin.String, kotlin.String, kotlin.String, com.confirmit.mobilesdk.surveyengine.RespondentStatus)/guid">guid</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.confirmit.mobilesdk.database.domain.RespondentDb$updateStatus(kotlin.String, kotlin.String, kotlin.String, com.confirmit.mobilesdk.surveyengine.RespondentStatus)/status">status</span><span class="symbol">:</span>&nbsp;<a href="../../com.confirmit.mobilesdk.surveyengine/-respondent-status/index.html"><span class="identifier">RespondentStatus</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
-</tr>
-</tbody>
-</table>
-</BODY>
-</HTML>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>RespondentDb</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+    <link href="../../../styles/style.css" rel="Stylesheet">
+    <link href="../../../styles/logo-styles.css" rel="Stylesheet">
+    <link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+    <link href="../../../styles/main.css" rel="Stylesheet">
+    <script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+    <script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+    <script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+    <script type="text/javascript" src="../../../scripts/main.js" async="async"></script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="leftColumn">
+        <div id="logo"></div>
+        <div id="paneSearch"></div>
+        <div id="sideMenu"></div>
+      </div>
+      <div id="main">
+        <div id="leftToggler"><span class="icon-toggler"></span></div>
+        <script type="text/javascript" src="../../../scripts/pages.js"></script>
+        <script type="text/javascript" src="../../../scripts/main.js"></script>
+        <div class="main-content" id="content" pageIds="com.confirmit.mobilesdk.database.domain/RespondentDb///PointingToDeclaration//1842126535">
+          <div class="navigation-wrapper" id="navigation-wrapper">
+            <div class="breadcrumbs"><a href="../../index.html">mobilesdk</a>/<a href="../index.html">com.confirmit.mobilesdk.database.domain</a>/<a href="index.html">RespondentDb</a></div>
+            <div class="pull-right d-flex">
+              <div class="filter-section" id="filter-section"><button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":mobilesdk:dokkaHtml/release">androidJvm</button></div>
+              <div id="searchBar"></div>
+            </div>
+          </div>
+          <div class="cover ">
+            <h1 class="cover"><span>Respondent</span><wbr></wbr><span>Db</span></h1>
+            <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">interface <a href="index.html">RespondentDb</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+          </div>
+          <div class="tabbedcontent">
+            <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Functions">Functions</button></div>
+            <div class="tabs-section-body">
+              <h2 class="">Functions</h2>
+              <div class="table" data-togglable="Functions"><a data-name="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FcleanupRespondent%2F%23kotlin.String%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535" anchor-label="cleanupRespondent" id="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FcleanupRespondent%2F%23kotlin.String%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="cleanup-respondent.html">cleanupRespondent</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FcleanupRespondent%2F%23kotlin.String%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="platform-tags ">
+                        <div class="platform-tag jvm-like">androidJvm</div>
+                      </div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">abstract fun <a href="cleanup-respondent.html">cleanupRespondent</a>(serverId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, surveyId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, guid: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FcreateOrUpdate%2F%23kotlin.String%23kotlin.String%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535" anchor-label="createOrUpdate" id="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FcreateOrUpdate%2F%23kotlin.String%23kotlin.String%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="create-or-update.html">createOrUpdate</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FcreateOrUpdate%2F%23kotlin.String%23kotlin.String%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="platform-tags ">
+                        <div class="platform-tag jvm-like">androidJvm</div>
+                      </div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">abstract fun <a href="create-or-update.html">createOrUpdate</a>(serverId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, surveyId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, guid: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, sid: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FdeleteRespondent%2F%23kotlin.String%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535" anchor-label="deleteRespondent" id="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FdeleteRespondent%2F%23kotlin.String%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="delete-respondent.html">deleteRespondent</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FdeleteRespondent%2F%23kotlin.String%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="platform-tags ">
+                        <div class="platform-tag jvm-like">androidJvm</div>
+                      </div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">abstract fun <a href="delete-respondent.html">deleteRespondent</a>(serverId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, surveyId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, guid: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bkotlin%2FAny%2Fequals%2F%23kotlin.Any%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535" anchor-label="equals" id="%5Bkotlin%2FAny%2Fequals%2F%23kotlin.Any%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="../../com.confirmit.mobilesdk.web/-survey-web-view-fragment-callback/index.html#%5Bkotlin%2FAny%2Fequals%2F%23kotlin.Any%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535">equals</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bkotlin%2FAny%2Fequals%2F%23kotlin.Any%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="platform-tags ">
+                        <div class="platform-tag jvm-like">androidJvm</div>
+                      </div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">open operator fun <a href="../../com.confirmit.mobilesdk.web/-survey-web-view-fragment-callback/index.html#%5Bkotlin%2FAny%2Fequals%2F%23kotlin.Any%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535">equals</a>(other: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a>?): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FgetDeletedRespondents%2F%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535" anchor-label="getDeletedRespondents" id="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FgetDeletedRespondents%2F%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="get-deleted-respondents.html">getDeletedRespondents</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FgetDeletedRespondents%2F%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="platform-tags ">
+                        <div class="platform-tag jvm-like">androidJvm</div>
+                      </div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">abstract fun <a href="get-deleted-respondents.html">getDeletedRespondents</a>(serverId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, surveyId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a>&lt;<a href="../../com.confirmit.mobilesdk.database.externals/-survey-respondent/index.html">SurveyRespondent</a>&gt;<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FgetPendingRespondents%2F%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535" anchor-label="getPendingRespondents" id="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FgetPendingRespondents%2F%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="get-pending-respondents.html">getPendingRespondents</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FgetPendingRespondents%2F%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="platform-tags ">
+                        <div class="platform-tag jvm-like">androidJvm</div>
+                      </div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">abstract fun <a href="get-pending-respondents.html">getPendingRespondents</a>(serverId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, surveyId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a>&lt;<a href="../../com.confirmit.mobilesdk.database.externals/-survey-respondent/index.html">SurveyRespondent</a>&gt;<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FgetRespondent%2F%23kotlin.String%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535" anchor-label="getRespondent" id="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FgetRespondent%2F%23kotlin.String%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="get-respondent.html">getRespondent</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FgetRespondent%2F%23kotlin.String%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="platform-tags ">
+                        <div class="platform-tag jvm-like">androidJvm</div>
+                      </div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">abstract fun <a href="get-respondent.html">getRespondent</a>(serverId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, surveyId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, guid: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>): <a href="../../com.confirmit.mobilesdk.database.externals/-survey-respondent/index.html">SurveyRespondent</a>?<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bkotlin%2FAny%2FhashCode%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535" anchor-label="hashCode" id="%5Bkotlin%2FAny%2FhashCode%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="../../com.confirmit.mobilesdk.web/-survey-web-view-fragment-callback/index.html#%5Bkotlin%2FAny%2FhashCode%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535">hashCode</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bkotlin%2FAny%2FhashCode%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="platform-tags ">
+                        <div class="platform-tag jvm-like">androidJvm</div>
+                      </div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">open fun <a href="../../com.confirmit.mobilesdk.web/-survey-web-view-fragment-callback/index.html#%5Bkotlin%2FAny%2FhashCode%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535">hashCode</a>(): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FresetInProgressToUpload%2F%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535" anchor-label="resetInProgressToUpload" id="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FresetInProgressToUpload%2F%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="reset-in-progress-to-upload.html">resetInProgressToUpload</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FresetInProgressToUpload%2F%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="platform-tags ">
+                        <div class="platform-tag jvm-like">androidJvm</div>
+                      </div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">abstract fun <a href="reset-in-progress-to-upload.html">resetInProgressToUpload</a>(serverId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, surveyId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FsetUpdateError%2F%23kotlin.String%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535" anchor-label="setUpdateError" id="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FsetUpdateError%2F%23kotlin.String%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="set-update-error.html">setUpdateError</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FsetUpdateError%2F%23kotlin.String%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="platform-tags ">
+                        <div class="platform-tag jvm-like">androidJvm</div>
+                      </div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">abstract fun <a href="set-update-error.html">setUpdateError</a>(serverId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, surveyId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, guid: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FsetUpdatePending%2F%23kotlin.String%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535" anchor-label="setUpdatePending" id="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FsetUpdatePending%2F%23kotlin.String%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="set-update-pending.html">setUpdatePending</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FsetUpdatePending%2F%23kotlin.String%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="platform-tags ">
+                        <div class="platform-tag jvm-like">androidJvm</div>
+                      </div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">abstract fun <a href="set-update-pending.html">setUpdatePending</a>(serverId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, surveyId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, guid: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FsetUpdateProgress%2F%23kotlin.String%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535" anchor-label="setUpdateProgress" id="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FsetUpdateProgress%2F%23kotlin.String%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="set-update-progress.html">setUpdateProgress</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FsetUpdateProgress%2F%23kotlin.String%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="platform-tags ">
+                        <div class="platform-tag jvm-like">androidJvm</div>
+                      </div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">abstract fun <a href="set-update-progress.html">setUpdateProgress</a>(serverId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, surveyId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, guid: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FsetUpdateSuccess%2F%23kotlin.String%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535" anchor-label="setUpdateSuccess" id="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FsetUpdateSuccess%2F%23kotlin.String%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="set-update-success.html">setUpdateSuccess</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FsetUpdateSuccess%2F%23kotlin.String%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="platform-tags ">
+                        <div class="platform-tag jvm-like">androidJvm</div>
+                      </div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">abstract fun <a href="set-update-success.html">setUpdateSuccess</a>(serverId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, surveyId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, guid: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bkotlin%2FAny%2FtoString%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535" anchor-label="toString" id="%5Bkotlin%2FAny%2FtoString%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="../../com.confirmit.mobilesdk.web/-survey-web-view-fragment-callback/index.html#%5Bkotlin%2FAny%2FtoString%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535">toString</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bkotlin%2FAny%2FtoString%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="platform-tags ">
+                        <div class="platform-tag jvm-like">androidJvm</div>
+                      </div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">open fun <a href="../../com.confirmit.mobilesdk.web/-survey-web-view-fragment-callback/index.html#%5Bkotlin%2FAny%2FtoString%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535">toString</a>(): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FupdateStatus%2F%23kotlin.String%23kotlin.String%23kotlin.String%23com.confirmit.mobilesdk.surveyengine.RespondentStatus%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535" anchor-label="updateStatus" id="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FupdateStatus%2F%23kotlin.String%23kotlin.String%23kotlin.String%23com.confirmit.mobilesdk.surveyengine.RespondentStatus%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="update-status.html">updateStatus</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk.database.domain%2FRespondentDb%2FupdateStatus%2F%23kotlin.String%23kotlin.String%23kotlin.String%23com.confirmit.mobilesdk.surveyengine.RespondentStatus%2FPointingToDeclaration%2F%5D%2FFunctions%2F1842126535"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="platform-tags ">
+                        <div class="platform-tag jvm-like">androidJvm</div>
+                      </div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">abstract fun <a href="update-status.html">updateStatus</a>(serverId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, surveyId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, guid: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, status: <a href="../../com.confirmit.mobilesdk.surveyengine/-respondent-status/index.html">RespondentStatus</a>)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer"><span class="go-to-top-icon"><a href="#content"></a></span><span>© 2020 Copyright</span><span class="pull-right"><span>Sponsored and developed by dokka</span><a href="https://github.com/Kotlin/dokka"><span class="padded-icon"></span></a></span></div>
+      </div>
+    </div>
+  </body>
+</html>
+

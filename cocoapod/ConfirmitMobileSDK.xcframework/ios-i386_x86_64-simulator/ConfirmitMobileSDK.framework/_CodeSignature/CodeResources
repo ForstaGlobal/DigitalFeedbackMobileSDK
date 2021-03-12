@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		TaugV2HMfpkil7cVvYkcwWSmfQg=
+		ncC3PV6Lqi5OUBtSz2c6TOLXN0I=
 		</data>
 		<key>Headers/ConfirmitMobileSDK-Swift.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		pXbtimbEgs0wsxlw/2CIRxy2Kr0=
+		2S6Ke9ogPV6aEScDqqB3lMd29NM=
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		XfuuZhj8OBgsHhq6aAb6ChA7q10=
+		96q1LasA6JljM2jPjPy90Y6Ey/4=
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QsX7MYKpS94TpFyuPlrSE9paZSI=
+		auA3xBBh8YMqPfEXHAD9QNoV2wA=
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/i386.swiftdoc</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/i386.swiftinterface</key>
 		<data>
-		XfuuZhj8OBgsHhq6aAb6ChA7q10=
+		96q1LasA6JljM2jPjPy90Y6Ey/4=
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/i386.swiftmodule</key>
 		<data>
-		QsX7MYKpS94TpFyuPlrSE9paZSI=
+		auA3xBBh8YMqPfEXHAD9QNoV2wA=
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		f0/wscIozwSzdrYVoCgpw0yARMQ=
+		/cO6yC8/kUVHKvfvX+6pC+GJSI8=
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rBXXy6lXaKQvme2u40O2gCjEBUE=
+		H4eQTxoN04wKzQAJfkqCYZhW9k4=
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		f0/wscIozwSzdrYVoCgpw0yARMQ=
+		/cO6yC8/kUVHKvfvX+6pC+GJSI8=
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		rBXXy6lXaKQvme2u40O2gCjEBUE=
+		H4eQTxoN04wKzQAJfkqCYZhW9k4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -79,11 +79,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TaugV2HMfpkil7cVvYkcwWSmfQg=
+			ncC3PV6Lqi5OUBtSz2c6TOLXN0I=
 			</data>
 			<key>hash2</key>
 			<data>
-			KcDNG7tMd9rGMSG6NfW0vwqSQT25GJlRDjOWed2WRXM=
+			dbRcvSyC1B9FhAjOJzTW8zkWXsO1vC6xvd72OW/4FLE=
 			</data>
 		</dict>
 		<key>Headers/ConfirmitMobileSDK-Swift.h</key>
@@ -123,22 +123,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XfuuZhj8OBgsHhq6aAb6ChA7q10=
+			96q1LasA6JljM2jPjPy90Y6Ey/4=
 			</data>
 			<key>hash2</key>
 			<data>
-			MGYW1hs+RYvlA/9GIDPP6J6Wq390R0Udm2YRUCGZM/I=
+			ypeSo/ztb0XcqE7jFknO6gc+Dqwk7colnE3tQ0LL81Y=
 			</data>
 		</dict>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QsX7MYKpS94TpFyuPlrSE9paZSI=
+			auA3xBBh8YMqPfEXHAD9QNoV2wA=
 			</data>
 			<key>hash2</key>
 			<data>
-			mCu5u16VyKktFRXgf6JGkpph5DFIjz0FnQC7mbiDjuA=
+			TYapNO8gElUwJvWv29gWc1PrPzKbeumtUJ1dmMTfb8E=
 			</data>
 		</dict>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/i386.swiftdoc</key>
@@ -156,22 +156,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XfuuZhj8OBgsHhq6aAb6ChA7q10=
+			96q1LasA6JljM2jPjPy90Y6Ey/4=
 			</data>
 			<key>hash2</key>
 			<data>
-			MGYW1hs+RYvlA/9GIDPP6J6Wq390R0Udm2YRUCGZM/I=
+			ypeSo/ztb0XcqE7jFknO6gc+Dqwk7colnE3tQ0LL81Y=
 			</data>
 		</dict>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QsX7MYKpS94TpFyuPlrSE9paZSI=
+			auA3xBBh8YMqPfEXHAD9QNoV2wA=
 			</data>
 			<key>hash2</key>
 			<data>
-			mCu5u16VyKktFRXgf6JGkpph5DFIjz0FnQC7mbiDjuA=
+			TYapNO8gElUwJvWv29gWc1PrPzKbeumtUJ1dmMTfb8E=
 			</data>
 		</dict>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -189,22 +189,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			f0/wscIozwSzdrYVoCgpw0yARMQ=
+			/cO6yC8/kUVHKvfvX+6pC+GJSI8=
 			</data>
 			<key>hash2</key>
 			<data>
-			pZx913fbBjySZuvSM0X5XCFOrJzYQ5XcbDf+Fbt8GFI=
+			CXsfySPpKcEM3H7ylYhqwY0Bopc9G3pkn2qmYy15rFc=
 			</data>
 		</dict>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rBXXy6lXaKQvme2u40O2gCjEBUE=
+			H4eQTxoN04wKzQAJfkqCYZhW9k4=
 			</data>
 			<key>hash2</key>
 			<data>
-			6DD5NFt9LsOeYQG71fSmTDdcVzfRudA/OBVPmN7upGw=
+			dWweGkapwYm7Qx9ChUhjsYfJ+JUwQOIFVYSseKfe1IE=
 			</data>
 		</dict>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -222,22 +222,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			f0/wscIozwSzdrYVoCgpw0yARMQ=
+			/cO6yC8/kUVHKvfvX+6pC+GJSI8=
 			</data>
 			<key>hash2</key>
 			<data>
-			pZx913fbBjySZuvSM0X5XCFOrJzYQ5XcbDf+Fbt8GFI=
+			CXsfySPpKcEM3H7ylYhqwY0Bopc9G3pkn2qmYy15rFc=
 			</data>
 		</dict>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rBXXy6lXaKQvme2u40O2gCjEBUE=
+			H4eQTxoN04wKzQAJfkqCYZhW9k4=
 			</data>
 			<key>hash2</key>
 			<data>
-			6DD5NFt9LsOeYQG71fSmTDdcVzfRudA/OBVPmN7upGw=
+			dWweGkapwYm7Qx9ChUhjsYfJ+JUwQOIFVYSseKfe1IE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

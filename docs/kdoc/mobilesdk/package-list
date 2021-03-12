@@ -1,7 +1,6 @@
-$dokka.format:html
+$dokka.format:html-v1
 $dokka.linkExtension:html
-$dokka.location:com.confirmit.mobilesdk.exts$requireLocalizedString#java.lang.Exceptioncom.confirmit.mobilesdk.exts/java.lang.-exception/require-localized-string.html
-$dokka.location:com.confirmit.mobilesdk.exts$requirePath#android.net.Uricom.confirmit.mobilesdk.exts/android.net.-uri/require-path.html
+
 com.confirmit.mobilesdk
 com.confirmit.mobilesdk.core
 com.confirmit.mobilesdk.database
@@ -20,3 +19,4 @@ com.confirmit.mobilesdk.ui
 com.confirmit.mobilesdk.ui.questions
 com.confirmit.mobilesdk.utils
 com.confirmit.mobilesdk.web
+

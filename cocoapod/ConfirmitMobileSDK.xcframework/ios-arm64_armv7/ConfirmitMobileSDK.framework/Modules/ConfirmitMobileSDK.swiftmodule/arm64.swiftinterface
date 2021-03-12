@@ -13,8 +13,12 @@ import UIKit
 import WebKit
 import os.log
 import os
+public struct TriggerBeaconInfo : Swift.Encodable {
+  public init(uuid: Swift.String, major: Swift.Int?, minor: Swift.Int?)
+  public func encode(to encoder: Swift.Encoder) throws
+}
 public protocol AccessTokenProvider {
-  func getAccessToken() -> Swift.String
+  func getAccessToken(serverId: Swift.String) -> Swift.String?
 }
 public protocol ConfirmitModule {
   func initialize(setup: ConfirmitMobileSDK.ConfirmitSDK.Setup)
@@ -352,6 +356,8 @@ public enum TriggerSDK {
   public static func notifyEvent(event: Swift.String, data: [Swift.String : Swift.String?] = [:])
   public static func notifyAppForeground(data: [Swift.String : Swift.String?] = [:])
   public static func notifyAppFeedback(data: [Swift.String : Swift.String?] = [:])
+  public static func notifyBeaconEnter(triggerBeaconInfo: ConfirmitMobileSDK.TriggerBeaconInfo, data: [Swift.String : Swift.String?] = [:])
+  public static func notifyBeaconExit(triggerBeaconInfo: ConfirmitMobileSDK.TriggerBeaconInfo, data: [Swift.String : Swift.String?] = [:])
   public static func getPrograms(serverId: Swift.String) throws -> [ConfirmitMobileSDK.Program]
   public static func getProgram(serverId: Swift.String, programKey: Swift.String) throws -> ConfirmitMobileSDK.Program?
   public static func getActiveScenarioCount(serverId: Swift.String, programKey: Swift.String) throws -> Swift.Int
