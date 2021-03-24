@@ -1,6 +1,7 @@
 package com.example.myapp.fragments
 
 import android.os.Bundle
+import android.text.InputType
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -99,6 +100,7 @@ class TriggerOverviewFragment(private val program: Program) : Fragment(), OnTrig
                 input.hint = "eg. <key>=<value>;"
                 input.isSingleLine = false
                 input.setText(viewModel.program.configs.customData, TextView.BufferType.EDITABLE)
+                input.inputType = InputType.TYPE_TEXT_FLAG_NO_SUGGESTIONS
 
                 val lp = LinearLayout.LayoutParams(ConstraintLayout.LayoutParams.MATCH_PARENT, ConstraintLayout.LayoutParams.WRAP_CONTENT)
                 val margin = Utils.toPx(context, 16)

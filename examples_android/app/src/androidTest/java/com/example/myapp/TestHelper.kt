@@ -25,8 +25,12 @@ fun findSpinnerElement(text: String): ViewInteraction {
     return Espresso.onView(ViewMatchers.withText(text)).inRoot(RootMatchers.isPlatformPopup())
 }
 
-fun waitElement(text: String): ViewInteraction {
-    return EspressoExtensions.waitForView(ViewMatchers.withText(text))
+fun waitElement(text: String, waitMillis: Int = 5000): ViewInteraction {
+    return EspressoExtensions.waitForView(ViewMatchers.withText(text), waitMillis)
+}
+
+fun waitElementId(@IdRes id: Int, waitMillis: Int = 5000): ViewInteraction {
+    return EspressoExtensions.waitForView(ViewMatchers.withId(id), waitMillis)
 }
 
 fun ViewInteraction.tap() {
