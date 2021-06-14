@@ -42,7 +42,7 @@ Add the SDK dependency to the application level `build.gradle` file.
 // build.gradle (Module)
 dependencies {
     ...
-    implementation 'com.confirmit.mobilesdk:mobilesdk:3.3.1'
+    implementation 'com.confirmit.mobilesdk:mobilesdk:3.4.0'
 }
 ```
 
@@ -67,9 +67,9 @@ ProGuard users must manually add following rules.
 
 ### Prerequisites
 
-* Xcode 11 or higher
+* Xcode 12.4 or higher
 * Target of iOS 10 or higher
-* Swift 5.1 or higher
+* Swift 5.3.2 or higher
 
 * Dependencies
 
@@ -92,7 +92,7 @@ platform :ios, '10.0'
 # Your target
 target 'MyApp' do
   # ... others pods
-  pod 'ConfirmitMobileSDK', '3.3.1'
+  pod 'ConfirmitMobileSDK', '3.4.0'
 end
 ```
 

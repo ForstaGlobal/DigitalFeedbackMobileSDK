@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.1 (swift-5.1-RELEASE)
+// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
 // swift-module-flags: -target armv7-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ConfirmitMobileSDK
 @_exported import ConfirmitMobileSDK
 import Foundation
@@ -13,10 +13,6 @@ import UIKit
 import WebKit
 import os.log
 import os
-public struct TriggerBeaconInfo : Swift.Encodable {
-  public init(uuid: Swift.String, major: Swift.Int?, minor: Swift.Int?)
-  public func encode(to encoder: Swift.Encoder) throws
-}
 public protocol AccessTokenProvider {
   func getAccessToken(serverId: Swift.String) -> Swift.String?
 }
@@ -36,25 +32,25 @@ public enum ConfirmitSDK {
 public enum ConfirmitServer {
   public static var us: ConfirmitMobileSDK.Server! {
     get
-    }
+  }
   public static var uk: ConfirmitMobileSDK.Server! {
     get
-    }
+  }
   public static var australia: ConfirmitMobileSDK.Server! {
     get
-    }
+  }
   public static var nordic: ConfirmitMobileSDK.Server! {
     get
-    }
+  }
   public static var testlab: ConfirmitMobileSDK.Server! {
     get
-    }
+  }
   public static var canada: ConfirmitMobileSDK.Server! {
     get
-    }
+  }
   public static var germany: ConfirmitMobileSDK.Server! {
     get
-    }
+  }
   public static func configureUS(clientId: Swift.String, clientSecret: Swift.String) throws
   public static func configureUK(clientId: Swift.String, clientSecret: Swift.String) throws
   public static func configureAustralia(clientId: Swift.String, clientSecret: Swift.String) throws
@@ -66,7 +62,7 @@ public enum ConfirmitServer {
   public static func getServer(serverId: Swift.String) throws -> ConfirmitMobileSDK.Server?
   public static func getServers() throws -> [ConfirmitMobileSDK.Server]
 }
-public class DefaultQuestion : ConfirmitMobileSDK.Question {
+@_hasMissingDesignatedInitializers public class DefaultQuestion : ConfirmitMobileSDK.Question {
   final public let id: Swift.String
   final public let nodeType: ConfirmitMobileSDK.QuestionType
   final public let title: ConfirmitMobileSDK.QuestionText
@@ -74,22 +70,22 @@ public class DefaultQuestion : ConfirmitMobileSDK.Question {
   final public let instruction: ConfirmitMobileSDK.QuestionText
   public var errors: [ConfirmitMobileSDK.ValidationQuestionError] {
     get
-    }
+  }
   public func validate() throws -> [ConfirmitMobileSDK.ValidationQuestionError]
   @objc deinit
 }
-@objc public class ExternalWebViewController : UIKit.UIViewController {
+@objc @_hasMissingDesignatedInitializers public class ExternalWebViewController : UIKit.UIViewController {
   @objc dynamic public init()
   @objc override dynamic public func viewDidLoad()
   @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
-  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @objc deinit
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
 }
 extension ExternalWebViewController : WebKit.WKNavigationDelegate {
   @objc dynamic public func webView(_: WebKit.WKWebView, didFinish _: WebKit.WKNavigation!)
 }
-public class InfoQuestion : ConfirmitMobileSDK.Question {
+@_hasMissingDesignatedInitializers public class InfoQuestion : ConfirmitMobileSDK.Question {
   final public let nodeType: ConfirmitMobileSDK.QuestionType
   final public let id: Swift.String
   final public let title: ConfirmitMobileSDK.QuestionText
@@ -98,27 +94,27 @@ public class InfoQuestion : ConfirmitMobileSDK.Question {
   @objc deinit
 }
 public typealias JSON = [Swift.String : Any]
-public class MultiQuestion : ConfirmitMobileSDK.DefaultQuestion {
+@_hasMissingDesignatedInitializers public class MultiQuestion : ConfirmitMobileSDK.DefaultQuestion {
   public var answers: [ConfirmitMobileSDK.QuestionAnswer] {
     get
-    }
+  }
   public var appearance: ConfirmitMobileSDK.MultiAppearance {
     get
-    }
+  }
   public func set(answer: ConfirmitMobileSDK.QuestionAnswer, select: Swift.Bool)
   public func get(answer: ConfirmitMobileSDK.QuestionAnswer) -> Swift.Bool
   override public func validate() throws -> [ConfirmitMobileSDK.ValidationQuestionError]
   @objc deinit
 }
-public class NotSupportedQuestion : ConfirmitMobileSDK.Question {
+@_hasMissingDesignatedInitializers public class NotSupportedQuestion : ConfirmitMobileSDK.Question {
   final public let nodeType: ConfirmitMobileSDK.QuestionType
   final public let id: Swift.String
   @objc deinit
 }
-public class NumericQuestion : ConfirmitMobileSDK.DefaultQuestion {
+@_hasMissingDesignatedInitializers public class NumericQuestion : ConfirmitMobileSDK.DefaultQuestion {
   public var appearance: ConfirmitMobileSDK.NumericAppearance {
     get
-    }
+  }
   public func setValue(value: Swift.Double?)
   public func setValue(value: Swift.Int?)
   public func getValue() -> Swift.Double?
@@ -135,7 +131,7 @@ public class Program {
   public init(serverId: Swift.String, programKey: Swift.String, publishedVersion: Swift.Int64, started: Swift.Bool)
   @objc deinit
 }
-public class TriggerInfo {
+@_hasMissingDesignatedInitializers public class TriggerInfo {
   public var serverId: Swift.String
   public var programKey: Swift.String
   @objc deinit
@@ -158,13 +154,13 @@ public protocol Question : AnyObject {
   var id: Swift.String { get }
   var nodeType: ConfirmitMobileSDK.QuestionType { get }
 }
-public class QuestionAnswer {
+@_hasMissingDesignatedInitializers public class QuestionAnswer {
   final public let code: Swift.String
   final public let text: ConfirmitMobileSDK.QuestionText
   final public let isHeader: Swift.Bool
   public var answers: [ConfirmitMobileSDK.QuestionAnswer] {
     get
-    }
+  }
   @objc deinit
 }
 public class QuestionText {
@@ -179,25 +175,25 @@ public class QuestionText {
   public func getAttributed(size: CoreGraphics.CGFloat, color: Swift.String) -> Foundation.NSAttributedString
   @objc deinit
 }
-public class Server {
+@_hasMissingDesignatedInitializers public class Server {
   final public let serverId: Swift.String
   final public let name: Swift.String
   final public let host: Swift.String
   @objc deinit
 }
-public class SingleQuestion : ConfirmitMobileSDK.DefaultQuestion {
+@_hasMissingDesignatedInitializers public class SingleQuestion : ConfirmitMobileSDK.DefaultQuestion {
   public var answers: [ConfirmitMobileSDK.QuestionAnswer] {
     get
-    }
+  }
   public var appearance: ConfirmitMobileSDK.SingleAppearance {
     get
-    }
+  }
   public func select(answer: ConfirmitMobileSDK.QuestionAnswer)
   public func selected() -> ConfirmitMobileSDK.QuestionAnswer?
   override public func validate() throws -> [ConfirmitMobileSDK.ValidationQuestionError]
   @objc deinit
 }
-public class Survey {
+@_hasMissingDesignatedInitializers public class Survey {
   final public let serverId: Swift.String
   final public let surveyId: Swift.String
   final public let name: Swift.String
@@ -235,7 +231,7 @@ public class SurveyFrame {
   weak public var delegate: ConfirmitMobileSDK.SurveyFrameDelegate?
   public var page: ConfirmitMobileSDK.SurveyPage? {
     get
-    }
+  }
   public init()
   final public func load(config: ConfirmitMobileSDK.SurveyFrameConfig) throws
   final public func start() -> ConfirmitMobileSDK.SurveyFrameActionResult
@@ -244,7 +240,7 @@ public class SurveyFrame {
   final public func quit(upload: Swift.Bool) -> ConfirmitMobileSDK.SurveyFrameActionResult
   @objc deinit
 }
-public class SurveyLanguage : Swift.Encodable, Swift.Decodable {
+@_hasMissingDesignatedInitializers public class SurveyLanguage : Swift.Encodable, Swift.Decodable {
   final public let id: Swift.Int
   final public let code: Swift.String
   final public let name: Swift.String
@@ -254,25 +250,25 @@ public class SurveyLanguage : Swift.Encodable, Swift.Decodable {
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
 }
-public class SurveyPage {
+@_hasMissingDesignatedInitializers public class SurveyPage {
   public var questions: [ConfirmitMobileSDK.Question] {
     get
-    }
+  }
   public var title: ConfirmitMobileSDK.QuestionText {
     get
-    }
+  }
   public var text: ConfirmitMobileSDK.QuestionText? {
     get
-    }
+  }
   public var forwardText: Swift.String {
     get
-    }
+  }
   public var backwardText: Swift.String {
     get
-    }
+  }
   public var okText: Swift.String {
     get
-    }
+  }
   public var showForward: Swift.Bool {
     get
   }
@@ -299,14 +295,14 @@ public enum SurveySDK {
   public static func getSurveyList() throws -> [ConfirmitMobileSDK.Survey]
   public static func downloadSurvey(serverId: Swift.String, surveyId: Swift.String, completion: @escaping ConfirmitMobileSDK.SurveyDownloadCompletion)
 }
-public class SurveyWebViewUrl {
+@_hasMissingDesignatedInitializers public class SurveyWebViewUrl {
   final public let url: Swift.String
   final public let token: Swift.String
   final public let urlRequest: Foundation.URLRequest?
   @objc deinit
 }
 public typealias SurveyWebViewUrlCompletion = (ConfirmitMobileSDK.SurveyWebViewUrl?, Swift.Error?) -> Swift.Void
-@objc public class SurveyWebViewController : UIKit.UIViewController {
+@objc @_hasMissingDesignatedInitializers public class SurveyWebViewController : UIKit.UIViewController {
   public var delegate: ConfirmitMobileSDK.SurveyWebViewControllerDelegate?
   public var customData: [Swift.String : Swift.String?] {
     get
@@ -317,8 +313,8 @@ public typealias SurveyWebViewUrlCompletion = (ConfirmitMobileSDK.SurveyWebViewU
   @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
   public func setupWebView(serverId: Swift.String, projectId: Swift.String, customData: [Swift.String : Swift.String?])
-  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @objc deinit
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
 }
 extension SurveyWebViewController : WebKit.WKNavigationDelegate {
   @objc dynamic public func webView(_: WebKit.WKWebView, didFinish _: WebKit.WKNavigation!)
@@ -332,14 +328,18 @@ public protocol SurveyWebViewControllerDelegate {
   func onWebViewSurveyFinished(serverId: Swift.String, projectId: Swift.String)
   func onWebViewSurveyQuit(serverId: Swift.String, projectId: Swift.String)
 }
-public class TextQuestion : ConfirmitMobileSDK.DefaultQuestion {
+@_hasMissingDesignatedInitializers public class TextQuestion : ConfirmitMobileSDK.DefaultQuestion {
   public var appearance: ConfirmitMobileSDK.OpenTextAppearance {
     get
-    }
+  }
   public func setValue(value: Swift.String?)
   public func getValue() -> Swift.String?
   override public func validate() throws -> [ConfirmitMobileSDK.ValidationQuestionError]
   @objc deinit
+}
+public struct TriggerBeaconInfo : Swift.Encodable {
+  public init(uuid: Swift.String, major: Swift.Int?, minor: Swift.Int?)
+  public func encode(to encoder: Swift.Encoder) throws
 }
 public typealias TriggerDownloadComplete = (Swift.Bool, Swift.Error?) -> Swift.Void
 public protocol ProgramScriptBridge {
