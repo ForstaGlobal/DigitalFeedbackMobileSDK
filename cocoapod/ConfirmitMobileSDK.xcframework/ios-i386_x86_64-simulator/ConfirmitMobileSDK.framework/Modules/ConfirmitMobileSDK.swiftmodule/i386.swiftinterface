@@ -42,7 +42,7 @@ public enum ConfirmitServer {
   public static var nordic: ConfirmitMobileSDK.Server! {
     get
   }
-  public static var testlab: ConfirmitMobileSDK.Server! {
+  public static var insights: ConfirmitMobileSDK.Server! {
     get
   }
   public static var canada: ConfirmitMobileSDK.Server! {
@@ -55,7 +55,7 @@ public enum ConfirmitServer {
   public static func configureUK(clientId: Swift.String, clientSecret: Swift.String) throws
   public static func configureAustralia(clientId: Swift.String, clientSecret: Swift.String) throws
   public static func configureNordic(clientId: Swift.String, clientSecret: Swift.String) throws
-  public static func configureTestlab(clientId: Swift.String, clientSecret: Swift.String) throws
+  public static func configureInsights(clientId: Swift.String, clientSecret: Swift.String) throws
   public static func configureCanada(clientId: Swift.String, clientSecret: Swift.String) throws
   public static func configureGermany(clientId: Swift.String, clientSecret: Swift.String) throws
   public static func configure(name: Swift.String, host: Swift.String, clientId: Swift.String, clientSecret: Swift.String) throws -> ConfirmitMobileSDK.Server

@@ -3,5 +3,5 @@ platform :ios, '10.0'
 inhibit_all_warnings!
 
 target 'MyApp' do
-  pod 'ConfirmitMobileSDK', '3.4.0'
+  pod 'ConfirmitMobileSDK', '3.4.1'
 end
