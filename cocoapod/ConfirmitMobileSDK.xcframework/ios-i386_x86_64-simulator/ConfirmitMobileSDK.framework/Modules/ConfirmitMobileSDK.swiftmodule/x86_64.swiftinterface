@@ -181,6 +181,9 @@ public class QuestionText {
   final public let host: Swift.String
   @objc deinit
 }
+extension UIColor {
+  convenience public init?(hexString: Swift.String)
+}
 @_hasMissingDesignatedInitializers public class SingleQuestion : ConfirmitMobileSDK.DefaultQuestion {
   public var answers: [ConfirmitMobileSDK.QuestionAnswer] {
     get

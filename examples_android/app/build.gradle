@@ -70,5 +70,5 @@ dependencies {
     androidTestImplementation "androidx.test.espresso:espresso-web:$test_expresso_version"
 
     // Confirmit SDK
-    implementation 'com.confirmit.mobilesdk:mobilesdk:3.4.1'
+    implementation 'com.confirmit.mobilesdk:mobilesdk:3.4.2'
 }

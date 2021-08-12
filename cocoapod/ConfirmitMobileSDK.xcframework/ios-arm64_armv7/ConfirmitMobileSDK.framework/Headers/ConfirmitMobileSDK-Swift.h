@@ -258,6 +258,7 @@ SWIFT_CLASS("_TtC18ConfirmitMobileSDK23SurveyWebViewController")
 
 
 
+
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
 #endif
@@ -520,6 +521,7 @@ SWIFT_CLASS("_TtC18ConfirmitMobileSDK23SurveyWebViewController")
 - (void)webView:(WKWebView * _Nonnull)_ didFinishNavigation:(WKNavigation * _Null_unspecified)_;
 - (void)webView:(WKWebView * _Nonnull)_ decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
 @end
+
 
 
 
