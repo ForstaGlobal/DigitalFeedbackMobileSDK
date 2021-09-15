@@ -128,7 +128,7 @@ public class Program {
   final public let programKey: Swift.String
   final public let started: Swift.Bool
   final public let publishedVersion: Swift.Int64
-  public init(serverId: Swift.String, programKey: Swift.String, publishedVersion: Swift.Int64, started: Swift.Bool)
+  public init(serverId: Swift.String, programKey: Swift.String, publishedVersion: Swift.Int64, started: Swift.Bool, programUrl: ConfirmitMobileSDK.ProgramUrl)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class TriggerInfo {
@@ -316,6 +316,7 @@ public typealias SurveyWebViewUrlCompletion = (ConfirmitMobileSDK.SurveyWebViewU
   @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
   public func setupWebView(serverId: Swift.String, projectId: Swift.String, customData: [Swift.String : Swift.String?])
+  public func getWebview() -> WebKit.WKWebView?
   @objc deinit
   @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
 }
@@ -342,6 +343,13 @@ public protocol SurveyWebViewControllerDelegate {
 }
 public struct TriggerBeaconInfo : Swift.Encodable {
   public init(uuid: Swift.String, major: Swift.Int?, minor: Swift.Int?)
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@_hasMissingDesignatedInitializers public class ProgramUrl : Swift.Encodable, Swift.Decodable {
+  final public let counterUrl: Swift.String
+  final public let cfrUrl: Swift.String
+  required public init(from decoder: Swift.Decoder) throws
+  @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
 }
 public typealias TriggerDownloadComplete = (Swift.Bool, Swift.Error?) -> Swift.Void
