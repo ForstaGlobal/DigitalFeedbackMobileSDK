@@ -1,0 +1,926 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D6B061D27C95E750031CA3B /* MySPMAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6B061C27C95E750031CA3B /* MySPMAppUITests.swift */; };
+		AF7BAB2625758541006ED859 /* MyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BAB2525758541006ED859 /* MyAppTests.swift */; };
+		AF7BABF025759001006ED859 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7BAB8925759001006ED859 /* LaunchScreen.storyboard */; };
+		AF7BABF125759001006ED859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7BAB8B25759001006ED859 /* Main.storyboard */; };
+		AF7BABF225759001006ED859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7BAB8D25759001006ED859 /* Assets.xcassets */; };
+		AF7BABF325759001006ED859 /* TriggerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BAB9025759001006ED859 /* TriggerListViewModel.swift */; };
+		AF7BABF625759002006ED859 /* ProgramModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BAB9425759001006ED859 /* ProgramModel.swift */; };
+		AF7BABF825759002006ED859 /* TriggerOverviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BAB9625759001006ED859 /* TriggerOverviewViewModel.swift */; };
+		AF7BABF925759002006ED859 /* DefaultLayoutLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BAB9A25759001006ED859 /* DefaultLayoutLabelCell.swift */; };
+		AF7BABFA25759002006ED859 /* DefaultLayoutIconLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BAB9B25759001006ED859 /* DefaultLayoutIconLabelCell.swift */; };
+		AF7BABFB25759002006ED859 /* DefaultLayoutSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BAB9C25759001006ED859 /* DefaultLayoutSectionHeaderView.swift */; };
+		AF7BABFC25759002006ED859 /* DefaultLayoutTextBoxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BAB9D25759001006ED859 /* DefaultLayoutTextBoxCell.swift */; };
+		AF7BABFD25759002006ED859 /* DefaultLayoutClickLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BAB9E25759001006ED859 /* DefaultLayoutClickLabelCell.swift */; };
+		AF7BABFE25759002006ED859 /* DefaultLayoutIconLabelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF7BAB9F25759001006ED859 /* DefaultLayoutIconLabelCell.xib */; };
+		AF7BABFF25759002006ED859 /* DefaultLayoutClickLabelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF7BABA025759001006ED859 /* DefaultLayoutClickLabelCell.xib */; };
+		AF7BAC0025759002006ED859 /* DefaultLayoutTextBoxCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF7BABA125759001006ED859 /* DefaultLayoutTextBoxCell.xib */; };
+		AF7BAC0125759002006ED859 /* DefaultLayoutSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF7BABA225759001006ED859 /* DefaultLayoutSectionHeaderView.xib */; };
+		AF7BAC0225759002006ED859 /* DefaultLayoutLabelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF7BABA325759001006ED859 /* DefaultLayoutLabelCell.xib */; };
+		AF7BAC0325759002006ED859 /* DefaultLayoutController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF7BABA425759001006ED859 /* DefaultLayoutController.xib */; };
+		AF7BAC0425759002006ED859 /* DefaultLayoutStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BABA525759001006ED859 /* DefaultLayoutStyle.swift */; };
+		AF7BAC0525759002006ED859 /* DefaultLayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BABA625759001006ED859 /* DefaultLayoutController.swift */; };
+		AF7BAC0625759002006ED859 /* DefaultLayoutClickLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BABA825759001006ED859 /* DefaultLayoutClickLabel.swift */; };
+		AF7BAC0725759002006ED859 /* DefaultLayoutSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BABA925759001006ED859 /* DefaultLayoutSection.swift */; };
+		AF7BAC0825759002006ED859 /* DefaultLayoutLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BABAA25759001006ED859 /* DefaultLayoutLabel.swift */; };
+		AF7BAC0925759002006ED859 /* DefaultLayoutItemUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BABAB25759001006ED859 /* DefaultLayoutItemUtils.swift */; };
+		AF7BAC0A25759002006ED859 /* DefaultLayoutItemFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BABAC25759001006ED859 /* DefaultLayoutItemFactory.swift */; };
+		AF7BAC0B25759002006ED859 /* DefaultLayoutIconLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BABAD25759001006ED859 /* DefaultLayoutIconLabel.swift */; };
+		AF7BAC0C25759002006ED859 /* DefaultLayoutTextBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BABAE25759001006ED859 /* DefaultLayoutTextBox.swift */; };
+		AF7BAC2325759002006ED859 /* AppExts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BABCA25759001006ED859 /* AppExts.swift */; };
+		AF7BAC2425759002006ED859 /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BABCC25759001006ED859 /* KeyboardLayoutConstraint.swift */; };
+		AF7BAC2525759002006ED859 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BABCD25759001006ED859 /* Utils.swift */; };
+		AF7BAC2725759002006ED859 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BABCF25759001006ED859 /* AppConstants.swift */; };
+		AF7BAC2825759002006ED859 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BABD025759001006ED859 /* AppDelegate.swift */; };
+		AF7BAC2925759002006ED859 /* AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BABD125759001006ED859 /* AppStyle.swift */; };
+		AF7BAC2A25759002006ED859 /* TriggerOverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BABD325759001006ED859 /* TriggerOverviewController.swift */; };
+		AF7BAC2D25759002006ED859 /* TriggerListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BABD625759001006ED859 /* TriggerListController.swift */; };
+		AF7BAC2F25759002006ED859 /* TextboxController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF7BABD925759001006ED859 /* TextboxController.xib */; };
+		AF7BAC3125759002006ED859 /* LoadingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BABDB25759001006ED859 /* LoadingController.swift */; };
+		AF7BAC3225759002006ED859 /* AddTriggerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF7BABDC25759001006ED859 /* AddTriggerController.xib */; };
+		AF7BAC3325759002006ED859 /* LoadingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF7BABDD25759001006ED859 /* LoadingController.xib */; };
+		AF7BAC3425759002006ED859 /* SelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BABDE25759001006ED859 /* SelectionController.swift */; };
+		AF7BAC3525759002006ED859 /* TextboxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BABDF25759001006ED859 /* TextboxController.swift */; };
+		AF7BAC3625759002006ED859 /* AddTriggerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BABE025759001006ED859 /* AddTriggerController.swift */; };
+		AF7BAC3825759002006ED859 /* SelectionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF7BABE225759001006ED859 /* SelectionController.xib */; };
+		AF7BAC3925759002006ED859 /* LabelTableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BABE425759001006ED859 /* LabelTableHeader.swift */; };
+		AF7BAC3A25759002006ED859 /* LabelTableHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF7BABE525759001006ED859 /* LabelTableHeader.xib */; };
+		AF7BAC3B25759002006ED859 /* SelectOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BABE625759001006ED859 /* SelectOptionCell.swift */; };
+		AF7BAC3C25759002006ED859 /* SelectOptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF7BABE725759001006ED859 /* SelectOptionCell.xib */; };
+		AF7BAC3F25759002006ED859 /* TriggerCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BABEB25759001006ED859 /* TriggerCallback.swift */; };
+		AF7BAC4025759002006ED859 /* TriggerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BABEC25759001006ED859 /* TriggerManager.swift */; };
+		AF7BAC4125759002006ED859 /* SurveyWebViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BABED25759001006ED859 /* SurveyWebViewDelegate.swift */; };
+		AF7BAC4225759002006ED859 /* SurveyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BABEE25759001006ED859 /* SurveyManager.swift */; };
+		AF7BACF62575B8CF006ED859 /* ProgramConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BACF52575B8CF006ED859 /* ProgramConfig.swift */; };
+		AF7BAD072575BA60006ED859 /* SurveyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BAD062575BA60006ED859 /* SurveyModel.swift */; };
+		AF7BAD0C2575BA68006ED859 /* SurveyLayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BAD0B2575BA68006ED859 /* SurveyLayoutController.swift */; };
+		AFC4A94C27CCB002003CEE9D /* ConfirmitMobileSDK in Frameworks */ = {isa = PBXBuildFile; productRef = AFC4A94B27CCB002003CEE9D /* ConfirmitMobileSDK */; };
+		AFF023E32580CF0D0016D969 /* TestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF023E22580CF0D0016D969 /* TestHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF7BAB2225758541006ED859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF7BAB0325758540006ED859 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF7BAB0A25758540006ED859;
+			remoteInfo = MyApp;
+		};
+		AF7BAB2D25758541006ED859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF7BAB0325758540006ED859 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF7BAB0A25758540006ED859;
+			remoteInfo = MyApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D6B061C27C95E750031CA3B /* MySPMAppUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySPMAppUITests.swift; sourceTree = "<group>"; };
+		AF7BAB0B25758540006ED859 /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7BAB2125758541006ED859 /* MyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7BAB2525758541006ED859 /* MyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppTests.swift; sourceTree = "<group>"; };
+		AF7BAB2725758541006ED859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF7BAB2C25758541006ED859 /* MyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7BAB3225758541006ED859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF7BAB8A25759001006ED859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF7BAB8C25759001006ED859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF7BAB8D25759001006ED859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF7BAB9025759001006ED859 /* TriggerListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriggerListViewModel.swift; sourceTree = "<group>"; };
+		AF7BAB9425759001006ED859 /* ProgramModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramModel.swift; sourceTree = "<group>"; };
+		AF7BAB9625759001006ED859 /* TriggerOverviewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriggerOverviewViewModel.swift; sourceTree = "<group>"; };
+		AF7BAB9A25759001006ED859 /* DefaultLayoutLabelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultLayoutLabelCell.swift; sourceTree = "<group>"; };
+		AF7BAB9B25759001006ED859 /* DefaultLayoutIconLabelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultLayoutIconLabelCell.swift; sourceTree = "<group>"; };
+		AF7BAB9C25759001006ED859 /* DefaultLayoutSectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultLayoutSectionHeaderView.swift; sourceTree = "<group>"; };
+		AF7BAB9D25759001006ED859 /* DefaultLayoutTextBoxCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultLayoutTextBoxCell.swift; sourceTree = "<group>"; };
+		AF7BAB9E25759001006ED859 /* DefaultLayoutClickLabelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultLayoutClickLabelCell.swift; sourceTree = "<group>"; };
+		AF7BAB9F25759001006ED859 /* DefaultLayoutIconLabelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultLayoutIconLabelCell.xib; sourceTree = "<group>"; };
+		AF7BABA025759001006ED859 /* DefaultLayoutClickLabelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultLayoutClickLabelCell.xib; sourceTree = "<group>"; };
+		AF7BABA125759001006ED859 /* DefaultLayoutTextBoxCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultLayoutTextBoxCell.xib; sourceTree = "<group>"; };
+		AF7BABA225759001006ED859 /* DefaultLayoutSectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultLayoutSectionHeaderView.xib; sourceTree = "<group>"; };
+		AF7BABA325759001006ED859 /* DefaultLayoutLabelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultLayoutLabelCell.xib; sourceTree = "<group>"; };
+		AF7BABA425759001006ED859 /* DefaultLayoutController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultLayoutController.xib; sourceTree = "<group>"; };
+		AF7BABA525759001006ED859 /* DefaultLayoutStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultLayoutStyle.swift; sourceTree = "<group>"; };
+		AF7BABA625759001006ED859 /* DefaultLayoutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultLayoutController.swift; sourceTree = "<group>"; };
+		AF7BABA825759001006ED859 /* DefaultLayoutClickLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultLayoutClickLabel.swift; sourceTree = "<group>"; };
+		AF7BABA925759001006ED859 /* DefaultLayoutSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultLayoutSection.swift; sourceTree = "<group>"; };
+		AF7BABAA25759001006ED859 /* DefaultLayoutLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultLayoutLabel.swift; sourceTree = "<group>"; };
+		AF7BABAB25759001006ED859 /* DefaultLayoutItemUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultLayoutItemUtils.swift; sourceTree = "<group>"; };
+		AF7BABAC25759001006ED859 /* DefaultLayoutItemFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultLayoutItemFactory.swift; sourceTree = "<group>"; };
+		AF7BABAD25759001006ED859 /* DefaultLayoutIconLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultLayoutIconLabel.swift; sourceTree = "<group>"; };
+		AF7BABAE25759001006ED859 /* DefaultLayoutTextBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultLayoutTextBox.swift; sourceTree = "<group>"; };
+		AF7BABCA25759001006ED859 /* AppExts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppExts.swift; sourceTree = "<group>"; };
+		AF7BABCC25759001006ED859 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		AF7BABCD25759001006ED859 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		AF7BABCF25759001006ED859 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		AF7BABD025759001006ED859 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF7BABD125759001006ED859 /* AppStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStyle.swift; sourceTree = "<group>"; };
+		AF7BABD325759001006ED859 /* TriggerOverviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriggerOverviewController.swift; sourceTree = "<group>"; };
+		AF7BABD625759001006ED859 /* TriggerListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriggerListController.swift; sourceTree = "<group>"; };
+		AF7BABD925759001006ED859 /* TextboxController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextboxController.xib; sourceTree = "<group>"; };
+		AF7BABDB25759001006ED859 /* LoadingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingController.swift; sourceTree = "<group>"; };
+		AF7BABDC25759001006ED859 /* AddTriggerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddTriggerController.xib; sourceTree = "<group>"; };
+		AF7BABDD25759001006ED859 /* LoadingController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingController.xib; sourceTree = "<group>"; };
+		AF7BABDE25759001006ED859 /* SelectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionController.swift; sourceTree = "<group>"; };
+		AF7BABDF25759001006ED859 /* TextboxController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextboxController.swift; sourceTree = "<group>"; };
+		AF7BABE025759001006ED859 /* AddTriggerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTriggerController.swift; sourceTree = "<group>"; };
+		AF7BABE225759001006ED859 /* SelectionController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectionController.xib; sourceTree = "<group>"; };
+		AF7BABE425759001006ED859 /* LabelTableHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelTableHeader.swift; sourceTree = "<group>"; };
+		AF7BABE525759001006ED859 /* LabelTableHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelTableHeader.xib; sourceTree = "<group>"; };
+		AF7BABE625759001006ED859 /* SelectOptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectOptionCell.swift; sourceTree = "<group>"; };
+		AF7BABE725759001006ED859 /* SelectOptionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectOptionCell.xib; sourceTree = "<group>"; };
+		AF7BABEB25759001006ED859 /* TriggerCallback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriggerCallback.swift; sourceTree = "<group>"; };
+		AF7BABEC25759001006ED859 /* TriggerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriggerManager.swift; sourceTree = "<group>"; };
+		AF7BABED25759001006ED859 /* SurveyWebViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyWebViewDelegate.swift; sourceTree = "<group>"; };
+		AF7BABEE25759001006ED859 /* SurveyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyManager.swift; sourceTree = "<group>"; };
+		AF7BABEF25759001006ED859 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF7BACF52575B8CF006ED859 /* ProgramConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramConfig.swift; sourceTree = "<group>"; };
+		AF7BAD062575BA60006ED859 /* SurveyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyModel.swift; sourceTree = "<group>"; };
+		AF7BAD0B2575BA68006ED859 /* SurveyLayoutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyLayoutController.swift; sourceTree = "<group>"; };
+		AFC4A94727CCAFEF003CEE9D /* library */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = library; sourceTree = "<group>"; };
+		AFF023E22580CF0D0016D969 /* TestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF7BAB0825758540006ED859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC4A94C27CCB002003CEE9D /* ConfirmitMobileSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7BAB1E25758541006ED859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7BAB2925758541006ED859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D6B061727C854E30031CA3B /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				AFC4A94727CCAFEF003CEE9D /* library */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		AF7BAB0225758540006ED859 = {
+			isa = PBXGroup;
+			children = (
+				2D6B061727C854E30031CA3B /* Packages */,
+				AF7BAB8725759001006ED859 /* MyApp */,
+				AF7BAB2425758541006ED859 /* MyAppTests */,
+				AF7BAB2F25758541006ED859 /* MyAppUITests */,
+				AF7BAB0C25758540006ED859 /* Products */,
+				AFC4A94827CCAFF9003CEE9D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AF7BAB0C25758540006ED859 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF7BAB0B25758540006ED859 /* MyApp.app */,
+				AF7BAB2125758541006ED859 /* MyAppTests.xctest */,
+				AF7BAB2C25758541006ED859 /* MyAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF7BAB2425758541006ED859 /* MyAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF7BAB2725758541006ED859 /* Info.plist */,
+				AF7BAB2525758541006ED859 /* MyAppTests.swift */,
+			);
+			path = MyAppTests;
+			sourceTree = "<group>";
+		};
+		AF7BAB2F25758541006ED859 /* MyAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF7BAB3225758541006ED859 /* Info.plist */,
+				2D6B061C27C95E750031CA3B /* MySPMAppUITests.swift */,
+				AFF023E22580CF0D0016D969 /* TestHelper.swift */,
+			);
+			path = MyAppUITests;
+			sourceTree = "<group>";
+		};
+		AF7BAB8725759001006ED859 /* MyApp */ = {
+			isa = PBXGroup;
+			children = (
+				AF7BABEF25759001006ED859 /* Info.plist */,
+				AF7BAB8D25759001006ED859 /* Assets.xcassets */,
+				AF7BAB8825759001006ED859 /* Resources */,
+				AF7BAB8E25759001006ED859 /* Sources */,
+			);
+			path = MyApp;
+			sourceTree = "<group>";
+		};
+		AF7BAB8825759001006ED859 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AF7BAB8925759001006ED859 /* LaunchScreen.storyboard */,
+				AF7BAB8B25759001006ED859 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AF7BAB8E25759001006ED859 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AF7BABCF25759001006ED859 /* AppConstants.swift */,
+				AF7BABD025759001006ED859 /* AppDelegate.swift */,
+				AF7BABCA25759001006ED859 /* AppExts.swift */,
+				AF7BABD125759001006ED859 /* AppStyle.swift */,
+				AF7BABD225759001006ED859 /* Controllers */,
+				AF7BABEA25759001006ED859 /* Domain */,
+				AF7BAB9725759001006ED859 /* SurveyLayouts */,
+				AF7BABCB25759001006ED859 /* Utils */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		AF7BAB8F25759001006ED859 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AF7BAB9025759001006ED859 /* TriggerListViewModel.swift */,
+				AF7BAB9625759001006ED859 /* TriggerOverviewViewModel.swift */,
+				AF7BAB9225759001006ED859 /* Models */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AF7BAB9225759001006ED859 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AF7BAB9425759001006ED859 /* ProgramModel.swift */,
+				AF7BAD062575BA60006ED859 /* SurveyModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AF7BAB9725759001006ED859 /* SurveyLayouts */ = {
+			isa = PBXGroup;
+			children = (
+				AF7BAB9825759001006ED859 /* DefaultLayout */,
+			);
+			path = SurveyLayouts;
+			sourceTree = "<group>";
+		};
+		AF7BAB9825759001006ED859 /* DefaultLayout */ = {
+			isa = PBXGroup;
+			children = (
+				AF7BABA625759001006ED859 /* DefaultLayoutController.swift */,
+				AF7BABA525759001006ED859 /* DefaultLayoutStyle.swift */,
+				AF7BABA425759001006ED859 /* DefaultLayoutController.xib */,
+				AF7BAB9925759001006ED859 /* Cells */,
+				AF7BABA725759001006ED859 /* Items */,
+			);
+			path = DefaultLayout;
+			sourceTree = "<group>";
+		};
+		AF7BAB9925759001006ED859 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AF7BAB9E25759001006ED859 /* DefaultLayoutClickLabelCell.swift */,
+				AF7BAB9B25759001006ED859 /* DefaultLayoutIconLabelCell.swift */,
+				AF7BAB9A25759001006ED859 /* DefaultLayoutLabelCell.swift */,
+				AF7BAB9C25759001006ED859 /* DefaultLayoutSectionHeaderView.swift */,
+				AF7BAB9D25759001006ED859 /* DefaultLayoutTextBoxCell.swift */,
+				AF7BABA025759001006ED859 /* DefaultLayoutClickLabelCell.xib */,
+				AF7BAB9F25759001006ED859 /* DefaultLayoutIconLabelCell.xib */,
+				AF7BABA325759001006ED859 /* DefaultLayoutLabelCell.xib */,
+				AF7BABA225759001006ED859 /* DefaultLayoutSectionHeaderView.xib */,
+				AF7BABA125759001006ED859 /* DefaultLayoutTextBoxCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		AF7BABA725759001006ED859 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				AF7BABA825759001006ED859 /* DefaultLayoutClickLabel.swift */,
+				AF7BABAD25759001006ED859 /* DefaultLayoutIconLabel.swift */,
+				AF7BABAC25759001006ED859 /* DefaultLayoutItemFactory.swift */,
+				AF7BABAB25759001006ED859 /* DefaultLayoutItemUtils.swift */,
+				AF7BABAA25759001006ED859 /* DefaultLayoutLabel.swift */,
+				AF7BABA925759001006ED859 /* DefaultLayoutSection.swift */,
+				AF7BABAE25759001006ED859 /* DefaultLayoutTextBox.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		AF7BABCB25759001006ED859 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AF7BABCC25759001006ED859 /* KeyboardLayoutConstraint.swift */,
+				AF7BABCD25759001006ED859 /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AF7BABD225759001006ED859 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AF7BAD0B2575BA68006ED859 /* SurveyLayoutController.swift */,
+				AF7BABD625759001006ED859 /* TriggerListController.swift */,
+				AF7BABD325759001006ED859 /* TriggerOverviewController.swift */,
+				AF7BABD825759001006ED859 /* Dialogs */,
+				AF7BAB8F25759001006ED859 /* ViewModels */,
+				AF7BABE325759001006ED859 /* Views */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AF7BABD825759001006ED859 /* Dialogs */ = {
+			isa = PBXGroup;
+			children = (
+				AF7BABE025759001006ED859 /* AddTriggerController.swift */,
+				AF7BABDB25759001006ED859 /* LoadingController.swift */,
+				AF7BABDE25759001006ED859 /* SelectionController.swift */,
+				AF7BABDF25759001006ED859 /* TextboxController.swift */,
+				AF7BABDC25759001006ED859 /* AddTriggerController.xib */,
+				AF7BABDD25759001006ED859 /* LoadingController.xib */,
+				AF7BABE225759001006ED859 /* SelectionController.xib */,
+				AF7BABD925759001006ED859 /* TextboxController.xib */,
+			);
+			path = Dialogs;
+			sourceTree = "<group>";
+		};
+		AF7BABE325759001006ED859 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF7BABE425759001006ED859 /* LabelTableHeader.swift */,
+				AF7BABE625759001006ED859 /* SelectOptionCell.swift */,
+				AF7BABE525759001006ED859 /* LabelTableHeader.xib */,
+				AF7BABE725759001006ED859 /* SelectOptionCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AF7BABEA25759001006ED859 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				AF7BABEE25759001006ED859 /* SurveyManager.swift */,
+				AF7BABED25759001006ED859 /* SurveyWebViewDelegate.swift */,
+				AF7BABEB25759001006ED859 /* TriggerCallback.swift */,
+				AF7BABEC25759001006ED859 /* TriggerManager.swift */,
+				AF7BACF52575B8CF006ED859 /* ProgramConfig.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		AFC4A94827CCAFF9003CEE9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF7BAB0A25758540006ED859 /* MyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF7BAB3525758541006ED859 /* Build configuration list for PBXNativeTarget "MyApp" */;
+			buildPhases = (
+				AF7BAB0725758540006ED859 /* Sources */,
+				AF7BAB0825758540006ED859 /* Frameworks */,
+				AF7BAB0925758540006ED859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyApp;
+			packageProductDependencies = (
+				AFC4A94B27CCB002003CEE9D /* ConfirmitMobileSDK */,
+			);
+			productName = MyApp;
+			productReference = AF7BAB0B25758540006ED859 /* MyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF7BAB2025758541006ED859 /* MyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF7BAB3825758541006ED859 /* Build configuration list for PBXNativeTarget "MyAppTests" */;
+			buildPhases = (
+				AF7BAB1D25758541006ED859 /* Sources */,
+				AF7BAB1E25758541006ED859 /* Frameworks */,
+				AF7BAB1F25758541006ED859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF7BAB2325758541006ED859 /* PBXTargetDependency */,
+			);
+			name = MyAppTests;
+			productName = MyAppTests;
+			productReference = AF7BAB2125758541006ED859 /* MyAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF7BAB2B25758541006ED859 /* MyAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF7BAB3B25758541006ED859 /* Build configuration list for PBXNativeTarget "MyAppUITests" */;
+			buildPhases = (
+				AF7BAB2825758541006ED859 /* Sources */,
+				AF7BAB2925758541006ED859 /* Frameworks */,
+				AF7BAB2A25758541006ED859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF7BAB2E25758541006ED859 /* PBXTargetDependency */,
+			);
+			name = MyAppUITests;
+			productName = MyAppUITests;
+			productReference = AF7BAB2C25758541006ED859 /* MyAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF7BAB0325758540006ED859 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					AF7BAB0A25758540006ED859 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					AF7BAB2025758541006ED859 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = AF7BAB0A25758540006ED859;
+					};
+					AF7BAB2B25758541006ED859 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = AF7BAB0A25758540006ED859;
+					};
+				};
+			};
+			buildConfigurationList = AF7BAB0625758540006ED859 /* Build configuration list for PBXProject "MySPMApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF7BAB0225758540006ED859;
+			productRefGroup = AF7BAB0C25758540006ED859 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF7BAB0A25758540006ED859 /* MyApp */,
+				AF7BAB2025758541006ED859 /* MyAppTests */,
+				AF7BAB2B25758541006ED859 /* MyAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF7BAB0925758540006ED859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7BABFF25759002006ED859 /* DefaultLayoutClickLabelCell.xib in Resources */,
+				AF7BABF025759001006ED859 /* LaunchScreen.storyboard in Resources */,
+				AF7BAC3825759002006ED859 /* SelectionController.xib in Resources */,
+				AF7BAC3A25759002006ED859 /* LabelTableHeader.xib in Resources */,
+				AF7BABF225759001006ED859 /* Assets.xcassets in Resources */,
+				AF7BAC2F25759002006ED859 /* TextboxController.xib in Resources */,
+				AF7BABF125759001006ED859 /* Main.storyboard in Resources */,
+				AF7BAC3C25759002006ED859 /* SelectOptionCell.xib in Resources */,
+				AF7BAC0025759002006ED859 /* DefaultLayoutTextBoxCell.xib in Resources */,
+				AF7BAC0125759002006ED859 /* DefaultLayoutSectionHeaderView.xib in Resources */,
+				AF7BAC0325759002006ED859 /* DefaultLayoutController.xib in Resources */,
+				AF7BAC0225759002006ED859 /* DefaultLayoutLabelCell.xib in Resources */,
+				AF7BAC3325759002006ED859 /* LoadingController.xib in Resources */,
+				AF7BABFE25759002006ED859 /* DefaultLayoutIconLabelCell.xib in Resources */,
+				AF7BAC3225759002006ED859 /* AddTriggerController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7BAB1F25758541006ED859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7BAB2A25758541006ED859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF7BAB0725758540006ED859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7BABFD25759002006ED859 /* DefaultLayoutClickLabelCell.swift in Sources */,
+				AF7BAC0925759002006ED859 /* DefaultLayoutItemUtils.swift in Sources */,
+				AF7BACF62575B8CF006ED859 /* ProgramConfig.swift in Sources */,
+				AF7BABF325759001006ED859 /* TriggerListViewModel.swift in Sources */,
+				AF7BABFB25759002006ED859 /* DefaultLayoutSectionHeaderView.swift in Sources */,
+				AF7BAD072575BA60006ED859 /* SurveyModel.swift in Sources */,
+				AF7BAC2325759002006ED859 /* AppExts.swift in Sources */,
+				AF7BAC2925759002006ED859 /* AppStyle.swift in Sources */,
+				AF7BAC0525759002006ED859 /* DefaultLayoutController.swift in Sources */,
+				AF7BAC2525759002006ED859 /* Utils.swift in Sources */,
+				AF7BAC3425759002006ED859 /* SelectionController.swift in Sources */,
+				AF7BAC0625759002006ED859 /* DefaultLayoutClickLabel.swift in Sources */,
+				AF7BAC0A25759002006ED859 /* DefaultLayoutItemFactory.swift in Sources */,
+				AF7BAC0825759002006ED859 /* DefaultLayoutLabel.swift in Sources */,
+				AF7BAC3925759002006ED859 /* LabelTableHeader.swift in Sources */,
+				AF7BAC0B25759002006ED859 /* DefaultLayoutIconLabel.swift in Sources */,
+				AF7BAC2725759002006ED859 /* AppConstants.swift in Sources */,
+				AF7BABF825759002006ED859 /* TriggerOverviewViewModel.swift in Sources */,
+				AF7BAC3125759002006ED859 /* LoadingController.swift in Sources */,
+				AF7BAC2825759002006ED859 /* AppDelegate.swift in Sources */,
+				AF7BAC2425759002006ED859 /* KeyboardLayoutConstraint.swift in Sources */,
+				AF7BAC4025759002006ED859 /* TriggerManager.swift in Sources */,
+				AF7BAC2A25759002006ED859 /* TriggerOverviewController.swift in Sources */,
+				AF7BABF925759002006ED859 /* DefaultLayoutLabelCell.swift in Sources */,
+				AF7BAC2D25759002006ED859 /* TriggerListController.swift in Sources */,
+				AF7BAD0C2575BA68006ED859 /* SurveyLayoutController.swift in Sources */,
+				AF7BABF625759002006ED859 /* ProgramModel.swift in Sources */,
+				AF7BAC0425759002006ED859 /* DefaultLayoutStyle.swift in Sources */,
+				AF7BAC0C25759002006ED859 /* DefaultLayoutTextBox.swift in Sources */,
+				AF7BABFC25759002006ED859 /* DefaultLayoutTextBoxCell.swift in Sources */,
+				AF7BAC3625759002006ED859 /* AddTriggerController.swift in Sources */,
+				AF7BAC3525759002006ED859 /* TextboxController.swift in Sources */,
+				AF7BAC3B25759002006ED859 /* SelectOptionCell.swift in Sources */,
+				AF7BAC4125759002006ED859 /* SurveyWebViewDelegate.swift in Sources */,
+				AF7BAC0725759002006ED859 /* DefaultLayoutSection.swift in Sources */,
+				AF7BABFA25759002006ED859 /* DefaultLayoutIconLabelCell.swift in Sources */,
+				AF7BAC4225759002006ED859 /* SurveyManager.swift in Sources */,
+				AF7BAC3F25759002006ED859 /* TriggerCallback.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7BAB1D25758541006ED859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7BAB2625758541006ED859 /* MyAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7BAB2825758541006ED859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6B061D27C95E750031CA3B /* MySPMAppUITests.swift in Sources */,
+				AFF023E32580CF0D0016D969 /* TestHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF7BAB2325758541006ED859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF7BAB0A25758540006ED859 /* MyApp */;
+			targetProxy = AF7BAB2225758541006ED859 /* PBXContainerItemProxy */;
+		};
+		AF7BAB2E25758541006ED859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF7BAB0A25758540006ED859 /* MyApp */;
+			targetProxy = AF7BAB2D25758541006ED859 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF7BAB8925759001006ED859 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF7BAB8A25759001006ED859 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AF7BAB8B25759001006ED859 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF7BAB8C25759001006ED859 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF7BAB3325758541006ED859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF7BAB3425758541006ED859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF7BAB3625758541006ED859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MyApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.myapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF7BAB3725758541006ED859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MyApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.myapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF7BAB3925758541006ED859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyApp.app/MyApp";
+			};
+			name = Debug;
+		};
+		AF7BAB3A25758541006ED859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyApp.app/MyApp";
+			};
+			name = Release;
+		};
+		AF7BAB3C25758541006ED859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyAppUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyApp;
+			};
+			name = Debug;
+		};
+		AF7BAB3D25758541006ED859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyAppUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF7BAB0625758540006ED859 /* Build configuration list for PBXProject "MySPMApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7BAB3325758541006ED859 /* Debug */,
+				AF7BAB3425758541006ED859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF7BAB3525758541006ED859 /* Build configuration list for PBXNativeTarget "MyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7BAB3625758541006ED859 /* Debug */,
+				AF7BAB3725758541006ED859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF7BAB3825758541006ED859 /* Build configuration list for PBXNativeTarget "MyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7BAB3925758541006ED859 /* Debug */,
+				AF7BAB3A25758541006ED859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF7BAB3B25758541006ED859 /* Build configuration list for PBXNativeTarget "MyAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7BAB3C25758541006ED859 /* Debug */,
+				AF7BAB3D25758541006ED859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AFC4A94B27CCB002003CEE9D /* ConfirmitMobileSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ConfirmitMobileSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AF7BAB0325758540006ED859 /* Project object */;
+}

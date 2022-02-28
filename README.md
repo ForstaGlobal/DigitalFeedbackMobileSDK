@@ -42,7 +42,7 @@ Add the SDK dependency to the application level `build.gradle` file.
 // build.gradle (Module)
 dependencies {
     ...
-    implementation 'com.confirmit.mobilesdk:mobilesdk:3.5.0'
+    implementation 'com.confirmit.mobilesdk:mobilesdk:3.6.0'
 }
 ```
 
@@ -68,19 +68,36 @@ ProGuard users must manually add following rules.
 ### Prerequisites
 
 * Xcode 12.4 or higher
-* Target of iOS 10 or higher
+* Target of iOS 12 or higher
+  * For earlier iOS version, please use [ConfirmitMobileSDK v3.5.0](https://github.com/Confirmit/DigitalFeedbackMobileSDK/tree/3.5.0)
 * Swift 5.3.2 or higher
-
-* Dependencies
-
-    > These dependencies will be installed during CocoaPods install. If your project doesn't use CocoaPods, please install dependencies manually
-    
-    * [SSZipArchive](https://github.com/ZipArchive/ZipArchive) (2.2.2)
-
 
 ### Installation
 
-#### 1. Using CocoaPods
+#### 1. Using Swift Package Manager
+
+**Step 1.** Add package URL and dependency to `Package.swift`
+```swift
+// swift-tools-version:5.3
+
+import PackageDescription
+
+let package = Package(
+    name: "<Your Product Name>",
+    dependencies: [
+		.package(url: "https://github.com/Confirmit/DigitalFeedbackMobileSDK.git", .upToNextMajor(from: "3.6.0"))
+    ],
+    targets: [
+        .target(
+		name: "<Your Target Name>",
+		dependencies: ["ConfirmitMobileSDK"]),
+    ]
+)
+```
+
+**Step 2.** Run `swift package resolve`
+
+#### 2. Using CocoaPods
 
 > Requires CocoaPods 1.10.0 or higher
 
@@ -92,14 +109,13 @@ platform :ios, '10.0'
 # Your target
 target 'MyApp' do
   # ... others pods
-  pod 'ConfirmitMobileSDK', '3.5.0'
+  pod 'ConfirmitMobileSDK', '3.6.0'
 end
 ```
 
-
 **Step 2.** Run `pod update`.
 
-#### 2. Manual Method
+#### 3. Manual Method
 
 **Step 1.** Clone Github repository.
 

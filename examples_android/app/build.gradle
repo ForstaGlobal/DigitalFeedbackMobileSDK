@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 31
     buildToolsVersion "30.0.2"
 
     defaultConfig {
         applicationId "com.example.myapp"
         minSdkVersion 21
-        targetSdkVersion 30
+        targetSdkVersion 31
         versionCode 1
         versionName "1.0"
 
@@ -70,5 +70,5 @@ dependencies {
     androidTestImplementation "androidx.test.espresso:espresso-web:$test_expresso_version"
 
     // Confirmit SDK
-    implementation 'com.confirmit.mobilesdk:mobilesdk:3.5.0'
+    implementation 'com.confirmit.mobilesdk:mobilesdk:3.6.0'
 }
