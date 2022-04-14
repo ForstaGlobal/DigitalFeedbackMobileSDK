@@ -1,6 +1,1895 @@
 {
   "warnings": [
-
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/ConfirmitSDK.swift",
+      "line": 3,
+      "symbol": "AccessTokenProvider",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/ConfirmitSDK.swift",
+      "line": 4,
+      "symbol": "AccessTokenProvider.getAccessToken(serverId:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/ConfirmitSDK.swift",
+      "line": 7,
+      "symbol": "ConfirmitModule",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/ConfirmitSDK.swift",
+      "line": 8,
+      "symbol": "ConfirmitModule.initialize(setup:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/ConfirmitSDK.swift",
+      "line": 11,
+      "symbol": "ConfirmitSDK",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/ConfirmitSDK.swift",
+      "line": 14,
+      "symbol": "ConfirmitSDK.setAccessTokenProvider(provider:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/ConfirmitSDK.swift",
+      "line": 18,
+      "symbol": "ConfirmitSDK.enableLog(enable:oslog:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/ConfirmitSDK.swift",
+      "line": 22,
+      "symbol": "ConfirmitSDK.Setup",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/ConfirmitSDK.swift",
+      "line": 34,
+      "symbol": "ConfirmitSDK.Setup.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/ConfirmitSDK.swift",
+      "line": 36,
+      "symbol": "ConfirmitSDK.Setup.rootPath(path:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/ConfirmitSDK.swift",
+      "line": 56,
+      "symbol": "ConfirmitSDK.Setup.configure()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/ConfirmitServer.swift",
+      "line": 3,
+      "symbol": "ConfirmitServer",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/ConfirmitServer.swift",
+      "line": 4,
+      "symbol": "ConfirmitServer.us",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/ConfirmitServer.swift",
+      "line": 5,
+      "symbol": "ConfirmitServer.uk",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/ConfirmitServer.swift",
+      "line": 6,
+      "symbol": "ConfirmitServer.australia",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/ConfirmitServer.swift",
+      "line": 7,
+      "symbol": "ConfirmitServer.nordic",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/ConfirmitServer.swift",
+      "line": 8,
+      "symbol": "ConfirmitServer.insights",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/ConfirmitServer.swift",
+      "line": 9,
+      "symbol": "ConfirmitServer.canada",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/ConfirmitServer.swift",
+      "line": 10,
+      "symbol": "ConfirmitServer.germany",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/ConfirmitServer.swift",
+      "line": 12,
+      "symbol": "ConfirmitServer.configureUS(clientId:clientSecret:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/ConfirmitServer.swift",
+      "line": 20,
+      "symbol": "ConfirmitServer.configureUK(clientId:clientSecret:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/ConfirmitServer.swift",
+      "line": 28,
+      "symbol": "ConfirmitServer.configureAustralia(clientId:clientSecret:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/ConfirmitServer.swift",
+      "line": 36,
+      "symbol": "ConfirmitServer.configureNordic(clientId:clientSecret:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/ConfirmitServer.swift",
+      "line": 44,
+      "symbol": "ConfirmitServer.configureInsights(clientId:clientSecret:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/ConfirmitServer.swift",
+      "line": 52,
+      "symbol": "ConfirmitServer.configureCanada(clientId:clientSecret:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/ConfirmitServer.swift",
+      "line": 60,
+      "symbol": "ConfirmitServer.configureGermany(clientId:clientSecret:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/ConfirmitServer.swift",
+      "line": 68,
+      "symbol": "ConfirmitServer.configure(name:host:clientId:clientSecret:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/ConfirmitServer.swift",
+      "line": 77,
+      "symbol": "ConfirmitServer.getServer(serverId:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/ConfirmitServer.swift",
+      "line": 81,
+      "symbol": "ConfirmitServer.getServers()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Core/Framework/ExtModules/JsonExtModule.swift",
+      "line": 3,
+      "symbol": "JSON",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Database/Externals/Program.swift",
+      "line": 3,
+      "symbol": "Program",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Database/Externals/Program.swift",
+      "line": 4,
+      "symbol": "Program.serverId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Database/Externals/Program.swift",
+      "line": 5,
+      "symbol": "Program.programKey",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Database/Externals/Program.swift",
+      "line": 6,
+      "symbol": "Program.started",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Database/Externals/Program.swift",
+      "line": 7,
+      "symbol": "Program.publishedVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Database/Externals/Program.swift",
+      "line": 10,
+      "symbol": "Program.init(serverId:programKey:publishedVersion:started:programUrl:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Database/Externals/ProgramUrl.swift",
+      "line": 3,
+      "symbol": "ProgramUrl",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Database/Externals/ProgramUrl.swift",
+      "line": 4,
+      "symbol": "ProgramUrl.counterUrl",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Database/Externals/ProgramUrl.swift",
+      "line": 5,
+      "symbol": "ProgramUrl.cfrUrl",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Database/Externals/Server.swift",
+      "line": 3,
+      "symbol": "Server",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Database/Externals/Server.swift",
+      "line": 4,
+      "symbol": "Server.serverId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Database/Externals/Server.swift",
+      "line": 5,
+      "symbol": "Server.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Database/Externals/Server.swift",
+      "line": 6,
+      "symbol": "Server.host",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Database/Externals/Survey.swift",
+      "line": 3,
+      "symbol": "Survey",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Database/Externals/Survey.swift",
+      "line": 4,
+      "symbol": "Survey.serverId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Database/Externals/Survey.swift",
+      "line": 5,
+      "symbol": "Survey.surveyId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Database/Externals/Survey.swift",
+      "line": 6,
+      "symbol": "Survey.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Database/Externals/Survey.swift",
+      "line": 7,
+      "symbol": "Survey.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Database/Externals/Survey.swift",
+      "line": 8,
+      "symbol": "Survey.companyId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Database/Externals/Survey.swift",
+      "line": 9,
+      "symbol": "Survey.packageVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Database/Externals/Survey.swift",
+      "line": 10,
+      "symbol": "Survey.languages",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Database/Externals/Survey.swift",
+      "line": 32,
+      "symbol": "Survey.getDefaultLanguage()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Database/Externals/SurveyLanguage.swift",
+      "line": 3,
+      "symbol": "SurveyLanguage",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Database/Externals/SurveyLanguage.swift",
+      "line": 4,
+      "symbol": "SurveyLanguage.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Database/Externals/SurveyLanguage.swift",
+      "line": 5,
+      "symbol": "SurveyLanguage.code",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Database/Externals/SurveyLanguage.swift",
+      "line": 6,
+      "symbol": "SurveyLanguage.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Database/Externals/SurveyLanguage.swift",
+      "line": 7,
+      "symbol": "SurveyLanguage.nativeName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Database/Externals/SurveyLanguage.swift",
+      "line": 8,
+      "symbol": "SurveyLanguage.isDefault",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Extentions/UIColorExt.swift",
+      "line": 8,
+      "symbol": "UIColor.init(hexString:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/SurveySDK.swift",
+      "line": 3,
+      "symbol": "SurveyDownloadCompletion",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/SurveySDK.swift",
+      "line": 5,
+      "symbol": "UniqueIdProvider",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/SurveySDK.swift",
+      "line": 6,
+      "symbol": "UniqueIdProvider.getUniqueId()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/SurveySDK.swift",
+      "line": 9,
+      "symbol": "SurveyScriptBridge",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/SurveySDK.swift",
+      "line": 10,
+      "symbol": "SurveyScriptBridge.consoleLog(text:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/SurveySDK.swift",
+      "line": 13,
+      "symbol": "SurveySDK",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/SurveySDK.swift",
+      "line": 20,
+      "symbol": "SurveySDK.setUniqueIdProvider(provider:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/SurveySDK.swift",
+      "line": 24,
+      "symbol": "SurveySDK.setScriptBridge(bridge:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/SurveySDK.swift",
+      "line": 28,
+      "symbol": "SurveySDK.getSurvey(serverId:surveyId:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/SurveySDK.swift",
+      "line": 36,
+      "symbol": "SurveySDK.deleteSurvey(serverId:surveyId:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/SurveySDK.swift",
+      "line": 44,
+      "symbol": "SurveySDK.getSurveyList()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/SurveySDK.swift",
+      "line": 56,
+      "symbol": "SurveySDK.downloadSurvey(serverId:surveyId:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Sync/ResponseModels/ProgramResponse.swift",
+      "line": 25,
+      "symbol": "ScenarioResponse",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Sync/ResponseModels/ProgramResponse.swift",
+      "line": 35,
+      "symbol": "ScenarioCounterResponse",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Trigger/ProgramCallback.swift",
+      "line": 3,
+      "symbol": "TriggerInfo",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Trigger/ProgramCallback.swift",
+      "line": 4,
+      "symbol": "TriggerInfo.serverId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Trigger/ProgramCallback.swift",
+      "line": 5,
+      "symbol": "TriggerInfo.programKey",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Trigger/ProgramCallback.swift",
+      "line": 13,
+      "symbol": "ProgramCallback",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Trigger/ProgramCallback.swift",
+      "line": 14,
+      "symbol": "ProgramCallback.onSurveyDownloadCompleted(triggerInfo:surveyId:error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Trigger/ProgramCallback.swift",
+      "line": 15,
+      "symbol": "ProgramCallback.onSurveyStart(config:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Trigger/ProgramCallback.swift",
+      "line": 16,
+      "symbol": "ProgramCallback.onScenarioLoad(triggerInfo:error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Trigger/ProgramCallback.swift",
+      "line": 17,
+      "symbol": "ProgramCallback.onScenarioError(triggerInfo:error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Trigger/ProgramCallback.swift",
+      "line": 18,
+      "symbol": "ProgramCallback.onAppFeedback(triggerInfo:data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Trigger/ProgramCallback.swift",
+      "line": 19,
+      "symbol": "ProgramCallback.onWebSurveyStart(surveyWebView:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Trigger/TriggerBeaconInfo.swift",
+      "line": 3,
+      "symbol": "TriggerBeaconInfo",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Trigger/TriggerBeaconInfo.swift",
+      "line": 8,
+      "symbol": "TriggerBeaconInfo.init(uuid:major:minor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/TriggerSDK.swift",
+      "line": 3,
+      "symbol": "TriggerDownloadComplete",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/TriggerSDK.swift",
+      "line": 5,
+      "symbol": "ProgramScriptBridge",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/TriggerSDK.swift",
+      "line": 6,
+      "symbol": "ProgramScriptBridge.consoleLog(text:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/TriggerSDK.swift",
+      "line": 9,
+      "symbol": "TriggerSDK",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/TriggerSDK.swift",
+      "line": 10,
+      "symbol": "TriggerSDK.testMode",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/TriggerSDK.swift",
+      "line": 16,
+      "symbol": "TriggerSDK.setScriptBridge(bridge:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/TriggerSDK.swift",
+      "line": 20,
+      "symbol": "TriggerSDK.setCallback(serverId:programKey:callback:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/TriggerSDK.swift",
+      "line": 24,
+      "symbol": "TriggerSDK.removeCallback(serverId:programKey:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/TriggerSDK.swift",
+      "line": 28,
+      "symbol": "TriggerSDK.download(serverId:programKey:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/TriggerSDK.swift",
+      "line": 50,
+      "symbol": "TriggerSDK.downloadCounters(serverId:programKey:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/TriggerSDK.swift",
+      "line": 64,
+      "symbol": "TriggerSDK.notifyEvent(serverId:programKey:event:data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/TriggerSDK.swift",
+      "line": 68,
+      "symbol": "TriggerSDK.notifyEvent(event:data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/TriggerSDK.swift",
+      "line": 72,
+      "symbol": "TriggerSDK.notifyAppForeground(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/TriggerSDK.swift",
+      "line": 76,
+      "symbol": "TriggerSDK.notifyAppFeedback(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/TriggerSDK.swift",
+      "line": 80,
+      "symbol": "TriggerSDK.notifyBeaconEnter(triggerBeaconInfo:data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/TriggerSDK.swift",
+      "line": 84,
+      "symbol": "TriggerSDK.notifyBeaconExit(triggerBeaconInfo:data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/TriggerSDK.swift",
+      "line": 88,
+      "symbol": "TriggerSDK.getPrograms(serverId:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/TriggerSDK.swift",
+      "line": 96,
+      "symbol": "TriggerSDK.getProgram(serverId:programKey:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/TriggerSDK.swift",
+      "line": 104,
+      "symbol": "TriggerSDK.getActiveScenarioCount(serverId:programKey:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/TriggerSDK.swift",
+      "line": 112,
+      "symbol": "TriggerSDK.deleteProgram(serverId:programKey:deleteCustomData:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/TriggerSDK.swift",
+      "line": 126,
+      "symbol": "TriggerSDK.deleteAll(deleteCustomData:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/TriggerSDK.swift",
+      "line": 140,
+      "symbol": "TriggerSDK.getProgramVariable(serverId:programKey:key:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/TriggerSDK.swift",
+      "line": 148,
+      "symbol": "TriggerSDK.setProgramVariable(serverId:programKey:key:value:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/DefaultQuestion.swift",
+      "line": 3,
+      "symbol": "DefaultQuestion",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/DefaultQuestion.swift",
+      "line": 4,
+      "symbol": "DefaultQuestion.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/DefaultQuestion.swift",
+      "line": 5,
+      "symbol": "DefaultQuestion.nodeType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/DefaultQuestion.swift",
+      "line": 6,
+      "symbol": "DefaultQuestion.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/DefaultQuestion.swift",
+      "line": 7,
+      "symbol": "DefaultQuestion.text",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/DefaultQuestion.swift",
+      "line": 8,
+      "symbol": "DefaultQuestion.instruction",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/DefaultQuestion.swift",
+      "line": 9,
+      "symbol": "DefaultQuestion.errors",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/DefaultQuestion.swift",
+      "line": 36,
+      "symbol": "DefaultQuestion.validate()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/InfoQuestion.swift",
+      "line": 3,
+      "symbol": "InfoQuestion",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/InfoQuestion.swift",
+      "line": 4,
+      "symbol": "InfoQuestion.nodeType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/InfoQuestion.swift",
+      "line": 5,
+      "symbol": "InfoQuestion.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/InfoQuestion.swift",
+      "line": 6,
+      "symbol": "InfoQuestion.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/InfoQuestion.swift",
+      "line": 7,
+      "symbol": "InfoQuestion.text",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/InfoQuestion.swift",
+      "line": 8,
+      "symbol": "InfoQuestion.instruction",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/MultiQuestion.swift",
+      "line": 3,
+      "symbol": "MultiQuestion",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/MultiQuestion.swift",
+      "line": 4,
+      "symbol": "MultiQuestion.answers",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/MultiQuestion.swift",
+      "line": 5,
+      "symbol": "MultiQuestion.appearance",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/MultiQuestion.swift",
+      "line": 84,
+      "symbol": "MultiQuestion.set(answer:select:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/MultiQuestion.swift",
+      "line": 91,
+      "symbol": "MultiQuestion.get(answer:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/MultiQuestion.swift",
+      "line": 103,
+      "symbol": "MultiQuestion.validate()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/NotSupportedQuestion.swift",
+      "line": 3,
+      "symbol": "NotSupportedQuestion",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/NotSupportedQuestion.swift",
+      "line": 4,
+      "symbol": "NotSupportedQuestion.nodeType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/NotSupportedQuestion.swift",
+      "line": 5,
+      "symbol": "NotSupportedQuestion.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/NumericQuestion.swift",
+      "line": 3,
+      "symbol": "NumericQuestion",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/NumericQuestion.swift",
+      "line": 4,
+      "symbol": "NumericQuestion.appearance",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/NumericQuestion.swift",
+      "line": 18,
+      "symbol": "NumericQuestion.setValue(value:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/NumericQuestion.swift",
+      "line": 31,
+      "symbol": "NumericQuestion.setValue(value:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/NumericQuestion.swift",
+      "line": 35,
+      "symbol": "NumericQuestion.getValue()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/NumericQuestion.swift",
+      "line": 39,
+      "symbol": "NumericQuestion.getValue()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/NumericQuestion.swift",
+      "line": 43,
+      "symbol": "NumericQuestion.getValue()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/NumericQuestion.swift",
+      "line": 47,
+      "symbol": "NumericQuestion.validate()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/Question.swift",
+      "line": 3,
+      "symbol": "Question",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/Question.swift",
+      "line": 4,
+      "symbol": "Question.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/Question.swift",
+      "line": 5,
+      "symbol": "Question.nodeType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/QuestionAnswer.swift",
+      "line": 3,
+      "symbol": "QuestionAnswer",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/QuestionAnswer.swift",
+      "line": 4,
+      "symbol": "QuestionAnswer.code",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/QuestionAnswer.swift",
+      "line": 5,
+      "symbol": "QuestionAnswer.text",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/QuestionAnswer.swift",
+      "line": 6,
+      "symbol": "QuestionAnswer.isHeader",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/QuestionAnswer.swift",
+      "line": 7,
+      "symbol": "QuestionAnswer.answers",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/QuestionText.swift",
+      "line": 3,
+      "symbol": "QuestionText",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/QuestionText.swift",
+      "line": 4,
+      "symbol": "QuestionText.isEmpty",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/QuestionText.swift",
+      "line": 8,
+      "symbol": "QuestionText.rawText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/QuestionText.swift",
+      "line": 12,
+      "symbol": "QuestionText.hasStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/QuestionText.swift",
+      "line": 14,
+      "symbol": "QuestionText.init(rawText:hasStyle:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/QuestionText.swift",
+      "line": 22,
+      "symbol": "QuestionText.get()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/QuestionText.swift",
+      "line": 28,
+      "symbol": "QuestionText.getAttributed()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/QuestionText.swift",
+      "line": 32,
+      "symbol": "QuestionText.getAttributed(size:color:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/SingleQuestion.swift",
+      "line": 3,
+      "symbol": "SingleQuestion",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/SingleQuestion.swift",
+      "line": 4,
+      "symbol": "SingleQuestion.answers",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/SingleQuestion.swift",
+      "line": 5,
+      "symbol": "SingleQuestion.appearance",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/SingleQuestion.swift",
+      "line": 41,
+      "symbol": "SingleQuestion.select(answer:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/SingleQuestion.swift",
+      "line": 45,
+      "symbol": "SingleQuestion.selected()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/SingleQuestion.swift",
+      "line": 62,
+      "symbol": "SingleQuestion.validate()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/TextQuestion.swift",
+      "line": 3,
+      "symbol": "TextQuestion",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/TextQuestion.swift",
+      "line": 4,
+      "symbol": "TextQuestion.appearance",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/TextQuestion.swift",
+      "line": 17,
+      "symbol": "TextQuestion.setValue(value:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/TextQuestion.swift",
+      "line": 21,
+      "symbol": "TextQuestion.getValue()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/Questions/TextQuestion.swift",
+      "line": 25,
+      "symbol": "TextQuestion.validate()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyFrame.swift",
+      "line": 3,
+      "symbol": "SurveyFrameDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyFrame.swift",
+      "line": 4,
+      "symbol": "SurveyFrameDelegate.onSurveyPageReady(page:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyFrame.swift",
+      "line": 5,
+      "symbol": "SurveyFrameDelegate.onSurveyErrored(page:values:error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyFrame.swift",
+      "line": 6,
+      "symbol": "SurveyFrameDelegate.onSurveyFinished(page:values:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyFrame.swift",
+      "line": 7,
+      "symbol": "SurveyFrameDelegate.onSurveyQuit(values:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyFrame.swift",
+      "line": 10,
+      "symbol": "SurveyFrameConfig",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyFrame.swift",
+      "line": 11,
+      "symbol": "SurveyFrameConfig.languageId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyFrame.swift",
+      "line": 12,
+      "symbol": "SurveyFrameConfig.respondentValues",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyFrame.swift",
+      "line": 13,
+      "symbol": "SurveyFrameConfig.customData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyFrame.swift",
+      "line": 15,
+      "symbol": "SurveyFrameConfig.serverId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyFrame.swift",
+      "line": 16,
+      "symbol": "SurveyFrameConfig.surveyId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyFrame.swift",
+      "line": 19,
+      "symbol": "SurveyFrameConfig.programKey",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyFrame.swift",
+      "line": 20,
+      "symbol": "SurveyFrameConfig.scenarioId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyFrame.swift",
+      "line": 22,
+      "symbol": "SurveyFrameConfig.init(serverId:surveyId:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyFrame.swift",
+      "line": 44,
+      "symbol": "SurveyFrameActionResult",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyFrame.swift",
+      "line": 45,
+      "symbol": "SurveyFrameActionResult.success",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyFrame.swift",
+      "line": 46,
+      "symbol": "SurveyFrameActionResult.message",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyFrame.swift",
+      "line": 48,
+      "symbol": "SurveyFrameActionResult.init(success:message:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyFrame.swift",
+      "line": 54,
+      "symbol": "SurveyFrame",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyFrame.swift",
+      "line": 55,
+      "symbol": "SurveyFrame.delegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyFrame.swift",
+      "line": 56,
+      "symbol": "SurveyFrame.page",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyFrame.swift",
+      "line": 67,
+      "symbol": "SurveyFrame.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyFrame.swift",
+      "line": 69,
+      "symbol": "SurveyFrame.load(config:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyFrame.swift",
+      "line": 85,
+      "symbol": "SurveyFrame.start()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyFrame.swift",
+      "line": 92,
+      "symbol": "SurveyFrame.next()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyFrame.swift",
+      "line": 98,
+      "symbol": "SurveyFrame.back()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyFrame.swift",
+      "line": 104,
+      "symbol": "SurveyFrame.quit(upload:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyPage.swift",
+      "line": 3,
+      "symbol": "SurveyPage",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyPage.swift",
+      "line": 4,
+      "symbol": "SurveyPage.questions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyPage.swift",
+      "line": 5,
+      "symbol": "SurveyPage.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyPage.swift",
+      "line": 6,
+      "symbol": "SurveyPage.text",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyPage.swift",
+      "line": 7,
+      "symbol": "SurveyPage.forwardText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyPage.swift",
+      "line": 8,
+      "symbol": "SurveyPage.backwardText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyPage.swift",
+      "line": 9,
+      "symbol": "SurveyPage.okText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyPage.swift",
+      "line": 11,
+      "symbol": "SurveyPage.showForward",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyPage.swift",
+      "line": 15,
+      "symbol": "SurveyPage.showBackward",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/SurveyPage.swift",
+      "line": 19,
+      "symbol": "SurveyPage.showOk",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 3,
+      "symbol": "ValidationError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 4,
+      "symbol": "ValidationError.required",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 5,
+      "symbol": "ValidationError.size(length:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 6,
+      "symbol": "ValidationError.xssSafe",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 7,
+      "symbol": "ValidationError.number",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 8,
+      "symbol": "ValidationError.range",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 9,
+      "symbol": "ValidationError.multiSelected",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 12,
+      "symbol": "ValidationQuestionError",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 13,
+      "symbol": "ValidationQuestionError.code",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 14,
+      "symbol": "ValidationQuestionError.message",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 17,
+      "symbol": "QuestionType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 18,
+      "symbol": "QuestionType.single",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 19,
+      "symbol": "QuestionType.multi",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 20,
+      "symbol": "QuestionType.text",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 21,
+      "symbol": "QuestionType.numeric",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 22,
+      "symbol": "QuestionType.info",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 23,
+      "symbol": "QuestionType.notSupported",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 26,
+      "symbol": "SingleAppearance",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 27,
+      "symbol": "SingleAppearance.radioButtons",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 28,
+      "symbol": "SingleAppearance.answerButtons",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 29,
+      "symbol": "SingleAppearance.dropDown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 30,
+      "symbol": "SingleAppearance.slider",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 31,
+      "symbol": "SingleAppearance.horizontalRatingScale",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 32,
+      "symbol": "SingleAppearance.starRating",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 33,
+      "symbol": "SingleAppearance.gridBars",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 36,
+      "symbol": "MultiAppearance",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 37,
+      "symbol": "MultiAppearance.checkBoxes",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 38,
+      "symbol": "MultiAppearance.answerButtons",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 41,
+      "symbol": "OpenTextAppearance",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 42,
+      "symbol": "OpenTextAppearance.textField",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 43,
+      "symbol": "OpenTextAppearance.paragraph",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 44,
+      "symbol": "OpenTextAppearance.essay",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 47,
+      "symbol": "NumericAppearance",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 48,
+      "symbol": "NumericAppearance.numericField",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/UI/UiConstants.swift",
+      "line": 49,
+      "symbol": "NumericAppearance.numericSlider",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Utils/Zip/FileManager+ZIP.swift",
+      "line": 122,
+      "symbol": "URL.isContained(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Web/ExternalWebViewController.swift",
+      "line": 4,
+      "symbol": "ExternalWebViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Web/ExternalWebViewController.swift",
+      "line": 21,
+      "symbol": "ExternalWebViewController.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Web/ExternalWebViewController.swift",
+      "line": 31,
+      "symbol": "ExternalWebViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Web/ExternalWebViewController.swift",
+      "line": 106,
+      "symbol": "ExternalWebViewController.viewWillAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Web/ExternalWebViewController.swift",
+      "line": 127,
+      "symbol": "ExternalWebViewController.viewWillDisappear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Web/ExternalWebViewController.swift",
+      "line": 161,
+      "symbol": "ExternalWebViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Web/ExternalWebViewController.swift",
+      "line": 162,
+      "symbol": "ExternalWebViewController.webView(_:didFinish:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Web/SurveyWebViewController.swift",
+      "line": 4,
+      "symbol": "SurveyWebViewUrl",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Web/SurveyWebViewController.swift",
+      "line": 5,
+      "symbol": "SurveyWebViewUrl.url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Web/SurveyWebViewController.swift",
+      "line": 6,
+      "symbol": "SurveyWebViewUrl.token",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Web/SurveyWebViewController.swift",
+      "line": 7,
+      "symbol": "SurveyWebViewUrl.urlRequest",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Web/SurveyWebViewController.swift",
+      "line": 23,
+      "symbol": "SurveyWebViewUrlCompletion",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Web/SurveyWebViewController.swift",
+      "line": 25,
+      "symbol": "SurveyWebViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Web/SurveyWebViewController.swift",
+      "line": 38,
+      "symbol": "SurveyWebViewController.delegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Web/SurveyWebViewController.swift",
+      "line": 42,
+      "symbol": "SurveyWebViewController.customData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Web/SurveyWebViewController.swift",
+      "line": 44,
+      "symbol": "SurveyWebViewController.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Web/SurveyWebViewController.swift",
+      "line": 54,
+      "symbol": "SurveyWebViewController.getSurveyUrl(completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Web/SurveyWebViewController.swift",
+      "line": 66,
+      "symbol": "SurveyWebViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Web/SurveyWebViewController.swift",
+      "line": 128,
+      "symbol": "SurveyWebViewController.viewWillAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Web/SurveyWebViewController.swift",
+      "line": 164,
+      "symbol": "SurveyWebViewController.viewWillDisappear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Web/SurveyWebViewController.swift",
+      "line": 175,
+      "symbol": "SurveyWebViewController.setupWebView(serverId:projectId:customData:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Web/SurveyWebViewController.swift",
+      "line": 184,
+      "symbol": "SurveyWebViewController.getWebview()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Web/SurveyWebViewController.swift",
+      "line": 207,
+      "symbol": "SurveyWebViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Web/SurveyWebViewController.swift",
+      "line": 208,
+      "symbol": "SurveyWebViewController.webView(_:didFinish:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Web/SurveyWebViewController.swift",
+      "line": 212,
+      "symbol": "SurveyWebViewController.webView(_:decidePolicyFor:decisionHandler:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Web/SurveyWebViewController.swift",
+      "line": 229,
+      "symbol": "SurveyWebViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Web/SurveyWebViewController.swift",
+      "line": 230,
+      "symbol": "SurveyWebViewController.userContentController(_:didReceive:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Web/SurveyWebViewControllerDelegate.swift",
+      "line": 3,
+      "symbol": "SurveyWebViewControllerDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Web/SurveyWebViewControllerDelegate.swift",
+      "line": 4,
+      "symbol": "SurveyWebViewControllerDelegate.onWebViewSurveyError(serverId:projectId:error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Web/SurveyWebViewControllerDelegate.swift",
+      "line": 5,
+      "symbol": "SurveyWebViewControllerDelegate.onWebViewSurveyFinished(serverId:projectId:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/ConfirmitMobileSDK/Sources/Web/SurveyWebViewControllerDelegate.swift",
+      "line": 6,
+      "symbol": "SurveyWebViewControllerDelegate.onWebViewSurveyQuit(serverId:projectId:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
   ],
   "source_directory": "/Users/hudson_buildservice/buildAgent/work/dba81de0c4eb7f70/MobileSurveySdk/ios/Example"
 }
