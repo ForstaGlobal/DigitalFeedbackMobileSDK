@@ -1,6 +1,6 @@
 <br/>
-<p align="center" style="background-color: #ffffff;">
-  <img src="https://forstaglobal.github.io/DigitalFeedbackMobileSDK/assets/logo.png" width="50%">
+<p align="center">
+  <img src="https://forstaglobal.github.io/DigitalFeedbackMobileSDK/assets/logo.png">
 </p>
 <br/>
 
