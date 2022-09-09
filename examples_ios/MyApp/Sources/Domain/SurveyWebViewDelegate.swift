@@ -1,5 +1,6 @@
 import ConfirmitMobileSDK
 import Foundation
+import UIKit
 
 class SurveyWebViewDelegate: SurveyWebViewControllerDelegate {
   func onWebViewSurveyError(serverId: String, projectId: String, error: Error) {

@@ -1,471 +1,339 @@
+<!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
     <title>TriggerSDK</title>
     <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
     <script>var pathToRoot = "../../../";</script>
-    <script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
-    <link href="../../../styles/style.css" rel="Stylesheet">
-    <link href="../../../styles/logo-styles.css" rel="Stylesheet">
-    <link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
-    <link href="../../../styles/main.css" rel="Stylesheet">
-    <script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
-    <script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
-    <script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
-    <script type="text/javascript" src="../../../scripts/main.js" async="async"></script>
-  </head>
-  <body>
-    <div id="container">
-      <div id="leftColumn">
-        <div id="logo"></div>
-        <div id="paneSearch"></div>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+const savedDarkMode = storage ? JSON.parse(storage) : false
+if(savedDarkMode === true){
+    document.getElementsByTagName("html")[0].classList.add("theme-dark")
+}</script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../index.html">
+                    <span>mobilesdk</span>
+            </a>
+    </div>
+    <div>
+    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
         <div id="sideMenu"></div>
-      </div>
-      <div id="main">
-        <div id="leftToggler"><span class="icon-toggler"></span></div>
-        <script type="text/javascript" src="../../../scripts/pages.js"></script>
-        <script type="text/javascript" src="../../../scripts/main.js"></script>
-        <div class="main-content" id="content" pageIds="com.confirmit.mobilesdk/TriggerSDK///PointingToDeclaration//1730823439">
-          <div class="navigation-wrapper" id="navigation-wrapper">
-            <div class="breadcrumbs"><a href="../../index.html">mobilesdk</a>/<a href="../index.html">com.confirmit.mobilesdk</a>/<a href="index.html">TriggerSDK</a></div>
-            <div class="pull-right d-flex">
-              <div class="filter-section" id="filter-section"><button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":mobilesdk:dokkaHtml/release">androidJvm</button></div>
-              <div id="searchBar"></div>
-            </div>
-          </div>
-          <div class="cover ">
-            <h1 class="cover"><span>Trigger</span><wbr></wbr><span>S</span><wbr></wbr><span>D</span><wbr></wbr><span>K</span></h1>
-            <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">object <a href="index.html">TriggerSDK</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-          </div>
-          <div class="tabbedcontent">
-            <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
-            <div class="tabs-section-body">
-              <h2 class="">Functions</h2>
-              <div class="table" data-togglable="Functions"><a data-name="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FdeleteAll%2F%23kotlin.Boolean%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" anchor-label="deleteAll" id="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FdeleteAll%2F%23kotlin.Boolean%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="delete-all.html">deleteAll</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FdeleteAll%2F%23kotlin.Boolean%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">fun <a href="delete-all.html">deleteAll</a>(deleteCustomData: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a>)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="mobilesdk::com.confirmit.mobilesdk/TriggerSDK///PointingToDeclaration//1546998392">
+  <div class="breadcrumbs"><a href="../../../index.html">mobilesdk</a><span class="delimiter">/</span><a href="../index.html">com.confirmit.mobilesdk</a><span class="delimiter">/</span><a href="index.html">TriggerSDK</a></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Trigger</span><wbr></wbr><span><span>SDK</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="index.html">TriggerSDK</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
   </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FdeleteProgram%2F%23kotlin.String%23kotlin.String%23kotlin.Boolean%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" anchor-label="deleteProgram" id="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FdeleteProgram%2F%23kotlin.String%23kotlin.String%23kotlin.Boolean%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="delete-program.html">deleteProgram</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FdeleteProgram%2F%23kotlin.String%23kotlin.String%23kotlin.Boolean%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">fun <a href="delete-program.html">deleteProgram</a>(serverId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, programKey: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, deleteCustomData: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a>)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2Fdownload%2F%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" anchor-label="download" id="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2Fdownload%2F%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="download.html">download</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2Fdownload%2F%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">fun <a href="download.html">download</a>(serverId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, surveyId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>): <a href="../-program-download-result/index.html">ProgramDownloadResult</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FdownloadAsync%2F%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" anchor-label="downloadAsync" id="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FdownloadAsync%2F%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="download-async.html">downloadAsync</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FdownloadAsync%2F%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">fun <a href="download-async.html">downloadAsync</a>(serverId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, programKey: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>): <span data-unresolved-link="kotlinx.coroutines/Deferred///PointingToDeclaration/">Deferred</span>&lt;<a href="../-program-download-result/index.html">ProgramDownloadResult</a>&gt;<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FdownloadCountersAsync%2F%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" anchor-label="downloadCountersAsync" id="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FdownloadCountersAsync%2F%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="download-counters-async.html">downloadCountersAsync</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FdownloadCountersAsync%2F%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">fun <a href="download-counters-async.html">downloadCountersAsync</a>(serverId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, programKey: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>): <span data-unresolved-link="kotlinx.coroutines/Deferred///PointingToDeclaration/">Deferred</span>&lt;<a href="../-program-download-result/index.html">ProgramDownloadResult</a>&gt;<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bkotlin%2FAny%2Fequals%2F%23kotlin.Any%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" anchor-label="equals" id="%5Bkotlin%2FAny%2Fequals%2F%23kotlin.Any%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="../../com.confirmit.mobilesdk.web/-survey-web-view-fragment-callback/index.html#%5Bkotlin%2FAny%2Fequals%2F%23kotlin.Any%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439">equals</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bkotlin%2FAny%2Fequals%2F%23kotlin.Any%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">open operator fun <a href="../../com.confirmit.mobilesdk.web/-survey-web-view-fragment-callback/index.html#%5Bkotlin%2FAny%2Fequals%2F%23kotlin.Any%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439">equals</a>(other: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a>?): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FgetActiveScenarioCount%2F%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" anchor-label="getActiveScenarioCount" id="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FgetActiveScenarioCount%2F%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="get-active-scenario-count.html">getActiveScenarioCount</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FgetActiveScenarioCount%2F%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">fun <a href="get-active-scenario-count.html">getActiveScenarioCount</a>(serverId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, programKey: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FgetPrograms%2F%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" anchor-label="getPrograms" id="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FgetPrograms%2F%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="get-programs.html">getPrograms</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FgetPrograms%2F%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">fun <a href="get-programs.html">getPrograms</a>(serverId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a>&lt;<a href="../../com.confirmit.mobilesdk.database.externals/-program/index.html">Program</a>&gt;<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FgetProgramVariable%2F%23kotlin.String%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" anchor-label="getProgramVariable" id="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FgetProgramVariable%2F%23kotlin.String%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="get-program-variable.html">getProgramVariable</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FgetProgramVariable%2F%23kotlin.String%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">fun <a href="get-program-variable.html">getProgramVariable</a>(serverId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, programKey: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, key: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>?<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bkotlin%2FAny%2FhashCode%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" anchor-label="hashCode" id="%5Bkotlin%2FAny%2FhashCode%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="../../com.confirmit.mobilesdk.web/-survey-web-view-fragment-callback/index.html#%5Bkotlin%2FAny%2FhashCode%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439">hashCode</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bkotlin%2FAny%2FhashCode%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">open fun <a href="../../com.confirmit.mobilesdk.web/-survey-web-view-fragment-callback/index.html#%5Bkotlin%2FAny%2FhashCode%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439">hashCode</a>(): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FnotifyAppFeedback%2F%23kotlin.collections.Map%5Bkotlin.String%2Ckotlin.String%3F%5D%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" anchor-label="notifyAppFeedback" id="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FnotifyAppFeedback%2F%23kotlin.collections.Map%5Bkotlin.String%2Ckotlin.String%3F%5D%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="notify-app-feedback.html">notifyAppFeedback</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FnotifyAppFeedback%2F%23kotlin.collections.Map%5Bkotlin.String%2Ckotlin.String%3F%5D%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">fun <a href="notify-app-feedback.html">notifyAppFeedback</a>(data: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a>&lt;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>?&gt; = emptyMap())<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FnotifyAppForeground%2F%23kotlin.collections.Map%5Bkotlin.String%2Ckotlin.String%3F%5D%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" anchor-label="notifyAppForeground" id="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FnotifyAppForeground%2F%23kotlin.collections.Map%5Bkotlin.String%2Ckotlin.String%3F%5D%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="notify-app-foreground.html">notifyAppForeground</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FnotifyAppForeground%2F%23kotlin.collections.Map%5Bkotlin.String%2Ckotlin.String%3F%5D%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">fun <a href="notify-app-foreground.html">notifyAppForeground</a>(data: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a>&lt;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>?&gt; = emptyMap())<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FnotifyBeaconEnter%2F%23com.confirmit.mobilesdk.trigger.TriggerBeaconInfo%23kotlin.collections.Map%5Bkotlin.String%2Ckotlin.String%3F%5D%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" anchor-label="notifyBeaconEnter" id="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FnotifyBeaconEnter%2F%23com.confirmit.mobilesdk.trigger.TriggerBeaconInfo%23kotlin.collections.Map%5Bkotlin.String%2Ckotlin.String%3F%5D%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="notify-beacon-enter.html">notifyBeaconEnter</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FnotifyBeaconEnter%2F%23com.confirmit.mobilesdk.trigger.TriggerBeaconInfo%23kotlin.collections.Map%5Bkotlin.String%2Ckotlin.String%3F%5D%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">fun <a href="notify-beacon-enter.html">notifyBeaconEnter</a>(triggerBeaconInfo: <a href="../../com.confirmit.mobilesdk.trigger/-trigger-beacon-info/index.html">TriggerBeaconInfo</a>, data: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a>&lt;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>?&gt; = emptyMap())<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FnotifyBeaconExit%2F%23com.confirmit.mobilesdk.trigger.TriggerBeaconInfo%23kotlin.collections.Map%5Bkotlin.String%2Ckotlin.String%3F%5D%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" anchor-label="notifyBeaconExit" id="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FnotifyBeaconExit%2F%23com.confirmit.mobilesdk.trigger.TriggerBeaconInfo%23kotlin.collections.Map%5Bkotlin.String%2Ckotlin.String%3F%5D%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="notify-beacon-exit.html">notifyBeaconExit</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FnotifyBeaconExit%2F%23com.confirmit.mobilesdk.trigger.TriggerBeaconInfo%23kotlin.collections.Map%5Bkotlin.String%2Ckotlin.String%3F%5D%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">fun <a href="notify-beacon-exit.html">notifyBeaconExit</a>(triggerBeaconInfo: <a href="../../com.confirmit.mobilesdk.trigger/-trigger-beacon-info/index.html">TriggerBeaconInfo</a>, data: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a>&lt;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>?&gt; = emptyMap())<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FnotifyEvent%2F%23kotlin.String%23kotlin.collections.Map%5Bkotlin.String%2Ckotlin.String%3F%5D%2FPointingToDeclaration%2F%2C+com.confirmit.mobilesdk%2FTriggerSDK%2FnotifyEvent%2F%23kotlin.String%23kotlin.String%23kotlin.String%23kotlin.collections.Map%5Bkotlin.String%2Ckotlin.String%3F%5D%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" anchor-label="notifyEvent" id="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FnotifyEvent%2F%23kotlin.String%23kotlin.collections.Map%5Bkotlin.String%2Ckotlin.String%3F%5D%2FPointingToDeclaration%2F%2C+com.confirmit.mobilesdk%2FTriggerSDK%2FnotifyEvent%2F%23kotlin.String%23kotlin.String%23kotlin.String%23kotlin.collections.Map%5Bkotlin.String%2Ckotlin.String%3F%5D%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="notify-event.html">notifyEvent</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FnotifyEvent%2F%23kotlin.String%23kotlin.collections.Map%5Bkotlin.String%2Ckotlin.String%3F%5D%2FPointingToDeclaration%2F%2C+com.confirmit.mobilesdk%2FTriggerSDK%2FnotifyEvent%2F%23kotlin.String%23kotlin.String%23kotlin.String%23kotlin.collections.Map%5Bkotlin.String%2Ckotlin.String%3F%5D%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">fun <a href="notify-event.html">notifyEvent</a>(event: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, data: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a>&lt;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>?&gt; = emptyMap())<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="symbol monospace">fun <a href="notify-event.html">notifyEvent</a>(serverId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, programKey: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, event: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, data: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a>&lt;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>?&gt; = emptyMap())<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FremoveCallback%2F%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" anchor-label="removeCallback" id="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FremoveCallback%2F%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="remove-callback.html">removeCallback</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FremoveCallback%2F%23kotlin.String%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">fun <a href="remove-callback.html">removeCallback</a>(serverId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, programKey: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FsetCallback%2F%23kotlin.String%23kotlin.String%23com.confirmit.mobilesdk.trigger.ProgramCallback%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" anchor-label="setCallback" id="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FsetCallback%2F%23kotlin.String%23kotlin.String%23com.confirmit.mobilesdk.trigger.ProgramCallback%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="set-callback.html">setCallback</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FsetCallback%2F%23kotlin.String%23kotlin.String%23com.confirmit.mobilesdk.trigger.ProgramCallback%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">fun <a href="set-callback.html">setCallback</a>(serverId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, programKey: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, callback: <a href="../../com.confirmit.mobilesdk.trigger/-program-callback/index.html">ProgramCallback</a>)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FsetProgramVariable%2F%23kotlin.String%23kotlin.String%23kotlin.String%23kotlin.String%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" anchor-label="setProgramVariable" id="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FsetProgramVariable%2F%23kotlin.String%23kotlin.String%23kotlin.String%23kotlin.String%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="set-program-variable.html">setProgramVariable</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FsetProgramVariable%2F%23kotlin.String%23kotlin.String%23kotlin.String%23kotlin.String%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">fun <a href="set-program-variable.html">setProgramVariable</a>(serverId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, programKey: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, key: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, value: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>?)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FsetScriptBridge%2F%23com.confirmit.mobilesdk.ProgramScriptBridge%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" anchor-label="setScriptBridge" id="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FsetScriptBridge%2F%23com.confirmit.mobilesdk.ProgramScriptBridge%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="set-script-bridge.html">setScriptBridge</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FsetScriptBridge%2F%23com.confirmit.mobilesdk.ProgramScriptBridge%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">fun <a href="set-script-bridge.html">setScriptBridge</a>(bridge: <a href="../-program-script-bridge/index.html">ProgramScriptBridge</a>?)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bkotlin%2FAny%2FtoString%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" anchor-label="toString" id="%5Bkotlin%2FAny%2FtoString%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="../../com.confirmit.mobilesdk.web/-survey-web-view-fragment-callback/index.html#%5Bkotlin%2FAny%2FtoString%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439">toString</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bkotlin%2FAny%2FtoString%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">open fun <a href="../../com.confirmit.mobilesdk.web/-survey-web-view-fragment-callback/index.html#%5Bkotlin%2FAny%2FtoString%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439">toString</a>(): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h2 class="">Properties</h2>
-              <div class="table" data-togglable="Properties"><a data-name="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FtestMode%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1730823439" anchor-label="testMode" id="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FtestMode%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="test-mode.html">testMode</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FtestMode%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><a data-name="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FtestMode%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1730823439" anchor-label="testMode" id="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2FtestMode%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a><div class="symbol monospace">var <a href="test-mode.html">testMode</a>: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a> = false<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
+    <div class="tabs-section-body">
+      <h2 class="">Functions</h2>
+      <div class="table" data-togglable="Functions"><a data-name="1240749842%2FFunctions%2F1546998392" anchor-label="deleteAll" id="1240749842%2FFunctions%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="delete-all.html"><span>delete</span><wbr></wbr><span><span>All</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1240749842%2FFunctions%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="delete-all.html"><span class="token function">deleteAll</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">deleteCustomData<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
               </div>
             </div>
           </div>
         </div>
-        <div class="footer"><span class="go-to-top-icon"><a href="#content"></a></span><span>© 2020 Copyright</span><span class="pull-right"><span>Sponsored and developed by dokka</span><a href="https://github.com/Kotlin/dokka"><span class="padded-icon"></span></a></span></div>
+<a data-name="-1792211067%2FFunctions%2F1546998392" anchor-label="deleteProgram" id="-1792211067%2FFunctions%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="delete-program.html"><span>delete</span><wbr></wbr><span><span>Program</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1792211067%2FFunctions%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="delete-program.html"><span class="token function">deleteProgram</span></a><span class="token punctuation">(</span><span class="parameters wrapped"><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;serverId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;programKey<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;deleteCustomData<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="917856282%2FFunctions%2F1546998392" anchor-label="download" id="917856282%2FFunctions%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="download.html"><span><span>download</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="917856282%2FFunctions%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="download.html"><span class="token function">download</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">serverId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">surveyId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-program-download-result/index.html">ProgramDownloadResult</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1314277146%2FFunctions%2F1546998392" anchor-label="downloadAsync" id="1314277146%2FFunctions%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="download-async.html"><span>download</span><wbr></wbr><span><span>Async</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1314277146%2FFunctions%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="download-async.html"><span class="token function">downloadAsync</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">serverId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">programKey<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines/Deferred///PointingToDeclaration/">Deferred</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../-program-download-result/index.html">ProgramDownloadResult</a><span class="token operator">&gt;</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-837453085%2FFunctions%2F1546998392" anchor-label="downloadCountersAsync" id="-837453085%2FFunctions%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="download-counters-async.html"><span>download</span><wbr></wbr><span>Counters</span><wbr></wbr><span><span>Async</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-837453085%2FFunctions%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="download-counters-async.html"><span class="token function">downloadCountersAsync</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">serverId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">programKey<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines/Deferred///PointingToDeclaration/">Deferred</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../-program-download-result/index.html">ProgramDownloadResult</a><span class="token operator">&gt;</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-2001081259%2FFunctions%2F1546998392" anchor-label="getActiveScenarioCount" id="-2001081259%2FFunctions%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-active-scenario-count.html"><span>get</span><wbr></wbr><span>Active</span><wbr></wbr><span>Scenario</span><wbr></wbr><span><span>Count</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2001081259%2FFunctions%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-active-scenario-count.html"><span class="token function">getActiveScenarioCount</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">serverId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">programKey<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1736858054%2FFunctions%2F1546998392" anchor-label="getPrograms" id="1736858054%2FFunctions%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-programs.html"><span>get</span><wbr></wbr><span><span>Programs</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1736858054%2FFunctions%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-programs.html"><span class="token function">getPrograms</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">serverId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../../com.confirmit.mobilesdk.database.externals/-program/index.html">Program</a><span class="token operator">&gt;</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="631453153%2FFunctions%2F1546998392" anchor-label="getProgramVariable" id="631453153%2FFunctions%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-program-variable.html"><span>get</span><wbr></wbr><span>Program</span><wbr></wbr><span><span>Variable</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="631453153%2FFunctions%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-program-variable.html"><span class="token function">getProgramVariable</span></a><span class="token punctuation">(</span><span class="parameters wrapped"><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;serverId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;programKey<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;key<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1707002307%2FFunctions%2F1546998392" anchor-label="notifyAppFeedback" id="-1707002307%2FFunctions%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="notify-app-feedback.html"><span>notify</span><wbr></wbr><span>App</span><wbr></wbr><span><span>Feedback</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1707002307%2FFunctions%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="notify-app-feedback.html"><span class="token function">notifyAppFeedback</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">data<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator">&gt;</span><span class="token operator"> = </span>emptyMap()</span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1835126337%2FFunctions%2F1546998392" anchor-label="notifyAppForeground" id="-1835126337%2FFunctions%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="notify-app-foreground.html"><span>notify</span><wbr></wbr><span>App</span><wbr></wbr><span><span>Foreground</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1835126337%2FFunctions%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="notify-app-foreground.html"><span class="token function">notifyAppForeground</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">data<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator">&gt;</span><span class="token operator"> = </span>emptyMap()</span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="763435994%2FFunctions%2F1546998392" anchor-label="notifyBeaconEnter" id="763435994%2FFunctions%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="notify-beacon-enter.html"><span>notify</span><wbr></wbr><span>Beacon</span><wbr></wbr><span><span>Enter</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="763435994%2FFunctions%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="notify-beacon-enter.html"><span class="token function">notifyBeaconEnter</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">triggerBeaconInfo<span class="token operator">: </span><a href="../../com.confirmit.mobilesdk.trigger/-trigger-beacon-info/index.html">TriggerBeaconInfo</a><span class="token punctuation">, </span></span><span class="parameter ">data<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator">&gt;</span><span class="token operator"> = </span>emptyMap()</span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="128286286%2FFunctions%2F1546998392" anchor-label="notifyBeaconExit" id="128286286%2FFunctions%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="notify-beacon-exit.html"><span>notify</span><wbr></wbr><span>Beacon</span><wbr></wbr><span><span>Exit</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="128286286%2FFunctions%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="notify-beacon-exit.html"><span class="token function">notifyBeaconExit</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">triggerBeaconInfo<span class="token operator">: </span><a href="../../com.confirmit.mobilesdk.trigger/-trigger-beacon-info/index.html">TriggerBeaconInfo</a><span class="token punctuation">, </span></span><span class="parameter ">data<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator">&gt;</span><span class="token operator"> = </span>emptyMap()</span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1561132182%2FFunctions%2F1546998392" anchor-label="notifyEvent" id="1561132182%2FFunctions%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="notify-event.html"><span>notify</span><wbr></wbr><span><span>Event</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1561132182%2FFunctions%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="notify-event.html"><span class="token function">notifyEvent</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">event<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">data<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator">&gt;</span><span class="token operator"> = </span>emptyMap()</span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="notify-event.html"><span class="token function">notifyEvent</span></a><span class="token punctuation">(</span><span class="parameters wrapped"><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;serverId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;programKey<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;event<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;data<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator">&gt;</span><span class="token operator"> = </span>emptyMap()</span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="887887227%2FFunctions%2F1546998392" anchor-label="removeCallback" id="887887227%2FFunctions%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="remove-callback.html"><span>remove</span><wbr></wbr><span><span>Callback</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="887887227%2FFunctions%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="remove-callback.html"><span class="token function">removeCallback</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">serverId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">programKey<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1997546627%2FFunctions%2F1546998392" anchor-label="setCallback" id="1997546627%2FFunctions%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-callback.html"><span>set</span><wbr></wbr><span><span>Callback</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1997546627%2FFunctions%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-callback.html"><span class="token function">setCallback</span></a><span class="token punctuation">(</span><span class="parameters wrapped"><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;serverId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;programKey<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;callback<span class="token operator">: </span><a href="../../com.confirmit.mobilesdk.trigger/-program-callback/index.html">ProgramCallback</a></span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="742038441%2FFunctions%2F1546998392" anchor-label="setProgramVariable" id="742038441%2FFunctions%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-program-variable.html"><span>set</span><wbr></wbr><span>Program</span><wbr></wbr><span><span>Variable</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="742038441%2FFunctions%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-program-variable.html"><span class="token function">setProgramVariable</span></a><span class="token punctuation">(</span><span class="parameters wrapped"><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;serverId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;programKey<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;key<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;value<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="273697056%2FFunctions%2F1546998392" anchor-label="setScriptBridge" id="273697056%2FFunctions%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-script-bridge.html"><span>set</span><wbr></wbr><span>Script</span><wbr></wbr><span><span>Bridge</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="273697056%2FFunctions%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-script-bridge.html"><span class="token function">setScriptBridge</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">bridge<span class="token operator">: </span><a href="../-program-script-bridge/index.html">ProgramScriptBridge</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Properties</h2>
+      <div class="table" data-togglable="Properties"><a data-name="-1633940158%2FProperties%2F1546998392" anchor-label="testMode" id="-1633940158%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="test-mode.html"><span>test</span><wbr></wbr><span><span>Mode</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1633940158%2FProperties%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><a data-name="-1633940158%2FProperties%2F1546998392" anchor-label="testMode" id="-1633940158%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">var </span><a href="test-mode.html">testMode</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">false</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </body>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2022 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
 </html>
-

@@ -1,375 +1,251 @@
+<!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
     <title>ApiStatusCode</title>
     <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
     <script>var pathToRoot = "../../../";</script>
-    <script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
-    <link href="../../../styles/style.css" rel="Stylesheet">
-    <link href="../../../styles/logo-styles.css" rel="Stylesheet">
-    <link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
-    <link href="../../../styles/main.css" rel="Stylesheet">
-    <script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
-    <script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
-    <script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
-    <script type="text/javascript" src="../../../scripts/main.js" async="async"></script>
-  </head>
-  <body>
-    <div id="container">
-      <div id="leftColumn">
-        <div id="logo"></div>
-        <div id="paneSearch"></div>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+const savedDarkMode = storage ? JSON.parse(storage) : false
+if(savedDarkMode === true){
+    document.getElementsByTagName("html")[0].classList.add("theme-dark")
+}</script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../index.html">
+                    <span>mobilesdk</span>
+            </a>
+    </div>
+    <div>
+    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
         <div id="sideMenu"></div>
-      </div>
-      <div id="main">
-        <div id="leftToggler"><span class="icon-toggler"></span></div>
-        <script type="text/javascript" src="../../../scripts/pages.js"></script>
-        <script type="text/javascript" src="../../../scripts/main.js"></script>
-        <div class="main-content" id="content" pageIds="com.confirmit.mobilesdk.sync.request/ApiStatusCode///PointingToDeclaration//1730823439">
-          <div class="navigation-wrapper" id="navigation-wrapper">
-            <div class="breadcrumbs"><a href="../../index.html">mobilesdk</a>/<a href="../index.html">com.confirmit.mobilesdk.sync.request</a>/<a href="index.html">ApiStatusCode</a></div>
-            <div class="pull-right d-flex">
-              <div class="filter-section" id="filter-section"><button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":mobilesdk:dokkaHtml/release">androidJvm</button></div>
-              <div id="searchBar"></div>
-            </div>
-          </div>
-          <div class="cover ">
-            <h1 class="cover"><span>Api</span><wbr></wbr><span>Status</span><wbr></wbr><span>Code</span></h1>
-            <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">enum <a href="index.html">ApiStatusCode</a> : <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-enum/index.html">Enum</a>&lt;<a href="index.html">ApiStatusCode</a>&gt; <span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-          </div>
-          <div class="tabbedcontent">
-            <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Entries">Entries</button><button class="section-tab" data-togglable="Types">Types</button><button class="section-tab" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
-            <div class="tabs-section-body">
-              <h2 class="tabbedcontent">Entries</h2>
-              <div class="table" data-togglable="Entries"><a data-name="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode.OK%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" anchor-label="OK" id="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode.OK%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-o-k/index.html">OK</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode.OK%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><div class="block"><a href="-o-k/index.html">OK</a>(200)</div><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode.NOT_MODIFIED%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" anchor-label="NOT_MODIFIED" id="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode.NOT_MODIFIED%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-n-o-t_-m-o-d-i-f-i-e-d/index.html">NOT_MODIFIED</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode.NOT_MODIFIED%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><div class="block"><a href="-n-o-t_-m-o-d-i-f-i-e-d/index.html">NOT_MODIFIED</a>(304)</div><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode.UNAUTHORIZED%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" anchor-label="UNAUTHORIZED" id="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode.UNAUTHORIZED%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-u-n-a-u-t-h-o-r-i-z-e-d/index.html">UNAUTHORIZED</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode.UNAUTHORIZED%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><div class="block"><a href="-u-n-a-u-t-h-o-r-i-z-e-d/index.html">UNAUTHORIZED</a>(401)</div><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode.FORBIDDEN%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" anchor-label="FORBIDDEN" id="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode.FORBIDDEN%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-f-o-r-b-i-d-d-e-n/index.html">FORBIDDEN</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode.FORBIDDEN%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><div class="block"><a href="-f-o-r-b-i-d-d-e-n/index.html">FORBIDDEN</a>(403)</div><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode.NOT_FOUND%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" anchor-label="NOT_FOUND" id="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode.NOT_FOUND%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-n-o-t_-f-o-u-n-d/index.html">NOT_FOUND</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode.NOT_FOUND%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><div class="block"><a href="-n-o-t_-f-o-u-n-d/index.html">NOT_FOUND</a>(404)</div><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode.SERVER_ERROR%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" anchor-label="SERVER_ERROR" id="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode.SERVER_ERROR%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-s-e-r-v-e-r_-e-r-r-o-r/index.html">SERVER_ERROR</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode.SERVER_ERROR%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><div class="block"><a href="-s-e-r-v-e-r_-e-r-r-o-r/index.html">SERVER_ERROR</a>(500)</div><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode.SERVICE_UNAVAILABLE%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" anchor-label="SERVICE_UNAVAILABLE" id="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode.SERVICE_UNAVAILABLE%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-s-e-r-v-i-c-e_-u-n-a-v-a-i-l-a-b-l-e/index.html">SERVICE_UNAVAILABLE</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode.SERVICE_UNAVAILABLE%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><div class="block"><a href="-s-e-r-v-i-c-e_-u-n-a-v-a-i-l-a-b-l-e/index.html">SERVICE_UNAVAILABLE</a>(503)</div><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode.UNKNOWN%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" anchor-label="UNKNOWN" id="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode.UNKNOWN%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-u-n-k-n-o-w-n/index.html">UNKNOWN</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode.UNKNOWN%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><div class="block"><a href="-u-n-k-n-o-w-n/index.html">UNKNOWN</a>(-1)</div><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h2 class="">Types</h2>
-              <div class="table" data-togglable="Types"><a data-name="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode.Companion%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" anchor-label="Companion" id="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode.Companion%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-companion/index.html">Companion</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode.Companion%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">object <a href="-companion/index.html">Companion</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="mobilesdk::com.confirmit.mobilesdk.sync.request/ApiStatusCode///PointingToDeclaration//1546998392">
+  <div class="breadcrumbs"><a href="../../../index.html">mobilesdk</a><span class="delimiter">/</span><a href="../index.html">com.confirmit.mobilesdk.sync.request</a><span class="delimiter">/</span><a href="index.html">ApiStatusCode</a></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Api</span><wbr></wbr><span>Status</span><wbr></wbr><span><span>Code</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">enum </span><a href="index.html">ApiStatusCode</a> : <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-enum/index.html">Enum</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">ApiStatusCode</a><span class="token operator">&gt; </span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
   </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h2 class="">Functions</h2>
-              <div class="table" data-togglable="Functions"><a data-name="%5Bkotlin%2FEnum%2FcompareTo%2F%23com.confirmit.mobilesdk.sync.request.ApiStatusCode%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" anchor-label="compareTo" id="%5Bkotlin%2FEnum%2FcompareTo%2F%23com.confirmit.mobilesdk.sync.request.ApiStatusCode%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-u-n-k-n-o-w-n/index.html#%5Bkotlin%2FEnum%2FcompareTo%2F%23com.confirmit.mobilesdk.sync.request.ApiStatusCode%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439">compareTo</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bkotlin%2FEnum%2FcompareTo%2F%23com.confirmit.mobilesdk.sync.request.ApiStatusCode%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">operator override fun <a href="-u-n-k-n-o-w-n/index.html#%5Bkotlin%2FEnum%2FcompareTo%2F%23com.confirmit.mobilesdk.sync.request.ApiStatusCode%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439">compareTo</a>(other: <a href="index.html">ApiStatusCode</a>): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bkotlin%2FEnum%2Fequals%2F%23kotlin.Any%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" anchor-label="equals" id="%5Bkotlin%2FEnum%2Fequals%2F%23kotlin.Any%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="../../com.confirmit.mobilesdk.ui/-numeric-appearance/-n-u-m-e-r-i-c_-s-l-i-d-e-r/index.html#%5Bkotlin%2FEnum%2Fequals%2F%23kotlin.Any%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439">equals</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bkotlin%2FEnum%2Fequals%2F%23kotlin.Any%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">operator override fun <a href="../../com.confirmit.mobilesdk.ui/-numeric-appearance/-n-u-m-e-r-i-c_-s-l-i-d-e-r/index.html#%5Bkotlin%2FEnum%2Fequals%2F%23kotlin.Any%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439">equals</a>(other: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a>?): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bkotlin%2FEnum%2Ffinalize%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" anchor-label="finalize" id="%5Bkotlin%2FEnum%2Ffinalize%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="../../com.confirmit.mobilesdk.ui/-numeric-appearance/-n-u-m-e-r-i-c_-s-l-i-d-e-r/index.html#%5Bkotlin%2FEnum%2Ffinalize%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439">finalize</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bkotlin%2FEnum%2Ffinalize%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">fun <a href="../../com.confirmit.mobilesdk.ui/-numeric-appearance/-n-u-m-e-r-i-c_-s-l-i-d-e-r/index.html#%5Bkotlin%2FEnum%2Ffinalize%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439">finalize</a>()<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bkotlin%2FEnum%2FgetDeclaringClass%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" anchor-label="getDeclaringClass" id="%5Bkotlin%2FEnum%2FgetDeclaringClass%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="../../com.confirmit.mobilesdk.ui/-numeric-appearance/-n-u-m-e-r-i-c_-s-l-i-d-e-r/index.html#%5Bkotlin%2FEnum%2FgetDeclaringClass%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439">getDeclaringClass</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bkotlin%2FEnum%2FgetDeclaringClass%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">fun <a href="../../com.confirmit.mobilesdk.ui/-numeric-appearance/-n-u-m-e-r-i-c_-s-l-i-d-e-r/index.html#%5Bkotlin%2FEnum%2FgetDeclaringClass%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439">getDeclaringClass</a>(): <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html">Class</a>&lt;<a href="index.html">ApiStatusCode</a>&gt;<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bkotlin%2FEnum%2FhashCode%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" anchor-label="hashCode" id="%5Bkotlin%2FEnum%2FhashCode%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="../../com.confirmit.mobilesdk.ui/-numeric-appearance/-n-u-m-e-r-i-c_-s-l-i-d-e-r/index.html#%5Bkotlin%2FEnum%2FhashCode%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439">hashCode</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bkotlin%2FEnum%2FhashCode%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">override fun <a href="../../com.confirmit.mobilesdk.ui/-numeric-appearance/-n-u-m-e-r-i-c_-s-l-i-d-e-r/index.html#%5Bkotlin%2FEnum%2FhashCode%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439">hashCode</a>(): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bkotlin%2FEnum%2FtoString%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" anchor-label="toString" id="%5Bkotlin%2FEnum%2FtoString%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="../../com.confirmit.mobilesdk.ui/-numeric-appearance/-n-u-m-e-r-i-c_-s-l-i-d-e-r/index.html#%5Bkotlin%2FEnum%2FtoString%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439">toString</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bkotlin%2FEnum%2FtoString%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">open override fun <a href="../../com.confirmit.mobilesdk.ui/-numeric-appearance/-n-u-m-e-r-i-c_-s-l-i-d-e-r/index.html#%5Bkotlin%2FEnum%2FtoString%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1730823439">toString</a>(): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h2 class="">Properties</h2>
-              <div class="table" data-togglable="Properties"><a data-name="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode%2Fcode%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1730823439" anchor-label="code" id="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode%2Fcode%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="code.html">code</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode%2Fcode%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><a data-name="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode%2Fcode%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1730823439" anchor-label="code" id="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode%2Fcode%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a><div class="symbol monospace">val <a href="code.html">code</a>: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode%2Fname%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1730823439" anchor-label="name" id="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode%2Fname%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="index.html#%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode%2Fname%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1730823439">name</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode%2Fname%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><a data-name="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode%2Fname%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1730823439" anchor-label="name" id="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode%2Fname%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a><div class="symbol monospace">val <a href="index.html#%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode%2Fname%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1730823439">name</a>: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode%2Fordinal%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1730823439" anchor-label="ordinal" id="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode%2Fordinal%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="index.html#%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode%2Fordinal%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1730823439">ordinal</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode%2Fordinal%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><a data-name="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode%2Fordinal%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1730823439" anchor-label="ordinal" id="%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode%2Fordinal%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a><div class="symbol monospace">val <a href="index.html#%5Bcom.confirmit.mobilesdk.sync.request%2FApiStatusCode%2Fordinal%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1730823439">ordinal</a>: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Entries">Entries</button><button class="section-tab" data-togglable="Types">Types</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
+    <div class="tabs-section-body">
+      <h2 class="tabbedcontent">Entries</h2>
+      <div class="table" data-togglable="Entries"><a data-name="531242642%2FClasslikes%2F1546998392" anchor-label="OK" id="531242642%2FClasslikes%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-o-k/index.html">OK</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="531242642%2FClasslikes%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><div class="block"><a href="-o-k/index.html">OK</a></div><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
               </div>
             </div>
           </div>
         </div>
-        <div class="footer"><span class="go-to-top-icon"><a href="#content"></a></span><span>© 2020 Copyright</span><span class="pull-right"><span>Sponsored and developed by dokka</span><a href="https://github.com/Kotlin/dokka"><span class="padded-icon"></span></a></span></div>
+<a data-name="1661631307%2FClasslikes%2F1546998392" anchor-label="NOT_MODIFIED" id="1661631307%2FClasslikes%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-n-o-t_-m-o-d-i-f-i-e-d/index.html">NOT_MODIFIED</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1661631307%2FClasslikes%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><div class="block"><a href="-n-o-t_-m-o-d-i-f-i-e-d/index.html">NOT_MODIFIED</a></div><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1591019222%2FClasslikes%2F1546998392" anchor-label="UNAUTHORIZED" id="-1591019222%2FClasslikes%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-u-n-a-u-t-h-o-r-i-z-e-d/index.html">UNAUTHORIZED</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1591019222%2FClasslikes%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><div class="block"><a href="-u-n-a-u-t-h-o-r-i-z-e-d/index.html">UNAUTHORIZED</a></div><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-252648117%2FClasslikes%2F1546998392" anchor-label="FORBIDDEN" id="-252648117%2FClasslikes%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-f-o-r-b-i-d-d-e-n/index.html">FORBIDDEN</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-252648117%2FClasslikes%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><div class="block"><a href="-f-o-r-b-i-d-d-e-n/index.html">FORBIDDEN</a></div><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-534633592%2FClasslikes%2F1546998392" anchor-label="NOT_FOUND" id="-534633592%2FClasslikes%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-n-o-t_-f-o-u-n-d/index.html">NOT_FOUND</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-534633592%2FClasslikes%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><div class="block"><a href="-n-o-t_-f-o-u-n-d/index.html">NOT_FOUND</a></div><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-621430750%2FClasslikes%2F1546998392" anchor-label="SERVER_ERROR" id="-621430750%2FClasslikes%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-s-e-r-v-e-r_-e-r-r-o-r/index.html">SERVER_ERROR</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-621430750%2FClasslikes%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><div class="block"><a href="-s-e-r-v-e-r_-e-r-r-o-r/index.html">SERVER_ERROR</a></div><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1945725112%2FClasslikes%2F1546998392" anchor-label="SERVICE_UNAVAILABLE" id="1945725112%2FClasslikes%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-s-e-r-v-i-c-e_-u-n-a-v-a-i-l-a-b-l-e/index.html">SERVICE_UNAVAILABLE</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1945725112%2FClasslikes%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><div class="block"><a href="-s-e-r-v-i-c-e_-u-n-a-v-a-i-l-a-b-l-e/index.html">SERVICE_UNAVAILABLE</a></div><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1083469476%2FClasslikes%2F1546998392" anchor-label="UNKNOWN" id="-1083469476%2FClasslikes%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-u-n-k-n-o-w-n/index.html">UNKNOWN</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1083469476%2FClasslikes%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><div class="block"><a href="-u-n-k-n-o-w-n/index.html">UNKNOWN</a></div><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Types</h2>
+      <div class="table" data-togglable="Types"><a data-name="-988407193%2FClasslikes%2F1546998392" anchor-label="Companion" id="-988407193%2FClasslikes%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-companion/index.html"><span><span>Companion</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-988407193%2FClasslikes%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-companion/index.html">Companion</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Properties</h2>
+      <div class="table" data-togglable="Properties"><a data-name="-1697197267%2FProperties%2F1546998392" anchor-label="code" id="-1697197267%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="code.html"><span><span>code</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1697197267%2FProperties%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><a data-name="-1697197267%2FProperties%2F1546998392" anchor-label="code" id="-1697197267%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="code.html">code</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-372974862%2FProperties%2F1546998392" anchor-label="name" id="-372974862%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.confirmit.mobilesdk.ui/-numeric-appearance/-n-u-m-e-r-i-c_-s-l-i-d-e-r/index.html#-372974862%2FProperties%2F1546998392"><span><span>name</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-372974862%2FProperties%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><a data-name="-372974862%2FProperties%2F1546998392" anchor-label="name" id="-372974862%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="../../com.confirmit.mobilesdk.ui/-numeric-appearance/-n-u-m-e-r-i-c_-s-l-i-d-e-r/index.html#-372974862%2FProperties%2F1546998392">name</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-739389684%2FProperties%2F1546998392" anchor-label="ordinal" id="-739389684%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../com.confirmit.mobilesdk.ui/-numeric-appearance/-n-u-m-e-r-i-c_-s-l-i-d-e-r/index.html#-739389684%2FProperties%2F1546998392"><span><span>ordinal</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-739389684%2FProperties%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><a data-name="-739389684%2FProperties%2F1546998392" anchor-label="ordinal" id="-739389684%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="../../com.confirmit.mobilesdk.ui/-numeric-appearance/-n-u-m-e-r-i-c_-s-l-i-d-e-r/index.html#-739389684%2FProperties%2F1546998392">ordinal</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </body>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2022 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
 </html>
-

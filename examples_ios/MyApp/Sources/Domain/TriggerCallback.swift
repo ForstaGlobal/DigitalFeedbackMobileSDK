@@ -1,5 +1,6 @@
 import ConfirmitMobileSDK
 import Foundation
+import UIKit
 
 class TriggerCallback: ProgramCallback {
   func onScenarioLoad(triggerInfo: TriggerInfo, error: Error?) {

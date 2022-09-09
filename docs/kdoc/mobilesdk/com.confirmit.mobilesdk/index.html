@@ -1,252 +1,216 @@
+<!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
     <title>com.confirmit.mobilesdk</title>
     <link href="../../images/logo-icon.svg" rel="icon" type="image/svg">
     <script>var pathToRoot = "../../";</script>
-    <script type="text/javascript" src="../../scripts/sourceset_dependencies.js" async="async"></script>
-    <link href="../../styles/style.css" rel="Stylesheet">
-    <link href="../../styles/logo-styles.css" rel="Stylesheet">
-    <link href="../../styles/jetbrains-mono.css" rel="Stylesheet">
-    <link href="../../styles/main.css" rel="Stylesheet">
-    <script type="text/javascript" src="../../scripts/clipboard.js" async="async"></script>
-    <script type="text/javascript" src="../../scripts/navigation-loader.js" async="async"></script>
-    <script type="text/javascript" src="../../scripts/platform-content-handler.js" async="async"></script>
-    <script type="text/javascript" src="../../scripts/main.js" async="async"></script>
-  </head>
-  <body>
-    <div id="container">
-      <div id="leftColumn">
-        <div id="logo"></div>
-        <div id="paneSearch"></div>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+const savedDarkMode = storage ? JSON.parse(storage) : false
+if(savedDarkMode === true){
+    document.getElementsByTagName("html")[0].classList.add("theme-dark")
+}</script>
+<script type="text/javascript" src="../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../styles/style.css" rel="Stylesheet">
+<link href="../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../styles/main.css" rel="Stylesheet">
+<link href="../../styles/prism.css" rel="Stylesheet">
+<link href="../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../scripts/prism.js" async="async"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../index.html">
+                    <span>mobilesdk</span>
+            </a>
+    </div>
+    <div>
+    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
         <div id="sideMenu"></div>
-      </div>
-      <div id="main">
-        <div id="leftToggler"><span class="icon-toggler"></span></div>
-        <script type="text/javascript" src="../../scripts/pages.js"></script>
-        <script type="text/javascript" src="../../scripts/main.js"></script>
-        <div class="main-content" id="content" pageIds="com.confirmit.mobilesdk////PointingToDeclaration//1730823439">
-          <div class="navigation-wrapper" id="navigation-wrapper">
-            <div class="breadcrumbs"><a href="../index.html">mobilesdk</a>/<a href="index.html">com.confirmit.mobilesdk</a></div>
-            <div class="pull-right d-flex">
-              <div class="filter-section" id="filter-section"><button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":mobilesdk:dokkaHtml/release">androidJvm</button></div>
-              <div id="searchBar"></div>
-            </div>
-          </div>
-          <div class="cover ">
-            <h1 class="cover"><span>Package com.</span><wbr></wbr><span>confirmit.</span><wbr></wbr><span>mobilesdk</span></h1>
-          </div>
-          <div class="tabbedcontent">
-            <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Types">Types</button></div>
-            <div class="tabs-section-body">
-              <h2 class="">Types</h2>
-              <div class="table" data-togglable="Types"><a data-name="%5Bcom.confirmit.mobilesdk%2FAccessTokenProvider%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" anchor-label="AccessTokenProvider" id="%5Bcom.confirmit.mobilesdk%2FAccessTokenProvider%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-access-token-provider/index.html">AccessTokenProvider</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk%2FAccessTokenProvider%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">interface <a href="-access-token-provider/index.html">AccessTokenProvider</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="mobilesdk::com.confirmit.mobilesdk////PointingToDeclaration//1546998392">
+  <div class="breadcrumbs"><a href="../../index.html">mobilesdk</a><span class="delimiter">/</span><a href="index.html">com.confirmit.mobilesdk</a></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Package</span></span> <span>com.</span><wbr></wbr><span>confirmit.</span><wbr></wbr><span>mobilesdk</span></h1>
   </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk%2FConfirmitSDK%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" anchor-label="ConfirmitSDK" id="%5Bcom.confirmit.mobilesdk%2FConfirmitSDK%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-confirmit-s-d-k/index.html">ConfirmitSDK</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk%2FConfirmitSDK%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">object <a href="-confirmit-s-d-k/index.html">ConfirmitSDK</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk%2FConfirmitServer%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" anchor-label="ConfirmitServer" id="%5Bcom.confirmit.mobilesdk%2FConfirmitServer%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-confirmit-server/index.html">ConfirmitServer</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk%2FConfirmitServer%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">object <a href="-confirmit-server/index.html">ConfirmitServer</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk%2FProgramDownloadResult%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" anchor-label="ProgramDownloadResult" id="%5Bcom.confirmit.mobilesdk%2FProgramDownloadResult%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-program-download-result/index.html">ProgramDownloadResult</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk%2FProgramDownloadResult%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">class <a href="-program-download-result/index.html">ProgramDownloadResult</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk%2FProgramScriptBridge%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" anchor-label="ProgramScriptBridge" id="%5Bcom.confirmit.mobilesdk%2FProgramScriptBridge%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-program-script-bridge/index.html">ProgramScriptBridge</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk%2FProgramScriptBridge%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">interface <a href="-program-script-bridge/index.html">ProgramScriptBridge</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk%2FSurveyDownloadResult%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" anchor-label="SurveyDownloadResult" id="%5Bcom.confirmit.mobilesdk%2FSurveyDownloadResult%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-survey-download-result/index.html">SurveyDownloadResult</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk%2FSurveyDownloadResult%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">class <a href="-survey-download-result/index.html">SurveyDownloadResult</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk%2FSurveyScriptBridge%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" anchor-label="SurveyScriptBridge" id="%5Bcom.confirmit.mobilesdk%2FSurveyScriptBridge%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-survey-script-bridge/index.html">SurveyScriptBridge</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk%2FSurveyScriptBridge%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">interface <a href="-survey-script-bridge/index.html">SurveyScriptBridge</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk%2FSurveySDK%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" anchor-label="SurveySDK" id="%5Bcom.confirmit.mobilesdk%2FSurveySDK%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-survey-s-d-k/index.html">SurveySDK</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk%2FSurveySDK%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">object <a href="-survey-s-d-k/index.html">SurveySDK</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" anchor-label="TriggerSDK" id="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-trigger-s-d-k/index.html">TriggerSDK</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk%2FTriggerSDK%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">object <a href="-trigger-s-d-k/index.html">TriggerSDK</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bcom.confirmit.mobilesdk%2FUniqueIdProvider%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" anchor-label="UniqueIdProvider" id="%5Bcom.confirmit.mobilesdk%2FUniqueIdProvider%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-unique-id-provider/index.html">UniqueIdProvider</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bcom.confirmit.mobilesdk%2FUniqueIdProvider%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F1730823439"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace">interface <a href="-unique-id-provider/index.html">UniqueIdProvider</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Types">Types</button></div>
+    <div class="tabs-section-body">
+      <h2 class="">Types</h2>
+      <div class="table" data-togglable="Types"><a data-name="-1439383150%2FClasslikes%2F1546998392" anchor-label="AccessTokenProvider" id="-1439383150%2FClasslikes%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-access-token-provider/index.html"><span>Access</span><wbr></wbr><span>Token</span><wbr></wbr><span><span>Provider</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1439383150%2FClasslikes%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-access-token-provider/index.html">AccessTokenProvider</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
               </div>
             </div>
           </div>
         </div>
-        <div class="footer"><span class="go-to-top-icon"><a href="#content"></a></span><span>© 2020 Copyright</span><span class="pull-right"><span>Sponsored and developed by dokka</span><a href="https://github.com/Kotlin/dokka"><span class="padded-icon"></span></a></span></div>
+<a data-name="1534622203%2FClasslikes%2F1546998392" anchor-label="ConfirmitSDK" id="1534622203%2FClasslikes%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-confirmit-s-d-k/index.html"><span>Confirmit</span><wbr></wbr><span><span>SDK</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1534622203%2FClasslikes%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-confirmit-s-d-k/index.html">ConfirmitSDK</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-680846582%2FClasslikes%2F1546998392" anchor-label="ConfirmitServer" id="-680846582%2FClasslikes%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-confirmit-server/index.html"><span>Confirmit</span><wbr></wbr><span><span>Server</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-680846582%2FClasslikes%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-confirmit-server/index.html">ConfirmitServer</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1545345329%2FClasslikes%2F1546998392" anchor-label="ProgramDownloadResult" id="-1545345329%2FClasslikes%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-program-download-result/index.html"><span>Program</span><wbr></wbr><span>Download</span><wbr></wbr><span><span>Result</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1545345329%2FClasslikes%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-program-download-result/index.html">ProgramDownloadResult</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1272561408%2FClasslikes%2F1546998392" anchor-label="ProgramScriptBridge" id="-1272561408%2FClasslikes%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-program-script-bridge/index.html"><span>Program</span><wbr></wbr><span>Script</span><wbr></wbr><span><span>Bridge</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1272561408%2FClasslikes%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-program-script-bridge/index.html">ProgramScriptBridge</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1996847755%2FClasslikes%2F1546998392" anchor-label="SurveyDownloadResult" id="1996847755%2FClasslikes%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-survey-download-result/index.html"><span>Survey</span><wbr></wbr><span>Download</span><wbr></wbr><span><span>Result</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1996847755%2FClasslikes%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-survey-download-result/index.html">SurveyDownloadResult</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="80843708%2FClasslikes%2F1546998392" anchor-label="SurveyScriptBridge" id="80843708%2FClasslikes%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-survey-script-bridge/index.html"><span>Survey</span><wbr></wbr><span>Script</span><wbr></wbr><span><span>Bridge</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="80843708%2FClasslikes%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-survey-script-bridge/index.html">SurveyScriptBridge</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="2077968664%2FClasslikes%2F1546998392" anchor-label="SurveySDK" id="2077968664%2FClasslikes%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-survey-s-d-k/index.html"><span>Survey</span><wbr></wbr><span><span>SDK</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2077968664%2FClasslikes%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-survey-s-d-k/index.html">SurveySDK</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1596194680%2FClasslikes%2F1546998392" anchor-label="TriggerSDK" id="-1596194680%2FClasslikes%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-trigger-s-d-k/index.html"><span>Trigger</span><wbr></wbr><span><span>SDK</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1596194680%2FClasslikes%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-trigger-s-d-k/index.html">TriggerSDK</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-439173459%2FClasslikes%2F1546998392" anchor-label="UniqueIdProvider" id="-439173459%2FClasslikes%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-unique-id-provider/index.html"><span>Unique</span><wbr></wbr><span>Id</span><wbr></wbr><span><span>Provider</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-439173459%2FClasslikes%2F1546998392"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-unique-id-provider/index.html">UniqueIdProvider</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </body>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2022 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
 </html>
-

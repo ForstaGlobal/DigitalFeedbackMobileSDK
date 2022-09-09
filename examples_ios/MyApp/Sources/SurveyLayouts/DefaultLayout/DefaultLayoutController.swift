@@ -1,5 +1,6 @@
 import ConfirmitMobileSDK
 import Foundation
+import UIKit
 
 class DefaultLayoutController: SurveyLayoutController {
   @IBOutlet var navBar: UINavigationBar!

@@ -1,1 +1,1 @@
-var moduleSearchIndex = [{"l":"Confirmit Digital Feedback Mobile SDK","url":"index.html"}]
+var moduleSearchIndex = [{"l":"Forsta Digital Feedback Mobile SDK","url":"index.html"}]

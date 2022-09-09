@@ -2,7 +2,6 @@
 <p align="center">
   <img src="https://forstaglobal.github.io/DigitalFeedbackMobileSDK/assets/logo.png">
 </p>
-<br/>
 
 # Digital Feedback Mobile SDK
 

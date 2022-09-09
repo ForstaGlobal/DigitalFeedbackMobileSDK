@@ -1,1 +1,1 @@
-sourceset_dependencies = '{":mobilesdk:dokkaHtml/androidTestRelease": [], ":mobilesdk:dokkaHtml/debug": [], ":mobilesdk:dokkaHtml/main": [], ":mobilesdk:dokkaHtml/release": []}'
+sourceset_dependencies='{":mobilesdk:dokkaHtml/androidTestRelease":[],":mobilesdk:dokkaHtml/debug":[],":mobilesdk:dokkaHtml/main":[],":mobilesdk:dokkaHtml/release":[],":mobilesdk:dokkaHtml/testFixtures":[],":mobilesdk:dokkaHtml/testFixturesDebug":[],":mobilesdk:dokkaHtml/testFixturesRelease":[]}'

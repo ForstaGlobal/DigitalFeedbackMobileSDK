@@ -1,8 +1,8 @@
 use_frameworks!
-platform :ios, '10.0'
+platform :ios, '12.0'
 inhibit_all_warnings!
 
 target 'MyApp' do
   project 'MyApp.xcodeproj'
-  pod 'ConfirmitMobileSDK', '3.6.1'
+  pod 'ConfirmitMobileSDK', '3.7.1+dev.1'
 end
