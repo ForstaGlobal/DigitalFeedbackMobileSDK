@@ -1,7 +1,7 @@
 # Security Policy
 
-[Confirmit Security Policy](https://www.confirmit.com/security/)
+[Forsta Security Policy](https://legal.forsta.com/legal/data-and-security/)
 
 ## Reporting a Vulnerability
 
-[Confirmit Vulnerability Reporting Policy](https://www.confirmit.com/security/vulnerability-reporting-policy/)
+[Forsta Vulnerability Reporting Policy](https://www.confirmit.com/security/vulnerability-reporting-policy/)

@@ -1,18 +1,20 @@
 <br/>
+<div style="background: #ffffff; border-radius: 25px;">
 <p align="center">
-  <img src="https://confirmit.github.io/DigitalFeedbackMobileSDK/assets/logo.png">
+  <img src="https://forstaglobal.github.io/DigitalFeedbackMobileSDK/assets/logo.png" style=" max-width: 50%; height: auto;">
 </p>
+</div>
 <br/>
 
 # Digital Feedback Mobile SDK
 
-The Confirmit Digital Feedback Mobile SDK provides seamless in-app feedback for any touch point within your mobile application. 
+The Forsta Digital Feedback Mobile SDK provides seamless in-app feedback for any touch point within your mobile application. 
 
 <br/>
 
 ## Documentation
 
-Everything you need to get started with integration can be found in the [repository wiki](https://github.com/Confirmit/DigitalFeedbackMobileSDK/wiki).
+Everything you need to get started with integration can be found in the [repository wiki](https://github.com/ForstaGlobal/DigitalFeedbackMobileSDK/wiki).
 
 <br/>
 
@@ -42,7 +44,7 @@ Add the SDK dependency to the application level `build.gradle` file.
 // build.gradle (Module)
 dependencies {
     ...
-    implementation 'com.confirmit.mobilesdk:mobilesdk:3.6.1'
+    implementation 'com.confirmit.mobilesdk:mobilesdk:3.7.0'
 }
 ```
 
@@ -67,10 +69,10 @@ ProGuard users must manually add following rules.
 
 ### Prerequisites
 
-* Xcode 12.4 or higher
+* Xcode 13 or higher
 * Target of iOS 12 or higher
-  * For earlier iOS version, please use [ConfirmitMobileSDK v3.5.0](https://github.com/Confirmit/DigitalFeedbackMobileSDK/tree/3.5.0)
-* Swift 5.3.2 or higher
+  * For earlier iOS version, please use [v3.5.0](https://github.com/ForstaGlobal/DigitalFeedbackMobileSDK/tree/3.5.0)
+* Swift 5.5 or higher
 
 ### Installation
 
@@ -78,14 +80,14 @@ ProGuard users must manually add following rules.
 
 **Step 1.** Add package URL and dependency to `Package.swift`
 ```swift
-// swift-tools-version:5.3
+// swift-tools-version:5.5
 
 import PackageDescription
 
 let package = Package(
     name: "<Your Product Name>",
     dependencies: [
-		.package(url: "https://github.com/Confirmit/DigitalFeedbackMobileSDK.git", .upToNextMajor(from: "3.6.1"))
+		.package(url: "https://github.com/FortaGlobal/DigitalFeedbackMobileSDK.git", .upToNextMajor(from: "3.7.0"))
     ],
     targets: [
         .target(
@@ -104,12 +106,12 @@ let package = Package(
 **Step 1.** Add local pod path to the `Podfile`.
 ```ruby
 use_frameworks!
-platform :ios, '10.0'
+platform :ios, '12.0'
 
 # Your target
 target 'MyApp' do
   # ... others pods
-  pod 'ConfirmitMobileSDK', '3.6.1'
+  pod 'ConfirmitMobileSDK', '3.7.0'
 end
 ```
 
