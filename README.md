@@ -1,9 +1,7 @@
 <br/>
-<div style="background: #ffffff; border-radius: 25px;">
-<p align="center">
-  <img src="https://forstaglobal.github.io/DigitalFeedbackMobileSDK/assets/logo.png" style=" max-width: 50%; height: auto;">
+<p align="center" style="background-color: #ffffff;">
+  <img src="https://forstaglobal.github.io/DigitalFeedbackMobileSDK/assets/logo.png" width="50%">
 </p>
-</div>
 <br/>
 
 # Digital Feedback Mobile SDK
