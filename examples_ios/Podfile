@@ -4,5 +4,5 @@ inhibit_all_warnings!
 
 target 'MyApp' do
   project 'MyApp.xcodeproj'
-  pod 'ConfirmitMobileSDK', '3.7.0'
+  pod 'ConfirmitMobileSDK', '3.7.1'
 end

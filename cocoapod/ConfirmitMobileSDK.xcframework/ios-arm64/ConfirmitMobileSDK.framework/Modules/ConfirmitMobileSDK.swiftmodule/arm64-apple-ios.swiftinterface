@@ -155,7 +155,6 @@ public typealias SurveyWebViewUrlCompletion = (ConfirmitMobileSDK.SurveyWebViewU
   @objc dynamic public init()
   @_Concurrency.MainActor(unsafe) public func getSurveyUrl(completion: @escaping ConfirmitMobileSDK.SurveyWebViewUrlCompletion)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) public func setupWebView(serverId: Swift.String, projectId: Swift.String, customData: [Swift.String : Swift.String?])
   @_Concurrency.MainActor(unsafe) public func getWebview() -> WebKit.WKWebView?
