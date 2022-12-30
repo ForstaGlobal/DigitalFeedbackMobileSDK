@@ -27,10 +27,10 @@ Everything you need to get started with integration can be found in the [reposit
     > These dependencies will be automatically downloaded by Gradle sync
     
     * AndroidX
-        * [Room](https://developer.android.com/jetpack/androidx/releases/room) (2.4.1)
-        * [Appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat) (1.2.0)
-        * [WebKit](https://developer.android.com/jetpack/androidx/releases/webkit) (1.3.0)
-    * [Gson](https://github.com/google/gson) (2.8.5)
+        * [Room](https://developer.android.com/jetpack/androidx/releases/room) (2.4.3)
+        * [Appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat) (1.4.1)
+        * [WebKit](https://developer.android.com/jetpack/androidx/releases/webkit) (1.4.0)
+    * [Gson](https://github.com/google/gson) (2.10)
     * [Mozilla Rhino](https://github.com/mozilla/rhino) (1.7.12)
 
 
