@@ -41,7 +41,7 @@ Add the SDK dependency to the application level `build.gradle` file.
 // build.gradle (Module)
 dependencies {
     ...
-    implementation 'com.confirmit.mobilesdk:mobilesdk:3.8.0'
+    implementation 'com.confirmit.mobilesdk:mobilesdk:3.8.1'
 }
 ```
 
@@ -84,7 +84,7 @@ import PackageDescription
 let package = Package(
     name: "<Your Product Name>",
     dependencies: [
-		.package(url: "https://github.com/FortaGlobal/DigitalFeedbackMobileSDK.git", .upToNextMajor(from: "3.8.0"))
+		.package(url: "https://github.com/FortaGlobal/DigitalFeedbackMobileSDK.git", .upToNextMajor(from: "3.8.1"))
     ],
     targets: [
         .target(
@@ -108,7 +108,7 @@ platform :ios, '12.0'
 # Your target
 target 'MyApp' do
   # ... others pods
-  pod 'ConfirmitMobileSDK', '3.8.0'
+  pod 'ConfirmitMobileSDK', '3.8.1'
 end
 ```
 
