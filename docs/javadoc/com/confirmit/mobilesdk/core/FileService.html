@@ -164,6 +164,12 @@ public final class <span class="typeNameLabel"><a href=FileService.html>FileServ
                                             <th class="colLast" scope="col">Description</th>
                                         </tr>
                                         
+                                        <tr class="altColor">
+                                            <td class="colFirst"><code>private final <a href=https://developer.android.com/reference/kotlin/android/app/Application.html>Application</a></code></td>
+                                            <th class="colSecond" scope="row"><code><a href=FileService.html#application>application</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
                                     </table>
                                 </div>
                             </li>
@@ -190,7 +196,7 @@ public final class <span class="typeNameLabel"><a href=FileService.html>FileServ
                                         
                                             <tr class="altColor">
                                                 <th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a
-                                                        href="#FileService()">FileService</a></span>()</code></th>
+                                                        href="#FileService(Application)">FileService</a></span>(<a href=https://developer.android.com/reference/kotlin/android/app/Application.html>Application</a> application)</code></th>
                                                 <td class="colLast"></td>
                                             </tr>
                                         
@@ -244,17 +250,17 @@ public final class <span class="typeNameLabel"><a href=FileService.html>FileServ
                                         </tr>
                                         
                                         <tr id="i0" class="altColor">
-                                            <td class="colFirst"><code>final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            <td class="colFirst"><code>final <a href=https://developer.android.com/reference/kotlin/android/app/Application.html>Application</a></code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=FileService.html#createFolder(Uri)>createFolder</a>(<a href=https://developer.android.com/reference/kotlin/android/net/Uri.html>Uri</a> uri) </code>
+                                            <th class="colSecond" scope="row"><code><a href=FileService.html#getApplication()>getApplication</a>() </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
                                         
                                         <tr id="i1" class="rowColor">
-                                            <td class="colFirst"><code>final <a href=https://developer.android.com/reference/kotlin/java/io/File.html>File</a></code>
+                                            <td class="colFirst"><code>final <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a></code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=FileService.html#createFile(Uri,String)>createFile</a>(<a href=https://developer.android.com/reference/kotlin/android/net/Uri.html>Uri</a> uri, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> filename) </code>
+                                            <th class="colSecond" scope="row"><code><a href=FileService.html#readAsset(String)>readAsset</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> fileName) </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
@@ -262,12 +268,28 @@ public final class <span class="typeNameLabel"><a href=FileService.html>FileServ
                                         <tr id="i2" class="altColor">
                                             <td class="colFirst"><code>final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=FileService.html#unzipFile(Uri,Uri)>unzipFile</a>(<a href=https://developer.android.com/reference/kotlin/android/net/Uri.html>Uri</a> srcUri, <a href=https://developer.android.com/reference/kotlin/android/net/Uri.html>Uri</a> destUri) </code>
+                                            <th class="colSecond" scope="row"><code><a href=FileService.html#createFolder(Uri)>createFolder</a>(<a href=https://developer.android.com/reference/kotlin/android/net/Uri.html>Uri</a> uri) </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
                                         
                                         <tr id="i3" class="rowColor">
+                                            <td class="colFirst"><code>final <a href=https://developer.android.com/reference/kotlin/java/io/File.html>File</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=FileService.html#createFile(Uri,String)>createFile</a>(<a href=https://developer.android.com/reference/kotlin/android/net/Uri.html>Uri</a> uri, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> filename) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i4" class="altColor">
+                                            <td class="colFirst"><code>final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=FileService.html#unzipFile(Uri,Uri)>unzipFile</a>(<a href=https://developer.android.com/reference/kotlin/android/net/Uri.html>Uri</a> srcUri, <a href=https://developer.android.com/reference/kotlin/android/net/Uri.html>Uri</a> destUri) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i5" class="rowColor">
                                             <td class="colFirst"><code>final &lt;T extends <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html>Any</a>&gt; <a href=FileService.html#readFileAsJson(Class,Uri)>T</a></code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=FileService.html#readFileAsJson(Class,Uri)>readFileAsJson</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/Class.html>Class</a>&lt;<a href=FileService.html#readFileAsJson(Class,Uri)>T</a>&gt; clazz, <a href=https://developer.android.com/reference/kotlin/android/net/Uri.html>Uri</a> uri) </code>
@@ -275,7 +297,7 @@ public final class <span class="typeNameLabel"><a href=FileService.html>FileServ
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i4" class="altColor">
+                                        <tr id="i6" class="altColor">
                                             <td class="colFirst"><code>final &lt;T extends <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html>Any</a>&gt; <a href=FileService.html#readFileAsJson(Type,Uri)>T</a></code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=FileService.html#readFileAsJson(Type,Uri)>readFileAsJson</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/reflect/Type.html>Type</a> clazz, <a href=https://developer.android.com/reference/kotlin/android/net/Uri.html>Uri</a> uri) </code>
@@ -283,7 +305,7 @@ public final class <span class="typeNameLabel"><a href=FileService.html>FileServ
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i5" class="rowColor">
+                                        <tr id="i7" class="rowColor">
                                             <td class="colFirst"><code>final <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a></code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=FileService.html#readFileAsText(Uri)>readFileAsText</a>(<a href=https://developer.android.com/reference/kotlin/android/net/Uri.html>Uri</a> uri) </code>
@@ -291,7 +313,7 @@ public final class <span class="typeNameLabel"><a href=FileService.html>FileServ
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i6" class="altColor">
+                                        <tr id="i8" class="altColor">
                                             <td class="colFirst"><code>final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=FileService.html#deleteFile(Uri)>deleteFile</a>(<a href=https://developer.android.com/reference/kotlin/android/net/Uri.html>Uri</a> uri) </code>
@@ -299,7 +321,7 @@ public final class <span class="typeNameLabel"><a href=FileService.html>FileServ
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i7" class="rowColor">
+                                        <tr id="i9" class="rowColor">
                                             <td class="colFirst"><code>final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=FileService.html#deleteContentFiles(Uri,String)>deleteContentFiles</a>(<a href=https://developer.android.com/reference/kotlin/android/net/Uri.html>Uri</a> uri, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> exclude) </code>
@@ -338,11 +360,11 @@ public final class <span class="typeNameLabel"><a href=FileService.html>FileServ
                             </a>
                                 <h3>Constructor Detail</h3>
                                 
-                                <a name="FileService()"></a>
+                                <a name="FileService(Application)"></a>
                                 <ul class="blockList">
                                     <li class="blockList">
                                         <h4>FileService</h4>
-                                        <pre>FileService()</pre>
+                                        <pre>FileService(<a href=https://developer.android.com/reference/kotlin/android/app/Application.html>Application</a> application)</pre>
                                         <div class="block"></div>
                                         
                                     </li>
@@ -360,6 +382,36 @@ public final class <span class="typeNameLabel"><a href=FileService.html>FileServ
                                 <!--   -->
                             </a>
                                 <h3>Method Detail</h3>
+                                
+                                <a id="getApplication()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getApplication</h4>
+                                        <pre class="methodSignature"> final <a href=https://developer.android.com/reference/kotlin/android/app/Application.html>Application</a> <a href=FileService.html#getApplication()>getApplication</a>()</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="readAsset(String)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>readAsset</h4>
+                                        <pre class="methodSignature"> final <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> <a href=FileService.html#readAsset(String)>readAsset</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> fileName)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
                                 
                                 <a id="createFolder(Uri)">
                                     <!--   -->

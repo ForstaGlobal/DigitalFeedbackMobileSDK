@@ -1,5 +1,6 @@
 $dokka.format:javadoc-v1
 $dokka.linkExtension:html
+$dokka.location:com.confirmit.mobilesdk.core/ConfigService.Companion///PointingToDeclaration/com/confirmit/mobilesdk/core/ConfigService.Companion.html
 $dokka.location:com.confirmit.mobilesdk.core/PathService.Companion///PointingToDeclaration/com/confirmit/mobilesdk/core/PathService.Companion.html
 $dokka.location:com.confirmit.mobilesdk.surveyengine/RespondentStatus.Companion///PointingToDeclaration/com/confirmit/mobilesdk/surveyengine/RespondentStatus.Companion.html
 $dokka.location:com.confirmit.mobilesdk.surveyengine/RespondentUploadStatus.Companion///PointingToDeclaration/com/confirmit/mobilesdk/surveyengine/RespondentUploadStatus.Companion.html
@@ -10,11 +11,14 @@ $dokka.location:com.confirmit.mobilesdk/ConfirmitSDK.Module///PointingToDeclarat
 $dokka.location:com.confirmit.mobilesdk/ConfirmitSDK.Setup///PointingToDeclaration/com/confirmit/mobilesdk/ConfirmitSDK.Setup.html
 com.confirmit.mobilesdk
 com.confirmit.mobilesdk.core
+com.confirmit.mobilesdk.core.infos
 com.confirmit.mobilesdk.database
 com.confirmit.mobilesdk.database.domain
 com.confirmit.mobilesdk.database.externals
 com.confirmit.mobilesdk.database.providers.room
 com.confirmit.mobilesdk.exts
+com.confirmit.mobilesdk.scripting.trigger.journey
+com.confirmit.mobilesdk.scripting.trigger.rhino.objects
 com.confirmit.mobilesdk.surveyengine
 com.confirmit.mobilesdk.surveyengine.packages
 com.confirmit.mobilesdk.sync

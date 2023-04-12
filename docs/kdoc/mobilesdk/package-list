@@ -1,7 +1,16 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
+$dokka.location:com.confirmit.mobilesdk.core.infos////PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.core.infos/index.html
+$dokka.location:com.confirmit.mobilesdk.core.infos/VariableInfo///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.core.infos/-variable-info/index.html
+$dokka.location:com.confirmit.mobilesdk.core.infos/VariableInfo/VariableInfo/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.core.infos/-variable-info/-variable-info.html
+$dokka.location:com.confirmit.mobilesdk.core.infos/VariableInfo/secondaryVersion/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.core.infos/-variable-info/secondary-version.html
 $dokka.location:com.confirmit.mobilesdk.core////PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.core/index.html
+$dokka.location:com.confirmit.mobilesdk.core/ConfigService.Companion///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.core/-config-service/-companion/index.html
+$dokka.location:com.confirmit.mobilesdk.core/ConfigService///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.core/-config-service/index.html
+$dokka.location:com.confirmit.mobilesdk.core/ConfigService/ConfigService/#com.confirmit.mobilesdk.core.FileService/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.core/-config-service/-config-service.html
+$dokka.location:com.confirmit.mobilesdk.core/ConfigService/getSecondaryVersion/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.core/-config-service/get-secondary-version.html
 $dokka.location:com.confirmit.mobilesdk.core/CoreModule///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.core/-core-module/index.html
+$dokka.location:com.confirmit.mobilesdk.core/CoreModule/config/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.core/-core-module/config.html
 $dokka.location:com.confirmit.mobilesdk.core/CoreModule/device/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.core/-core-module/device.html
 $dokka.location:com.confirmit.mobilesdk.core/CoreModule/file/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.core/-core-module/file.html
 $dokka.location:com.confirmit.mobilesdk.core/CoreModule/packages/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.core/-core-module/packages.html
@@ -15,11 +24,13 @@ $dokka.location:com.confirmit.mobilesdk.core/DeviceService/getOsVersion/#/Pointi
 $dokka.location:com.confirmit.mobilesdk.core/DeviceService/getPlatform/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.core/-device-service/get-platform.html
 $dokka.location:com.confirmit.mobilesdk.core/DeviceService/getSdkVersion/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.core/-device-service/get-sdk-version.html
 $dokka.location:com.confirmit.mobilesdk.core/FileService///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.core/-file-service/index.html
-$dokka.location:com.confirmit.mobilesdk.core/FileService/FileService/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.core/-file-service/-file-service.html
+$dokka.location:com.confirmit.mobilesdk.core/FileService/FileService/#android.app.Application/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.core/-file-service/-file-service.html
+$dokka.location:com.confirmit.mobilesdk.core/FileService/application/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.core/-file-service/application.html
 $dokka.location:com.confirmit.mobilesdk.core/FileService/createFile/#android.net.Uri#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.core/-file-service/create-file.html
 $dokka.location:com.confirmit.mobilesdk.core/FileService/createFolder/#android.net.Uri/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.core/-file-service/create-folder.html
 $dokka.location:com.confirmit.mobilesdk.core/FileService/deleteContentFiles/#android.net.Uri#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.core/-file-service/delete-content-files.html
 $dokka.location:com.confirmit.mobilesdk.core/FileService/deleteFile/#android.net.Uri/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.core/-file-service/delete-file.html
+$dokka.location:com.confirmit.mobilesdk.core/FileService/readAsset/#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.core/-file-service/read-asset.html
 $dokka.location:com.confirmit.mobilesdk.core/FileService/readFileAsJson/#java.lang.Class[TypeParam(bounds=[kotlin.Any?])]#android.net.Uri/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.core/-file-service/read-file-as-json.html
 $dokka.location:com.confirmit.mobilesdk.core/FileService/readFileAsJson/#java.lang.reflect.Type#android.net.Uri/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.core/-file-service/read-file-as-json.html
 $dokka.location:com.confirmit.mobilesdk.core/FileService/readFileAsText/#android.net.Uri/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.core/-file-service/read-file-as-text.html
@@ -54,6 +65,19 @@ $dokka.location:com.confirmit.mobilesdk.core/PathService/rootUri/#/PointingToDec
 $dokka.location:com.confirmit.mobilesdk.core/PathService/sharedUri/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.core/-path-service/shared-uri.html
 $dokka.location:com.confirmit.mobilesdk.core/PathService/tempUri/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.core/-path-service/temp-uri.html
 $dokka.location:com.confirmit.mobilesdk.database.domain////PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.domain/index.html
+$dokka.location:com.confirmit.mobilesdk.database.domain/ActiveJourneyDb///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.domain/-active-journey-db/index.html
+$dokka.location:com.confirmit.mobilesdk.database.domain/ActiveJourneyDb/cleanupActiveJourney/#kotlin.String#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.domain/-active-journey-db/cleanup-active-journey.html
+$dokka.location:com.confirmit.mobilesdk.database.domain/ActiveJourneyDb/createOrUpdate/#kotlin.String#com.confirmit.mobilesdk.database.externals.ActiveJourney#kotlin.Boolean/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.domain/-active-journey-db/create-or-update.html
+$dokka.location:com.confirmit.mobilesdk.database.domain/ActiveJourneyDb/getActive/#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.domain/-active-journey-db/get-active.html
+$dokka.location:com.confirmit.mobilesdk.database.domain/ActiveJourneyDb/getDeletedList/#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.domain/-active-journey-db/get-deleted-list.html
+$dokka.location:com.confirmit.mobilesdk.database.domain/JourneyDb///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.domain/-journey-db/index.html
+$dokka.location:com.confirmit.mobilesdk.database.domain/JourneyDb/cleanupJourney/#kotlin.String#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.domain/-journey-db/cleanup-journey.html
+$dokka.location:com.confirmit.mobilesdk.database.domain/JourneyDb/getDeletedList/#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.domain/-journey-db/get-deleted-list.html
+$dokka.location:com.confirmit.mobilesdk.database.domain/JourneyDb/getPendingJourney/#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.domain/-journey-db/get-pending-journey.html
+$dokka.location:com.confirmit.mobilesdk.database.domain/JourneyDb/insert/#kotlin.String#com.confirmit.mobilesdk.database.externals.Journey/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.domain/-journey-db/insert.html
+$dokka.location:com.confirmit.mobilesdk.database.domain/JourneyDb/setUpdateError/#kotlin.String#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.domain/-journey-db/set-update-error.html
+$dokka.location:com.confirmit.mobilesdk.database.domain/JourneyDb/setUpdateProgress/#kotlin.String#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.domain/-journey-db/set-update-progress.html
+$dokka.location:com.confirmit.mobilesdk.database.domain/JourneyDb/setUpdateSuccess/#kotlin.String#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.domain/-journey-db/set-update-success.html
 $dokka.location:com.confirmit.mobilesdk.database.domain/PrefDb///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.domain/-pref-db/index.html
 $dokka.location:com.confirmit.mobilesdk.database.domain/PrefDb/createOrUpdate/#kotlin.String#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.domain/-pref-db/create-or-update.html
 $dokka.location:com.confirmit.mobilesdk.database.domain/PrefDb/getPref/#kotlin.String#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.domain/-pref-db/get-pref.html
@@ -108,6 +132,19 @@ $dokka.location:com.confirmit.mobilesdk.database.domain/SurveyDb/getDeletedSurve
 $dokka.location:com.confirmit.mobilesdk.database.domain/SurveyDb/getSurvey/#kotlin.String#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.domain/-survey-db/get-survey.html
 $dokka.location:com.confirmit.mobilesdk.database.domain/SurveyDb/getSurveyList/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.domain/-survey-db/get-survey-list.html
 $dokka.location:com.confirmit.mobilesdk.database.externals////PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.externals/index.html
+$dokka.location:com.confirmit.mobilesdk.database.externals/ActiveJourney///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.externals/-active-journey/index.html
+$dokka.location:com.confirmit.mobilesdk.database.externals/ActiveJourney/ActiveJourney/#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.externals/-active-journey/-active-journey.html
+$dokka.location:com.confirmit.mobilesdk.database.externals/ActiveJourney/customTableName/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.externals/-active-journey/custom-table-name.html
+$dokka.location:com.confirmit.mobilesdk.database.externals/ActiveJourney/events/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.externals/-active-journey/events.html
+$dokka.location:com.confirmit.mobilesdk.database.externals/ActiveJourney/guid/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.externals/-active-journey/guid.html
+$dokka.location:com.confirmit.mobilesdk.database.externals/ActiveJourney/journeyEvents/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.externals/-active-journey/journey-events.html
+$dokka.location:com.confirmit.mobilesdk.database.externals/ActiveJourney/journeyName/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.externals/-active-journey/journey-name.html
+$dokka.location:com.confirmit.mobilesdk.database.externals/Journey///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.externals/-journey/index.html
+$dokka.location:com.confirmit.mobilesdk.database.externals/Journey/Journey/#kotlin.Long#kotlin.String#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.String?]/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.externals/-journey/-journey.html
+$dokka.location:com.confirmit.mobilesdk.database.externals/Journey/customTableName/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.externals/-journey/custom-table-name.html
+$dokka.location:com.confirmit.mobilesdk.database.externals/Journey/guid/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.externals/-journey/guid.html
+$dokka.location:com.confirmit.mobilesdk.database.externals/Journey/hubId/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.externals/-journey/hub-id.html
+$dokka.location:com.confirmit.mobilesdk.database.externals/Journey/records/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.externals/-journey/records.html
 $dokka.location:com.confirmit.mobilesdk.database.externals/Program///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.externals/-program/index.html
 $dokka.location:com.confirmit.mobilesdk.database.externals/Program/Program/#kotlin.String#kotlin.String#kotlin.Boolean#kotlin.Long#com.confirmit.mobilesdk.database.externals.ProgramUrl/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.externals/-program/-program.html
 $dokka.location:com.confirmit.mobilesdk.database.externals/Program/programKey/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.externals/-program/program-key.html
@@ -157,7 +194,9 @@ $dokka.location:com.confirmit.mobilesdk.database.externals/SurveyRespondent/uplo
 $dokka.location:com.confirmit.mobilesdk.database.providers.room////PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.providers.room/index.html
 $dokka.location:com.confirmit.mobilesdk.database.providers.room/RoomDataModule///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.providers.room/-room-data-module/index.html
 $dokka.location:com.confirmit.mobilesdk.database.providers.room/RoomDataModule/RoomDataModule/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.providers.room/-room-data-module/-room-data-module.html
+$dokka.location:com.confirmit.mobilesdk.database.providers.room/RoomDataModule/activeJourney/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.providers.room/-room-data-module/active-journey.html
 $dokka.location:com.confirmit.mobilesdk.database.providers.room/RoomDataModule/initialize/#android.app.Application#com.confirmit.mobilesdk.ConfirmitSDK.Setup/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.providers.room/-room-data-module/initialize.html
+$dokka.location:com.confirmit.mobilesdk.database.providers.room/RoomDataModule/journey/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.providers.room/-room-data-module/journey.html
 $dokka.location:com.confirmit.mobilesdk.database.providers.room/RoomDataModule/pref/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.providers.room/-room-data-module/pref.html
 $dokka.location:com.confirmit.mobilesdk.database.providers.room/RoomDataModule/program/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.providers.room/-room-data-module/program.html
 $dokka.location:com.confirmit.mobilesdk.database.providers.room/RoomDataModule/programPref/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.providers.room/-room-data-module/program-pref.html
@@ -168,6 +207,8 @@ $dokka.location:com.confirmit.mobilesdk.database.providers.room/RoomDataModule/s
 $dokka.location:com.confirmit.mobilesdk.database.providers.room/RoomDataModule/survey/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.providers.room/-room-data-module/survey.html
 $dokka.location:com.confirmit.mobilesdk.database////PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database/index.html
 $dokka.location:com.confirmit.mobilesdk.database/DataModule///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database/-data-module/index.html
+$dokka.location:com.confirmit.mobilesdk.database/DataModule/activeJourney/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database/-data-module/active-journey.html
+$dokka.location:com.confirmit.mobilesdk.database/DataModule/journey/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database/-data-module/journey.html
 $dokka.location:com.confirmit.mobilesdk.database/DataModule/pref/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database/-data-module/pref.html
 $dokka.location:com.confirmit.mobilesdk.database/DataModule/program/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database/-data-module/program.html
 $dokka.location:com.confirmit.mobilesdk.database/DataModule/programPref/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database/-data-module/program-pref.html
@@ -180,6 +221,72 @@ $dokka.location:com.confirmit.mobilesdk.exts////PointingToDeclaration/mobilesdk
 $dokka.location:com.confirmit.mobilesdk.exts//requireLocalizedString/java.lang.Exception#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.exts/require-localized-string.html
 $dokka.location:com.confirmit.mobilesdk.exts//requirePath/android.net.Uri#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.exts/require-path.html
 $dokka.location:com.confirmit.mobilesdk.exts//tint/android.widget.ImageView#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.exts/tint.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.journey////PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.journey/index.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.journey/JourneyHelper///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.journey/-journey-helper/index.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.journey/JourneyHelper/JourneyHelper/#kotlin.String#kotlin.String#kotlin.String#kotlin.collections.List[kotlin.String]#kotlin.collections.MutableList[com.confirmit.mobilesdk.scripting.trigger.rhino.objects.RhinoJourneyEventObj]/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.journey/-journey-helper/-journey-helper.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.journey/JourneyHelper/add/#com.confirmit.mobilesdk.scripting.trigger.rhino.objects.RhinoJourneyEventObj/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.journey/-journey-helper/add.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.journey/JourneyHelper/cleanup/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.journey/-journey-helper/cleanup.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.journey/JourneyHelper/customTableName/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.journey/-journey-helper/custom-table-name.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.journey/JourneyHelper/events/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.journey/-journey-helper/events.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.journey/JourneyHelper/getJourney/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.journey/-journey-helper/get-journey.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.journey/JourneyHelper/getPostEvent/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.journey/-journey-helper/get-post-event.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.journey/JourneyHelper/isDropOff/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.journey/-journey-helper/is-drop-off.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.journey/JourneyHelper/isDropOff/#com.confirmit.mobilesdk.scripting.trigger.rhino.objects.RhinoJourneyEventObj/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.journey/-journey-helper/is-drop-off.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.journey/JourneyHelper/isPost/#com.confirmit.mobilesdk.scripting.trigger.rhino.objects.RhinoJourneyEventObj/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.journey/-journey-helper/is-post.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.journey/JourneyHelper/isStart/#com.confirmit.mobilesdk.scripting.trigger.rhino.objects.RhinoJourneyEventObj/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.journey/-journey-helper/is-start.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.journey/JourneyHelper/journeyEventObj/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.journey/-journey-helper/journey-event-obj.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.journey/JourneyHelper/journeyName/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.journey/-journey-helper/journey-name.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.journey/JourneyHelper/start/#com.confirmit.mobilesdk.scripting.trigger.rhino.objects.RhinoJourneyEventObj/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.journey/-journey-helper/start.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.journey/JourneyHelper/uuid/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.journey/-journey-helper/uuid.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.journey/JourneyUploadStatus.ERROR///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}mobilesdk/com.confirmit.mobilesdk.scripting.trigger.journey/-journey-upload-status/-e-r-r-o-r/index.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.journey/JourneyUploadStatus.IN_PROGRESS///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}mobilesdk/com.confirmit.mobilesdk.scripting.trigger.journey/-journey-upload-status/-i-n_-p-r-o-g-r-e-s-s/index.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.journey/JourneyUploadStatus.PENDING///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}mobilesdk/com.confirmit.mobilesdk.scripting.trigger.journey/-journey-upload-status/-p-e-n-d-i-n-g/index.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.journey/JourneyUploadStatus.SUCCESS///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}mobilesdk/com.confirmit.mobilesdk.scripting.trigger.journey/-journey-upload-status/-s-u-c-c-e-s-s/index.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.journey/JourneyUploadStatus///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.journey/-journey-upload-status/index.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.journey/JourneyUploadStatus/value/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.journey/-journey-upload-status/value.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects////PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/index.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyEventObj///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-event-obj/index.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyEventObj/RhinoJourneyEventObj/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-event-obj/-rhino-journey-event-obj.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyEventObj/RhinoJourneyEventObj/#kotlin.Any/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-event-obj/-rhino-journey-event-obj.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyEventObj/getClassName/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-event-obj/get-class-name.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyEventObj/getData/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-event-obj/get-data.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyEventObj/getName/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-event-obj/get-name.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyEventObj/getPrevious/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-event-obj/get-previous.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyEventObj/getTriggered/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-event-obj/get-triggered.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyEventObj/load/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-event-obj/load.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyEventObj/setData/#kotlin.Any/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-event-obj/set-data.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyEventObj/setName/#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-event-obj/set-name.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyEventObj/setPrevious/#kotlin.Double/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-event-obj/set-previous.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyEventObj/setTriggered/#kotlin.Double/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-event-obj/set-triggered.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyEventObj/setup/#kotlin.String#kotlin.Any/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-event-obj/setup.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyEventObj/sincePreviousEvent/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-event-obj/since-previous-event.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyObj///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-obj/index.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyObj/RhinoJourneyObj/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-obj/-rhino-journey-obj.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyObj/RhinoJourneyObj/#kotlin.Any/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-obj/-rhino-journey-obj.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyObj/getClassName/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-obj/get-class-name.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyObj/getCompleted/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-obj/get-completed.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyObj/getCustomTableName/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-obj/get-custom-table-name.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyObj/getDropOff/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-obj/get-drop-off.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyObj/getDuration/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-obj/get-duration.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyObj/getEvents/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-obj/get-events.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyObj/getEventsNativeArray/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-obj/get-events-native-array.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyObj/getLast/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-obj/get-last.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyObj/getName/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-obj/get-name.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyObj/getPostEvent/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-obj/get-post-event.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyObj/getRowId/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-obj/get-row-id.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyObj/getStart/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-obj/get-start.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyObj/getUserId/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-obj/get-user-id.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyObj/isDropOff/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-obj/is-drop-off.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyObj/load/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-obj/load.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyObj/setCompleted/#kotlin.Double/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-obj/set-completed.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyObj/setCustomTableName/#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-obj/set-custom-table-name.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyObj/setDropOff/#kotlin.Boolean/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-obj/set-drop-off.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyObj/setEvents/#org.mozilla.javascript.NativeArray/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-obj/set-events.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyObj/setName/#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-obj/set-name.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyObj/setPostEvent/#com.confirmit.mobilesdk.scripting.trigger.rhino.objects.RhinoJourneyEventObj/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-obj/set-post-event.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyObj/setRowId/#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-obj/set-row-id.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyObj/setUserId/#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-obj/set-user-id.html
+$dokka.location:com.confirmit.mobilesdk.scripting.trigger.rhino.objects/RhinoJourneyObj/setup/#kotlin.String#com.confirmit.mobilesdk.scripting.trigger.journey.JourneyHelper/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.scripting.trigger.rhino.objects/-rhino-journey-obj/setup.html
 $dokka.location:com.confirmit.mobilesdk.surveyengine.packages////PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.surveyengine.packages/index.html
 $dokka.location:com.confirmit.mobilesdk.surveyengine.packages/ConfigsInfo///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.surveyengine.packages/-configs-info/index.html
 $dokka.location:com.confirmit.mobilesdk.surveyengine.packages/ConfigsInfo/ConfigsInfo/#kotlin.Int#kotlin.String#kotlin.String#kotlin.Int#kotlin.Int#kotlin.collections.MutableList[com.confirmit.mobilesdk.surveyengine.packages.LanguageInfo]#com.confirmit.mobilesdk.surveyengine.HandlingOfUndefinedPrecodes#com.confirmit.mobilesdk.surveyengine.HandlingOfInvalidNumericData#com.confirmit.mobilesdk.surveyengine.HandlingOfOversizedTexts/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.surveyengine.packages/-configs-info/-configs-info.html
@@ -300,6 +407,11 @@ $dokka.location:com.confirmit.mobilesdk.sync.payloads/DigitalFeedbackLoaderPaylo
 $dokka.location:com.confirmit.mobilesdk.sync.payloads/DigitalFeedbackLoaderPayload/DigitalFeedbackLoaderPayload/#kotlin.Long#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.sync.payloads/-digital-feedback-loader-payload/-digital-feedback-loader-payload.html
 $dokka.location:com.confirmit.mobilesdk.sync.payloads/DigitalFeedbackLoaderPayload/programUrl/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.sync.payloads/-digital-feedback-loader-payload/program-url.html
 $dokka.location:com.confirmit.mobilesdk.sync.payloads/DigitalFeedbackLoaderPayload/programVersion/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.sync.payloads/-digital-feedback-loader-payload/program-version.html
+$dokka.location:com.confirmit.mobilesdk.sync.payloads/JourneyLogsUploadPayload///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.sync.payloads/-journey-logs-upload-payload/index.html
+$dokka.location:com.confirmit.mobilesdk.sync.payloads/JourneyLogsUploadPayload/JourneyLogsUploadPayload/#kotlin.collections.List[kotlin.String]#kotlin.String#kotlin.collections.List[kotlin.Any]/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.sync.payloads/-journey-logs-upload-payload/-journey-logs-upload-payload.html
+$dokka.location:com.confirmit.mobilesdk.sync.payloads/JourneyLogsUploadPayload/fieldNames/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.sync.payloads/-journey-logs-upload-payload/field-names.html
+$dokka.location:com.confirmit.mobilesdk.sync.payloads/JourneyLogsUploadPayload/mode/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.sync.payloads/-journey-logs-upload-payload/mode.html
+$dokka.location:com.confirmit.mobilesdk.sync.payloads/JourneyLogsUploadPayload/records/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.sync.payloads/-journey-logs-upload-payload/records.html
 $dokka.location:com.confirmit.mobilesdk.sync.payloads/RespondentUploadPayload///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.sync.payloads/-respondent-upload-payload/index.html
 $dokka.location:com.confirmit.mobilesdk.sync.payloads/RespondentUploadPayload/RespondentUploadPayload/#kotlin.Int#kotlin.Int#kotlin.collections.Map[kotlin.String,kotlin.String?]#kotlin.collections.Map[kotlin.String,kotlin.String?]#kotlin.collections.Map[kotlin.String,kotlin.String?]#com.confirmit.mobilesdk.sync.payloads.DigitalFeedbackContextPayload?#kotlin.collections.List[kotlin.String]#kotlin.Int/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.sync.payloads/-respondent-upload-payload/-respondent-upload-payload.html
 $dokka.location:com.confirmit.mobilesdk.sync.payloads/RespondentUploadPayload/digitalFeedbackContext/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.sync.payloads/-respondent-upload-payload/digital-feedback-context.html
@@ -337,6 +449,7 @@ $dokka.location:com.confirmit.mobilesdk.sync.request/ApiRequestProvider/getConfi
 $dokka.location:com.confirmit.mobilesdk.sync.request/ApiRequestProvider/getCounters/#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.sync.request/-api-request-provider/get-counters.html
 $dokka.location:com.confirmit.mobilesdk.sync.request/ApiRequestProvider/getProgram/#kotlin.String#kotlin.String#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.sync.request/-api-request-provider/get-program.html
 $dokka.location:com.confirmit.mobilesdk.sync.request/ApiRequestProvider/getProgramLoader/#kotlin.String#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.sync.request/-api-request-provider/get-program-loader.html
+$dokka.location:com.confirmit.mobilesdk.sync.request/ApiRequestProvider/uploadJourneyLog/#kotlin.String#kotlin.Long#kotlin.String#com.confirmit.mobilesdk.sync.payloads.JourneyLogsUploadPayload/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.sync.request/-api-request-provider/upload-journey-log.html
 $dokka.location:com.confirmit.mobilesdk.sync.request/ApiRequestProvider/uploadRespondent/#kotlin.String#kotlin.String#com.confirmit.mobilesdk.sync.payloads.RespondentUploadPayload/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.sync.request/-api-request-provider/upload-respondent.html
 $dokka.location:com.confirmit.mobilesdk.sync.request/ApiResponse///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.sync.request/-api-response/index.html
 $dokka.location:com.confirmit.mobilesdk.sync.request/ApiResponse/getStatusCode/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.sync.request/-api-response/get-status-code.html
@@ -515,6 +628,10 @@ $dokka.location:com.confirmit.mobilesdk.ui/ValidationQuestionError/code/#/Pointi
 $dokka.location:com.confirmit.mobilesdk.ui/ValidationQuestionError/message/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.ui/-validation-question-error/message.html
 $dokka.location:com.confirmit.mobilesdk.utils////PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.utils/index.html
 $dokka.location:com.confirmit.mobilesdk.utils//weakRef/#TypeParam(bounds=[kotlin.Any?])?/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.utils/weak-ref.html
+$dokka.location:com.confirmit.mobilesdk.utils/RandomUtils///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.utils/-random-utils/index.html
+$dokka.location:com.confirmit.mobilesdk.utils/RandomUtils/randomBytes/#kotlin.ByteArray/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.utils/-random-utils/random-bytes.html
+$dokka.location:com.confirmit.mobilesdk.utils/RandomUtils/randomDouble/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.utils/-random-utils/random-double.html
+$dokka.location:com.confirmit.mobilesdk.utils/RandomUtils/randomInt/#kotlin.Int/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.utils/-random-utils/random-int.html
 $dokka.location:com.confirmit.mobilesdk.utils/ServiceLocator///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.utils/-service-locator/index.html
 $dokka.location:com.confirmit.mobilesdk.utils/ServiceLocator/ServiceLocator/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.utils/-service-locator/-service-locator.html
 $dokka.location:com.confirmit.mobilesdk.utils/ServiceLocator/get/#java.lang.Class[TypeParam(bounds=[kotlin.Any?])]/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.utils/-service-locator/get.html
@@ -592,6 +709,7 @@ $dokka.location:com.confirmit.mobilesdk/ConfirmitSDK/androidContext/#/PointingTo
 $dokka.location:com.confirmit.mobilesdk/ConfirmitSDK/enableLog/#kotlin.Boolean/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-confirmit-s-d-k/enable-log.html
 $dokka.location:com.confirmit.mobilesdk/ConfirmitSDK/sdkVersion/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-confirmit-s-d-k/sdk-version.html
 $dokka.location:com.confirmit.mobilesdk/ConfirmitSDK/setAccessTokenProvider/#com.confirmit.mobilesdk.AccessTokenProvider?/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-confirmit-s-d-k/set-access-token-provider.html
+$dokka.location:com.confirmit.mobilesdk/ConfirmitSDK/setLogBridge/#com.confirmit.mobilesdk.SDKLogBridge?/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-confirmit-s-d-k/set-log-bridge.html
 $dokka.location:com.confirmit.mobilesdk/ConfirmitServer///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-confirmit-server/index.html
 $dokka.location:com.confirmit.mobilesdk/ConfirmitServer/AUSTRALIA/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-confirmit-server/-a-u-s-t-r-a-l-i-a.html
 $dokka.location:com.confirmit.mobilesdk/ConfirmitServer/CANADA/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-confirmit-server/-c-a-n-a-d-a.html
@@ -617,6 +735,9 @@ $dokka.location:com.confirmit.mobilesdk/ProgramDownloadResult/exception/#/Pointi
 $dokka.location:com.confirmit.mobilesdk/ProgramDownloadResult/result/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-program-download-result/result.html
 $dokka.location:com.confirmit.mobilesdk/ProgramScriptBridge///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-program-script-bridge/index.html
 $dokka.location:com.confirmit.mobilesdk/ProgramScriptBridge/consoleLog/#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-program-script-bridge/console-log.html
+$dokka.location:com.confirmit.mobilesdk/SDKLogBridge///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-s-d-k-log-bridge/index.html
+$dokka.location:com.confirmit.mobilesdk/SDKLogBridge/onSDKErrorLogPrinted/#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-s-d-k-log-bridge/on-s-d-k-error-log-printed.html
+$dokka.location:com.confirmit.mobilesdk/SDKLogBridge/onSDKInfoLogPrinted/#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-s-d-k-log-bridge/on-s-d-k-info-log-printed.html
 $dokka.location:com.confirmit.mobilesdk/SurveyDownloadResult///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-survey-download-result/index.html
 $dokka.location:com.confirmit.mobilesdk/SurveyDownloadResult/exception/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-survey-download-result/exception.html
 $dokka.location:com.confirmit.mobilesdk/SurveyDownloadResult/result/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-survey-download-result/result.html
@@ -631,6 +752,8 @@ $dokka.location:com.confirmit.mobilesdk/SurveySDK/setUniqueIdProvider/#com.confi
 $dokka.location:com.confirmit.mobilesdk/SurveyScriptBridge///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-survey-script-bridge/index.html
 $dokka.location:com.confirmit.mobilesdk/SurveyScriptBridge/consoleLog/#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-survey-script-bridge/console-log.html
 $dokka.location:com.confirmit.mobilesdk/TriggerSDK///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-trigger-s-d-k/index.html
+$dokka.location:com.confirmit.mobilesdk/TriggerSDK/addJourneyLog/#kotlin.String#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.String?]/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-trigger-s-d-k/add-journey-log.html
+$dokka.location:com.confirmit.mobilesdk/TriggerSDK/addJourneyLog/#kotlin.collections.Map[kotlin.String,kotlin.String?]/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-trigger-s-d-k/add-journey-log.html
 $dokka.location:com.confirmit.mobilesdk/TriggerSDK/deleteAll/#kotlin.Boolean/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-trigger-s-d-k/delete-all.html
 $dokka.location:com.confirmit.mobilesdk/TriggerSDK/deleteProgram/#kotlin.String#kotlin.String#kotlin.Boolean/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-trigger-s-d-k/delete-program.html
 $dokka.location:com.confirmit.mobilesdk/TriggerSDK/download/#kotlin.String#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-trigger-s-d-k/download.html
@@ -654,11 +777,14 @@ $dokka.location:com.confirmit.mobilesdk/UniqueIdProvider///PointingToDeclaration
 $dokka.location:com.confirmit.mobilesdk/UniqueIdProvider/getUniqueId/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-unique-id-provider/get-unique-id.html
 com.confirmit.mobilesdk
 com.confirmit.mobilesdk.core
+com.confirmit.mobilesdk.core.infos
 com.confirmit.mobilesdk.database
 com.confirmit.mobilesdk.database.domain
 com.confirmit.mobilesdk.database.externals
 com.confirmit.mobilesdk.database.providers.room
 com.confirmit.mobilesdk.exts
+com.confirmit.mobilesdk.scripting.trigger.journey
+com.confirmit.mobilesdk.scripting.trigger.rhino.objects
 com.confirmit.mobilesdk.surveyengine
 com.confirmit.mobilesdk.surveyengine.packages
 com.confirmit.mobilesdk.sync

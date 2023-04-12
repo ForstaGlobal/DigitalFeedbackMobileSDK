@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
-// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ConfirmitMobileSDK
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ConfirmitMobileSDK
 import Compression
 import CoreFoundation
 import Foundation
@@ -126,6 +126,8 @@ public enum TriggerSDK {
   public static func removeCallback(serverId: Swift.String, programKey: Swift.String)
   public static func download(serverId: Swift.String, programKey: Swift.String, completion: @escaping ConfirmitMobileSDK.TriggerDownloadComplete)
   public static func downloadCounters(serverId: Swift.String, programKey: Swift.String, completion: @escaping ConfirmitMobileSDK.TriggerDownloadComplete)
+  public static func addJourneyLog(serverId: Swift.String, programKey: Swift.String, data: [Swift.String : Swift.String?])
+  public static func addJourneyLog(data: [Swift.String : Swift.String?])
   public static func notifyEvent(serverId: Swift.String, programKey: Swift.String, event: Swift.String, data: [Swift.String : Swift.String?] = [:])
   public static func notifyEvent(event: Swift.String, data: [Swift.String : Swift.String?] = [:])
   public static func notifyAppForeground(data: [Swift.String : Swift.String?] = [:])
@@ -392,9 +394,14 @@ public protocol AccessTokenProvider {
 public protocol ConfirmitModule {
   func initialize(setup: ConfirmitMobileSDK.ConfirmitSDK.Setup)
 }
+public protocol SDKLogBridge : AnyObject {
+  func onSDKInfoLogPrinted(message: Swift.String)
+  func onSDKErrorLogPrinted(message: Swift.String)
+}
 public enum ConfirmitSDK {
   public static func setAccessTokenProvider(provider: ConfirmitMobileSDK.AccessTokenProvider?)
   public static func enableLog(enable: Swift.Bool, oslog: Swift.Bool = true)
+  public static func setLogBridge(bridge: ConfirmitMobileSDK.SDKLogBridge?)
   public class Setup {
     public init()
     public func rootPath(path: Foundation.URL?) -> ConfirmitMobileSDK.ConfirmitSDK.Setup
