@@ -67,8 +67,7 @@ ProGuard users must manually add following rules.
 ### Prerequisites
 
 * Xcode 13 or higher
-* Target of iOS 12 or higher
-  * For earlier iOS version, please use [v3.5.0](https://github.com/ForstaGlobal/DigitalFeedbackMobileSDK/tree/3.5.0)
+* Target of iOS 11 or higher
 * Swift 5.5 or higher
 
 ### Installation
