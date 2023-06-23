@@ -81,6 +81,7 @@ $dokka.location:com.confirmit.mobilesdk.database.domain/JourneyDb/setUpdateSucce
 $dokka.location:com.confirmit.mobilesdk.database.domain/PrefDb///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.domain/-pref-db/index.html
 $dokka.location:com.confirmit.mobilesdk.database.domain/PrefDb/createOrUpdate/#kotlin.String#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.domain/-pref-db/create-or-update.html
 $dokka.location:com.confirmit.mobilesdk.database.domain/PrefDb/getPref/#kotlin.String#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.domain/-pref-db/get-pref.html
+$dokka.location:com.confirmit.mobilesdk.database.domain/PrefDb/getPref/#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.domain/-pref-db/get-pref.html
 $dokka.location:com.confirmit.mobilesdk.database.domain/ProgramDb///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.domain/-program-db/index.html
 $dokka.location:com.confirmit.mobilesdk.database.domain/ProgramDb/createOrUpdate/#kotlin.String#kotlin.String#kotlin.Boolean#kotlin.Long#com.confirmit.mobilesdk.database.externals.ProgramUrl/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.domain/-program-db/create-or-update.html
 $dokka.location:com.confirmit.mobilesdk.database.domain/ProgramDb/deleteProgram/#kotlin.String#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.database.domain/-program-db/delete-program.html
@@ -714,6 +715,7 @@ $dokka.location:com.confirmit.mobilesdk/ConfirmitServer///PointingToDeclaration/
 $dokka.location:com.confirmit.mobilesdk/ConfirmitServer/AUSTRALIA/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-confirmit-server/-a-u-s-t-r-a-l-i-a.html
 $dokka.location:com.confirmit.mobilesdk/ConfirmitServer/CANADA/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-confirmit-server/-c-a-n-a-d-a.html
 $dokka.location:com.confirmit.mobilesdk/ConfirmitServer/GERMANY/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-confirmit-server/-g-e-r-m-a-n-y.html
+$dokka.location:com.confirmit.mobilesdk/ConfirmitServer/HX_AUSTRALIA/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-confirmit-server/-h-x_-a-u-s-t-r-a-l-i-a.html
 $dokka.location:com.confirmit.mobilesdk/ConfirmitServer/HX_PLATFORM/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-confirmit-server/-h-x_-p-l-a-t-f-o-r-m.html
 $dokka.location:com.confirmit.mobilesdk/ConfirmitServer/INSIGHTS/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-confirmit-server/-i-n-s-i-g-h-t-s.html
 $dokka.location:com.confirmit.mobilesdk/ConfirmitServer/NORDIC/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-confirmit-server/-n-o-r-d-i-c.html
@@ -723,6 +725,7 @@ $dokka.location:com.confirmit.mobilesdk/ConfirmitServer/configure/#kotlin.String
 $dokka.location:com.confirmit.mobilesdk/ConfirmitServer/configureAustralia/#kotlin.String#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-confirmit-server/configure-australia.html
 $dokka.location:com.confirmit.mobilesdk/ConfirmitServer/configureCanada/#kotlin.String#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-confirmit-server/configure-canada.html
 $dokka.location:com.confirmit.mobilesdk/ConfirmitServer/configureGermany/#kotlin.String#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-confirmit-server/configure-germany.html
+$dokka.location:com.confirmit.mobilesdk/ConfirmitServer/configureHxAustralia/#kotlin.String#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-confirmit-server/configure-hx-australia.html
 $dokka.location:com.confirmit.mobilesdk/ConfirmitServer/configureHxPlatform/#kotlin.String#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-confirmit-server/configure-hx-platform.html
 $dokka.location:com.confirmit.mobilesdk/ConfirmitServer/configureInsights/#kotlin.String#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-confirmit-server/configure-insights.html
 $dokka.location:com.confirmit.mobilesdk/ConfirmitServer/configureNordic/#kotlin.String#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk/-confirmit-server/configure-nordic.html

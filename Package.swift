@@ -2,16 +2,18 @@
 import PackageDescription
 
 let package = Package(
-    name: "ConfirmitMobileSDK",
+    name: "DigitalFeedbackMobileSDK",
     platforms: [
         .iOS(.v12)
     ],
     products: [
         .library(
             name: "ConfirmitMobileSDK", 
-            targets: ["ConfirmitMobileSDK"])
+            targets: ["ConfirmitMobileSDK"]
+        )
     ],
     targets: [
         .binaryTarget(name: "ConfirmitMobileSDK", path: "cocoapod/ConfirmitMobileSDK.xcframework")
     ],
-    swiftLanguageVersions: [.v5])
+    swiftLanguageVersions: [.v5]
+)

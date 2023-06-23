@@ -447,6 +447,9 @@ public enum ConfirmitServer {
   public static var hxPlatform: ConfirmitMobileSDK.Server! {
     get
   }
+  public static var hxAustralia: ConfirmitMobileSDK.Server! {
+    get
+  }
   public static func configureUS(clientId: Swift.String, clientSecret: Swift.String) throws
   public static func configureUK(clientId: Swift.String, clientSecret: Swift.String) throws
   public static func configureAustralia(clientId: Swift.String, clientSecret: Swift.String) throws
@@ -455,6 +458,7 @@ public enum ConfirmitServer {
   public static func configureCanada(clientId: Swift.String, clientSecret: Swift.String) throws
   public static func configureGermany(clientId: Swift.String, clientSecret: Swift.String) throws
   public static func configureHxPlatform(clientId: Swift.String, clientSecret: Swift.String) throws
+  public static func configureHxAustralia(clientId: Swift.String, clientSecret: Swift.String) throws
   public static func configure(name: Swift.String, host: Swift.String, clientId: Swift.String, clientSecret: Swift.String) throws -> ConfirmitMobileSDK.Server
   public static func getServer(serverId: Swift.String) throws -> ConfirmitMobileSDK.Server?
   public static func getServers() throws -> [ConfirmitMobileSDK.Server]

@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		w17hOIuD88gH8scvXgd/l+Myel8=
+		2aRiTtRT9eF+ySoSL3Jjg0wNjEw=
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		mXbtOhcFFhLHrgZEJ3DIdVRNooM=
+		PIhHrsLLVJ2BAZObC+vBi80j2RE=
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Py8m/o5NWNH9eTEiUCGomv2KnIE=
+		3SjHpgWB45v2sBH0rAiP4Y2Ty6Q=
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		mXbtOhcFFhLHrgZEJ3DIdVRNooM=
+		PIhHrsLLVJ2BAZObC+vBi80j2RE=
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		Py8m/o5NWNH9eTEiUCGomv2KnIE=
+		3SjHpgWB45v2sBH0rAiP4Y2Ty6Q=
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		HH5E4pcT9sG8elWlYSjM3p5AAtA=
+		LYl1qna9Yu5AvPavqKECtH45Vlg=
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1aX1RjCK4XaEm+k587Pn5UEYV/I=
+		6R+g8Op7+gt3Pz/geZNybgJbpNI=
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		HH5E4pcT9sG8elWlYSjM3p5AAtA=
+		LYl1qna9Yu5AvPavqKECtH45Vlg=
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		1aX1RjCK4XaEm+k587Pn5UEYV/I=
+		6R+g8Op7+gt3Pz/geZNybgJbpNI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>__mobilesdk_variable.json</key>
 		<data>
-		IKWyS2zwcJHAZQJdUozdHt4JVZs=
+		wDP183xExmonM5pXnQSpqWo4xas=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -100,14 +100,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9/MyWNdYLvYaXYEHG0p9AKqVQAaOq0Ct2HpesE9sZiY=
+			PbkVddKvfzuSPS3oFIVe0dksguR5n8ByWGw2Fuw+BgQ=
 			</data>
 		</dict>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w/GpK8Sk+X/b18VsH2mQi23QbpdD5SQbg+XgOR06JzY=
+			QiiTwnkgHg58y/q5j0UsqpMZEQRFK3cme5yuOvyKrCk=
 			</data>
 		</dict>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/arm64.swiftdoc</key>
@@ -121,14 +121,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9/MyWNdYLvYaXYEHG0p9AKqVQAaOq0Ct2HpesE9sZiY=
+			PbkVddKvfzuSPS3oFIVe0dksguR5n8ByWGw2Fuw+BgQ=
 			</data>
 		</dict>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w/GpK8Sk+X/b18VsH2mQi23QbpdD5SQbg+XgOR06JzY=
+			QiiTwnkgHg58y/q5j0UsqpMZEQRFK3cme5yuOvyKrCk=
 			</data>
 		</dict>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -142,14 +142,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xB8S0DMVAMhtux2zh3P6P/piwSdg0P87evsZJrd34a4=
+			Gdbojwdj3BIWkUnyRO8tBDgXkw4aXCGXXL6TF4Gf450=
 			</data>
 		</dict>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cnl81elfdWc1raiSNw6z8dURwq6LQbXVOewhv7J8IMA=
+			uNAkUSuw//CANPnKCOp5bRPL/7trPDpriEJKfH7wC2U=
 			</data>
 		</dict>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -163,14 +163,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xB8S0DMVAMhtux2zh3P6P/piwSdg0P87evsZJrd34a4=
+			Gdbojwdj3BIWkUnyRO8tBDgXkw4aXCGXXL6TF4Gf450=
 			</data>
 		</dict>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cnl81elfdWc1raiSNw6z8dURwq6LQbXVOewhv7J8IMA=
+			uNAkUSuw//CANPnKCOp5bRPL/7trPDpriEJKfH7wC2U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -184,7 +184,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hRm+n9+EX/+z/mHobXHTg0xKJpGGyB07UlwCtt0cQHM=
+			3Za3V/FC5AvvFvJNE+LKrglwlT/9JHpD0vgwzUIQdL0=
 			</data>
 		</dict>
 	</dict>
