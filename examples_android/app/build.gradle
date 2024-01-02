@@ -32,6 +32,18 @@ android {
         jvmTarget = '1.8'
     }
     namespace 'com.example.myapp'
+
+    testOptions {
+        managedDevices {
+            devices {
+                Platform_Pixel2_32 (com.android.build.api.dsl.ManagedVirtualDevice) {
+                    device = "Pixel 2"
+                    apiLevel = 33
+                    systemImageSource = "google"
+                }
+            }
+        }
+    }
 }
 
 dependencies {
@@ -85,5 +97,5 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-idling-resource:$espressoVersion")
 
     // Confirmit SDK
-    implementation 'com.confirmit.mobilesdk:mobilesdk:3.9.2'
+    implementation 'com.confirmit.mobilesdk:mobilesdk:3.10.0'
 }

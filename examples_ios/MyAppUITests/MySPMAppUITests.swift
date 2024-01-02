@@ -2,11 +2,11 @@ import XCTest
 
 class MyAppUITests: XCTestCase {
   var app: XCUIApplication!
-  let smokeTestProgramKey = "h4Uiwh"
-  let smokeTestWebViewProgramKey = "CKhYgo"
-  let smokeTestBulkDownloadProgramKey = "KK1ff1"
-  let smokeTestServer = "MOB2"
-
+  let smokeTestProgramKey = "puva7t"
+  let smokeTestWebViewProgramKey = "wFp1w2"
+  let smokeTestBulkDownloadProgramKey = "HlzDhF"
+  let smokeTestServer = "Demo"
+  
   override func setUp() {
     continueAfterFailure = false
 

@@ -1,0 +1,16 @@
+PODS:
+  - ConfirmitMobileSDK (3.9.2)
+
+DEPENDENCIES:
+  - ConfirmitMobileSDK
+
+SPEC REPOS:
+  trunk:
+    - ConfirmitMobileSDK
+
+SPEC CHECKSUMS:
+  ConfirmitMobileSDK: bb0fee431634ad9d7267ce44891162ddb1954d22
+
+PODFILE CHECKSUM: 8e4ae4c1c62773815f9364146f1b308f27578266
+
+COCOAPODS: 1.12.0
