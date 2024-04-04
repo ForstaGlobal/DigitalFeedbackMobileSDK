@@ -16501,8 +16501,29 @@
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/TextQuestion.swift",
+      "kind": "StringLiteral",
+      "offset": 330,
+      "length": 28,
+      "value": "\"TextQuestion: initializing\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/TextQuestion.swift",
+      "kind": "StringLiteral",
+      "offset": 619,
+      "length": 19,
+      "value": "\"loading datastore\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/TextQuestion.swift",
+      "kind": "StringLiteral",
+      "offset": 737,
+      "length": 27,
+      "value": "\"TextQuestion: initialized\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/TextQuestion.swift",
       "kind": "Array",
-      "offset": 989,
+      "offset": 1117,
       "length": 2,
       "value": "[]"
     },
@@ -20904,8 +20925,29 @@
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/DefaultQuestion.swift",
+      "kind": "StringLiteral",
+      "offset": 900,
+      "length": 16,
+      "value": "\"fetching title\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/DefaultQuestion.swift",
+      "kind": "StringLiteral",
+      "offset": 1062,
+      "length": 15,
+      "value": "\"fetching text\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/DefaultQuestion.swift",
+      "kind": "StringLiteral",
+      "offset": 1221,
+      "length": 22,
+      "value": "\"fetching instruction\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/DefaultQuestion.swift",
       "kind": "Array",
-      "offset": 1357,
+      "offset": 1464,
       "length": 2,
       "value": "[]"
     },
@@ -23981,6 +24023,20 @@
       "offset": 310,
       "length": 32,
       "value": "\"yyyy-MM-dd'T'HH:mm:ss.SSSXXXXX\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/InfoQuestion.swift",
+      "kind": "StringLiteral",
+      "offset": 308,
+      "length": 28,
+      "value": "\"InfoQuestion: initializing\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/InfoQuestion.swift",
+      "kind": "StringLiteral",
+      "offset": 834,
+      "length": 27,
+      "value": "\"InfoQuestion: initialized\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Scripting\/Trigger\/JsCore\/Journey\/JourneyHelper.swift",
@@ -29647,22 +29703,50 @@
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyFrame.swift",
+      "kind": "StringLiteral",
+      "offset": 4971,
+      "length": 36,
+      "value": "\"SurveyFrame: Processing SurveyPage\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyFrame.swift",
+      "kind": "StringLiteral",
+      "offset": 5381,
+      "length": 39,
+      "value": "\"SurveyFrame: SurveyPage is read to go\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyFrame.swift",
+      "kind": "StringLiteral",
+      "offset": 5498,
+      "length": 46,
+      "value": "\"SurveyFrame: Failed to initialize SurveyPage\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyFrame.swift",
+      "kind": "StringLiteral",
+      "offset": 5617,
+      "length": 39,
+      "value": "\"SurveyFrame: onSurveyPageReady Called\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyFrame.swift",
       "kind": "BooleanLiteral",
-      "offset": 5542,
+      "offset": 5844,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyFrame.swift",
       "kind": "BooleanLiteral",
-      "offset": 5688,
+      "offset": 5990,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyFrame.swift",
       "kind": "BooleanLiteral",
-      "offset": 5935,
+      "offset": 6237,
       "length": 4,
       "value": "true"
     },
@@ -30264,266 +30348,308 @@
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "StringLiteral",
-      "offset": 1388,
+      "offset": 1130,
+      "length": 26,
+      "value": "\"SurveyPage: Initializing\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
+      "kind": "StringLiteral",
+      "offset": 1382,
+      "length": 35,
+      "value": "\"SurveyPage: Fetching Forward Text\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
+      "kind": "StringLiteral",
+      "offset": 1490,
       "length": 9,
       "value": "\"WI_NEXT\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "StringLiteral",
-      "offset": 1471,
+      "offset": 1517,
+      "length": 36,
+      "value": "\"SurveyPage: Fetching Backward Text\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
+      "kind": "StringLiteral",
+      "offset": 1627,
       "length": 9,
       "value": "\"WI_BACK\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "StringLiteral",
-      "offset": 1548,
+      "offset": 1654,
+      "length": 30,
+      "value": "\"SurveyPage: Fetching OK Text\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
+      "kind": "StringLiteral",
+      "offset": 1752,
       "length": 7,
       "value": "\"WI_OK\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
+      "kind": "StringLiteral",
+      "offset": 1778,
+      "length": 28,
+      "value": "\"SurveyPage: Fetching Title\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "BooleanLiteral",
-      "offset": 1726,
+      "offset": 1976,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "Array",
-      "offset": 2467,
+      "offset": 2717,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
+      "kind": "StringLiteral",
+      "offset": 2886,
+      "length": 25,
+      "value": "\"SurveyPage: Initialized\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "Array",
-      "offset": 2746,
+      "offset": 3044,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "Dictionary",
-      "offset": 2769,
+      "offset": 3067,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "Dictionary",
-      "offset": 2821,
+      "offset": 3119,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "StringLiteral",
-      "offset": 2897,
+      "offset": 3195,
       "length": 9,
       "value": "\"WI_NEXT\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "StringLiteral",
-      "offset": 2980,
+      "offset": 3278,
       "length": 9,
       "value": "\"WI_BACK\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "StringLiteral",
-      "offset": 3057,
+      "offset": 3355,
       "length": 7,
       "value": "\"WI_OK\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "StringLiteral",
-      "offset": 3101,
+      "offset": 3399,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "BooleanLiteral",
-      "offset": 3115,
+      "offset": 3413,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "StringLiteral",
-      "offset": 3489,
+      "offset": 3787,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "StringLiteral",
-      "offset": 3522,
+      "offset": 3820,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "StringLiteral",
-      "offset": 3625,
+      "offset": 3923,
       "length": 19,
       "value": "\"internal_finished\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "StringLiteral",
-      "offset": 3719,
+      "offset": 4017,
       "length": 19,
       "value": "\"WI_FINISHED_TITLE\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "StringLiteral",
-      "offset": 3812,
+      "offset": 4110,
       "length": 18,
       "value": "\"WI_FINISHED_TEXT\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "StringLiteral",
-      "offset": 3841,
+      "offset": 4139,
       "length": 30,
       "value": "\"internal_respondent_rejected\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "StringLiteral",
-      "offset": 3946,
+      "offset": 4244,
       "length": 19,
       "value": "\"WI_REJECTED_TITLE\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "StringLiteral",
-      "offset": 4039,
+      "offset": 4337,
       "length": 18,
       "value": "\"WI_REJECTED_TEXT\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "StringLiteral",
-      "offset": 4068,
+      "offset": 4366,
       "length": 24,
       "value": "\"internal_survey_closed\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "StringLiteral",
-      "offset": 4167,
+      "offset": 4465,
       "length": 21,
       "value": "\"WI_TERMINATED_TITLE\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "StringLiteral",
-      "offset": 4262,
+      "offset": 4560,
       "length": 20,
       "value": "\"WI_TERMINATED_TEXT\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "StringLiteral",
-      "offset": 4293,
+      "offset": 4591,
       "length": 25,
       "value": "\"internal_internal_error\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "StringLiteral",
-      "offset": 4393,
+      "offset": 4691,
       "length": 20,
       "value": "\"WI_INT_ERROR_TITLE\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "StringLiteral",
-      "offset": 4487,
+      "offset": 4785,
       "length": 19,
       "value": "\"WI_INT_ERROR_TEXT\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "StringLiteral",
-      "offset": 4517,
+      "offset": 4815,
       "length": 21,
       "value": "\"internal_in_service\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "StringLiteral",
-      "offset": 4613,
+      "offset": 4911,
       "length": 21,
       "value": "\"WI_IN_SERVICE_TITLE\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "StringLiteral",
-      "offset": 4708,
+      "offset": 5006,
       "length": 20,
       "value": "\"WI_IN_SERVICE_TEXT\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "StringLiteral",
-      "offset": 4739,
+      "offset": 5037,
       "length": 30,
       "value": "\"internal_request_has_expired\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "StringLiteral",
-      "offset": 4844,
+      "offset": 5142,
       "length": 26,
       "value": "\"WI_REQUEST_EXPIRED_TITLE\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "StringLiteral",
-      "offset": 4944,
+      "offset": 5242,
       "length": 25,
       "value": "\"WI_REQUEST_EXPIRED_TEXT\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "StringLiteral",
-      "offset": 4980,
+      "offset": 5278,
       "length": 16,
       "value": "\"internal_empty\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "StringLiteral",
-      "offset": 5071,
+      "offset": 5369,
       "length": 24,
       "value": "\"WI_PREVIEW_EMPTY_TITLE\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "StringLiteral",
-      "offset": 5169,
+      "offset": 5467,
       "length": 23,
       "value": "\"WI_PREVIEW_EMPTY_TEXT\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "BooleanLiteral",
-      "offset": 6305,
+      "offset": 6603,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/SurveyPage.swift",
       "kind": "BooleanLiteral",
-      "offset": 6366,
+      "offset": 6664,
       "length": 4,
       "value": "true"
     },
@@ -34148,50 +34274,71 @@
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/MultiQuestion.swift",
+      "kind": "StringLiteral",
+      "offset": 504,
+      "length": 29,
+      "value": "\"MultiQuestion: initializing\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/MultiQuestion.swift",
+      "kind": "StringLiteral",
+      "offset": 792,
+      "length": 17,
+      "value": "\"loading answers\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/MultiQuestion.swift",
+      "kind": "StringLiteral",
+      "offset": 921,
+      "length": 28,
+      "value": "\"MultiQuestion: initialized\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/MultiQuestion.swift",
       "kind": "BooleanLiteral",
-      "offset": 2359,
+      "offset": 2487,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/MultiQuestion.swift",
       "kind": "StringLiteral",
-      "offset": 2640,
+      "offset": 2768,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/MultiQuestion.swift",
       "kind": "BooleanLiteral",
-      "offset": 3618,
+      "offset": 3746,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/MultiQuestion.swift",
       "kind": "BooleanLiteral",
-      "offset": 3684,
+      "offset": 3812,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/MultiQuestion.swift",
       "kind": "BooleanLiteral",
-      "offset": 3716,
+      "offset": 3844,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/MultiQuestion.swift",
       "kind": "BooleanLiteral",
-      "offset": 4169,
+      "offset": 4297,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/MultiQuestion.swift",
       "kind": "Array",
-      "offset": 4410,
+      "offset": 4538,
       "length": 2,
       "value": "[]"
     },
@@ -35303,15 +35450,43 @@
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/SingleQuestion.swift",
+      "kind": "StringLiteral",
+      "offset": 390,
+      "length": 30,
+      "value": "\"SingleQuestion: initializing\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/SingleQuestion.swift",
+      "kind": "StringLiteral",
+      "offset": 680,
+      "length": 16,
+      "value": "\"loadng answers\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/SingleQuestion.swift",
+      "kind": "StringLiteral",
+      "offset": 797,
+      "length": 19,
+      "value": "\"loading datastore\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/SingleQuestion.swift",
+      "kind": "StringLiteral",
+      "offset": 915,
+      "length": 29,
+      "value": "\"SingleQuestion: initialized\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/SingleQuestion.swift",
       "kind": "BooleanLiteral",
-      "offset": 1442,
+      "offset": 1613,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/SingleQuestion.swift",
       "kind": "Array",
-      "offset": 2499,
+      "offset": 2670,
       "length": 2,
       "value": "[]"
     },
@@ -35499,22 +35674,43 @@
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/NumericQuestion.swift",
+      "kind": "StringLiteral",
+      "offset": 336,
+      "length": 31,
+      "value": "\"NumericQuestion: initializing\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/NumericQuestion.swift",
+      "kind": "StringLiteral",
+      "offset": 630,
+      "length": 19,
+      "value": "\"loading datastore\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/NumericQuestion.swift",
+      "kind": "StringLiteral",
+      "offset": 748,
+      "length": 30,
+      "value": "\"NumericQuestion: initialized\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/NumericQuestion.swift",
       "kind": "IntegerLiteral",
-      "offset": 779,
+      "offset": 913,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/NumericQuestion.swift",
       "kind": "FloatLiteral",
-      "offset": 803,
+      "offset": 937,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/NumericQuestion.swift",
       "kind": "Array",
-      "offset": 1592,
+      "offset": 1726,
       "length": 2,
       "value": "[]"
     },
@@ -36156,6 +36352,34 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/SurveyEngine\/Runner\/StateRunner.swift",
+      "kind": "StringLiteral",
+      "offset": 4455,
+      "length": 35,
+      "value": "\"StateRunner: Clearing store cache\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/SurveyEngine\/Runner\/StateRunner.swift",
+      "kind": "StringLiteral",
+      "offset": 4572,
+      "length": 57,
+      "value": "\"StateRunner: ResponseControlManager store cache cleared\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/SurveyEngine\/Runner\/StateRunner.swift",
+      "kind": "StringLiteral",
+      "offset": 4704,
+      "length": 50,
+      "value": "\"StateRunner: ResponseManager store cache cleared\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/SurveyEngine\/Runner\/StateRunner.swift",
+      "kind": "StringLiteral",
+      "offset": 4831,
+      "length": 52,
+      "value": "\"StateRunner: RespondentManager store cache cleared\""
+    },
+    {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/SurveyEngine\/Runner\/StateAction\/StateActionRunner.swift",
       "kind": "StringLiteral",
       "offset": 406,
@@ -36528,99 +36752,113 @@
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/SurveyEngine\/EngineRunner.swift",
+      "kind": "StringLiteral",
+      "offset": 3645,
+      "length": 41,
+      "value": "\"EngineRunnder: Start processDisplayItem\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/SurveyEngine\/EngineRunner.swift",
       "kind": "Array",
-      "offset": 4197,
+      "offset": 4256,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/SurveyEngine\/EngineRunner.swift",
+      "kind": "StringLiteral",
+      "offset": 4367,
+      "length": 38,
+      "value": "\"EngineRunner: call survey page ready\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/SurveyEngine\/EngineRunner.swift",
       "kind": "BooleanLiteral",
-      "offset": 5109,
+      "offset": 5226,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/SurveyEngine\/EngineRunner.swift",
       "kind": "BooleanLiteral",
-      "offset": 5230,
+      "offset": 5347,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/SurveyEngine\/EngineRunner.swift",
       "kind": "StringLiteral",
-      "offset": 5257,
+      "offset": 5374,
       "length": 22,
       "value": "\"Survey failed to run\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/SurveyEngine\/EngineRunner.swift",
       "kind": "StringLiteral",
-      "offset": 5322,
+      "offset": 5439,
       "length": 22,
       "value": "\" \/ system page error\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/SurveyEngine\/EngineRunner.swift",
       "kind": "IntegerLiteral",
-      "offset": 5401,
+      "offset": 5518,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/SurveyEngine\/EngineRunner.swift",
       "kind": "StringLiteral",
-      "offset": 5451,
+      "offset": 5568,
       "length": 27,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/SurveyEngine\/EngineRunner.swift",
       "kind": "StringLiteral",
-      "offset": 5462,
+      "offset": 5579,
       "length": 1,
       "value": "\". Unknown error\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/SurveyEngine\/EngineRunner.swift",
       "kind": "IntegerLiteral",
-      "offset": 5509,
+      "offset": 5626,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/SurveyEngine\/EngineRunner.swift",
       "kind": "BooleanLiteral",
-      "offset": 5836,
+      "offset": 5953,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/SurveyEngine\/EngineRunner.swift",
       "kind": "StringLiteral",
-      "offset": 5875,
+      "offset": 5992,
       "length": 48,
       "value": "\"Failed to set delete flag for error respondent\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/SurveyEngine\/EngineRunner.swift",
       "kind": "StringLiteral",
-      "offset": 6245,
+      "offset": 6362,
       "length": 20,
       "value": "\"WI_INT_ERROR_TITLE\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/SurveyEngine\/EngineRunner.swift",
       "kind": "StringLiteral",
-      "offset": 6461,
+      "offset": 6578,
       "length": 19,
       "value": "\"WI_INT_ERROR_TEXT\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/SurveyEngine\/EngineRunner.swift",
       "kind": "BooleanLiteral",
-      "offset": 6845,
+      "offset": 6962,
       "length": 4,
       "value": "true"
     }
