@@ -402,7 +402,7 @@ public protocol SDKLogBridge : AnyObject {
 }
 public enum ConfirmitSDK {
   public static func setAccessTokenProvider(provider: (any ConfirmitMobileSDK.AccessTokenProvider)?)
-  public static func enableLog(enable: Swift.Bool, oslog: Swift.Bool = true)
+  public static func enableLog(enable: Swift.Bool, oslog: Swift.Bool = true, enableTransactionLog: Swift.Bool = false)
   public static func setLogBridge(bridge: (any ConfirmitMobileSDK.SDKLogBridge)?)
   public class Setup {
     public init()

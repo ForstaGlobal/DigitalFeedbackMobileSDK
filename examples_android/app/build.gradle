@@ -97,5 +97,5 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-idling-resource:$espressoVersion")
 
     // Confirmit SDK
-    implementation 'com.confirmit.mobilesdk:mobilesdk:3.10.1'
+    implementation 'com.confirmit.mobilesdk:mobilesdk:3.10.2'
 }
