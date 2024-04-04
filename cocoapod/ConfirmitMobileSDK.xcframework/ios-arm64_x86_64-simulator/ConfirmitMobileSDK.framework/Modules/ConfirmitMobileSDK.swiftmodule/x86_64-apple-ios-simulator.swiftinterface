@@ -24,8 +24,8 @@ public class QuestionText {
   final public let hasStyle: Swift.Bool
   public init(rawText: Swift.String, hasStyle: Swift.Bool = true)
   public func get() -> Swift.String
-  public func getAttributed() -> Foundation.NSAttributedString
-  public func getAttributed(size: CoreFoundation.CGFloat, color: Swift.String) -> Foundation.NSAttributedString
+  public func getHtml() -> Swift.String
+  public func getHtml(size: CoreFoundation.CGFloat, color: Swift.String) -> Swift.String
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class TextQuestion : ConfirmitMobileSDK.DefaultQuestion {

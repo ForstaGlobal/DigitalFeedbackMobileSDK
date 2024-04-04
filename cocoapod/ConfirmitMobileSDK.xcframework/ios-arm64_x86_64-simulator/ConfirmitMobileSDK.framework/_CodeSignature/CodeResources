@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		YW6Gn2oGSQkB9oR65yhc3d0/3cc=
+		w/Hw84W/kZH097G44Xh1B0jRJec=
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		0i0uHk5GIlJegrgtrWxTgn2FOH8=
+		jTXUpRGRx5E6OMcDcHC6vN4XS38=
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		0i0uHk5GIlJegrgtrWxTgn2FOH8=
+		jTXUpRGRx5E6OMcDcHC6vN4XS38=
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		tyjAwHf4F5pMoQZDdewcFpoiCSU=
+		82IypoTZuMJeWdS1Dmz3dFXqWZ8=
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		rVLsX9V17ERIO+BXoy3wtOYChz0=
+		ni+SshdIIAo9lqyrN6Gra53HzBw=
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		vQpdtwk+7bXm1Nvxn4NcH7XwRbs=
+		+MTQOQapA1GTxgv2MYWeU+MW1pI=
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		vQpdtwk+7bXm1Nvxn4NcH7XwRbs=
+		+MTQOQapA1GTxgv2MYWeU+MW1pI=
 		</data>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nLkQLKUAQAFj+hSMt8uz1H1pVgU=
+		vEHsFMppHcdDfI1kmt/fkKgq0o0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>__mobilesdk_variable.json</key>
 		<data>
-		l06xmu0TyLtHPx0oViR6ZW070m4=
+		lHVP/o8Co1AKfHn6MLDrXa2c2Qo=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -85,14 +85,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VE3UkT4cC8zrSsRweoE4pMPNZxyHiguS2tuVk4BCjQs=
+			AAxCOOVD2X0lLRzI52AeuFAWJiAq85aQFQQNOGYqSqw=
 			</data>
 		</dict>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			L7UTHtrEdSMgWgzDeV3DubxmN0vkmUphdLZpY+OqT3U=
+			+HlcHz47w7WQKrxbiNzjZkpZLLjfRfKuuFu7sjQP8ck=
 			</data>
 		</dict>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -106,28 +106,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			L7UTHtrEdSMgWgzDeV3DubxmN0vkmUphdLZpY+OqT3U=
+			+HlcHz47w7WQKrxbiNzjZkpZLLjfRfKuuFu7sjQP8ck=
 			</data>
 		</dict>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ukpfNHz20EQtSQHe9JxhpE5wCu1xlX6+V1iJjORwvac=
+			TuktHMTGa8ZUREblGUADmD8yR8+R+SrAlkamOvpH+Bc=
 			</data>
 		</dict>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3LpaekfM+qVKWytSkoDs2/t4bEF0P6L8mgk2s01/jCE=
+			jAskJgwuiR6UFZu1HmnGblhWIHPbDFELMuT2LSTuLrc=
 			</data>
 		</dict>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KIsBHqwe3YVhYOvMNpKBrP53vPcwgKsP/mDTaAvv+p4=
+			vNd4sQvbN1bchkDhI3S5FIOhWrrHRLhD+tfJ5UroHTY=
 			</data>
 		</dict>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -141,14 +141,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KIsBHqwe3YVhYOvMNpKBrP53vPcwgKsP/mDTaAvv+p4=
+			vNd4sQvbN1bchkDhI3S5FIOhWrrHRLhD+tfJ5UroHTY=
 			</data>
 		</dict>
 		<key>Modules/ConfirmitMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fzh6IhcoX7JDzMBVYaqg0w+GIhD4TiYK1DUthjmf3IY=
+			uV77XZdapQvg3J2OFXvQMzjCOxcSGDshLuCsD1KcmLc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -162,7 +162,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wm/aOo7nAnAYRiTSo9AyLjJWUVvyL5OHkwj1rNsbESY=
+			2XZVRNxQL0MQrYfJypEMfaM7RrAQtVseQsHXTutJAJo=
 			</data>
 		</dict>
 	</dict>

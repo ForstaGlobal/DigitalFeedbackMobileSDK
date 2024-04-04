@@ -271,19 +271,19 @@
           },
           {
             "kind": "Function",
-            "name": "getAttributed",
-            "printedName": "getAttributed()",
+            "name": "getHtml",
+            "printedName": "getHtml()",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "NSAttributedString",
-                "printedName": "Foundation.NSAttributedString",
-                "usr": "c:objc(cs)NSAttributedString"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:18ConfirmitMobileSDK12QuestionTextC13getAttributedSo18NSAttributedStringCyF",
-            "mangledName": "$s18ConfirmitMobileSDK12QuestionTextC13getAttributedSo18NSAttributedStringCyF",
+            "usr": "s:18ConfirmitMobileSDK12QuestionTextC7getHtmlSSyF",
+            "mangledName": "$s18ConfirmitMobileSDK12QuestionTextC7getHtmlSSyF",
             "moduleName": "ConfirmitMobileSDK",
             "declAttributes": [
               "AccessControl"
@@ -292,14 +292,14 @@
           },
           {
             "kind": "Function",
-            "name": "getAttributed",
-            "printedName": "getAttributed(size:color:)",
+            "name": "getHtml",
+            "printedName": "getHtml(size:color:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "NSAttributedString",
-                "printedName": "Foundation.NSAttributedString",
-                "usr": "c:objc(cs)NSAttributedString"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -315,8 +315,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:18ConfirmitMobileSDK12QuestionTextC13getAttributed4size5colorSo18NSAttributedStringC14CoreFoundation7CGFloatV_SStF",
-            "mangledName": "$s18ConfirmitMobileSDK12QuestionTextC13getAttributed4size5colorSo18NSAttributedStringC12CoreGraphics7CGFloatV_SStF",
+            "usr": "s:18ConfirmitMobileSDK12QuestionTextC7getHtml4size5colorSS14CoreFoundation7CGFloatV_SStF",
+            "mangledName": "$s18ConfirmitMobileSDK12QuestionTextC7getHtml4size5colorSS12CoreGraphics7CGFloatV_SStF",
             "moduleName": "ConfirmitMobileSDK",
             "declAttributes": [
               "AccessControl"
@@ -16397,35 +16397,35 @@
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/QuestionText.swift",
       "kind": "BooleanLiteral",
-      "offset": 346,
+      "offset": 328,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/QuestionText.swift",
       "kind": "IntegerLiteral",
-      "offset": 428,
+      "offset": 410,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/QuestionText.swift",
       "kind": "StringLiteral",
-      "offset": 450,
+      "offset": 432,
       "length": 9,
       "value": "\"#000000\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/QuestionText.swift",
       "kind": "StringLiteral",
-      "offset": 723,
+      "offset": 683,
       "length": 9,
       "value": "\"<[^>]+>\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/QuestionText.swift",
       "kind": "StringLiteral",
-      "offset": 740,
+      "offset": 700,
       "length": 2,
       "value": "\"\""
     },
@@ -20891,30 +20891,23 @@
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Extentions\/StringExt.swift",
       "kind": "StringLiteral",
-      "offset": 514,
+      "offset": 467,
       "length": 64,
       "value": "\"<style> html { color: \""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Extentions\/StringExt.swift",
       "kind": "StringLiteral",
-      "offset": 545,
+      "offset": 498,
       "length": 1,
       "value": "\"; font-size: \""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Extentions\/StringExt.swift",
       "kind": "StringLiteral",
-      "offset": 565,
+      "offset": 518,
       "length": 2,
       "value": "\"px }<\/style>\""
-    },
-    {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Extentions\/StringExt.swift",
-      "kind": "BooleanLiteral",
-      "offset": 659,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/3e1cbf4a8fe77684\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Database\/DbContext.swift",
