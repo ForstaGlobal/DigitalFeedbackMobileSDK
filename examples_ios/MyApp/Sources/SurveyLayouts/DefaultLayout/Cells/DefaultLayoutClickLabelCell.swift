@@ -29,7 +29,7 @@ class DefaultLayoutClickLabelCell: UITableViewCell {
     lblText.textColor = DefaultLayoutColor.font
     lblText.font = UIFont.systemFont(ofSize: 16)
     if item.answer.text.hasStyle {
-      lblText.attributedText = item.answer.text.getAttributed(size: 16, color: DefaultLayoutColor.fontString)
+      lblText.attributedText = Utils.getAttributedString(html: item.answer.text.getHtml(size: 16, color: DefaultLayoutColor.fontString))
     } else {
       lblText.text = item.answer.text.get()
     }

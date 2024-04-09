@@ -25,7 +25,7 @@ class DefaultLayoutLabelCell: UITableViewCell {
       lblText.textAlignment = .center
     }
     if item.value.hasStyle {
-      lblText.attributedText = item.value.getAttributed(size: textSize, color: DefaultLayoutColor.fontString)
+      lblText.attributedText = Utils.getAttributedString(html: item.value.getHtml(size: textSize, color: DefaultLayoutColor.fontString))
     } else {
       lblText.text = item.value.get()
     }

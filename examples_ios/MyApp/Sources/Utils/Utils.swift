@@ -18,7 +18,7 @@ enum Utils {
     for (key, label) in source {
       alert.addAction(UIAlertAction(title: label, style: .default, handler: { _ in
         block(key)
-            }))
+      }))
     }
 
     if Utils.isIPad() {
@@ -70,5 +70,21 @@ enum Utils {
     }
 
     return nil
+  }
+
+  static func getAttributedString(html: String) -> NSAttributedString {
+    do {
+      guard let data = html.data(using: .unicode, allowLossyConversion: true) else {
+        return NSAttributedString(string: html)
+      }
+
+      return try NSAttributedString(data: data, options: [
+        .documentType: NSAttributedString.DocumentType.html,
+        .characterEncoding: String.Encoding.unicode.rawValue,
+      ],
+      documentAttributes: nil)
+    } catch {
+      return NSAttributedString(string: html)
+    }
   }
 }

@@ -22,7 +22,7 @@ class DefaultLayoutIconLabelCell: UITableViewCell {
       lblText.font = UIFont.boldSystemFont(ofSize: 16)
       imgIcon.tintColor = DefaultLayoutColor.font
       if item.value.hasStyle {
-        lblText.attributedText = item.value.getAttributed(size: 16, color: DefaultLayoutColor.fontString)
+        lblText.attributedText = Utils.getAttributedString(html: item.value.getHtml(size: 16, color: DefaultLayoutColor.fontString))
       } else {
         lblText.text = item.value.get()
       }
