@@ -1,7 +1,5 @@
 $dokka.format:javadoc-v1
 $dokka.linkExtension:html
-$dokka.location:com.confirmit.mobilesdk.core/ConfigService.Companion///PointingToDeclaration/com/confirmit/mobilesdk/core/ConfigService.Companion.html
-$dokka.location:com.confirmit.mobilesdk.core/PathService.Companion///PointingToDeclaration/com/confirmit/mobilesdk/core/PathService.Companion.html
 $dokka.location:com.confirmit.mobilesdk.surveyengine/RespondentStatus.Companion///PointingToDeclaration/com/confirmit/mobilesdk/surveyengine/RespondentStatus.Companion.html
 $dokka.location:com.confirmit.mobilesdk.surveyengine/RespondentUploadStatus.Companion///PointingToDeclaration/com/confirmit/mobilesdk/surveyengine/RespondentUploadStatus.Companion.html
 $dokka.location:com.confirmit.mobilesdk.surveyengine/StateActionType.Companion///PointingToDeclaration/com/confirmit/mobilesdk/surveyengine/StateActionType.Companion.html

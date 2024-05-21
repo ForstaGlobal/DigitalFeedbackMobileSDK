@@ -1,0 +1,66 @@
+[versions]
+agp = "8.3.2"
+kotlin = "1.9.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+lifecycleRuntimeKtx = "2.8.0"
+activityCompose = "1.7.0"
+composeBom = "2023.08.00"
+
+constraintlayout = "2.1.4"
+lifecycle = "2.8.0"
+swifeRefresher = "1.1.0"
+
+coroutines = "1.8.0"
+mobilesdk = "3.12.0"
+material = "1.12.0"
+
+runner = "1.5.2"
+rules = "1.5.0"
+testCore = "1.5.0"
+testJunitVersion = "1.1.5"
+truthVersion = "1.5.0"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+mobilesdk = { group = "com.confirmit.mobilesdk", name = "mobilesdk", version.ref = "mobilesdk" }
+
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+org-jetbrains-kotlinx-stdlib = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib", version.ref = "kotlin" }
+org-jetbrains-kotlinx-coroutines = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-lifecycle-viewmodel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
+androidx-lifecycle-runtime = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle" }
+androidx-swiperefreshlayout = { group = "androidx.swiperefreshlayout", name = "swiperefreshlayout", version.ref = "swifeRefresher" }
+
+androidx-test-core = { group = "androidx.test", name = "core", version.ref = "testCore" }
+androidx-test-runner = { group = "androidx.test", name = "runner", version.ref = "runner" }
+androidx-test-rules = { group = "androidx.test", name = "rules", version.ref = "rules" }
+androidx-test-junit = { group = "androidx.test.ext", name = "junit", version.ref = "testJunitVersion" }
+androidx-test-truth = { group = "androidx.test.ext", name = "truth", version.ref = "truthVersion" }
+androidx-espresso-contrib = { group = "androidx.test.espresso", name = "espresso-contrib", version.ref = "espressoCore" }
+androidx-espresso-intents = { group = "androidx.test.espresso", name = "espresso-intents", version.ref = "espressoCore" }
+androidx-espresso-accessibility = { group = "androidx.test.espresso", name = "espresso-accessibility", version.ref = "espressoCore" }
+androidx-espresso-web = { group = "androidx.test.espresso", name = "espresso-web", version.ref = "espressoCore" }
+androidx-espresso-idling-concurrent = { group = "androidx.test.espresso.idling", name = "idling-concurrent", version.ref = "espressoCore" }
+androidx-espresso-idling-resource = { group = "androidx.test.espresso", name = "espresso-idling-resource", version.ref = "espressoCore" }
+
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+

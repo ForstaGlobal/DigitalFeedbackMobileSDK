@@ -62,7 +62,7 @@ class TriggerCallback: ProgramCallback {
       let controller = navigationController.topViewController
       DispatchQueue.main.async {
         if let controller = controller {
-          SurveyManager().launchSurvey(controller: controller, survey: survey, surveyFrameConfig: config)
+          SurveyManager().displaySurvey(controller: controller, survey: survey, surveyFrameConfig: config)
         }
       }
     } catch {}

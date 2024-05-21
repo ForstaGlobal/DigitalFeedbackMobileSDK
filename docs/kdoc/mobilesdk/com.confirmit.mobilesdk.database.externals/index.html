@@ -1,202 +1,223 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
     <title>com.confirmit.mobilesdk.database.externals</title>
     <link href="../../images/logo-icon.svg" rel="icon" type="image/svg">
     <script>var pathToRoot = "../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
     <script>const storage = localStorage.getItem("dokka-dark-mode")
-const savedDarkMode = storage ? JSON.parse(storage) : false
-if(savedDarkMode === true){
-    document.getElementsByTagName("html")[0].classList.add("theme-dark")
-}</script>
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
 <script type="text/javascript" src="../../scripts/sourceset_dependencies.js" async="async"></script>
 <link href="../../styles/style.css" rel="Stylesheet">
-<link href="../../styles/jetbrains-mono.css" rel="Stylesheet">
 <link href="../../styles/main.css" rel="Stylesheet">
 <link href="../../styles/prism.css" rel="Stylesheet">
 <link href="../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../styles/font-jb-sans-auto.css" rel="Stylesheet">
 <script type="text/javascript" src="../../scripts/clipboard.js" async="async"></script>
 <script type="text/javascript" src="../../scripts/navigation-loader.js" async="async"></script>
 <script type="text/javascript" src="../../scripts/platform-content-handler.js" async="async"></script>
 <script type="text/javascript" src="../../scripts/main.js" defer="defer"></script>
 <script type="text/javascript" src="../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
 </head>
 <body>
-<div class="navigation-wrapper" id="navigation-wrapper">
-    <div id="leftToggler"><span class="icon-toggler"></span></div>
-    <div class="library-name">
-            <a href="../../index.html">
-                    <span>mobilesdk</span>
-            </a>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../index.html">
+                            mobilesdk
+                    </a>
+            </div>
+            <div class="library-version">
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":mobilesdk:dokkaHtml/release">androidJvm</button>
+        </div>
     </div>
-    <div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
     </div>
-    <div class="pull-right d-flex">
-        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
-        <div id="searchBar"></div>
-    </div>
-</div>
-<div id="container">
-    <div id="leftColumn">
-        <div id="sideMenu"></div>
-    </div>
-    <div id="main">
-<div class="main-content" id="content" pageIds="mobilesdk::com.confirmit.mobilesdk.database.externals////PointingToDeclaration//1546998392">
-  <div class="breadcrumbs"><a href="../../index.html">mobilesdk</a><span class="delimiter">/</span><a href="index.html">com.confirmit.mobilesdk.database.externals</a></div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="package" id="content" pageIds="mobilesdk::com.confirmit.mobilesdk.database.externals////PointingToDeclaration//1546998392">
+  <div class="breadcrumbs"><a href="../../index.html">mobilesdk</a><span class="delimiter">/</span><span class="current">com.confirmit.mobilesdk.database.externals</span></div>
   <div class="cover ">
-    <h1 class="cover"><span><span>Package</span></span> <span>com.</span><wbr></wbr><span>confirmit.</span><wbr></wbr><span>mobilesdk.</span><wbr></wbr><span>database.</span><wbr></wbr><span>externals</span></h1>
+    <h1 class="cover"><span><span>Package-level</span></span> <span><span>declarations</span></span></h1>
   </div>
   <div class="tabbedcontent">
-    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Types">Types</button></div>
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="TYPE">Types</button></div>
     <div class="tabs-section-body">
-      <h2 class="">Types</h2>
-      <div class="table" data-togglable="Types"><a data-name="-838961301%2FClasslikes%2F1546998392" anchor-label="ActiveJourney" id="-838961301%2FClasslikes%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="-active-journey/index.html"><span>Active</span><wbr></wbr><span><span>Journey</span></span></a></div>
+      <div data-togglable="TYPE">
+        <h2 class="">Types</h2>
+        <div class="table"><a data-name="-838961301%2FClasslikes%2F1546998392" anchor-label="ActiveJourney" id="-838961301%2FClasslikes%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-active-journey/index.html"><span>Active</span><wbr></wbr><span><span>Journey</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-838961301%2FClasslikes%2F1546998392"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-active-journey/index.html">ActiveJourney</a><span class="token punctuation">(</span><span class="parameters wrapped"><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;<span class="token keyword">val </span>guid<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;<span class="token keyword">val </span>customTableName<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;<span class="token keyword">val </span>journeyName<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;<span class="token keyword">val </span>journeyEvents<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;<span class="token keyword">val </span>events<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-active-journey/index.html">ActiveJourney</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>guid<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>customTableName<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>journeyName<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>journeyEvents<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>events<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="864058181%2FClasslikes%2F1546998392" anchor-label="Journey" id="864058181%2FClasslikes%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="-journey/index.html"><span><span>Journey</span></span></a></div>
+          <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-journey/index.html"><span><span>Journey</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="864058181%2FClasslikes%2F1546998392"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-journey/index.html">Journey</a><span class="token punctuation">(</span><span class="parameters wrapped"><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;<span class="token keyword">val </span>hubId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;<span class="token keyword">val </span>guid<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;<span class="token keyword">val </span>customTableName<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;<span class="token keyword">val </span>records<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-journey/index.html">Journey</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>hubId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>guid<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>customTableName<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>records<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="-1598983935%2FClasslikes%2F1546998392" anchor-label="Program" id="-1598983935%2FClasslikes%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="-program/index.html"><span><span>Program</span></span></a></div>
+          <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-program/index.html"><span><span>Program</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1598983935%2FClasslikes%2F1546998392"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-program/index.html">Program</a><span class="token punctuation">(</span><span class="parameters wrapped"><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;<span class="token keyword">val </span>serverId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;<span class="token keyword">val </span>programKey<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;<span class="token keyword">val </span>started<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;<span class="token keyword">val </span>publishedVersion<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;programUrl<span class="token operator">: </span><a href="-program-url/index.html">ProgramUrl</a></span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-program/index.html">Program</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>serverId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>programKey<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>started<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>publishedVersion<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a><span class="token punctuation">, </span></span><span class="parameter ">programUrl<span class="token operator">: </span><a href="-program-url/index.html">ProgramUrl</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="-920419598%2FClasslikes%2F1546998392" anchor-label="ProgramUrl" id="-920419598%2FClasslikes%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="-program-url/index.html"><span>Program</span><wbr></wbr><span><span>Url</span></span></a></div>
+          <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-program-url/index.html"><span>Program</span><wbr></wbr><span><span>Url</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-920419598%2FClasslikes%2F1546998392"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-program-url/index.html">ProgramUrl</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-program-url/index.html">ProgramUrl</a></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="1977942605%2FClasslikes%2F1546998392" anchor-label="Scenario" id="1977942605%2FClasslikes%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="-scenario/index.html"><span><span>Scenario</span></span></a></div>
+          <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-scenario/index.html"><span><span>Scenario</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1977942605%2FClasslikes%2F1546998392"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-scenario/index.html">Scenario</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-scenario/index.html">Scenario</a></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="1522480185%2FClasslikes%2F1546998392" anchor-label="ScenarioCounter" id="1522480185%2FClasslikes%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="-scenario-counter/index.html"><span>Scenario</span><wbr></wbr><span><span>Counter</span></span></a></div>
+          <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-scenario-counter/index.html"><span>Scenario</span><wbr></wbr><span><span>Counter</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1522480185%2FClasslikes%2F1546998392"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-scenario-counter/index.html">ScenarioCounter</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-scenario-counter/index.html">ScenarioCounter</a></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="-1353629446%2FClasslikes%2F1546998392" anchor-label="Server" id="-1353629446%2FClasslikes%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="-server/index.html"><span><span>Server</span></span></a></div>
+          <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-server/index.html"><span><span>Server</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1353629446%2FClasslikes%2F1546998392"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-server/index.html">Server</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-server/index.html">Server</a></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="-955432765%2FClasslikes%2F1546998392" anchor-label="Survey" id="-955432765%2FClasslikes%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="-survey/index.html"><span><span>Survey</span></span></a></div>
+          <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-survey/index.html"><span><span>Survey</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-955432765%2FClasslikes%2F1546998392"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-survey/index.html">Survey</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-survey/index.html">Survey</a></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="-999264693%2FClasslikes%2F1546998392" anchor-label="SurveyLanguage" id="-999264693%2FClasslikes%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="-survey-language/index.html"><span>Survey</span><wbr></wbr><span><span>Language</span></span></a></div>
+          <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-survey-language/index.html"><span>Survey</span><wbr></wbr><span><span>Language</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-999264693%2FClasslikes%2F1546998392"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-survey-language/index.html">SurveyLanguage</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-survey-language/index.html">SurveyLanguage</a></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="1584823981%2FClasslikes%2F1546998392" anchor-label="SurveyRespondent" id="1584823981%2FClasslikes%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="-survey-respondent/index.html"><span>Survey</span><wbr></wbr><span><span>Respondent</span></span></a></div>
+          <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-survey-respondent/index.html"><span>Survey</span><wbr></wbr><span><span>Respondent</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1584823981%2FClasslikes%2F1546998392"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-survey-respondent/index.html">SurveyRespondent</a><span class="token punctuation">(</span><span class="parameters wrapped"><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;<span class="token keyword">val </span>guid<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;<span class="token keyword">val </span>sid<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;<span class="token keyword">val </span>status<span class="token operator">: </span><a href="../com.confirmit.mobilesdk.surveyengine/-respondent-status/index.html">RespondentStatus</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;<span class="token keyword">val </span>uploadStatus<span class="token operator">: </span><a href="../com.confirmit.mobilesdk.surveyengine/-respondent-upload-status/index.html">RespondentUploadStatus</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;<span class="token keyword">val </span>lastUploadTime<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/util/Date.html">Date</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;<span class="token keyword">val </span>nextUploadTime<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/util/Date.html">Date</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;<span class="token keyword">val </span>uploadRetry<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;<span class="token keyword">val </span>deleted<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-survey-respondent/index.html">SurveyRespondent</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>guid<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>sid<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>status<span class="token operator">: </span><a href="../com.confirmit.mobilesdk.surveyengine/-respondent-status/index.html">RespondentStatus</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>uploadStatus<span class="token operator">: </span><a href="../com.confirmit.mobilesdk.surveyengine/-respondent-upload-status/index.html">RespondentUploadStatus</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>lastUploadTime<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/util/Date.html">Date</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>nextUploadTime<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/util/Date.html">Date</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>uploadRetry<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>deleted<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
               </div>
             </div>
           </div>
@@ -210,7 +231,8 @@ if(savedDarkMode === true){
                 class="pull-right"><span>Generated by </span><a
                 href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
       </div>
+            </div>
+        </div>
     </div>
-</div>
 </body>
 </html>

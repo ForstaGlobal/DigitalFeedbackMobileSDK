@@ -54,7 +54,7 @@ class AddProgramFragment : DialogFragment(), AdapterView.OnItemSelectedListener,
 
         binding.addProgramDone.setOnClickListener(this)
 
-        val adapter = ArrayAdapter(activity!!, R.layout.support_simple_spinner_dropdown_item, serverNameList)
+        val adapter = ArrayAdapter(requireActivity(), com.google.android.material.R.layout.support_simple_spinner_dropdown_item, serverNameList)
         binding.addProgramHost.adapter = adapter
         binding.addProgramHost.onItemSelectedListener = this
         binding.addProgramHost.setSelection(selectedServerPos)

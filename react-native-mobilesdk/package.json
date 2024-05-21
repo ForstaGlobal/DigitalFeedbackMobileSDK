@@ -1,6 +1,6 @@
 {
   "name": "@forstaglobal/react-native-mobilesdk",
-  "version": "3.11.0",
+  "version": "3.12.0",
   "description": "The Forsta Digital Feedback Mobile SDK provides seamless in-app feedback for any touch point within your mobile application.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -53,12 +53,13 @@
   "devDependencies": {
     "@babel/core": "^7.23.6",
     "@babel/eslint-parser": "^7.23.3",
+    "@react-native/babel-preset": "0.74.83",
     "@commitlint/config-conventional": "^17.0.2",
     "@evilmartians/lefthook": "^1.2.2",
     "@react-native-community/eslint-config": "^3.2.0",
     "@release-it/conventional-changelog": "^5.0.0",
     "@types/jest": "^28.1.2",
-    "@types/react": "~17.0.21",
+    "@types/react": "^18.2.6",
     "@types/react-native": "0.70.0",
     "commitlint": "^17.0.2",
     "del-cli": "^5.0.0",
@@ -67,15 +68,15 @@
     "eslint-import-resolver-typescript": "3.5.3",
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-prettier": "4.2.1",
-    "jest": "^28.1.1",
+    "jest": "^29.6.3",
     "pod-install": "^0.1.0",
-    "prettier": "2.8.3",
+    "prettier": "2.8.8",
     "react": "18.2.0",
-    "react-native": "0.72.4",
+    "react-native": "0.74.1",
     "react-native-builder-bob": "^0.21.3",
     "release-it": "^15.0.0",
     "turbo": "^1.10.7",
-    "typescript": "4.9.4"
+    "typescript": "5.0.4"
   },
   "resolutions": {
     "@types/react": "17.0.21"
@@ -86,7 +87,7 @@
     "react-native-webview": ">=13.6.2"
   },
   "engines": {
-    "node": ">= 16.0.0"
+    "node": ">= 18"
   },
   "packageManager": "^yarn@1.22.15",
   "jest": {

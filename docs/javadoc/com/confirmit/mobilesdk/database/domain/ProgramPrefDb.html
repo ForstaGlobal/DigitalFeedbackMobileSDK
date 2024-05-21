@@ -88,7 +88,7 @@ var pathtoroot = "../../../../../";
 
 <main role="main">
     <div class="header">
-        <div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html"></a></div>
+        <div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.confirmit.mobilesdk.database.domain</a></div>
         <h2 title="Interface ProgramPrefDb" class="title">Interface ProgramPrefDb</h2>
     </div>
     <div class="contentContainer">
@@ -118,6 +118,14 @@ public interface <span class="typeNameLabel"><a href=ProgramPrefDb.html>ProgramP
 
                     </pre>
                     <div class="block"></div>
+
+                    <dl>
+
+                    
+
+                    
+
+                    </dl>
                 </li>
             </ul>
         </div>
@@ -240,7 +248,7 @@ public interface <span class="typeNameLabel"><a href=ProgramPrefDb.html>ProgramP
                                         <tr id="i0" class="altColor">
                                             <td class="colFirst"><code>abstract <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a></code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=ProgramPrefDb.html#getPref(String,String,String,String)>getPref</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> serverId, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> programKey, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> key, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> defaultValue) </code>
+                                            <th class="colSecond" scope="row"><code><a href=ProgramPrefDb.html#getPref(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>getPref</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> serverId, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> programKey, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> key, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> defaultValue) </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
@@ -248,7 +256,7 @@ public interface <span class="typeNameLabel"><a href=ProgramPrefDb.html>ProgramP
                                         <tr id="i1" class="rowColor">
                                             <td class="colFirst"><code>abstract <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=ProgramPrefDb.html#deletePrefs(String,String)>deletePrefs</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> serverId, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> programKey) </code>
+                                            <th class="colSecond" scope="row"><code><a href=ProgramPrefDb.html#deletePrefs(java.lang.String,java.lang.String)>deletePrefs</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> serverId, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> programKey) </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
@@ -256,7 +264,15 @@ public interface <span class="typeNameLabel"><a href=ProgramPrefDb.html>ProgramP
                                         <tr id="i2" class="altColor">
                                             <td class="colFirst"><code>abstract <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=ProgramPrefDb.html#createOrUpdate(String,String,String,String)>createOrUpdate</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> serverId, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> programKey, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> key, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> value) </code>
+                                            <th class="colSecond" scope="row"><code><a href=ProgramPrefDb.html#createOrUpdate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>createOrUpdate</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> serverId, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> programKey, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> key, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> value) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i3" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=https://developer.android.com/reference/kotlin/java/util/Map.html>Map</a>&lt;<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a>, <a href=https://developer.android.com/reference/kotlin/java/lang/Object.html>Object</a>&gt;</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ProgramPrefDb.html#getAll(java.lang.String,java.lang.String)>getAll</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> serverId, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> programKey) </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
@@ -305,7 +321,7 @@ public interface <span class="typeNameLabel"><a href=ProgramPrefDb.html>ProgramP
                             </a>
                                 <h3>Method Detail</h3>
                                 
-                                <a id="getPref(String,String,String,String)">
+                                <a id="getPref(java.lang.String,java.lang.String,java.lang.String,java.lang.String)">
                                     <!--   -->
                                 </a>
                                 <ul class=
@@ -313,14 +329,22 @@ public interface <span class="typeNameLabel"><a href=ProgramPrefDb.html>ProgramP
                                           >
                                     <li class="blockList">
                                         <h4>getPref</h4>
-                                        <pre class="methodSignature"> abstract <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> <a href=ProgramPrefDb.html#getPref(String,String,String,String)>getPref</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> serverId, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> programKey, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> key, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> defaultValue)</pre>
+                                        <pre class="methodSignature"> abstract <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> <a href=ProgramPrefDb.html#getPref(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>getPref</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> serverId, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> programKey, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> key, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> defaultValue)</pre>
                                         <div class="block"></div>
+
+                                        <dl>
+
                                         
-                                        <!-- TODO missing return annotation -->
+
+                                        
+
+                                        
+
+                                        </dl>
                                     </li>
                                 </ul>
                                 
-                                <a id="deletePrefs(String,String)">
+                                <a id="deletePrefs(java.lang.String,java.lang.String)">
                                     <!--   -->
                                 </a>
                                 <ul class=
@@ -328,25 +352,64 @@ public interface <span class="typeNameLabel"><a href=ProgramPrefDb.html>ProgramP
                                           >
                                     <li class="blockList">
                                         <h4>deletePrefs</h4>
-                                        <pre class="methodSignature"> abstract <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a> <a href=ProgramPrefDb.html#deletePrefs(String,String)>deletePrefs</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> serverId, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> programKey)</pre>
+                                        <pre class="methodSignature"> abstract <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a> <a href=ProgramPrefDb.html#deletePrefs(java.lang.String,java.lang.String)>deletePrefs</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> serverId, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> programKey)</pre>
                                         <div class="block"></div>
+
+                                        <dl>
+
                                         
-                                        <!-- TODO missing return annotation -->
+
+                                        
+
+                                        
+
+                                        </dl>
                                     </li>
                                 </ul>
                                 
-                                <a id="createOrUpdate(String,String,String,String)">
+                                <a id="createOrUpdate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>createOrUpdate</h4>
+                                        <pre class="methodSignature"> abstract <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a> <a href=ProgramPrefDb.html#createOrUpdate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>createOrUpdate</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> serverId, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> programKey, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> key, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> value)</pre>
+                                        <div class="block"></div>
+
+                                        <dl>
+
+                                        
+
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="getAll(java.lang.String,java.lang.String)">
                                     <!--   -->
                                 </a>
                                 <ul class=
                                               "blockListLast"
                                           >
                                     <li class="blockList">
-                                        <h4>createOrUpdate</h4>
-                                        <pre class="methodSignature"> abstract <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a> <a href=ProgramPrefDb.html#createOrUpdate(String,String,String,String)>createOrUpdate</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> serverId, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> programKey, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> key, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> value)</pre>
+                                        <h4>getAll</h4>
+                                        <pre class="methodSignature"> abstract <a href=https://developer.android.com/reference/kotlin/java/util/Map.html>Map</a>&lt;<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a>, <a href=https://developer.android.com/reference/kotlin/java/lang/Object.html>Object</a>&gt; <a href=ProgramPrefDb.html#getAll(java.lang.String,java.lang.String)>getAll</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> serverId, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> programKey)</pre>
                                         <div class="block"></div>
+
+                                        <dl>
+
                                         
-                                        <!-- TODO missing return annotation -->
+
+                                        
+
+                                        
+
+                                        </dl>
                                     </li>
                                 </ul>
                                 

@@ -64,6 +64,22 @@ public protocol SurveyWebViewControllerDelegate {
 extension UIKit.UIColor {
   convenience public init?(hexString: Swift.String)
 }
+public class SdkMobileDeviceHeaderModel : Swift.Codable {
+  final public let i: Swift.String
+  final public let m: Swift.String
+  final public let pt: Swift.String
+  final public let os: Swift.String
+  final public let af: Swift.String
+  final public let an: Swift.String
+  final public let av: Swift.String
+  final public let sv: Swift.String
+  public init()
+  public init(i: Swift.String, m: Swift.String, pt: Swift.String, os: Swift.String, af: Swift.String, an: Swift.String, av: Swift.String, sv: Swift.String)
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public func cloneAsJson() throws -> ConfirmitMobileSDK.SdkMobileDeviceHeaderModel
+  @objc deinit
+}
 public protocol Question : AnyObject {
   var id: Swift.String { get }
   var nodeType: ConfirmitMobileSDK.QuestionType { get }
@@ -106,7 +122,6 @@ public enum SurveySDK {
   public static func getSurvey(serverId: Swift.String, surveyId: Swift.String) throws -> ConfirmitMobileSDK.Survey?
   public static func deleteSurvey(serverId: Swift.String, surveyId: Swift.String) throws
   public static func getSurveyList() throws -> [ConfirmitMobileSDK.Survey]
-  public static func downloadSurvey(serverId: Swift.String, surveyId: Swift.String, completion: @escaping ConfirmitMobileSDK.SurveyDownloadCompletion)
 }
 @_hasMissingDesignatedInitializers public class InfoQuestion : ConfirmitMobileSDK.Question {
   final public let nodeType: ConfirmitMobileSDK.QuestionType
@@ -133,6 +148,7 @@ public enum TriggerSDK {
   public static func notifyEvent(serverId: Swift.String, programKey: Swift.String, event: Swift.String, data: [Swift.String : Swift.String?] = [:])
   public static func notifyEvent(event: Swift.String, data: [Swift.String : Swift.String?] = [:])
   public static func notifyAppForeground(data: [Swift.String : Swift.String?] = [:])
+  public static func notifyAppBackground(data: [Swift.String : Swift.String?] = [:])
   public static func notifyAppFeedback(data: [Swift.String : Swift.String?] = [:])
   public static func notifyBeaconEnter(triggerBeaconInfo: ConfirmitMobileSDK.TriggerBeaconInfo, data: [Swift.String : Swift.String?] = [:])
   public static func notifyBeaconExit(triggerBeaconInfo: ConfirmitMobileSDK.TriggerBeaconInfo, data: [Swift.String : Swift.String?] = [:])

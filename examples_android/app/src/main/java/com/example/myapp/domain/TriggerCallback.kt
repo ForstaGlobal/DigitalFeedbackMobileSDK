@@ -23,7 +23,7 @@ class TriggerCallback : ProgramCallback {
     override fun onSurveyStart(config: SurveyFrameConfig) {
         val surveyManager = SurveyManager()
         val activity = MainApplication.instance!!.activity
-        surveyManager.launchSurvey(activity!!, SurveyModel(config.serverId, config.surveyId), config)
+        surveyManager.displaySurvey(activity!!, SurveyModel(config.serverId, config.surveyId), config)
     }
 
     override fun onWebSurveyStart(fragment: SurveyWebViewFragment) {

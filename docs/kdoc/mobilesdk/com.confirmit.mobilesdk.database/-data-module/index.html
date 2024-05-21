@@ -1,235 +1,245 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
     <title>DataModule</title>
     <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
     <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
     <script>const storage = localStorage.getItem("dokka-dark-mode")
-const savedDarkMode = storage ? JSON.parse(storage) : false
-if(savedDarkMode === true){
-    document.getElementsByTagName("html")[0].classList.add("theme-dark")
-}</script>
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
 <script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
 <link href="../../../styles/style.css" rel="Stylesheet">
-<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
 <link href="../../../styles/main.css" rel="Stylesheet">
 <link href="../../../styles/prism.css" rel="Stylesheet">
 <link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
 <script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
 <script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
 <script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
 <script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
 <script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
 </head>
 <body>
-<div class="navigation-wrapper" id="navigation-wrapper">
-    <div id="leftToggler"><span class="icon-toggler"></span></div>
-    <div class="library-name">
-            <a href="../../../index.html">
-                    <span>mobilesdk</span>
-            </a>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../../index.html">
+                            mobilesdk
+                    </a>
+            </div>
+            <div class="library-version">
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":mobilesdk:dokkaHtml/release">androidJvm</button>
+        </div>
     </div>
-    <div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
     </div>
-    <div class="pull-right d-flex">
-        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
-        <div id="searchBar"></div>
-    </div>
-</div>
-<div id="container">
-    <div id="leftColumn">
-        <div id="sideMenu"></div>
-    </div>
-    <div id="main">
-<div class="main-content" id="content" pageIds="mobilesdk::com.confirmit.mobilesdk.database/DataModule///PointingToDeclaration//1546998392">
-  <div class="breadcrumbs"><a href="../../../index.html">mobilesdk</a><span class="delimiter">/</span><a href="../index.html">com.confirmit.mobilesdk.database</a><span class="delimiter">/</span><a href="index.html">DataModule</a></div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="mobilesdk::com.confirmit.mobilesdk.database/DataModule///PointingToDeclaration//1546998392">
+  <div class="breadcrumbs"><a href="../../../index.html">mobilesdk</a><span class="delimiter">/</span><a href="../index.html">com.confirmit.mobilesdk.database</a><span class="delimiter">/</span><span class="current">DataModule</span></div>
   <div class="cover ">
     <h1 class="cover"><span>Data</span><wbr></wbr><span><span>Module</span></span></h1>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">interface </span><a href="index.html">DataModule</a> : <a href="../../com.confirmit.mobilesdk/-confirmit-s-d-k/-module/index.html">ConfirmitSDK.Module</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">interface </span><a href="index.html">DataModule</a> : <a href="../../com.confirmit.mobilesdk/-confirmit-s-d-k/-module/index.html">ConfirmitSDK.Module</a></div><h4 class="">Inheritors</h4><div class="table"><div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../../com.confirmit.mobilesdk.database.providers.room/-room-data-module/index.html">RoomDataModule</a></div></span></div><div></div></div></div></div></div></div>
   </div>
   <div class="tabbedcontent">
-    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Properties">Properties</button><button class="section-tab" data-togglable="Inheritors">Inheritors</button></div>
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
     <div class="tabs-section-body">
-      <h2 class="">Functions</h2>
-      <div class="table" data-togglable="Functions"><a data-name="1436145759%2FFunctions%2F1546998392" anchor-label="initialize" id="1436145759%2FFunctions%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="../../com.confirmit.mobilesdk/-confirmit-s-d-k/-module/initialize.html"><span><span>initialize</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1436145759%2FFunctions%2F1546998392"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="../../com.confirmit.mobilesdk/-confirmit-s-d-k/-module/initialize.html"><span class="token function">initialize</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">application<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/app/Application.html">Application</a><span class="token punctuation">, </span></span><span class="parameter ">setup<span class="token operator">: </span><a href="../../com.confirmit.mobilesdk/-confirmit-s-d-k/-setup/index.html">ConfirmitSDK.Setup</a></span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <h2 class="">Properties</h2>
-      <div class="table" data-togglable="Properties"><a data-name="1432327278%2FProperties%2F1546998392" anchor-label="activeJourney" id="1432327278%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="active-journey.html"><span>active</span><wbr></wbr><span><span>Journey</span></span></a></div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="1432327278%2FProperties%2F1546998392" anchor-label="activeJourney" id="1432327278%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="active-journey.html"><span>active</span><wbr></wbr><span><span>Journey</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1432327278%2FProperties%2F1546998392"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><a data-name="1432327278%2FProperties%2F1546998392" anchor-label="activeJourney" id="1432327278%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">val </span><a href="active-journey.html">activeJourney</a><span class="token operator">: </span><a href="../../com.confirmit.mobilesdk.database.domain/-active-journey-db/index.html">ActiveJourneyDb</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">val </span><a href="active-journey.html">activeJourney</a><span class="token operator">: </span><a href="../../com.confirmit.mobilesdk.database.domain/-active-journey-db/index.html">ActiveJourneyDb</a></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="-1812710008%2FProperties%2F1546998392" anchor-label="journey" id="-1812710008%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="journey.html"><span><span>journey</span></span></a></div>
+          <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="journey.html"><span><span>journey</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1812710008%2FProperties%2F1546998392"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><a data-name="-1812710008%2FProperties%2F1546998392" anchor-label="journey" id="-1812710008%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">val </span><a href="journey.html">journey</a><span class="token operator">: </span><a href="../../com.confirmit.mobilesdk.database.domain/-journey-db/index.html">JourneyDb</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">val </span><a href="journey.html">journey</a><span class="token operator">: </span><a href="../../com.confirmit.mobilesdk.database.domain/-journey-db/index.html">JourneyDb</a></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="227602767%2FProperties%2F1546998392" anchor-label="pref" id="227602767%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="pref.html"><span><span>pref</span></span></a></div>
+          <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="pref.html"><span><span>pref</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="227602767%2FProperties%2F1546998392"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><a data-name="227602767%2FProperties%2F1546998392" anchor-label="pref" id="227602767%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">val </span><a href="pref.html">pref</a><span class="token operator">: </span><a href="../../com.confirmit.mobilesdk.database.domain/-pref-db/index.html">PrefDb</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">val </span><a href="pref.html">pref</a><span class="token operator">: </span><a href="../../com.confirmit.mobilesdk.database.domain/-pref-db/index.html">PrefDb</a></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="19215172%2FProperties%2F1546998392" anchor-label="program" id="19215172%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="program.html"><span><span>program</span></span></a></div>
+          <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="program.html"><span><span>program</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="19215172%2FProperties%2F1546998392"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><a data-name="19215172%2FProperties%2F1546998392" anchor-label="program" id="19215172%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">val </span><a href="program.html">program</a><span class="token operator">: </span><a href="../../com.confirmit.mobilesdk.database.domain/-program-db/index.html">ProgramDb</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">val </span><a href="program.html">program</a><span class="token operator">: </span><a href="../../com.confirmit.mobilesdk.database.domain/-program-db/index.html">ProgramDb</a></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="-120356127%2FProperties%2F1546998392" anchor-label="programPref" id="-120356127%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="program-pref.html"><span>program</span><wbr></wbr><span><span>Pref</span></span></a></div>
+          <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="program-pref.html"><span>program</span><wbr></wbr><span><span>Pref</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-120356127%2FProperties%2F1546998392"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><a data-name="-120356127%2FProperties%2F1546998392" anchor-label="programPref" id="-120356127%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">val </span><a href="program-pref.html">programPref</a><span class="token operator">: </span><a href="../../com.confirmit.mobilesdk.database.domain/-program-pref-db/index.html">ProgramPrefDb</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">val </span><a href="program-pref.html">programPref</a><span class="token operator">: </span><a href="../../com.confirmit.mobilesdk.database.domain/-program-pref-db/index.html">ProgramPrefDb</a></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="-388962596%2FProperties%2F1546998392" anchor-label="respondent" id="-388962596%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="respondent.html"><span><span>respondent</span></span></a></div>
+          <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="respondent.html"><span><span>respondent</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-388962596%2FProperties%2F1546998392"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><a data-name="-388962596%2FProperties%2F1546998392" anchor-label="respondent" id="-388962596%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">val </span><a href="respondent.html">respondent</a><span class="token operator">: </span><a href="../../com.confirmit.mobilesdk.database.domain/-respondent-db/index.html">RespondentDb</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">val </span><a href="respondent.html">respondent</a><span class="token operator">: </span><a href="../../com.confirmit.mobilesdk.database.domain/-respondent-db/index.html">RespondentDb</a></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="-394311055%2FProperties%2F1546998392" anchor-label="response" id="-394311055%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="response.html"><span><span>response</span></span></a></div>
+          <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="response.html"><span><span>response</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-394311055%2FProperties%2F1546998392"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><a data-name="-394311055%2FProperties%2F1546998392" anchor-label="response" id="-394311055%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">val </span><a href="response.html">response</a><span class="token operator">: </span><a href="../../com.confirmit.mobilesdk.database.domain/-response-db/index.html">ResponseDb</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">val </span><a href="response.html">response</a><span class="token operator">: </span><a href="../../com.confirmit.mobilesdk.database.domain/-response-db/index.html">ResponseDb</a></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="-2045087230%2FProperties%2F1546998392" anchor-label="scenario" id="-2045087230%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="scenario.html"><span><span>scenario</span></span></a></div>
+          <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="scenario.html"><span><span>scenario</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2045087230%2FProperties%2F1546998392"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><a data-name="-2045087230%2FProperties%2F1546998392" anchor-label="scenario" id="-2045087230%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">val </span><a href="scenario.html">scenario</a><span class="token operator">: </span><a href="../../com.confirmit.mobilesdk.database.domain/-scenario-db/index.html">ScenarioDb</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">val </span><a href="scenario.html">scenario</a><span class="token operator">: </span><a href="../../com.confirmit.mobilesdk.database.domain/-scenario-db/index.html">ScenarioDb</a></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="-800381201%2FProperties%2F1546998392" anchor-label="server" id="-800381201%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="server.html"><span><span>server</span></span></a></div>
+          <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="server.html"><span><span>server</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-800381201%2FProperties%2F1546998392"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><a data-name="-800381201%2FProperties%2F1546998392" anchor-label="server" id="-800381201%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">val </span><a href="server.html">server</a><span class="token operator">: </span><a href="../../com.confirmit.mobilesdk.database.domain/-server-db/index.html">ServerDb</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">val </span><a href="server.html">server</a><span class="token operator">: </span><a href="../../com.confirmit.mobilesdk.database.domain/-server-db/index.html">ServerDb</a></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="-402184520%2FProperties%2F1546998392" anchor-label="survey" id="-402184520%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="survey.html"><span><span>survey</span></span></a></div>
+          <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="survey.html"><span><span>survey</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-402184520%2FProperties%2F1546998392"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><a data-name="-402184520%2FProperties%2F1546998392" anchor-label="survey" id="-402184520%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">val </span><a href="survey.html">survey</a><span class="token operator">: </span><a href="../../com.confirmit.mobilesdk.database.domain/-survey-db/index.html">SurveyDb</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">val </span><a href="survey.html">survey</a><span class="token operator">: </span><a href="../../com.confirmit.mobilesdk.database.domain/-survey-db/index.html">SurveyDb</a></div></div></div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <h2 class="">Inheritors</h2>
-      <div class="table" data-togglable="Inheritors"><a data-name="1060743141%2FInheritors%2F1546998392" anchor-label="RoomDataModule" id="1060743141%2FInheritors%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="../../com.confirmit.mobilesdk.database.providers.room/-room-data-module/index.html">RoomDataModule</a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1060743141%2FInheritors%2F1546998392"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div></div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="1436145759%2FFunctions%2F1546998392" anchor-label="initialize" id="1436145759%2FFunctions%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../com.confirmit.mobilesdk/-confirmit-s-d-k/-module/initialize.html"><span><span>initialize</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1436145759%2FFunctions%2F1546998392"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="../../com.confirmit.mobilesdk/-confirmit-s-d-k/-module/initialize.html"><span class="token function">initialize</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">application<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/app/Application.html">Application</a><span class="token punctuation">, </span></span><span class="parameter ">setup<span class="token operator">: </span><a href="../../com.confirmit.mobilesdk/-confirmit-s-d-k/-setup/index.html">ConfirmitSDK.Setup</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -241,7 +251,8 @@ if(savedDarkMode === true){
                 class="pull-right"><span>Generated by </span><a
                 href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
       </div>
+            </div>
+        </div>
     </div>
-</div>
 </body>
 </html>

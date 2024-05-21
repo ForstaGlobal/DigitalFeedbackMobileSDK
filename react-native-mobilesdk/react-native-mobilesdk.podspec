@@ -39,5 +39,5 @@ Pod::Spec.new do |s|
    end
   end
 
-  s.dependency "ConfirmitMobileSDK", "3.11.0"
+  s.dependency "ConfirmitMobileSDK", "3.12.0"
 end

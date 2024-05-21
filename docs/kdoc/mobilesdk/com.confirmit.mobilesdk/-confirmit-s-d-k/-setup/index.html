@@ -1,177 +1,202 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
     <title>Setup</title>
     <link href="../../../../images/logo-icon.svg" rel="icon" type="image/svg">
     <script>var pathToRoot = "../../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
     <script>const storage = localStorage.getItem("dokka-dark-mode")
-const savedDarkMode = storage ? JSON.parse(storage) : false
-if(savedDarkMode === true){
-    document.getElementsByTagName("html")[0].classList.add("theme-dark")
-}</script>
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
 <script type="text/javascript" src="../../../../scripts/sourceset_dependencies.js" async="async"></script>
 <link href="../../../../styles/style.css" rel="Stylesheet">
-<link href="../../../../styles/jetbrains-mono.css" rel="Stylesheet">
 <link href="../../../../styles/main.css" rel="Stylesheet">
 <link href="../../../../styles/prism.css" rel="Stylesheet">
 <link href="../../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
 <script type="text/javascript" src="../../../../scripts/clipboard.js" async="async"></script>
 <script type="text/javascript" src="../../../../scripts/navigation-loader.js" async="async"></script>
 <script type="text/javascript" src="../../../../scripts/platform-content-handler.js" async="async"></script>
 <script type="text/javascript" src="../../../../scripts/main.js" defer="defer"></script>
 <script type="text/javascript" src="../../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
 </head>
 <body>
-<div class="navigation-wrapper" id="navigation-wrapper">
-    <div id="leftToggler"><span class="icon-toggler"></span></div>
-    <div class="library-name">
-            <a href="../../../../index.html">
-                    <span>mobilesdk</span>
-            </a>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../../../index.html">
+                            mobilesdk
+                    </a>
+            </div>
+            <div class="library-version">
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":mobilesdk:dokkaHtml/release">androidJvm</button>
+        </div>
     </div>
-    <div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
     </div>
-    <div class="pull-right d-flex">
-        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
-        <div id="searchBar"></div>
-    </div>
-</div>
-<div id="container">
-    <div id="leftColumn">
-        <div id="sideMenu"></div>
-    </div>
-    <div id="main">
-<div class="main-content" id="content" pageIds="mobilesdk::com.confirmit.mobilesdk/ConfirmitSDK.Setup///PointingToDeclaration//1546998392">
-  <div class="breadcrumbs"><a href="../../../../index.html">mobilesdk</a><span class="delimiter">/</span><a href="../../index.html">com.confirmit.mobilesdk</a><span class="delimiter">/</span><a href="../index.html">ConfirmitSDK</a><span class="delimiter">/</span><a href="index.html">Setup</a></div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="mobilesdk::com.confirmit.mobilesdk/ConfirmitSDK.Setup///PointingToDeclaration//1546998392">
+  <div class="breadcrumbs"><a href="../../../../index.html">mobilesdk</a><span class="delimiter">/</span><a href="../../index.html">com.confirmit.mobilesdk</a><span class="delimiter">/</span><a href="../index.html">ConfirmitSDK</a><span class="delimiter">/</span><span class="current">Setup</span></div>
   <div class="cover ">
     <h1 class="cover"><span><span>Setup</span></span></h1>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">Setup</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">application<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/app/Application.html">Application</a></span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">Setup</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">application<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/app/Application.html">Application</a></span></span><span class="token punctuation">)</span></div></div></div>
   </div>
   <div class="tabbedcontent">
-    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
     <div class="tabs-section-body">
-      <h2 class="tabbedcontent">Constructors</h2>
-      <div class="table" data-togglable="Constructors"><a data-name="302485556%2FConstructors%2F1546998392" anchor-label="Setup" id="302485556%2FConstructors%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-          <div class="main-subrow keyValue TabbedContent">
-            <div class=""><span class="inline-flex">
-                <div><a href="-setup.html"><span><span>Setup</span></span></a></div>
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="302485556%2FConstructors%2F1546998392" anchor-label="Setup" id="302485556%2FConstructors%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-setup.html"><span><span>Setup</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="302485556%2FConstructors%2F1546998392"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="-setup.html"><span class="token function">Setup</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">application<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/app/Application.html">Application</a></span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">application<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/app/Application.html">Application</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <h2 class="">Functions</h2>
-      <div class="table" data-togglable="Functions"><a data-name="1977835137%2FFunctions%2F1546998392" anchor-label="configure" id="1977835137%2FFunctions%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="configure.html"><span><span>configure</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1977835137%2FFunctions%2F1546998392"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="configure.html"><span class="token function">configure</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-              </div>
-            </div>
-          </div>
-        </div>
-<a data-name="-560698554%2FFunctions%2F1546998392" anchor-label="coreModule" id="-560698554%2FFunctions%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="core-module.html"><span>core</span><wbr></wbr><span><span>Module</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-560698554%2FFunctions%2F1546998392"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="core-module.html"><span class="token function">coreModule</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">module<span class="token operator">: </span><a href="../../../com.confirmit.mobilesdk.core/-core-module/index.html">CoreModule</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">ConfirmitSDK.Setup</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-              </div>
-            </div>
-          </div>
-        </div>
-<a data-name="1216240834%2FFunctions%2F1546998392" anchor-label="dataModule" id="1216240834%2FFunctions%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="data-module.html"><span>data</span><wbr></wbr><span><span>Module</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1216240834%2FFunctions%2F1546998392"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="data-module.html"><span class="token function">dataModule</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">module<span class="token operator">: </span><a href="../../../com.confirmit.mobilesdk.database/-data-module/index.html">DataModule</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">ConfirmitSDK.Setup</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-              </div>
-            </div>
-          </div>
-        </div>
-<a data-name="1350291753%2FFunctions%2F1546998392" anchor-label="rootPath" id="1350291753%2FFunctions%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="root-path.html"><span>root</span><wbr></wbr><span><span>Path</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1350291753%2FFunctions%2F1546998392"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="root-path.html"><span class="token function">rootPath</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">path<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/net/Uri.html">Uri</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">ConfirmitSDK.Setup</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-              </div>
-            </div>
-          </div>
-        </div>
-<a data-name="-1845216318%2FFunctions%2F1546998392" anchor-label="syncModule" id="-1845216318%2FFunctions%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="sync-module.html"><span>sync</span><wbr></wbr><span><span>Module</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1845216318%2FFunctions%2F1546998392"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="sync-module.html"><span class="token function">syncModule</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">module<span class="token operator">: </span><a href="../../../com.confirmit.mobilesdk.sync/-sync-module/index.html">SyncModule</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">ConfirmitSDK.Setup</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <h2 class="">Properties</h2>
-      <div class="table" data-togglable="Properties"><a data-name="1518047624%2FProperties%2F1546998392" anchor-label="coreModule" id="1518047624%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="core-module.html"><span>core</span><wbr></wbr><span><span>Module</span></span></a></div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="1518047624%2FProperties%2F1546998392" anchor-label="coreModule" id="1518047624%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="core-module.html"><span>core</span><wbr></wbr><span><span>Module</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1518047624%2FProperties%2F1546998392"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><a data-name="1518047624%2FProperties%2F1546998392" anchor-label="coreModule" id="1518047624%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">var </span><a href="core-module.html">coreModule</a><span class="token operator">: </span><a href="../../../com.confirmit.mobilesdk.core/-core-module/index.html">CoreModule</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="core-module.html">coreModule</a><span class="token operator">: </span><a href="../../../com.confirmit.mobilesdk.core/-core-module/index.html">CoreModule</a><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-382369460%2FProperties%2F1546998392" anchor-label="rootPath" id="-382369460%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="root-path.html"><span>root</span><wbr></wbr><span><span>Path</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-382369460%2FProperties%2F1546998392"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="root-path.html">rootPath</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/net/Uri.html">Uri</a><span class="token operator">?</span></div></div></div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-<a data-name="-382369460%2FProperties%2F1546998392" anchor-label="rootPath" id="-382369460%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="root-path.html"><span>root</span><wbr></wbr><span><span>Path</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-382369460%2FProperties%2F1546998392"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><a data-name="-382369460%2FProperties%2F1546998392" anchor-label="rootPath" id="-382369460%2FProperties%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">var </span><a href="root-path.html">rootPath</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/net/Uri.html">Uri</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="1977835137%2FFunctions%2F1546998392" anchor-label="configure" id="1977835137%2FFunctions%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="configure.html"><span><span>configure</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1977835137%2FFunctions%2F1546998392"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="configure.html"><span class="token function">configure</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-560698554%2FFunctions%2F1546998392" anchor-label="coreModule" id="-560698554%2FFunctions%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="core-module.html"><span>core</span><wbr></wbr><span><span>Module</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-560698554%2FFunctions%2F1546998392"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="core-module.html"><span class="token function">coreModule</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">module<span class="token operator">: </span><a href="../../../com.confirmit.mobilesdk.core/-core-module/index.html">CoreModule</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">ConfirmitSDK.Setup</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1216240834%2FFunctions%2F1546998392" anchor-label="dataModule" id="1216240834%2FFunctions%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="data-module.html"><span>data</span><wbr></wbr><span><span>Module</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1216240834%2FFunctions%2F1546998392"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="data-module.html"><span class="token function">dataModule</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">module<span class="token operator">: </span><a href="../../../com.confirmit.mobilesdk.database/-data-module/index.html">DataModule</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">ConfirmitSDK.Setup</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1350291753%2FFunctions%2F1546998392" anchor-label="rootPath" id="1350291753%2FFunctions%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="root-path.html"><span>root</span><wbr></wbr><span><span>Path</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1350291753%2FFunctions%2F1546998392"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="root-path.html"><span class="token function">rootPath</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">path<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/net/Uri.html">Uri</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">ConfirmitSDK.Setup</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1845216318%2FFunctions%2F1546998392" anchor-label="syncModule" id="-1845216318%2FFunctions%2F1546998392" data-filterable-set=":mobilesdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":mobilesdk:dokkaHtml/release" data-filterable-set=":mobilesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="sync-module.html"><span>sync</span><wbr></wbr><span><span>Module</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1845216318%2FFunctions%2F1546998392"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobilesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="sync-module.html"><span class="token function">syncModule</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">module<span class="token operator">: </span><a href="../../../com.confirmit.mobilesdk.sync/-sync-module/index.html">SyncModule</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">ConfirmitSDK.Setup</a></div></div></div>
+                </div>
               </div>
             </div>
           </div>
@@ -185,7 +210,8 @@ if(savedDarkMode === true){
                 class="pull-right"><span>Generated by </span><a
                 href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
       </div>
+            </div>
+        </div>
     </div>
-</div>
 </body>
 </html>
