@@ -8,7 +8,7 @@ import com.facebook.react.uimanager.ViewManager
 
 class MobileSdkPackage : ReactPackage {
     override fun createNativeModules(reactContext: ReactApplicationContext): List<NativeModule> {
-        return listOf(MobileSdkModule(reactContext))
+        return listOf(MobileSdkModule(reactContext), MobileSdkSurveyModule(reactContext))
     }
 
     override fun createViewManagers(reactContext: ReactApplicationContext): List<ViewManager<*, *>> {

@@ -9,9 +9,10 @@ class MobileSdk: NSObject {
   }
   
   // Confirmit
-  @objc(initSdk)
-  func initSdk() {
+  @objc(initSdk:withRejecter:)
+  func initSdk(resolve: @escaping RCTPromiseResolveBlock, reject: @escaping RCTPromiseRejectBlock) {
     ConfirmitSDK.Setup().configure()
+    resolve(nil)
   }
   
   @objc(enableLog:)
@@ -35,6 +36,7 @@ class MobileSdk: NSObject {
   func deleteProgram(serverId: String, programKey: String, deleteCustomData: Bool, resolve: RCTPromiseResolveBlock, reject: RCTPromiseRejectBlock) {
     do {
       try TriggerSDK.deleteProgram(serverId: serverId, programKey: programKey, deleteCustomData: deleteCustomData)
+      resolve(nil)
     } catch {
       reject("trigger", "failed to delete program \(programKey)", error)
     }
@@ -44,6 +46,7 @@ class MobileSdk: NSObject {
   func deleteAll(deleteCustomData: Bool, resolve: RCTPromiseResolveBlock, reject: RCTPromiseRejectBlock) {
     do {
       try TriggerSDK.deleteAll(deleteCustomData: deleteCustomData)
+      resolve(nil)
     } catch {
       reject("trigger", "failed to delete all programs", error)
     }
@@ -76,6 +79,16 @@ class MobileSdk: NSObject {
   @objc(notifyAppForeground:)
   func notifyAppForeground(data: NSDictionary) {
     TriggerSDK.notifyAppForeground(data: data.swiftDictionary)
+  }
+  
+  @objc(addJourney:)
+  func addJourney(data: NSDictionary) {
+    TriggerSDK.addJourneyLog(data: data.swiftDictionary)
+  }
+  
+  @objc(addJourneyLogWithServer:withProgramKey:withData:)
+  func addJourneyLogWithServer(serverId: String, programKey: String, data: NSDictionary) {
+    TriggerSDK.addJourneyLog(serverId: serverId, programKey: programKey, data: data.swiftDictionary)
   }
   
   // Servers

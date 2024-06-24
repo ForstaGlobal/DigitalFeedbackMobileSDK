@@ -420,6 +420,9 @@ $dokka.location:com.confirmit.mobilesdk.sync.payloads/AuthTokenPayload///Pointin
 $dokka.location:com.confirmit.mobilesdk.sync.payloads/AuthTokenPayload/AuthTokenPayload/#kotlin.String#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.sync.payloads/-auth-token-payload/-auth-token-payload.html
 $dokka.location:com.confirmit.mobilesdk.sync.payloads/AuthTokenPayload/clientId/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.sync.payloads/-auth-token-payload/client-id.html
 $dokka.location:com.confirmit.mobilesdk.sync.payloads/AuthTokenPayload/clientSecret/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.sync.payloads/-auth-token-payload/client-secret.html
+$dokka.location:com.confirmit.mobilesdk.sync.payloads/ConfigPayload///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.sync.payloads/-config-payload/index.html
+$dokka.location:com.confirmit.mobilesdk.sync.payloads/ConfigPayload/ConfigPayload/#kotlin.String/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.sync.payloads/-config-payload/-config-payload.html
+$dokka.location:com.confirmit.mobilesdk.sync.payloads/ConfigPayload/dfRuntimeUrl/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.sync.payloads/-config-payload/df-runtime-url.html
 $dokka.location:com.confirmit.mobilesdk.sync.payloads/DigitalFeedbackContextPayload///PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.sync.payloads/-digital-feedback-context-payload/index.html
 $dokka.location:com.confirmit.mobilesdk.sync.payloads/DigitalFeedbackContextPayload/DigitalFeedbackContextPayload/#kotlin.String#kotlin.Int/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.sync.payloads/-digital-feedback-context-payload/-digital-feedback-context-payload.html
 $dokka.location:com.confirmit.mobilesdk.sync.payloads/DigitalFeedbackContextPayload/programKey/#/PointingToDeclaration/mobilesdk/com.confirmit.mobilesdk.sync.payloads/-digital-feedback-context-payload/program-key.html

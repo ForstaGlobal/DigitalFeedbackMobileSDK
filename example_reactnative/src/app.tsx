@@ -2,8 +2,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import * as React from 'react';
 import { Component } from 'react';
-import HomeScreen from './screen/homeScreen';
-import SurveyWebViewScreen from './screen/surveyWebViewScreen';
+import HomeView from './views/homeView';
 
 const Stack = createNativeStackNavigator();
 
@@ -12,8 +11,7 @@ export default class App extends Component {
         return (
             <NavigationContainer>
                 <Stack.Navigator>
-                    <Stack.Screen name="Home" component={HomeScreen} options={{ title: 'Digital Feedback' }} />
-                    <Stack.Screen name="Survey" component={SurveyWebViewScreen} />
+                    <Stack.Screen name="Home" component={HomeView} options={{ title: 'Digital Feedback' }} />
                 </Stack.Navigator>
             </NavigationContainer>
         );

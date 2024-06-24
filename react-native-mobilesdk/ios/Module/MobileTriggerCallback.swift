@@ -12,7 +12,37 @@ class MobileTriggerCallback: ProgramCallback {
   
   func onSurveyDownloadCompleted(triggerInfo: ConfirmitMobileSDK.TriggerInfo, surveyId: String, error: Error?) {}
   
-  func onSurveyStart(config: ConfirmitMobileSDK.SurveyFrameConfig) {}
+  func onSurveyStart(config: ConfirmitMobileSDK.SurveyFrameConfig) {
+    MobileSdkSurveyManager().addSurvey(serverId: serverId, programKey: programKey, surveyId: config.surveyId, survey: MobileSdkSurveyWrapper(config: config))
+    
+    var values: [String: Any] = [
+      "serverId": serverId,
+      "programKey": programKey,
+      "surveyId": config.surveyId
+    ]
+    
+    if let languageId = config.languageId {
+      values["languageId"] = languageId
+    }
+    
+    var customData: [String: Any] = [:]
+    for data in config.customData {
+      customData[data.key] = data.value
+    }
+    values["customTable"] = customData
+    
+    var respondentValue: [String: Any] = [:]
+    for respondent in config.respondentValues {
+      respondentValue[respondent.key] = respondent.value
+    }
+    values["respondentValue"] = respondentValue
+    
+    SdkEmitter.shared.sendEvent(withName: "__mobileOnSurveyStart", body: [
+      "serverId": serverId,
+      "programKey": programKey,
+      "surveyId": config.surveyId
+    ])
+  }
   
   func onScenarioLoad(triggerInfo: ConfirmitMobileSDK.TriggerInfo, error: Error?) {
     SdkEmitter.shared.sendEvent(withName: "__mobileOnScenarioLoad", body: [

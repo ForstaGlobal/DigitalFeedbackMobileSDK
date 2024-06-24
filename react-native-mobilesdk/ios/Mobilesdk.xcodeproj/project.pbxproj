@@ -28,7 +28,6 @@
 /* Begin PBXFileReference section */
 		0E4FC8FADE7EB672217188C9 /* Pods-Mobilesdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobilesdk.release.xcconfig"; path = "Target Support Files/Pods-Mobilesdk/Pods-Mobilesdk.release.xcconfig"; sourceTree = "<group>"; };
 		134814201AA4EA6300B7C361 /* libMobilesdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMobilesdk.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D326A992AD8B38F00B2A5C7 /* Exts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exts.swift; sourceTree = "<group>"; };
 		2D326A9D2AD8B53200B2A5C7 /* TriggerCallback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriggerCallback.swift; sourceTree = "<group>"; };
 		2D326A9E2AD8B53200B2A5C7 /* TriggerCallbackBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriggerCallbackBridge.m; sourceTree = "<group>"; };
 		6A73BA7DBF7DE33508DCC5DF /* Pods_Mobilesdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobilesdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,7 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				2D326A9C2AD8B51500B2A5C7 /* Module */,
-				2D326A992AD8B38F00B2A5C7 /* Exts.swift */,
 				F4FF95D6245B92E800C19C63 /* Mobilesdk.swift */,
 				B3E7B5891CC2AC0600A0062D /* Mobilesdk.mm */,
 				F4FF95D5245B92E700C19C63 /* Mobilesdk-Bridging-Header.h */,

@@ -1,42 +1,25 @@
 import { NativeEventEmitter, NativeModules } from 'react-native';
-import type { IScenarioCallback, IWebSurveyModel } from '../models/models';
-
-export interface ISdkListener {
-    onSurveyWebview(model: IWebSurveyModel): void;
-    onScenarioLoad(model: IScenarioCallback): void;
-    onScenarioError(model: IScenarioCallback): void;
-}
+import { IScenarioCallback, ISurveyModel, IWebSurveyModel } from '../models/models';
 
 class Manager {
-    private listener: ISdkListener | null = null;
     private sdkEmitter = NativeModules.SdkEmitter;
     private triggerManagerEmitter = new NativeEventEmitter(this.sdkEmitter);
 
-    public constructor() {
-        this.triggerManagerEmitter.addListener('__mobileOnWebSurveyStart', this.onWebSurveyStart);
-        this.triggerManagerEmitter.addListener('__mobileOnScenarioLoad', this.onScenarioLoad);
-        this.triggerManagerEmitter.addListener('__mobileOnScenarioError', this.onScenarioError);
+    public setOnWebSurveyStart(callback: (event: IWebSurveyModel) => void) {
+        return this.triggerManagerEmitter.addListener('__mobileOnWebSurveyStart', callback);
     }
 
-    public setSdkListener(callbackListener: ISdkListener) {
-        this.listener = callbackListener;
+    public setOnSurveyStart(callback: (event: ISurveyModel) => void) {
+        return this.triggerManagerEmitter.addListener('__mobileOnSurveyStart', callback);
     }
 
-    public removeSdkListener() {
-        this.listener = null;
+    public setOnScenarioLoad(callback: (event: IScenarioCallback) => void) {
+        return this.triggerManagerEmitter.addListener('__mobileOnScenarioLoad', callback);
     }
 
-    private onWebSurveyStart = (event: IWebSurveyModel) => {
-        this.listener?.onSurveyWebview(event);
-    };
-
-    private onScenarioLoad = (event: IScenarioCallback) => {
-        this.listener?.onScenarioLoad(event);
-    };
-
-    private onScenarioError = (event: IScenarioCallback) => {
-        this.listener?.onScenarioError(event);
-    };
+    public setOnScenarioError(callback: (event: IScenarioCallback) => void) {
+        return this.triggerManagerEmitter.addListener('__mobileOnScenarioError', callback);
+    }
 }
 
 export const TriggerManager = new Manager();

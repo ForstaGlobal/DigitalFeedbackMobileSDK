@@ -54,10 +54,11 @@ class MobileSdkModule(reactContext: ReactApplicationContext) :
 
 
     @ReactMethod
-    fun initSdk() {
+    fun initSdk(promise: Promise) {
         application?.let {
             ConfirmitSDK.Setup(it).configure()
         }
+        promise.resolve(null);
     }
 
     @ReactMethod
@@ -72,7 +73,7 @@ class MobileSdkModule(reactContext: ReactApplicationContext) :
         if (response.result) {
             promise.resolve(response.result)
         } else {
-            promise.reject(response.exception)
+            promise.reject("trigger", "failed to download program", response.exception)
         }
     }
 
@@ -85,8 +86,9 @@ class MobileSdkModule(reactContext: ReactApplicationContext) :
     ) {
         try {
             TriggerSDK.deleteProgram(serverId, programKey, deleteCustomData)
+            promise.resolve(null)
         } catch (error: Exception) {
-            promise.reject(error)
+            promise.reject("trigger", "failed to delete program $programKey", error)
         }
     }
 
@@ -94,8 +96,9 @@ class MobileSdkModule(reactContext: ReactApplicationContext) :
     fun deleteAll(deleteCustomData: Boolean, promise: Promise) {
         try {
             TriggerSDK.deleteAll(deleteCustomData)
+            promise.resolve(null)
         } catch (error: Exception) {
-            promise.reject(error)
+            promise.reject("trigger", "failed to delete all programs", error)
         }
     }
 
@@ -134,6 +137,24 @@ class MobileSdkModule(reactContext: ReactApplicationContext) :
             result[entry.key] = entry.value.toString()
         }
         TriggerSDK.notifyAppForeground(result)
+    }
+
+    @ReactMethod
+    fun addJourneyLog(data: ReadableMap) {
+        val result = mutableMapOf<String, String>()
+        for (entry in data.entryIterator) {
+            result[entry.key] = entry.value.toString()
+        }
+        TriggerSDK.addJourneyLog(result)
+    }
+
+    @ReactMethod
+    fun addJourneyLogWithServer(serverId: String, programKey: String, data: ReadableMap) {
+        val result = mutableMapOf<String, String>()
+        for (entry in data.entryIterator) {
+            result[entry.key] = entry.value.toString()
+        }
+        TriggerSDK.addJourneyLog(serverId, programKey, result)
     }
 
     // Server

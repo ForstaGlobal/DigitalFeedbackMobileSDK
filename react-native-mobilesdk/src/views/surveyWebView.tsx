@@ -1,61 +1,63 @@
-import React, { Component } from 'react';
-import { NativeEventEmitter, NativeModules, Platform } from 'react-native';
+import React, { useEffect } from 'react';
+import { EmitterSubscription, NativeEventEmitter, NativeModules, Platform } from 'react-native';
 import type { WebViewMessageEvent, WebViewProps } from 'react-native-webview';
 import { WebView } from 'react-native-webview';
-import { injectWebView } from '../index';
+import { ConfirmitSdk } from '../confirmitSdk';
 
-interface SurveyWebViewProps extends WebViewProps {
+interface ISurveyWebViewProps extends WebViewProps {
     onSurveyClosed?: () => void;
 }
 
-export default class SurveyWebView extends Component<SurveyWebViewProps> {
-    private sdkEmitter = NativeModules.SdkEmitter;
-    private triggerManagerEmitter = new NativeEventEmitter(this.sdkEmitter);
+const sdkEmitter = NativeModules.SdkEmitter;
+const triggerManagerEmitter = new NativeEventEmitter(sdkEmitter);
 
-    private loaded = false;
+const SurveyWebView = (props: ISurveyWebViewProps) => {
+    let loaded = false;
 
-    public constructor(props: SurveyWebViewProps) {
-        super(props);
+    useEffect(() => {
+        const pageReady: EmitterSubscription = triggerManagerEmitter.addListener('__mobileOnSurveyClosed', onSurveyClosed);
 
-        this.triggerManagerEmitter.addListener('__mobileOnSurveyClosed', this.__onSurveyClosed);
-    }
+        return () => {
+            pageReady.remove();
+        };
+    });
 
-    private __onSurveyClosed = () => {
-        this.props.onSurveyClosed?.();
+    const onSurveyClosed = () => {
+        props.onSurveyClosed?.();
     };
 
-    private load() {
-        if (!this.loaded) {
-            injectWebView();
-            this.loaded = true;
-        }
-    }
-
-    private onMessage = (event: WebViewMessageEvent) => {
-        this.__onSurveyClosed();
-        this.props.onMessage?.(event);
+    const onMessage = (event: WebViewMessageEvent) => {
+        onSurveyClosed();
+        props.onMessage?.(event);
     };
 
-    public render() {
-        let { injectedJavaScriptBeforeContentLoaded } = this.props;
-
-        if (Platform.OS === 'ios') {
-            injectedJavaScriptBeforeContentLoaded += ` \nwindow['mobileBridge'] = { onSurveyEnd: function() { window.ReactNativeWebView?.postMessage(''); } };`;
+    const load = () => {
+        if (!loaded) {
+            ConfirmitSdk.injectWebView();
+            loaded = true;
         }
+    };
 
-        return (
-            <WebView
-                nativeID={'surveyWebViews'}
-                {...this.props}
-                domStorageEnabled={true}
-                javaScriptEnabled={true}
-                onLoad={() => {
-                    this.load();
-                }}
-                injectedJavaScriptForMainFrameOnly={false}
-                injectedJavaScriptBeforeContentLoaded={injectedJavaScriptBeforeContentLoaded}
-                onMessage={this.onMessage}
-            />
-        );
+    let { injectedJavaScriptBeforeContentLoaded } = props;
+
+    if (Platform.OS === 'ios') {
+        injectedJavaScriptBeforeContentLoaded += " \nwindow['mobileBridge'] = { onSurveyEnd: function() { window.ReactNativeWebView?.postMessage(''); } };";
     }
-}
+
+    return (
+        <WebView
+            nativeID={'surveyWebViews'}
+            {...props}
+            domStorageEnabled={true}
+            javaScriptEnabled={true}
+            onLoad={() => {
+                load();
+            }}
+            injectedJavaScriptForMainFrameOnly={false}
+            injectedJavaScriptBeforeContentLoaded={injectedJavaScriptBeforeContentLoaded}
+            onMessage={onMessage}
+        />
+    );
+};
+
+export default SurveyWebView;

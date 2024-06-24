@@ -7,6 +7,8 @@ import com.confirmit.mobilesdk.web.SurveyWebViewFragment
 import com.facebook.react.bridge.Arguments
 import com.facebook.react.bridge.ReactContext
 import com.facebook.react.modules.core.DeviceEventManagerModule
+import com.mobilesdk.survey.MobileSdkSurveyManager
+import com.mobilesdk.survey.MobileSdkSurveyWrapper
 
 class TriggerCallback(
     private val reactContext: ReactContext,
@@ -42,7 +44,35 @@ class TriggerCallback(
     ) {
     }
 
-    override fun onSurveyStart(config: SurveyFrameConfig) {}
+    override fun onSurveyStart(config: SurveyFrameConfig) {
+        MobileSdkSurveyManager().addSurvey(config.serverId, programKey, config.surveyId, MobileSdkSurveyWrapper(reactContext, config))
+
+        val values = Arguments.createMap().apply {
+            putString("serverId", serverId)
+            putString("programKey", programKey)
+            putString("surveyId", config.surveyId)
+        }
+
+        config.languageId?.let {
+            values.putInt("languageId", it)
+        }
+
+        val customData = Arguments.createMap()
+        for (data in config.customData) {
+            customData.putString(data.key, data.value)
+        }
+        values.putMap("customData", customData)
+
+        val respondentValue = Arguments.createMap()
+        for (respondent in config.respondentValues) {
+            respondentValue.putString(respondent.key, respondent.value)
+        }
+        values.putMap("respondentValue", respondentValue)
+
+        reactContext
+            .getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter::class.java)
+            .emit("__mobileOnSurveyStart", values)
+    }
 
     override fun onWebSurveyStart(fragment: SurveyWebViewFragment) {
         val result = fragment.getSurveyUrl()

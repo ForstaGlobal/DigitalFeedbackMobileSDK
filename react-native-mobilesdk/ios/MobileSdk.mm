@@ -5,7 +5,8 @@
 RCT_EXTERN_METHOD(injectWebView)
 
 // Confirmit
-RCT_EXTERN_METHOD(initSdk)
+RCT_EXTERN_METHOD(initSdk:(RCTPromiseResolveBlock)resolve
+                  withRejecter:(RCTPromiseRejectBlock)reject)
 
 RCT_EXTERN_METHOD(enableLog:(BOOL)eanble)
 
@@ -36,6 +37,12 @@ RCT_EXTERN_METHOD(notifyEvent:(NSString)event)
 RCT_EXTERN_METHOD(notifyAppForeground:(NSDictionary)data)
 
 RCT_EXTERN_METHOD(notifyEventWithData:(NSString)event
+                  withData:(NSDictionary)data)
+
+RCT_EXTERN_METHOD(addJourney:(NSDictionary)data)
+
+RCT_EXTERN_METHOD(addJourneyLogWithServer:(NSString)serverId
+                  withProgramKey:(NSString)programKey
                   withData:(NSDictionary)data)
 
 // servers
