@@ -1,19 +1,19 @@
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import * as React from 'react';
-import { Component } from 'react';
+import React from 'react';
+import {NavigationContainer} from '@react-navigation/native';
 import HomeView from './views/homeView';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
 const Stack = createNativeStackNavigator();
 
-export default class App extends Component {
-    public render() {
-        return (
-            <NavigationContainer>
-                <Stack.Navigator>
-                    <Stack.Screen name="Home" component={HomeView} options={{ title: 'Digital Feedback' }} />
-                </Stack.Navigator>
-            </NavigationContainer>
-        );
-    }
+function App(): React.JSX.Element {
+
+  return (
+      <NavigationContainer>
+          <Stack.Navigator>
+              <Stack.Screen name="Home" component={HomeView} options={{ title: 'Digital Feedback' }} />
+          </Stack.Navigator>
+      </NavigationContainer>
+  );
 }
+
+export default App;

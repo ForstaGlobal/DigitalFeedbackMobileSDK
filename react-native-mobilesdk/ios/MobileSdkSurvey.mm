@@ -9,7 +9,7 @@ RCT_EXTERN_METHOD(getTitle:(NSString)serverId
                   withResolver:(RCTPromiseResolveBlock)resolve
                   withRejecter:(RCTPromiseRejectBlock)reject)
 
-RCT_EXTERN_METHOD(getText:(NSString)serverId
+RCT_EXTERN_METHOD(getPageText:(NSString)serverId
                   withProgramKey:(NSString)programKey
                   withSurveyId:(NSString)surveyId
                   withResolver:(RCTPromiseResolveBlock)resolve

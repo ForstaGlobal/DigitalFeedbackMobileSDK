@@ -17,10 +17,12 @@ import {
     ITextQuestion,
     IWebSurveyModel,
     NodeType,
-    QuestionAnswer
+    QuestionAnswer,
+    SingleAppearance
 } from './models/models';
 import { TriggerManager } from './program/triggerCallback';
 import { ServerSdk } from './serverSdk';
+import { PageControl } from './survey/pageControl'
 import { SurveyFrameManager } from './survey/surveyFrameCallback';
 import { SurveySdk } from './surveySdk';
 import { TriggerSdk } from './triggerSdk';
@@ -45,4 +47,4 @@ export type {
     IInfoQuestion
 };
 
-export { SurveyWebView, TriggerManager, SurveyFrameManager, NodeType, QuestionAnswer, ConfirmitSdk, TriggerSdk, ServerSdk, SurveySdk };
+export { SurveyWebView, TriggerManager, SurveyFrameManager, NodeType, QuestionAnswer, ConfirmitSdk, TriggerSdk, ServerSdk, SurveySdk, PageControl, SingleAppearance };

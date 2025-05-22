@@ -1,5 +1,4 @@
-import { IDefaultQuestion } from 'react-native-mobilesdk';
-import { PageControl } from '../../../src/survey/pageControl';
+import { IDefaultQuestion, PageControl } from '@forstaglobal/react-native-mobilesdk';
 
 export interface IQuestionProps {
     pageControl: PageControl;

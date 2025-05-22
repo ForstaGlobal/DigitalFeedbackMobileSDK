@@ -40,7 +40,7 @@ class MobileSdkSurveyModule(reactContext: ReactApplicationContext) :
     }
 
     @ReactMethod
-    fun getText(serverId: String, programKey: String, surveyId: String, promise: Promise) {
+    fun getPageText(serverId: String, programKey: String, surveyId: String, promise: Promise) {
         promise.resolve(surveyManager.getSurvey(serverId, programKey, surveyId)?.surveyFrame?.page?.text?.get())
     }
 

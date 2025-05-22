@@ -1,5 +1,4 @@
-// @ts-ignore
-import { IDefaultQuestion, ISurveyErrored, ISurveyFinished, ISurveyModel, NodeType, SurveyFrameManager } from '@forstaglobal/react-native-mobilesdk';
+import { IDefaultQuestion, ISurveyErrored, ISurveyFinished, ISurveyModel, NodeType, SurveyFrameManager, PageControl } from '@forstaglobal/react-native-mobilesdk';
 import React, { JSX, useEffect, useState } from 'react';
 import { Button, EmitterSubscription, ScrollView, StyleSheet, Text, View } from 'react-native';
 import QuestionInfoView from './questionInfoView';
@@ -7,7 +6,6 @@ import QuestionMultiView from './questionMultiView';
 import QuestionNumericView from './questionNumericView';
 import QuestionSingleView from './questionSingleView';
 import QuestionTextView from './questionTextView';
-import { PageControl } from '../../../src/survey/pageControl';
 
 interface IDialogViewProps {
     onClose: () => void;

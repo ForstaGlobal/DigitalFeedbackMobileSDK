@@ -1,147 +1,163 @@
-// @ts-ignore
-import * as MobileSdk from "@forstaglobal/react-native-mobilesdk";
-// @ts-ignore
-import {TriggerManager} from "@forstaglobal/react-native-mobilesdk";
-// @ts-ignore
-import {IScenarioCallback, IWebSurveyModel,} from "@forstaglobal/react-native-mobilesdk";
-import {Component} from "react";
-import * as React from "react";
-import {
-    Button,
-    ScrollView,
-    StyleSheet,
-    Text,
-    TextInput,
-    View,
-} from "react-native";
-import {Dropdown} from "react-native-element-dropdown";
-import TriggerListener from "../triggerListener";
-import MessageHub from "../utils/messageHub";
+import { ConfirmitSdk, IScenarioCallback, ISurveyModel, IWebSurveyModel, ServerSdk, SurveySdk, TriggerManager, TriggerSdk, IServerModel } from '@forstaglobal/react-native-mobilesdk';
+import * as React from 'react';
+import { useEffect, useState } from 'react';
+import { Button, EmitterSubscription, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
+import SurveyWebViewView from './surveyWebViewView';
+import DialogView from '../questions/dialogView';
+import { Dropdown } from "react-native-element-dropdown";
 
-export default class HomeScreen extends Component {
-    state = {
-        servers: [],
+const HomeView = () => {
+    const [selectedServer, setSelectedServer] = useState<IServerModel>({ host: '', serverId: '', name: '' });
+    const [dialogHidden, setDialogHidden] = useState(true);
+    const [webViewHidden, setWebDialogHidden] = useState(true);
+    const [config, setConfig] = useState<ISurveyModel>({
+        serverId: '',
         programKey: '',
-        selectedServer: {
-            serverId: '',
-            host: ''
-        },
-        event: ''
-    };
+        surveyId: '',
+        languageId: null,
+        customData: {},
+        respondentValue: {}
+    });
+    const [programKey, setProgramKey] = useState('');
+    const [event, setEvent] = useState('');
+    const [webViewConfig, setWebViewConfig] = useState<IWebSurveyModel>({
+        token: '',
+        url: ''
+    });
 
-    constructor(props: any) {
-        super(props);
+    const [servers, setServers] = useState<IServerModel[]>([]);
 
-        MobileSdk.enableLog(true);
-        MobileSdk.initSdk();
+    useEffect(() => {
+        ConfirmitSdk.enableLog(true);
 
-        TriggerManager.setSdkListener(new TriggerListener());
-    }
+        async function runAsync() {
+            await ConfirmitSdk.initSdk();
+            await ServerSdk.configureUk("<Client ID>", "<Client Secret>");
 
-    async componentDidMount() {
-        MessageHub.register(this, "webSurvey", this._onWebSurvey);
-        MessageHub.register(this, "onScenarioLoad", this._onScenarioLoad);
+            const configuredServers = await ServerSdk.getServers();
+            const servers: IServerModel[] = [];
+            for (const server of configuredServers) {
+                servers.push(server);
+            }
 
-        await MobileSdk.configureUk("<Client ID>", "<Client Secret>");
+            if (servers.length !== 0 && servers[0] != null) {
+                setSelectedServer(servers[0]);
+            }
 
-        const configuredServers = await MobileSdk.getServers();
-        const servers = [];
-        for (const server of configuredServers) {
-            servers.push({
-                label: server.name,
-                value: server.host,
-                serverId: server.serverId
-            });
+            setServers(servers);
         }
+        runAsync();
+    }, []);
 
-        this.setState({
-            servers,
-        });
-    }
+    useEffect(() => {
+        const webview: EmitterSubscription = TriggerManager.setOnWebSurveyStart(onWebSurvey);
+        const surveyStart: EmitterSubscription = TriggerManager.setOnSurveyStart(onSurveyStart);
+        const scenarioLoad: EmitterSubscription = TriggerManager.setOnScenarioLoad(onScenarioLoad);
 
-    _onWebSurvey = (events: IWebSurveyModel) => {
-        // @ts-ignore
-        this.props.navigation.navigate("Survey", {
-            token: events.token,
-            url: events.url,
-        });
+        return () => {
+            webview.remove();
+            surveyStart.remove();
+            scenarioLoad.remove();
+        };
+    }, []);
+
+    const onWebSurvey = (events: IWebSurveyModel) => {
+        setWebViewConfig(events);
+        setWebDialogHidden(false);
     };
 
-    _onScenarioLoad = (events: IScenarioCallback) => {
-        // @ts-ignore
-        this.setState({
-            textValue: JSON.stringify(events),
-        });
+    const onSurveyStart = (events: ISurveyModel) => {
+        const { serverId, programKey, surveyId } = events;
+        SurveySdk.startSurvey(serverId, programKey, surveyId, { key1: 'value1' }, { respondentKey: 'respondentValue' });
+
+        setDialogHidden(false);
+        setConfig(events);
     };
 
-    render() {
-        return (
+    // @ts-ignore
+    const onScenarioLoad = (events: IScenarioCallback) => {};
+
+    const onDialogCloseAction = () => {
+        setDialogHidden(true);
+    };
+
+    return (
+        <View style={{ flex: 1 }}>
             <ScrollView>
                 <View style={styles.container}>
                     <View style={[ styles.viewContainers ]}>
                         <Text>Host</Text>
                         <Dropdown
                             style={[styles.dropdown]}
-                            data={this.state.servers}
-                            labelField={"label"}
-                            valueField={"value"}
+                            data={servers}
+                            labelField={"name"}
+                            valueField={"host"}
                             placeholder={"Select Server"}
-                            value={this.state.servers.length != 0 ? this.state.servers[0] : ''}
+                            value={selectedServer}
                             onChange={(item: any) => {
-                                this.setState({
-                                    selectedServer: item
-                                });
+                                console.log(item);
+                                setSelectedServer(item);
                             }}
                         />
                     </View>
-                    <View style={[ styles.viewContainers ]}>
+                    <View style={[styles.viewContainers]}>
                         <Text>Program Key</Text>
                         <TextInput
+                            testID={'programKeyInput'}
                             style={[styles.textInput]}
                             onChangeText={(text: string) => {
-                                this.setState({
-                                    programKey: text
-                                })
-                            }}/>
+                                setProgramKey(text);
+                            }}
+                        />
                         <Button
-                            title={"Save"}
+                            title={'SAVE'}
                             onPress={async () => {
-                                const {programKey, selectedServer} = this.state;
-                                const {serverId} = selectedServer;
-                                MobileSdk.triggerDownload(serverId, programKey);
+                                const { serverId } = selectedServer;
+                                await TriggerSdk.triggerDownload(serverId, programKey);
 
-                                MobileSdk.setCallback(serverId, programKey);
+                                TriggerSdk.setCallback(serverId, programKey);
                             }}
                         />
                     </View>
-                    <View style={[ styles.viewContainers ]}>
+                    <View style={[styles.viewContainers]}>
                         <Text>Event</Text>
                         <TextInput
+                            testID={'eventInput'}
                             style={[styles.textInput]}
                             onChangeText={(text: string) => {
-                                this.setState({
-                                    event: text
-                                })
-                            }}/>
+                                setEvent(text);
+                            }}
+                        />
                         <Button
-                            title={"Trigger"}
+                            title={'TRIGGER'}
                             onPress={() => {
-                                MobileSdk.notifyEventWithData(this.state.event, {});
+                                TriggerSdk.notifyEventWithData(event, {});
                             }}
                         />
                     </View>
                 </View>
             </ScrollView>
-        );
-    }
-}
+            <SurveyWebViewView
+                onClose={() => {
+                    setWebDialogHidden(true);
+                }}
+                hidden={webViewHidden}
+                token={webViewConfig.token}
+                url={webViewConfig.url}
+            />
+            <DialogView hidden={dialogHidden} onClose={onDialogCloseAction} config={config} />
+        </View>
+    );
+};
+
+export default HomeView;
 
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        alignItems: "stretch",
-        justifyContent: "center",
-        padding: 16,
+        alignItems: 'stretch',
+        justifyContent: 'center',
+        padding: 16
     },
     dropdown: {
         height: 50,
@@ -153,7 +169,7 @@ const styles = StyleSheet.create({
     },
     textInput: {
         height: 40,
-        borderColor: "gray",
+        borderColor: 'gray',
         borderWidth: 0.5,
         borderRadius: 8,
         padding: 8,

@@ -92,6 +92,6 @@ export class PageControl {
     }
 
     public async text(): Promise<string> {
-        return await MobileSdkSurvey.getText(this.serverId, this.programKey, this.surveyId);
+        return await MobileSdkSurvey.getPageText(this.serverId, this.programKey, this.surveyId);
     }
 }

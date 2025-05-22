@@ -1,6 +1,6 @@
 import React, { JSX, useEffect, useRef, useState } from 'react';
 import { Text, View } from 'react-native';
-import { IMultiQuestion, QuestionAnswer } from 'react-native-mobilesdk';
+import { IMultiQuestion, QuestionAnswer } from '@forstaglobal/react-native-mobilesdk';
 import ErrorTextView from './components/errorTextView';
 import RadioView from './components/radioView';
 import { IQuestionProps } from './questionInfo';

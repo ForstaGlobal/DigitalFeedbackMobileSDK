@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text } from 'react-native';
-import { ISurveyError } from 'react-native-mobilesdk';
+import { ISurveyError } from '@forstaglobal/react-native-mobilesdk';
 
 interface IErrorTextViewProps {
     errors: ISurveyError[];

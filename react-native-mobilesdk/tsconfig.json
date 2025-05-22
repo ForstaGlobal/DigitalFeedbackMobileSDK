@@ -2,7 +2,8 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "react-native-mobilesdk": ["./src/index"]
+      "react-native-mobilesdk": ["./src/index"],
+      "@forstaglobal/react-native-mobilesdk": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
@@ -23,5 +24,8 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "esnext"
-  }
+  },
+  "exclude": [
+    "example"
+  ]
 }

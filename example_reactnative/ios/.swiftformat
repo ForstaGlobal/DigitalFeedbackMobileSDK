@@ -1,8 +1,0 @@
---swiftversion 5.3.3
-
---maxwidth 180
---indent 2
---exclude **/Pods,Generated
---disable redundantReturn
---disable redundantType
---commas inline

@@ -12,8 +12,8 @@ class MobileSdkSurvey: NSObject {
     }
   }
   
-  @objc(getText:withProgramKey:withSurveyId:withResolver:withRejecter:)
-  func getText(serverId: String, programKey: String, surveyId: String, resolve: @escaping RCTPromiseResolveBlock, reject: @escaping RCTPromiseRejectBlock) {
+  @objc(getPageText:withProgramKey:withSurveyId:withResolver:withRejecter:)
+  func getPageText(serverId: String, programKey: String, surveyId: String, resolve: RCTPromiseResolveBlock, reject: RCTPromiseRejectBlock) {
     getSurveyPage(serverId: serverId, programKey: programKey, surveyId: surveyId) { page in
       resolve(page.text?.get())
     }

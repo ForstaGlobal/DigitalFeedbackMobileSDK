@@ -4,7 +4,7 @@ import ErrorTextView from './components/errorTextView';
 import RadioView from './components/radioView';
 import StarView from './components/starView';
 import { IQuestionProps } from './questionInfo';
-import { ISingleQuestion, QuestionAnswer, SingleAppearance } from '../../../src/models/models';
+import { ISingleQuestion, QuestionAnswer, SingleAppearance } from '@forstaglobal/react-native-mobilesdk';
 
 const QuestionSingleView = (props: IQuestionProps) => {
     const styles = require('../utils/styles');

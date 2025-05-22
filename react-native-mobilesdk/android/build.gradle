@@ -97,7 +97,7 @@ dependencies {
   //noinspection GradleDynamicVersion
   implementation "com.facebook.react:react-native:+"
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-  implementation 'com.confirmit.mobilesdk:mobilesdk:3.13.0'
+  implementation 'com.confirmit.mobilesdk:mobilesdk:3.14.0'
   implementation project(path: ':react-native-webview')
 }
 
