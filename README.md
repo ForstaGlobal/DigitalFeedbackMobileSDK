@@ -66,9 +66,9 @@ ProGuard users must manually add following rules.
 
 ### Prerequisites
 
-* Xcode 14.3 or higher
-* Target of iOS 11 or higher
-* Swift 5.8 or higher
+* Xcode 16 or higher
+* Target of iOS 15 or higher
+* Swift 6.0 or higher
 
 ### Installation
 
