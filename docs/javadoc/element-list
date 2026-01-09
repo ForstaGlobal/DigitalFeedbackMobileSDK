@@ -1,5 +1,9 @@
 $dokka.format:javadoc-v1
 $dokka.linkExtension:html
+$dokka.location:com.confirmit.mobilesdk.components.dialogs.containers/SdkBaseDialogContainer.DialogContainerListener///PointingToDeclaration/com/confirmit/mobilesdk/components/dialogs/containers/SdkBaseDialogContainer.DialogContainerListener.html
+$dokka.location:com.confirmit.mobilesdk.components.dialogs.questionViews/SdkQuestionView.ActionListener///PointingToDeclaration/com/confirmit/mobilesdk/components/dialogs/questionViews/SdkQuestionView.ActionListener.html
+$dokka.location:com.confirmit.mobilesdk.components.dialogs/SdkDialogActionId.Companion///PointingToDeclaration/com/confirmit/mobilesdk/components/dialogs/SdkDialogActionId.Companion.html
+$dokka.location:com.confirmit.mobilesdk.core/UiService.UiLifecycleScope///PointingToDeclaration/com/confirmit/mobilesdk/core/UiService.UiLifecycleScope.html
 $dokka.location:com.confirmit.mobilesdk.surveyengine/RespondentStatus.Companion///PointingToDeclaration/com/confirmit/mobilesdk/surveyengine/RespondentStatus.Companion.html
 $dokka.location:com.confirmit.mobilesdk.surveyengine/RespondentUploadStatus.Companion///PointingToDeclaration/com/confirmit/mobilesdk/surveyengine/RespondentUploadStatus.Companion.html
 $dokka.location:com.confirmit.mobilesdk.surveyengine/StateActionType.Companion///PointingToDeclaration/com/confirmit/mobilesdk/surveyengine/StateActionType.Companion.html
@@ -8,6 +12,11 @@ $dokka.location:com.confirmit.mobilesdk.web/SurveyWebViewFragment.Companion///Po
 $dokka.location:com.confirmit.mobilesdk/ConfirmitSDK.Module///PointingToDeclaration/com/confirmit/mobilesdk/ConfirmitSDK.Module.html
 $dokka.location:com.confirmit.mobilesdk/ConfirmitSDK.Setup///PointingToDeclaration/com/confirmit/mobilesdk/ConfirmitSDK.Setup.html
 com.confirmit.mobilesdk
+com.confirmit.mobilesdk.components
+com.confirmit.mobilesdk.components.dialogs
+com.confirmit.mobilesdk.components.dialogs.containers
+com.confirmit.mobilesdk.components.dialogs.questionViews
+com.confirmit.mobilesdk.components.fragments
 com.confirmit.mobilesdk.core
 com.confirmit.mobilesdk.core.infos
 com.confirmit.mobilesdk.database
