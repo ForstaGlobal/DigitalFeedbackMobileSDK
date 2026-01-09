@@ -9,7 +9,7 @@ The Forsta Digital Feedback Mobile SDK provides seamless in-app feedback for any
 
 <br/>
 
-## Documentation
+## Documentation 
 
 Everything you need to get started with integration can be found in the [repository wiki](https://github.com/ForstaGlobal/DigitalFeedbackMobileSDK/wiki).
 
