@@ -18865,6 +18865,69 @@
           },
           {
             "kind": "Var",
+            "name": "hxUs2",
+            "printedName": "hxUs2",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "ConfirmitMobileSDK.Server?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Server",
+                    "printedName": "ConfirmitMobileSDK.Server",
+                    "usr": "s:18ConfirmitMobileSDK6ServerC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18ConfirmitMobileSDK0A6ServerO5hxUs2AA0D0CSgvpZ",
+            "mangledName": "$s18ConfirmitMobileSDK0A6ServerO5hxUs2AA0D0CSgvpZ",
+            "moduleName": "ConfirmitMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "ConfirmitMobileSDK.Server?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Server",
+                        "printedName": "ConfirmitMobileSDK.Server",
+                        "usr": "s:18ConfirmitMobileSDK6ServerC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ConfirmitMobileSDK0A6ServerO5hxUs2AA0D0CSgvgZ",
+                "mangledName": "$s18ConfirmitMobileSDK0A6ServerO5hxUs2AA0D0CSgvgZ",
+                "moduleName": "ConfirmitMobileSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "hxAustralia",
             "printedName": "hxAustralia",
             "children": [
@@ -19156,6 +19219,40 @@
             "declKind": "Func",
             "usr": "s:18ConfirmitMobileSDK0A6ServerO19configureHxPlatform8clientId0H6SecretySS_SStKFZ",
             "mangledName": "$s18ConfirmitMobileSDK0A6ServerO19configureHxPlatform8clientId0H6SecretySS_SStKFZ",
+            "moduleName": "ConfirmitMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configureUS2",
+            "printedName": "configureUS2(clientId:clientSecret:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18ConfirmitMobileSDK0A6ServerO12configureUS28clientId0G6SecretySS_SStKFZ",
+            "mangledName": "$s18ConfirmitMobileSDK0A6ServerO12configureUS28clientId0G6SecretySS_SStKFZ",
             "moduleName": "ConfirmitMobileSDK",
             "static": true,
             "declAttributes": [
@@ -21514,44 +21611,30 @@
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Utils\/RuntimeUrlCache.swift",
       "kind": "IntegerLiteral",
-      "offset": 388,
+      "offset": 511,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Utils\/RuntimeUrlCache.swift",
       "kind": "IntegerLiteral",
-      "offset": 423,
+      "offset": 546,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Utils\/RuntimeUrlCache.swift",
       "kind": "IntegerLiteral",
-      "offset": 430,
+      "offset": 553,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Utils\/RuntimeUrlCache.swift",
       "kind": "IntegerLiteral",
-      "offset": 435,
+      "offset": 558,
       "length": 2,
       "value": "60"
-    },
-    {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Utils\/RuntimeUrlCache.swift",
-      "kind": "IntegerLiteral",
-      "offset": 440,
-      "length": 2,
-      "value": "24"
-    },
-    {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Utils\/RuntimeUrlCache.swift",
-      "kind": "IntegerLiteral",
-      "offset": 445,
-      "length": 1,
-      "value": "2"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/UI\/Questions\/QuestionText.swift",
@@ -21577,7 +21660,7 @@
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Controllers\/Views\/SdkActionDialogFooter.swift",
       "kind": "BooleanLiteral",
-      "offset": 2198,
+      "offset": 2258,
       "length": 5,
       "value": "false"
     },
@@ -21589,9 +21672,9 @@
       "value": "1"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Inputs\/SecureTextView.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Inputs\/SdkSecureTextView.swift",
       "kind": "BooleanLiteral",
-      "offset": 94,
+      "offset": 97,
       "length": 5,
       "value": "false"
     },
@@ -21785,9 +21868,9 @@
       "value": "4"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Button\/RadioButton.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Button\/SdkRadioButton.swift",
       "kind": "StringLiteral",
-      "offset": 1066,
+      "offset": 1156,
       "length": 2,
       "value": "\"\""
     },
@@ -21850,21 +21933,21 @@
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Inputs\/SdkTextFieldView.swift",
       "kind": "BooleanLiteral",
-      "offset": 102,
+      "offset": 108,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Inputs\/SdkTextFieldView.swift",
       "kind": "BooleanLiteral",
-      "offset": 134,
+      "offset": 140,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Inputs\/SdkTextFieldView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2676,
+      "offset": 2766,
       "length": 5,
       "value": "false"
     },
@@ -21962,21 +22045,21 @@
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Controllers\/Views\/QuestionViews\/SdkQuestionMultiView.swift",
       "kind": "Array",
-      "offset": 125,
+      "offset": 128,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Controllers\/Views\/QuestionViews\/SdkQuestionSingleView.swift",
       "kind": "Array",
-      "offset": 171,
+      "offset": 174,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Button\/ImageButton.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Button\/SdkImageButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 347,
+      "offset": 368,
       "length": 4,
       "value": "true"
     },
@@ -22002,44 +22085,44 @@
       "value": "\"s\""
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Inputs\/InputFieldView.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Inputs\/SdkInputFieldView.swift",
       "kind": "BooleanLiteral",
-      "offset": 602,
+      "offset": 641,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Inputs\/InputFieldView.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Inputs\/SdkInputFieldView.swift",
       "kind": "BooleanLiteral",
-      "offset": 639,
+      "offset": 678,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Inputs\/InputFieldView.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Inputs\/SdkInputFieldView.swift",
       "kind": "FloatLiteral",
-      "offset": 679,
+      "offset": 718,
       "length": 3,
       "value": "0.1"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Inputs\/InputFieldView.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Inputs\/SdkInputFieldView.swift",
       "kind": "IntegerLiteral",
-      "offset": 731,
+      "offset": 770,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Inputs\/InputFieldView.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Inputs\/SdkInputFieldView.swift",
       "kind": "IntegerLiteral",
-      "offset": 771,
+      "offset": 810,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Inputs\/InputFieldView.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Inputs\/SdkInputFieldView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1209,
+      "offset": 1284,
       "length": 4,
       "value": "true"
     },
@@ -22093,30 +22176,30 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Controllers\/Views\/RippleView.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Controllers\/Views\/SdkRippleView.swift",
       "kind": "StringLiteral",
-      "offset": 267,
+      "offset": 276,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Controllers\/Views\/RippleView.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Controllers\/Views\/SdkRippleView.swift",
       "kind": "BooleanLiteral",
-      "offset": 294,
+      "offset": 303,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Controllers\/Views\/RippleView.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Controllers\/Views\/SdkRippleView.swift",
       "kind": "BooleanLiteral",
-      "offset": 320,
+      "offset": 329,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Controllers\/Views\/RippleView.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Controllers\/Views\/SdkRippleView.swift",
       "kind": "FloatLiteral",
-      "offset": 2214,
+      "offset": 2244,
       "length": 4,
       "value": "0.25"
     },
@@ -22457,359 +22540,359 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 300,
+      "offset": 330,
       "length": 2,
       "value": "40"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 330,
+      "offset": 360,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 360,
+      "offset": 390,
       "length": 2,
       "value": "26"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 390,
+      "offset": 420,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 420,
+      "offset": 450,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 453,
+      "offset": 483,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 486,
+      "offset": 516,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 520,
+      "offset": 550,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 555,
+      "offset": 585,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 2355,
+      "offset": 2902,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 2397,
+      "offset": 2944,
       "length": 2,
       "value": "34"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 2440,
+      "offset": 2987,
       "length": 2,
       "value": "48"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 2480,
+      "offset": 3027,
       "length": 2,
       "value": "40"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 2521,
+      "offset": 3068,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 2566,
+      "offset": 3113,
       "length": 2,
       "value": "40"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 2625,
+      "offset": 3172,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 2635,
+      "offset": 3182,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 2647,
+      "offset": 3194,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 2658,
+      "offset": 3205,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 2718,
+      "offset": 3265,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 2760,
+      "offset": 3307,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 2809,
+      "offset": 3356,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 2869,
+      "offset": 3416,
       "length": 3,
       "value": "400"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 2931,
+      "offset": 3478,
       "length": 3,
       "value": "600"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "StringLiteral",
-      "offset": 2993,
+      "offset": 3540,
       "length": 11,
       "value": "\"#121821DE\""
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "StringLiteral",
-      "offset": 3062,
+      "offset": 3609,
       "length": 11,
       "value": "\"#12182199\""
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "StringLiteral",
-      "offset": 3130,
+      "offset": 3677,
       "length": 11,
       "value": "\"#12182161\""
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "StringLiteral",
-      "offset": 3201,
+      "offset": 3748,
       "length": 11,
       "value": "\"#1218211F\""
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "StringLiteral",
-      "offset": 3271,
+      "offset": 3818,
       "length": 11,
       "value": "\"#007DB8FF\""
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "StringLiteral",
-      "offset": 3326,
+      "offset": 3873,
       "length": 9,
       "value": "\"#eb0052\""
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "StringLiteral",
-      "offset": 3458,
+      "offset": 4005,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 3628,
+      "offset": 4175,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "FloatLiteral",
-      "offset": 3638,
+      "offset": 4185,
       "length": 4,
       "value": "0.12"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 3686,
+      "offset": 4233,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "FloatLiteral",
-      "offset": 3696,
+      "offset": 4243,
       "length": 4,
       "value": "0.25"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "StringLiteral",
-      "offset": 3762,
+      "offset": 4309,
       "length": 11,
       "value": "\"#00000099\""
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "StringLiteral",
-      "offset": 4971,
+      "offset": 5938,
       "length": 34,
       "value": "\"ic_indeterminate_check_box_black\""
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "StringLiteral",
-      "offset": 5061,
+      "offset": 6043,
       "length": 19,
       "value": "\"ic_do_not_disturb\""
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "StringLiteral",
-      "offset": 5132,
+      "offset": 6129,
       "length": 20,
       "value": "\"ic_check_box_black\""
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "StringLiteral",
-      "offset": 5218,
+      "offset": 6230,
       "length": 34,
       "value": "\"ic_check_box_outline_blank_black\""
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "StringLiteral",
-      "offset": 5315,
+      "offset": 6342,
       "length": 31,
       "value": "\"ic_radio_button_checked_black\""
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "StringLiteral",
-      "offset": 5411,
+      "offset": 6453,
       "length": 33,
       "value": "\"ic_radio_button_unchecked_black\""
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "StringLiteral",
-      "offset": 5497,
+      "offset": 6554,
       "length": 21,
       "value": "\"ic_visibility_black\""
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "StringLiteral",
-      "offset": 5575,
+      "offset": 6647,
       "length": 25,
       "value": "\"ic_visibility_off_black\""
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "StringLiteral",
-      "offset": 5647,
+      "offset": 6734,
       "length": 15,
       "value": "\"ic_star_black\""
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "StringLiteral",
-      "offset": 5716,
+      "offset": 6818,
       "length": 22,
       "value": "\"ic_star_border_black\""
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "StringLiteral",
-      "offset": 5792,
+      "offset": 6909,
       "length": 22,
       "value": "\"ic_expand_more_black\""
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "StringLiteral",
-      "offset": 5862,
+      "offset": 6994,
       "length": 16,
       "value": "\"ic_error_black\""
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "StringLiteral",
-      "offset": 5927,
+      "offset": 7074,
       "length": 17,
       "value": "\"ic_circle_check\""
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "StringLiteral",
-      "offset": 5988,
+      "offset": 7150,
       "length": 12,
       "value": "\"ic_pending\""
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/DefaultTheme.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Theme\/SdkTheme.swift",
       "kind": "StringLiteral",
-      "offset": 6048,
+      "offset": 7225,
       "length": 16,
       "value": "\"image_skeleton\""
     },
@@ -22924,6 +23007,13 @@
       "offset": 353,
       "length": 6,
       "value": "\"hubs\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Sync\/Domain\/RequestUrlFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 402,
+      "length": 17,
+      "value": "\"packageversions\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Trigger\/TriggerService.swift",
@@ -23068,7 +23158,7 @@
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Button\/SdkMDCButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 181,
+      "offset": 184,
       "length": 4,
       "value": "true"
     },
@@ -23418,7 +23508,7 @@
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Extentions\/UIViewExt.swift",
       "kind": "BooleanLiteral",
-      "offset": 921,
+      "offset": 951,
       "length": 4,
       "value": "true"
     },
@@ -25580,8 +25670,15 @@
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Sync\/Domain\/AuthSync.swift",
+      "kind": "StringLiteral",
+      "offset": 183,
+      "length": 28,
+      "value": "\"RuntimeConfigDispatchQueue\""
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Sync\/Domain\/AuthSync.swift",
       "kind": "Dictionary",
-      "offset": 175,
+      "offset": 261,
       "length": 3,
       "value": "[]"
     },
@@ -25861,7 +25958,7 @@
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Controllers\/SdkBaseDialogController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3858,
+      "offset": 3888,
       "length": 4,
       "value": "true"
     },
@@ -26006,9 +26103,9 @@
       "value": "1"
     },
     {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Inputs\/TextAreaView.swift",
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Components\/Inputs\/SdkTextAreaView.swift",
       "kind": "IntegerLiteral",
-      "offset": 682,
+      "offset": 724,
       "length": 3,
       "value": "120"
     },

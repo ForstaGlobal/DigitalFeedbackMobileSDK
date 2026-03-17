@@ -9,7 +9,7 @@ The Forsta Digital Feedback Mobile SDK provides seamless in-app feedback for any
 
 <br/>
 
-## Documentation 
+## Documentation
 
 Everything you need to get started with integration can be found in the [repository wiki](https://github.com/ForstaGlobal/DigitalFeedbackMobileSDK/wiki).
 
@@ -41,7 +41,7 @@ Add the SDK dependency to the application level `build.gradle` file.
 // build.gradle (Module)
 dependencies {
     ...
-    implementation 'com.confirmit.mobilesdk:mobilesdk:3.15.0'
+    implementation 'com.confirmit.mobilesdk:mobilesdk:4.0.0'
 }
 ```
 
@@ -83,7 +83,7 @@ import PackageDescription
 let package = Package(
     name: "<Your Product Name>",
     dependencies: [
-		.package(url: "https://github.com/ForstaGlobal/DigitalFeedbackMobileSDK.git", .upToNextMajor(from: "3.15.0"))
+		.package(url: "https://github.com/ForstaGlobal/DigitalFeedbackMobileSDK.git", .upToNextMajor(from: "4.0.0"))
     ],
     targets: [
         .target(
@@ -108,7 +108,7 @@ platform :ios, '11.0'
 # Your target
 target 'MyApp' do
   # ... others pods
-  pod 'ConfirmitMobileSDK', '3.15.0'
+  pod 'ConfirmitMobileSDK', '4.0.0'
 end
 ```
 
