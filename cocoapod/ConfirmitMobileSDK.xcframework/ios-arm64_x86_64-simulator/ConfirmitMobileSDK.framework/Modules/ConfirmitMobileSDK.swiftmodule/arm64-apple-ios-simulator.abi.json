@@ -24894,14 +24894,14 @@
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Core\/Framework\/ExtModules\/JsonExtModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 2283,
+      "offset": 2352,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Core\/Framework\/ExtModules\/JsonExtModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 2525,
+      "offset": 2594,
       "length": 5,
       "value": "false"
     },
@@ -26304,6 +26304,13 @@
       "offset": 622,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/ConfirmitServer.swift",
+      "kind": "Dictionary",
+      "offset": 267,
+      "length": 553,
+      "value": "[(\"ws.us.confirmit.com\", \"mobilesurveysdk-cdn.us.confirmit.com\"), (\"ws.euro.confirmit.com\", \"mobilesurveysdk-cdn.euro.confirmit.com\"), (\"ws.confirmit.com.au\", \"mobilesurveysdk-cdn.confirmit.com.au\"), (\"horizons.confirmit.ca\", \"cdn.horizons.confirmit.ca\"), (\"horizons.confirmit.eu\", \"cdn.horizons.confirmit.eu\"), (\"insights.confirmit.com\", \"cdn.insights.confirmit.com\"), (\"hxplatform.pressganey.com\", \"cdn.hxplatform.pressganey.com\"), (\"au.hxplatform.com\", \"cdn.au.hxplatform.com\"), (\"us2.hxplatform.com\", \"cdn.us2.hxplatform.com\")]"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/SurveyEngine\/EngineRunner.swift",
