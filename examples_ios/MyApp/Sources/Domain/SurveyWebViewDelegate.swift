@@ -1,6 +1,7 @@
 import ConfirmitMobileSDK
 import Foundation
 import UIKit
+import WebKit
 
 class SurveyWebViewDelegate: SurveyWebViewControllerDelegate {
   func onWebViewSurveyError(serverId: String, projectId: String, error: Error) {
@@ -17,4 +18,10 @@ class SurveyWebViewDelegate: SurveyWebViewControllerDelegate {
   func onWebViewSurveyFinished(serverId: String, projectId: String) {}
 
   func onWebViewSurveyQuit(serverId: String, projectId: String) {}
+
+  func onWebViewError(serverId: String, projectId: String, webview: WKWebView, error: Error) {}
+
+  func onWebViewIntercept(serverId: String, projectId: String, webview: WKWebView, decidePolicyFor navigationAction: WKNavigationAction) -> WKNavigationActionPolicy? {
+    return nil
+  }
 }

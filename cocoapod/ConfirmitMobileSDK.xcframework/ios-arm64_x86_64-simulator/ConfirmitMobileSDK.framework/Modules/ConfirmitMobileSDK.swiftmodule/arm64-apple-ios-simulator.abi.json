@@ -1935,6 +1935,13 @@
         "moduleName": "ConfirmitMobileSDK"
       },
       {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "ConfirmitMobileSDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "SurveyWebViewControllerDelegate",
         "printedName": "SurveyWebViewControllerDelegate",
@@ -2037,6 +2044,105 @@
             "declKind": "Func",
             "usr": "s:18ConfirmitMobileSDK31SurveyWebViewControllerDelegateP02onefD4Quit8serverId07projectL0ySS_SStF",
             "mangledName": "$s18ConfirmitMobileSDK31SurveyWebViewControllerDelegateP02onefD4Quit8serverId07projectL0ySS_SStF",
+            "moduleName": "ConfirmitMobileSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ConfirmitMobileSDK.SurveyWebViewControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : ConfirmitMobileSDK.SurveyWebViewControllerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onWebViewError",
+            "printedName": "onWebViewError(serverId:projectId:webview:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18ConfirmitMobileSDK31SurveyWebViewControllerDelegateP02oneF5Error8serverId07projectL07webview5errorySS_SSSo05WKWebF0Cs0J0_ptF",
+            "mangledName": "$s18ConfirmitMobileSDK31SurveyWebViewControllerDelegateP02oneF5Error8serverId07projectL07webview5errorySS_SSSo05WKWebF0Cs0J0_ptF",
+            "moduleName": "ConfirmitMobileSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ConfirmitMobileSDK.SurveyWebViewControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : ConfirmitMobileSDK.SurveyWebViewControllerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onWebViewIntercept",
+            "printedName": "onWebViewIntercept(serverId:projectId:webview:decidePolicyFor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WebKit.WKNavigationActionPolicy?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigationActionPolicy",
+                    "printedName": "WebKit.WKNavigationActionPolicy",
+                    "usr": "c:@E@WKNavigationActionPolicy"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18ConfirmitMobileSDK31SurveyWebViewControllerDelegateP02oneF9Intercept8serverId07projectL07webview15decidePolicyForSo018WKNavigationActionP0VSgSS_SSSo05WKWebF0CSo0rS0CtF",
+            "mangledName": "$s18ConfirmitMobileSDK31SurveyWebViewControllerDelegateP02oneF9Intercept8serverId07projectL07webview15decidePolicyForSo018WKNavigationActionP0VSgSS_SSSo05WKWebF0CSo0rS0CtF",
             "moduleName": "ConfirmitMobileSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : ConfirmitMobileSDK.SurveyWebViewControllerDelegate>",
             "sugared_genericSig": "<Self where Self : ConfirmitMobileSDK.SurveyWebViewControllerDelegate>",
@@ -9615,6 +9721,110 @@
             "mangledName": "$s18ConfirmitMobileSDK23SurveyWebViewControllerC03webF0_15decidePolicyFor15decisionHandlerySo05WKWebF0C_So18WKNavigationActionCySo0opJ0VctF",
             "moduleName": "ConfirmitMobileSDK",
             "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFail:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ConfirmitMobileSDK@objc(cs)SurveyWebViewController(im)webView:didFailNavigation:withError:",
+            "mangledName": "$s18ConfirmitMobileSDK23SurveyWebViewControllerC03webF0_7didFail9withErrorySo05WKWebF0C_So12WKNavigationCSgs0L0_ptF",
+            "moduleName": "ConfirmitMobileSDK",
+            "objc_name": "webView:didFailNavigation:withError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFailProvisionalNavigation:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ConfirmitMobileSDK@objc(cs)SurveyWebViewController(im)webView:didFailProvisionalNavigation:withError:",
+            "mangledName": "$s18ConfirmitMobileSDK23SurveyWebViewControllerC03webF0_28didFailProvisionalNavigation9withErrorySo05WKWebF0C_So12WKNavigationCSgs0N0_ptF",
+            "moduleName": "ConfirmitMobileSDK",
+            "objc_name": "webView:didFailProvisionalNavigation:withError:",
             "declAttributes": [
               "Dynamic",
               "ObjC",

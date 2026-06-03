@@ -1,5 +1,8 @@
 package com.example.myapp.domain
 
+import android.webkit.WebResourceRequest
+import android.webkit.WebView
+import androidx.webkit.WebResourceErrorCompat
 import com.confirmit.mobilesdk.ConfirmitSDK
 import com.confirmit.mobilesdk.web.SurveyWebViewFragmentCallback
 import com.example.myapp.MainApplication
@@ -17,5 +20,13 @@ class WebViewCallback : SurveyWebViewFragmentCallback {
 
     override fun onWebViewSurveyQuit(serverId: String, projectId: String) {
         // Do something
+    }
+
+    override fun onWebViewError(serverId: String, projectId: String, view: WebView, request: WebResourceRequest, error: WebResourceErrorCompat) {
+		// Do nothing
+    }
+
+    override fun onWebViewIntercept(serverId: String, projectId: String, view: WebView, url: String): Boolean {
+		return false
     }
 }

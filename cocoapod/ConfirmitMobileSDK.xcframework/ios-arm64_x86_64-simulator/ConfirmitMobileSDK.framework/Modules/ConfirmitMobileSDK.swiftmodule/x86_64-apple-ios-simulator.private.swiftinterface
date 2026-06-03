@@ -90,6 +90,8 @@ public protocol SurveyWebViewControllerDelegate {
   func onWebViewSurveyError(serverId: Swift.String, projectId: Swift.String, error: any Swift.Error)
   func onWebViewSurveyFinished(serverId: Swift.String, projectId: Swift.String)
   func onWebViewSurveyQuit(serverId: Swift.String, projectId: Swift.String)
+  func onWebViewError(serverId: Swift.String, projectId: Swift.String, webview: WebKit.WKWebView, error: any Swift.Error)
+  func onWebViewIntercept(serverId: Swift.String, projectId: Swift.String, webview: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction) -> WebKit.WKNavigationActionPolicy?
 }
 extension UIKit.UIColor {
   convenience public init?(hexString: Swift.String)
@@ -286,7 +288,9 @@ public typealias SurveyWebViewUrlCompletion = (ConfirmitMobileSDK.SurveyWebViewU
 }
 extension ConfirmitMobileSDK.SurveyWebViewController : WebKit.WKNavigationDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_: WebKit.WKWebView, didFinish _: WebKit.WKNavigation!)
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFailProvisionalNavigation navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
 }
 extension ConfirmitMobileSDK.SurveyWebViewController : ConfirmitMobileSDK.SurveyWebViewCallback {
   @_Concurrency.MainActor @preconcurrency public func onSurveyClosed()
