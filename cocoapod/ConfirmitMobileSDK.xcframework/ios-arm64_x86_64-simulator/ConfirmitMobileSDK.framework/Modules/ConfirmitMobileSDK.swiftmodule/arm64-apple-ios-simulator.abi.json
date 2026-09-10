@@ -1278,13 +1278,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ConfirmitMobileSDK"
-      },
-      {
-        "kind": "Import",
         "name": "JavaScriptCore",
         "printedName": "JavaScriptCore",
         "declKind": "Import",
@@ -7961,6 +7954,40 @@
           {
             "kind": "Function",
             "name": "download",
+            "printedName": "download(serverId:programKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18ConfirmitMobileSDK07TriggerC0O8download8serverId10programKeyySS_SStYaKFZ",
+            "mangledName": "$s18ConfirmitMobileSDK07TriggerC0O8download8serverId10programKeyySS_SStYaKFZ",
+            "moduleName": "ConfirmitMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "download",
             "printedName": "download(serverId:programKey:completion:)",
             "children": [
               {
@@ -8028,6 +8055,40 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "downloadCounters",
+            "printedName": "downloadCounters(serverId:programKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18ConfirmitMobileSDK07TriggerC0O16downloadCounters8serverId10programKeyySS_SStYaKFZ",
+            "mangledName": "$s18ConfirmitMobileSDK07TriggerC0O16downloadCounters8serverId10programKeyySS_SStYaKFZ",
+            "moduleName": "ConfirmitMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -9418,6 +9479,30 @@
               "Custom",
               "AccessControl"
             ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSurveyUrl",
+            "printedName": "getSurveyUrl()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SurveyWebViewUrl",
+                "printedName": "ConfirmitMobileSDK.SurveyWebViewUrl",
+                "usr": "s:18ConfirmitMobileSDK16SurveyWebViewUrlC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18ConfirmitMobileSDK23SurveyWebViewControllerC03getD3UrlAA0defI0CyYaKF",
+            "mangledName": "$s18ConfirmitMobileSDK23SurveyWebViewControllerC03getD3UrlAA0defI0CyYaKF",
+            "moduleName": "ConfirmitMobileSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "throwing": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -23290,15 +23375,8 @@
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/SurveySDK.swift",
-      "kind": "StringLiteral",
-      "offset": 413,
-      "length": 29,
-      "value": "\"DownloadSurveyDispatchQueue\""
-    },
-    {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/SurveySDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 525,
+      "offset": 415,
       "length": 4,
       "value": "1000"
     },
@@ -25139,63 +25217,63 @@
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Sync\/Request\/ApiRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 1147,
+      "offset": 1122,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Sync\/Request\/ApiRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 1172,
+      "offset": 1147,
       "length": 3,
       "value": "304"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Sync\/Request\/ApiRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 1196,
+      "offset": 1171,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Sync\/Request\/ApiRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 1222,
+      "offset": 1197,
       "length": 3,
       "value": "401"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Sync\/Request\/ApiRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 1245,
+      "offset": 1220,
       "length": 3,
       "value": "403"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Sync\/Request\/ApiRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 1267,
+      "offset": 1242,
       "length": 3,
       "value": "404"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Sync\/Request\/ApiRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 1292,
+      "offset": 1267,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Sync\/Request\/ApiRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 1324,
+      "offset": 1299,
       "length": 3,
       "value": "503"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Sync\/Request\/ApiRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 1345,
+      "offset": 1320,
       "length": 2,
       "value": "-1"
     },
@@ -25208,64 +25286,57 @@
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/TriggerSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 341,
-      "length": 30,
-      "value": "\"DownloadProgramDispatchQueue\""
-    },
-    {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/TriggerSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 454,
+      "offset": 342,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/TriggerSDK.swift",
       "kind": "Dictionary",
-      "offset": 2805,
+      "offset": 2911,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/TriggerSDK.swift",
       "kind": "Dictionary",
-      "offset": 3023,
+      "offset": 3129,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/TriggerSDK.swift",
       "kind": "Dictionary",
-      "offset": 3174,
+      "offset": 3280,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/TriggerSDK.swift",
       "kind": "Dictionary",
-      "offset": 3341,
+      "offset": 3445,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/TriggerSDK.swift",
       "kind": "Dictionary",
-      "offset": 3504,
+      "offset": 3608,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/TriggerSDK.swift",
       "kind": "Dictionary",
-      "offset": 3703,
+      "offset": 3807,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/TriggerSDK.swift",
       "kind": "Dictionary",
-      "offset": 3947,
+      "offset": 4051,
       "length": 3,
       "value": "[]"
     },
@@ -25873,22 +25944,8 @@
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Sync\/Domain\/AuthSync.swift",
-      "kind": "StringLiteral",
-      "offset": 105,
-      "length": 20,
-      "value": "\"TokenDispatchQueue\""
-    },
-    {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Sync\/Domain\/AuthSync.swift",
-      "kind": "StringLiteral",
-      "offset": 183,
-      "length": 28,
-      "value": "\"RuntimeConfigDispatchQueue\""
-    },
-    {
-      "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Sync\/Domain\/AuthSync.swift",
       "kind": "Dictionary",
-      "offset": 261,
+      "offset": 367,
       "length": 3,
       "value": "[]"
     },

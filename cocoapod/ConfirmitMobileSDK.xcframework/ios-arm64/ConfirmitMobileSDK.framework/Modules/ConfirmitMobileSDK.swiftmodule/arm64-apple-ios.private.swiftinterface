@@ -247,7 +247,9 @@ public enum TriggerSDK {
   public static func setScriptBridge(bridge: (any ConfirmitMobileSDK.ProgramScriptBridge)?)
   public static func setCallback(serverId: Swift.String, programKey: Swift.String, callback: any ConfirmitMobileSDK.ProgramCallback)
   public static func removeCallback(serverId: Swift.String, programKey: Swift.String)
+  public static func download(serverId: Swift.String, programKey: Swift.String) async throws
   public static func download(serverId: Swift.String, programKey: Swift.String, completion: @escaping ConfirmitMobileSDK.TriggerDownloadComplete)
+  public static func downloadCounters(serverId: Swift.String, programKey: Swift.String) async throws
   public static func downloadCounters(serverId: Swift.String, programKey: Swift.String, completion: @escaping ConfirmitMobileSDK.TriggerDownloadComplete)
   public static func addJourneyLog(serverId: Swift.String, programKey: Swift.String, data: [Swift.String : Swift.String?])
   public static func addJourneyLog(data: [Swift.String : Swift.String?])
@@ -280,6 +282,7 @@ public typealias SurveyWebViewUrlCompletion = (ConfirmitMobileSDK.SurveyWebViewU
   }
   @_Concurrency.MainActor @preconcurrency @objc dynamic public init()
   @_Concurrency.MainActor @preconcurrency public func getSurveyUrl(completion: @escaping ConfirmitMobileSDK.SurveyWebViewUrlCompletion)
+  @_Concurrency.MainActor @preconcurrency public func getSurveyUrl() async throws -> ConfirmitMobileSDK.SurveyWebViewUrl
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency public func setupWebView(serverId: Swift.String, projectId: Swift.String, customData: [Swift.String : Swift.String?])

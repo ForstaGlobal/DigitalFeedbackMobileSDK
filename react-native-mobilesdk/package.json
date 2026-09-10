@@ -1,6 +1,6 @@
 {
   "name": "@forstaglobal/react-native-mobilesdk",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "The Forsta Digital Feedback Mobile SDK provides seamless in-app feedback for any touch point within your mobile application.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -94,7 +94,7 @@
   "engines": {
     "node": ">= 18"
   },
-  "packageManager": "^yarn@1.22.15",
+  "packageManager": "yarn@1.22.15",
   "jest": {
     "preset": "react-native",
     "modulePathIgnorePatterns": [
