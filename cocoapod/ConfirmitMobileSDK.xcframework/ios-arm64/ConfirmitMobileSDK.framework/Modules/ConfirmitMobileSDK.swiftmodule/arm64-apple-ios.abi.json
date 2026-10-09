@@ -9301,6 +9301,132 @@
           },
           {
             "kind": "Var",
+            "name": "projectId",
+            "printedName": "projectId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18ConfirmitMobileSDK23SurveyWebViewControllerC9projectIdSSvp",
+            "mangledName": "$s18ConfirmitMobileSDK23SurveyWebViewControllerC9projectIdSSvp",
+            "moduleName": "ConfirmitMobileSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ConfirmitMobileSDK23SurveyWebViewControllerC9projectIdSSvg",
+                "mangledName": "$s18ConfirmitMobileSDK23SurveyWebViewControllerC9projectIdSSvg",
+                "moduleName": "ConfirmitMobileSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "serverId",
+            "printedName": "serverId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18ConfirmitMobileSDK23SurveyWebViewControllerC8serverIdSSvp",
+            "mangledName": "$s18ConfirmitMobileSDK23SurveyWebViewControllerC8serverIdSSvp",
+            "moduleName": "ConfirmitMobileSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ConfirmitMobileSDK23SurveyWebViewControllerC8serverIdSSvg",
+                "mangledName": "$s18ConfirmitMobileSDK23SurveyWebViewControllerC8serverIdSSvg",
+                "moduleName": "ConfirmitMobileSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "programKey",
+            "printedName": "programKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18ConfirmitMobileSDK23SurveyWebViewControllerC10programKeySSvp",
+            "mangledName": "$s18ConfirmitMobileSDK23SurveyWebViewControllerC10programKeySSvp",
+            "moduleName": "ConfirmitMobileSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ConfirmitMobileSDK23SurveyWebViewControllerC10programKeySSvg",
+                "mangledName": "$s18ConfirmitMobileSDK23SurveyWebViewControllerC10programKeySSvg",
+                "moduleName": "ConfirmitMobileSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "customData",
             "printedName": "customData",
             "children": [
@@ -26043,21 +26169,21 @@
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Scripting\/Trigger\/JsCore\/TriggerJsCoreExecutor.swift",
       "kind": "StringLiteral",
-      "offset": 14371,
+      "offset": 14497,
       "length": 26,
       "value": "\"Trigger Console: \""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Scripting\/Trigger\/JsCore\/TriggerJsCoreExecutor.swift",
       "kind": "StringLiteral",
-      "offset": 14396,
+      "offset": 14522,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/hudson_buildservice\/buildAgent\/work\/d658db3c241f9d00\/MobileApps\/SdkApp\/ios\/ConfirmitMobileSDK\/ConfirmitMobileSDK\/Sources\/Scripting\/Trigger\/JsCore\/TriggerJsCoreExecutor.swift",
       "kind": "StringLiteral",
-      "offset": 14425,
+      "offset": 14551,
       "length": 10,
       "value": "\"__SYSTEM\""
     },

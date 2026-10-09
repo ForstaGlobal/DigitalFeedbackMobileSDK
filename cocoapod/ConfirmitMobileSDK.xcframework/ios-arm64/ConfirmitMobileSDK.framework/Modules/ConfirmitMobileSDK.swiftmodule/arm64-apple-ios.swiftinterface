@@ -277,6 +277,15 @@ public enum TriggerSDK {
 public typealias SurveyWebViewUrlCompletion = (ConfirmitMobileSDK.SurveyWebViewUrl?, (any Swift.Error)?) -> Swift.Void
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class SurveyWebViewController : UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency public var delegate: (any ConfirmitMobileSDK.SurveyWebViewControllerDelegate)?
+  @_Concurrency.MainActor @preconcurrency public var projectId: Swift.String {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public var serverId: Swift.String {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public var programKey: Swift.String {
+    get
+  }
   @_Concurrency.MainActor @preconcurrency public var customData: [Swift.String : Swift.String?] {
     get
   }
